@@ -1,3 +1,6 @@
+## 6.0.4
+- Fix iOS keyboard appearance not switching to dark when user explicitly sets app theme to dark
+
 ## 6.0.3
 - (TalkJS): Revert the b889efe commit that introduced REQUESTED_WITH_HEADER_CONTROL, resulting in a crash when used in conjunction with webview_flutter
 
