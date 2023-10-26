@@ -1,3 +1,7 @@
+## 6.0.6
+
+- Fix runtime error on iOS
+
 ## 6.0.5
 
 - Fix build issue on Xcode 15
