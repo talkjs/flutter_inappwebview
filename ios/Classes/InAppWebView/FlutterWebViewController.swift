@@ -23,7 +23,7 @@ public class FlutterWebViewController: NSObject, FlutterPlatformView, Disposable
         let windowId = params["windowId"] as? Int64
         let initialUserScripts = params["initialUserScripts"] as? [[String: Any]]
         let pullToRefreshInitialSettings = params["pullToRefreshSettings"] as! [String: Any?]
-        let keyboardAppearanceDark = params["keyboardAppearanceDark"] as! Bool
+        let keyboardAppearanceDark = params["keyboardAppearanceDark"] as? Bool ?? false
         
         var userScripts: [UserScript] = []
         if let initialUserScripts = initialUserScripts {
