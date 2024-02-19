@@ -1,14 +1,18 @@
+## 6.0.7
+
+- (TalkJS): Fix Android build on Android Gradle Plugin (AGP) 8.0 and higher
+
 ## 6.0.6
 
-- Fix runtime error on iOS
+- (TalkJS): Fix runtime error on iOS
 
 ## 6.0.5
 
-- Fix build issue on Xcode 15
+- (TalkJS): Fix build issue on Xcode 15
 
 ## 6.0.4
 
-- Fix iOS keyboard appearance not switching to dark when user explicitly sets app theme to dark
+- (TalkJS): Fix iOS keyboard appearance not switching to dark when user explicitly sets app theme to dark
 
 ## 6.0.3
 
