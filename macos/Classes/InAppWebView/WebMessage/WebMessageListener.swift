@@ -10,7 +10,7 @@ import WebKit
 import FlutterMacOS
 
 public class WebMessageListener : FlutterMethodCallDelegate {
-    static var METHOD_CHANNEL_NAME_PREFIX = "com.pichillilorenzo/flutter_inappwebview_web_message_listener_"
+    static var METHOD_CHANNEL_NAME_PREFIX = "com.talkjs/talkjs_flutter_inappwebview_web_message_listener_"
     var id: String
     var jsObjectName: String
     var allowedOriginRules: Set<String>

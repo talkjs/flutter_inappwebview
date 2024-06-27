@@ -11,7 +11,7 @@ import SafariServices
 import FlutterMacOS
 
 public class WebAuthenticationSession : NSObject, ASWebAuthenticationPresentationContextProviding, Disposable {
-    static let METHOD_CHANNEL_NAME_PREFIX = "com.pichillilorenzo/flutter_webauthenticationsession_"
+    static let METHOD_CHANNEL_NAME_PREFIX = "com.talkjs/talkjs_flutter_webauthenticationsession_"
     var id: String
     var url: URL
     var callbackURLScheme: String?

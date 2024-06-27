@@ -14,7 +14,7 @@ import Foundation
 import AVFoundation
 
 public class HeadlessInAppWebViewManager: ChannelDelegate {
-    static let METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_headless_inappwebview"
+    static let METHOD_CHANNEL_NAME = "com.talkjs/talkjs_flutter_headless_inappwebview"
     static var registrar: FlutterPluginRegistrar?
     static var webViews: [String: HeadlessInAppWebView?] = [:]
     
