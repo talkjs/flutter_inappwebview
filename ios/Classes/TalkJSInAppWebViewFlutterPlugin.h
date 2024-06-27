@@ -15,18 +15,9 @@
  under the License.
  */
 
-#import "InAppWebViewFlutterPlugin.h"
-#if __has_include(<talkjs_flutter_inappwebview/talkjs_flutter_inappwebview-Swift.h>)
-#import <talkjs_flutter_inappwebview/talkjs_flutter_inappwebview-Swift.h>
-#else
-// Support project import fallback if the generated compatibility header
-// is not copied when this plugin is created as a library.
-// https://forums.swift.org/t/swift-static-libraries-dont-copy-generated-objective-c-header/19816
-#import "talkjs_flutter_inappwebview-Swift.h"
-#endif
+#import <Flutter/Flutter.h>
 
-@implementation InAppWebViewFlutterPlugin : NSObject
-+ (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
-    [SwiftFlutterPlugin registerWithRegistrar:registrar];
-}
+@interface TalkJSInAppWebViewFlutterPlugin : NSObject <FlutterPlugin>
++ (void)registerWithRegistrar:(nonnull NSObject<FlutterPluginRegistrar> *)registrar;
+
 @end

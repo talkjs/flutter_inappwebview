@@ -10,7 +10,7 @@ import WebKit
 
 @available(iOS 11.0, *)
 public class MyCookieManager: ChannelDelegate {
-    static let METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_inappwebview_cookiemanager"
+    static let METHOD_CHANNEL_NAME = "com.talkjs/talkjs_flutter_inappwebview_cookiemanager"
     static var registrar: FlutterPluginRegistrar?
     static var httpCookieStore: WKHTTPCookieStore?
     

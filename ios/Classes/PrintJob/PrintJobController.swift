@@ -16,7 +16,7 @@ public enum PrintJobState: Int {
 }
 
 public class PrintJobController : NSObject, Disposable, UIPrintInteractionControllerDelegate {
-    static let METHOD_CHANNEL_NAME_PREFIX = "com.pichillilorenzo/flutter_inappwebview_printjobcontroller_"
+    static let METHOD_CHANNEL_NAME_PREFIX = "com.talkjs/talkjs_flutter_inappwebview_printjobcontroller_"
     var id: String
     var job: UIPrintInteractionController?
     var settings: PrintJobSettings?

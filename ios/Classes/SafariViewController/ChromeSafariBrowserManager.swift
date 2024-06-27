@@ -13,7 +13,7 @@ import AVFoundation
 import SafariServices
 
 public class ChromeSafariBrowserManager: ChannelDelegate {
-    static let METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_chromesafaribrowser"
+    static let METHOD_CHANNEL_NAME = "com.talkjs/talkjs_flutter_chromesafaribrowser"
     static var registrar: FlutterPluginRegistrar?
     static var browsers: [String: SafariViewController?] = [:]
     @available(iOS 15.0, *)

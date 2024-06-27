@@ -9,7 +9,7 @@ import Foundation
 import WebKit
 
 public class InAppWebViewStatic: ChannelDelegate {
-    static let METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_inappwebview_static"
+    static let METHOD_CHANNEL_NAME = "com.talkjs/talkjs_flutter_inappwebview_static"
     static var registrar: FlutterPluginRegistrar?
     static var webViewForUserAgent: WKWebView?
     static var defaultUserAgent: String?

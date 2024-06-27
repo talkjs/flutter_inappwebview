@@ -14,7 +14,7 @@ public class InAppWebView: WKWebView, UIScrollViewDelegate, WKUIDelegate,
                             WKDownloadDelegate,
                             PullToRefreshDelegate,
                             Disposable {
-    static var METHOD_CHANNEL_NAME_PREFIX = "com.pichillilorenzo/flutter_inappwebview_"
+    static var METHOD_CHANNEL_NAME_PREFIX = "com.talkjs/talkjs_flutter_inappwebview_"
 
     var id: Any? // viewId
     var windowId: Int64?

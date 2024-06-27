@@ -13,7 +13,7 @@ import AVFoundation
 import SafariServices
 
 public class WebAuthenticationSessionManager: ChannelDelegate {
-    static let METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_webauthenticationsession"
+    static let METHOD_CHANNEL_NAME = "com.talkjs/talkjs_flutter_webauthenticationsession"
     static var registrar: FlutterPluginRegistrar?
     static var sessions: [String: WebAuthenticationSession?] = [:]
     

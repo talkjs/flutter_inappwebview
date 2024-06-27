@@ -8,7 +8,7 @@
 import Foundation
 
 public class CredentialDatabase: ChannelDelegate {
-    static let METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_inappwebview_credential_database"
+    static let METHOD_CHANNEL_NAME = "com.talkjs/talkjs_flutter_inappwebview_credential_database"
     static var registrar: FlutterPluginRegistrar?
     static var credentialStore: URLCredentialStorage?
 
