@@ -215,7 +215,7 @@ class WebViewFeature {
   static const WEB_VIEW_RENDERER_TERMINATE = WebViewFeature._internal(
       'WEB_VIEW_RENDERER_TERMINATE', 'WEB_VIEW_RENDERER_TERMINATE');
   static const _channel = const MethodChannel(
-      'com.pichillilorenzo/flutter_inappwebview_webviewfeature');
+      'com.talkjs/talkjs_flutter_inappwebview_webviewfeature');
 
   ///Set of all values of [WebViewFeature].
   static final Set<WebViewFeature> values = [
@@ -529,7 +529,7 @@ class AndroidWebViewFeature {
   static const WEB_VIEW_RENDERER_TERMINATE = AndroidWebViewFeature._internal(
       'WEB_VIEW_RENDERER_TERMINATE', 'WEB_VIEW_RENDERER_TERMINATE');
   static const _channel = const MethodChannel(
-      'com.pichillilorenzo/flutter_inappwebview_webviewfeature');
+      'com.talkjs/talkjs_flutter_inappwebview_webviewfeature');
 
   ///Set of all values of [AndroidWebViewFeature].
   static final Set<AndroidWebViewFeature> values = [

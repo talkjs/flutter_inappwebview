@@ -14,7 +14,7 @@ class PlatformUtil implements Disposable {
     this._messenger = messenger;
 
     _channel = MethodChannel(
-      'com.pichillilorenzo/flutter_inappwebview_platformutil',
+      'com.talkjs/talkjs_flutter_inappwebview_platformutil',
       const StandardMethodCodec(),
       _messenger,
     );

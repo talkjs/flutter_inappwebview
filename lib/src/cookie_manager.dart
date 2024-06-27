@@ -27,7 +27,7 @@ import 'web_uri.dart';
 class CookieManager {
   static CookieManager? _instance;
   static const MethodChannel _channel = const MethodChannel(
-      'com.pichillilorenzo/flutter_inappwebview_cookiemanager');
+      'com.talkjs/talkjs_flutter_inappwebview_cookiemanager');
 
   CookieManager._();
 
@@ -89,7 +89,7 @@ class CookieManager {
       bool? isHttpOnly,
       HTTPCookieSameSitePolicy? sameSite,
       @Deprecated("Use webViewController instead")
-          InAppWebViewController? iosBelow11WebViewController,
+      InAppWebViewController? iosBelow11WebViewController,
       InAppWebViewController? webViewController}) async {
     webViewController = webViewController ?? iosBelow11WebViewController;
 
@@ -201,7 +201,7 @@ class CookieManager {
   Future<List<Cookie>> getCookies(
       {required WebUri url,
       @Deprecated("Use webViewController instead")
-          InAppWebViewController? iosBelow11WebViewController,
+      InAppWebViewController? iosBelow11WebViewController,
       InAppWebViewController? webViewController}) async {
     assert(url.toString().isNotEmpty);
 
@@ -315,7 +315,7 @@ class CookieManager {
       {required WebUri url,
       required String name,
       @Deprecated("Use webViewController instead")
-          InAppWebViewController? iosBelow11WebViewController,
+      InAppWebViewController? iosBelow11WebViewController,
       InAppWebViewController? webViewController}) async {
     assert(url.toString().isNotEmpty);
     assert(name.isNotEmpty);
@@ -378,7 +378,7 @@ class CookieManager {
       String path = "/",
       String? domain,
       @Deprecated("Use webViewController instead")
-          InAppWebViewController? iosBelow11WebViewController,
+      InAppWebViewController? iosBelow11WebViewController,
       InAppWebViewController? webViewController}) async {
     assert(url.toString().isNotEmpty);
     assert(name.isNotEmpty);
@@ -430,7 +430,7 @@ class CookieManager {
       String path = "/",
       String? domain,
       @Deprecated("Use webViewController instead")
-          InAppWebViewController? iosBelow11WebViewController,
+      InAppWebViewController? iosBelow11WebViewController,
       InAppWebViewController? webViewController}) async {
     assert(url.toString().isNotEmpty);
 

@@ -706,7 +706,7 @@ class _InAppWebViewState extends State<InAppWebView> {
 
     if (Util.isWeb) {
       return HtmlElementView(
-        viewType: 'com.pichillilorenzo/flutter_inappwebview',
+        viewType: 'com.talkjs/talkjs_flutter_inappwebview',
         onPlatformViewCreated: (int viewId) {
           var webViewHtmlElement = WebPlatformManager.webViews[viewId]!;
           webViewHtmlElement.initialSettings = initialSettings;
@@ -733,7 +733,7 @@ class _InAppWebViewState extends State<InAppWebView> {
           true;
 
       return PlatformViewLink(
-        viewType: 'com.pichillilorenzo/flutter_inappwebview',
+        viewType: 'com.talkjs/talkjs_flutter_inappwebview',
         surfaceFactory: (
           BuildContext context,
           PlatformViewController controller,
@@ -749,7 +749,7 @@ class _InAppWebViewState extends State<InAppWebView> {
           return _createAndroidViewController(
             hybridComposition: useHybridComposition,
             id: params.id,
-            viewType: 'com.pichillilorenzo/flutter_inappwebview',
+            viewType: 'com.talkjs/talkjs_flutter_inappwebview',
             layoutDirection:
                 Directionality.maybeOf(context) ?? TextDirection.rtl,
             creationParams: <String, dynamic>{
@@ -777,7 +777,7 @@ class _InAppWebViewState extends State<InAppWebView> {
       );
     } else if (Util.isIOS /* || Util.isMacOS*/) {
       return UiKitView(
-        viewType: 'com.pichillilorenzo/flutter_inappwebview',
+        viewType: 'com.talkjs/talkjs_flutter_inappwebview',
         onPlatformViewCreated: _onPlatformViewCreated,
         gestureRecognizers: widget.gestureRecognizers,
         creationParams: <String, dynamic>{

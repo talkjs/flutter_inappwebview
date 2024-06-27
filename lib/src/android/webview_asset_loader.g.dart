@@ -93,7 +93,7 @@ abstract class PathHandler {
     _type = this.runtimeType.toString();
     _id = IdGenerator.generate();
     this._channel = MethodChannel(
-        'com.pichillilorenzo/flutter_inappwebview_custompathhandler_$_id');
+        'com.talkjs/talkjs_flutter_inappwebview_custompathhandler_$_id');
     this._channel.setMethodCallHandler((call) async {
       try {
         return await _handleMethod(call);

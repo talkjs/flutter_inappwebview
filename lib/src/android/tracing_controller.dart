@@ -20,7 +20,7 @@ part 'tracing_controller.g.dart';
 class TracingController {
   static TracingController? _instance;
   static const MethodChannel _channel = const MethodChannel(
-      'com.pichillilorenzo/flutter_inappwebview_tracingcontroller');
+      'com.talkjs/talkjs_flutter_inappwebview_tracingcontroller');
 
   TracingController._();
 

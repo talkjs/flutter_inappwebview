@@ -17,7 +17,7 @@ import '../types/main.dart';
 class ProxyController {
   static ProxyController? _instance;
   static const MethodChannel _channel = const MethodChannel(
-      'com.pichillilorenzo/flutter_inappwebview_proxycontroller');
+      'com.talkjs/talkjs_flutter_inappwebview_proxycontroller');
 
   ProxyController._();
 

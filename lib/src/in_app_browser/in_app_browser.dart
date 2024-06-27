@@ -72,7 +72,7 @@ class InAppBrowser {
   bool _isOpened = false;
   late MethodChannel _channel;
   static const MethodChannel _sharedChannel =
-      const MethodChannel('com.pichillilorenzo/flutter_inappbrowser');
+      const MethodChannel('com.talkjs/talkjs_flutter_inappbrowser');
 
   late final InAppWebViewController _webViewController;
 
@@ -94,8 +94,7 @@ class InAppBrowser {
       this.initialUserScripts,
       this.implementation = WebViewImplementation.NATIVE}) {
     id = IdGenerator.generate();
-    this._channel =
-        MethodChannel('com.pichillilorenzo/flutter_inappbrowser_$id');
+    this._channel = MethodChannel('com.talkjs/talkjs_flutter_inappbrowser_$id');
     this._channel.setMethodCallHandler((call) async {
       try {
         return await _handleMethod(call);

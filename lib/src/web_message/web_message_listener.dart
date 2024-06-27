@@ -46,7 +46,7 @@ class WebMessageListener {
     assert(!this.allowedOriginRules.contains(""),
         "allowedOriginRules cannot contain empty strings");
     this._channel = MethodChannel(
-        'com.pichillilorenzo/flutter_inappwebview_web_message_listener_${id}_$jsObjectName');
+        'com.talkjs/talkjs_flutter_inappwebview_web_message_listener_${id}_$jsObjectName');
     this._channel.setMethodCallHandler((call) async {
       try {
         return await _handleMethod(call);

@@ -39,7 +39,7 @@ class FindInteractionController {
 
   void initMethodChannel(dynamic id) {
     this._channel = MethodChannel(
-        'com.pichillilorenzo/flutter_inappwebview_find_interaction_$id');
+        'com.talkjs/talkjs_flutter_inappwebview_find_interaction_$id');
 
     this._channel?.setMethodCallHandler((call) async {
       try {

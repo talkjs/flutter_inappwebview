@@ -57,8 +57,8 @@ class WebAuthenticationSession implements Disposable {
   WebAuthenticationSessionCompletionHandler onComplete;
 
   late MethodChannel _channel;
-  static const MethodChannel _sharedChannel = const MethodChannel(
-      'com.pichillilorenzo/flutter_webauthenticationsession');
+  static const MethodChannel _sharedChannel =
+      const MethodChannel('com.talkjs/talkjs_flutter_webauthenticationsession');
 
   ///Used to create and initialize a session.
   ///
@@ -102,8 +102,8 @@ class WebAuthenticationSession implements Disposable {
     id = IdGenerator.generate();
     this.initialSettings =
         initialSettings ?? WebAuthenticationSessionSettings();
-    this._channel = MethodChannel(
-        'com.pichillilorenzo/flutter_webauthenticationsession_$id');
+    this._channel =
+        MethodChannel('com.talkjs/talkjs_flutter_webauthenticationsession_$id');
     this._channel.setMethodCallHandler((call) async {
       try {
         return await _handleMethod(call);

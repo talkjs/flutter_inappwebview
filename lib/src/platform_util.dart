@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 class PlatformUtil {
   static PlatformUtil? _instance;
   static const MethodChannel _channel = const MethodChannel(
-      'com.pichillilorenzo/flutter_inappwebview_platformutil');
+      'com.talkjs/talkjs_flutter_inappwebview_platformutil');
 
   PlatformUtil._();
 

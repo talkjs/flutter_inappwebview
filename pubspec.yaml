@@ -6,8 +6,8 @@ repository: https://github.com/pichillilorenzo/flutter_inappwebview
 issue_tracker: https://github.com/pichillilorenzo/flutter_inappwebview/issues
 
 environment:
-  sdk: ">=2.17.0 <4.0.0"
-  flutter: ">=3.0.0"
+  sdk: '>=2.17.0 <4.0.0'
+  flutter: '>=3.0.0'
 
 dependencies:
   flutter:
@@ -35,12 +35,12 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.pichillilorenzo.flutter_inappwebview
-        pluginClass: InAppWebViewFlutterPlugin
+        package: com.talkjs.talkjs_flutter_inappwebview
+        pluginClass: TalkJSInAppWebViewFlutterPlugin
       ios:
-        pluginClass: InAppWebViewFlutterPlugin
+        pluginClass: TalkJSInAppWebViewFlutterPlugin
       macos:
-        pluginClass: InAppWebViewFlutterPlugin
+        pluginClass: TalkJSInAppWebViewFlutterPlugin
       web:
         pluginClass: FlutterInAppWebViewWebPlatform
         fileName: flutter_inappwebview.dart

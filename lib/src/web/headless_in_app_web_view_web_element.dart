@@ -20,7 +20,7 @@ class HeadlessInAppWebViewWebElement implements Disposable {
     this._messenger = messenger;
 
     _channel = MethodChannel(
-      'com.pichillilorenzo/flutter_headless_inappwebview_${this.id}',
+      'com.talkjs/talkjs_flutter_headless_inappwebview_${this.id}',
       const StandardMethodCodec(),
       _messenger,
     );

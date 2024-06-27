@@ -12,7 +12,7 @@ import '../types/main.dart';
 class ServiceWorkerController {
   static ServiceWorkerController? _instance;
   static const MethodChannel _channel = const MethodChannel(
-      'com.pichillilorenzo/flutter_inappwebview_serviceworkercontroller');
+      'com.talkjs/talkjs_flutter_inappwebview_serviceworkercontroller');
 
   ServiceWorkerController._();
 
@@ -203,7 +203,7 @@ class ServiceWorkerClient {
 class AndroidServiceWorkerController {
   static AndroidServiceWorkerController? _instance;
   static const MethodChannel _channel = const MethodChannel(
-      'com.pichillilorenzo/flutter_inappwebview_serviceworkercontroller');
+      'com.talkjs/talkjs_flutter_inappwebview_serviceworkercontroller');
 
   AndroidServiceWorkerClient? _serviceWorkerClient;
 

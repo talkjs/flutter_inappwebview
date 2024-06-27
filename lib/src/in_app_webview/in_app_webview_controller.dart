@@ -80,8 +80,7 @@ class InAppWebViewController {
 
   InAppWebViewController(dynamic id, WebView webview) {
     this._id = id;
-    this._channel =
-        MethodChannel('com.pichillilorenzo/flutter_inappwebview_$id');
+    this._channel = MethodChannel('com.talkjs/talkjs_flutter_inappwebview_$id');
     this._channel.setMethodCallHandler((call) async {
       try {
         return await handleMethod(call);
@@ -1678,7 +1677,7 @@ class InAppWebViewController {
   Future<void> loadUrl(
       {required URLRequest urlRequest,
       @Deprecated('Use allowingReadAccessTo instead')
-          Uri? iosAllowingReadAccessTo,
+      Uri? iosAllowingReadAccessTo,
       WebUri? allowingReadAccessTo}) async {
     assert(urlRequest.url != null && urlRequest.url.toString().isNotEmpty);
     assert(
@@ -1744,11 +1743,10 @@ class InAppWebViewController {
       String mimeType = "text/html",
       String encoding = "utf8",
       WebUri? baseUrl,
-      @Deprecated('Use historyUrl instead')
-          Uri? androidHistoryUrl,
+      @Deprecated('Use historyUrl instead') Uri? androidHistoryUrl,
       WebUri? historyUrl,
       @Deprecated('Use allowingReadAccessTo instead')
-          Uri? iosAllowingReadAccessTo,
+      Uri? iosAllowingReadAccessTo,
       WebUri? allowingReadAccessTo}) async {
     assert(
         allowingReadAccessTo == null || allowingReadAccessTo.isScheme("file"));
@@ -3437,8 +3435,8 @@ class InAppWebViewController {
   ///- MacOS ([Official API - WKWebView.createPdf](https://developer.apple.com/documentation/webkit/wkwebview/3650490-createpdf))
   Future<Uint8List?> createPdf(
       {@Deprecated("Use pdfConfiguration instead")
-          // ignore: deprecated_member_use_from_same_package
-          IOSWKPDFConfiguration? iosWKPdfConfiguration,
+      // ignore: deprecated_member_use_from_same_package
+      IOSWKPDFConfiguration? iosWKPdfConfiguration,
       PDFConfiguration? pdfConfiguration}) async {
     Map<String, dynamic> args = <String, dynamic>{};
     args.putIfAbsent('pdfConfiguration',

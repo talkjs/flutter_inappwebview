@@ -18,7 +18,7 @@ part 'webview_feature.g.dart';
 class WebViewFeature_ {
   @ExchangeableEnumCustomValue()
   static const MethodChannel _channel = const MethodChannel(
-      'com.pichillilorenzo/flutter_inappwebview_webviewfeature');
+      'com.talkjs/talkjs_flutter_inappwebview_webviewfeature');
 
   // ignore: unused_field
   final String _value;
@@ -236,7 +236,7 @@ class WebViewFeature_ {
 class AndroidWebViewFeature_ {
   @ExchangeableEnumCustomValue()
   static const MethodChannel _channel = const MethodChannel(
-      'com.pichillilorenzo/flutter_inappwebview_webviewfeature');
+      'com.talkjs/talkjs_flutter_inappwebview_webviewfeature');
 
   // ignore: unused_field
   final String _value;

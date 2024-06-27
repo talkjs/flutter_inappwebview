@@ -62,12 +62,12 @@ class ChromeSafariBrowser {
   bool _isOpened = false;
   late MethodChannel _channel;
   static const MethodChannel _sharedChannel =
-      const MethodChannel('com.pichillilorenzo/flutter_chromesafaribrowser');
+      const MethodChannel('com.talkjs/talkjs_flutter_chromesafaribrowser');
 
   ChromeSafariBrowser() {
     id = IdGenerator.generate();
     this._channel =
-        MethodChannel('com.pichillilorenzo/flutter_chromesafaribrowser_$id');
+        MethodChannel('com.talkjs/talkjs_flutter_chromesafaribrowser_$id');
     this._channel.setMethodCallHandler((call) async {
       try {
         return await _handleMethod(call);
@@ -205,8 +205,8 @@ class ChromeSafariBrowser {
       List<WebUri>? otherLikelyURLs,
       WebUri? referrer,
       @Deprecated('Use settings instead')
-          // ignore: deprecated_member_use_from_same_package
-          ChromeSafariBrowserClassOptions? options,
+      // ignore: deprecated_member_use_from_same_package
+      ChromeSafariBrowserClassOptions? options,
       ChromeSafariBrowserSettings? settings}) async {
     if (Util.isIOS) {
       assert(url != null, 'The specified URL must not be null on iOS.');

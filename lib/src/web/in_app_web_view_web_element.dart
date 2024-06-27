@@ -45,7 +45,7 @@ class InAppWebViewWebElement implements Disposable {
     iframeContainer.append(iframe);
 
     _channel = MethodChannel(
-      'com.pichillilorenzo/flutter_inappwebview_$_viewId',
+      'com.talkjs/talkjs_flutter_inappwebview_$_viewId',
       const StandardMethodCodec(),
       _messenger,
     );

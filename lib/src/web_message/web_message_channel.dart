@@ -23,7 +23,7 @@ class WebMessageChannel {
   WebMessageChannel(
       {required this.id, required this.port1, required this.port2}) {
     this._channel = MethodChannel(
-        'com.pichillilorenzo/flutter_inappwebview_web_message_channel_$id');
+        'com.talkjs/talkjs_flutter_inappwebview_web_message_channel_$id');
     this._channel.setMethodCallHandler((call) async {
       try {
         return await _handleMethod(call);

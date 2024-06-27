@@ -15,7 +15,7 @@ class FlutterInAppWebViewWebPlatform {
   /// Constructs a new instance of [FlutterInAppWebViewWebPlatform].
   FlutterInAppWebViewWebPlatform(Registrar registrar) {
     ui.platformViewRegistry.registerViewFactory(
-        'com.pichillilorenzo/flutter_inappwebview', (int viewId) {
+        'com.talkjs/talkjs_flutter_inappwebview', (int viewId) {
       var webView =
           InAppWebViewWebElement(viewId: viewId, messenger: registrar);
       WebPlatformManager.webViews.putIfAbsent(viewId, () => webView);

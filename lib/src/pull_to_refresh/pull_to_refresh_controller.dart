@@ -46,7 +46,7 @@ class PullToRefreshController {
 
   void initMethodChannel(dynamic id) {
     this._channel = MethodChannel(
-        'com.pichillilorenzo/flutter_inappwebview_pull_to_refresh_$id');
+        'com.talkjs/talkjs_flutter_inappwebview_pull_to_refresh_$id');
     this._channel?.setMethodCallHandler((call) async {
       try {
         return await _handleMethod(call);
