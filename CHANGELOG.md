@@ -1,3 +1,7 @@
+## 6.0.8
+
+- (TalkJS): Fix conflict with `flutter_inappwebview` package
+
 ## 6.0.7
 
 - (TalkJS): Fix Android build on Android Gradle Plugin (AGP) 8.0 and higher
