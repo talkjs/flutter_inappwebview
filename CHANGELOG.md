@@ -1,3 +1,7 @@
+## 6.0.9
+
+- (TalkJS): Fix build issue on Xcode 16 / iOS 18
+
 ## 6.0.8
 
 - (TalkJS): Fix conflict with `flutter_inappwebview` package
