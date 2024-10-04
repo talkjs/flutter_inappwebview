@@ -1,3 +1,7 @@
+## 6.0.10
+
+- (TalkJS): Fix v6.0.9 not building on Xcode 15
+
 ## 6.0.9
 
 - (TalkJS): Fix build issue on Xcode 16 / iOS 18
