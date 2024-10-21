@@ -1,3 +1,9 @@
+## 6.0.11
+
+- (TalkJS) Updated androidx.webkit:webkit:1.8.0 to androidx.webkit:webkit:1.12.0
+- (TalkJS) Updated androidx.browser:browser:1.6.0 to androidx.browser:browser:1.8.0
+- (TalkJS) Removed unsupported WebViewFeature.SUPPRESS_ERROR_PAGE
+
 ## 6.0.10
 
 - (TalkJS): Fix v6.0.9 not building on Xcode 15
