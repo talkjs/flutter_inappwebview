@@ -1,3 +1,8 @@
+## 1.1.2+1
+
+- (TalkJS): Forked the library and published as an unlisted package
+- (TalkJS): Fix iOS keyboard appearance not switching to dark when user explicitly sets app theme to dark
+
 ## 1.1.2
 
 - Updated flutter_inappwebview_platform_interface version to ^1.3.0
@@ -14,7 +19,7 @@
 
 - Updated pubspec.yaml
 
-## 1.1.0+1 
+## 1.1.0+1
 
 - Fixed "v6.1.0 fails to compile on Xcode 15" [#2288](https://github.com/pichillilorenzo/flutter_inappwebview/issues/2288)
 
@@ -49,7 +54,7 @@
 - Implemented `InAppWebViewSettings.interceptOnlyAsyncAjaxRequests`
 - Updated `useShouldInterceptAjaxRequest` automatic infer logic
 - Updated `CookieManager` methods return value
-- Fixed "iOS crash at public func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage)" [#1912](https://github.com/pichillilorenzo/flutter_inappwebview/issues/1912)
+- Fixed "iOS crash at public func userContentController(\_ userContentController: WKUserContentController, didReceive message: WKScriptMessage)" [#1912](https://github.com/pichillilorenzo/flutter_inappwebview/issues/1912)
 
 ## 1.0.8
 
@@ -58,7 +63,7 @@
 
 ## 1.0.7
 
-- Fixed "getFavicons: _TypeError: type '_Map<String, dynamic>' is not a subtype of type 'Iterable<dynamic>'" [#1897](https://github.com/pichillilorenzo/flutter_inappwebview/issues/1897)
+- Fixed "getFavicons: \_TypeError: type '\_Map<String, dynamic>' is not a subtype of type 'Iterable<dynamic>'" [#1897](https://github.com/pichillilorenzo/flutter_inappwebview/issues/1897)
 
 ## 1.0.6
 
