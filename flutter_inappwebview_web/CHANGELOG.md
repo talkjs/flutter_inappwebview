@@ -1,3 +1,7 @@
+## 1.1.2+1
+
+- (TalkJS): Forked the library and published as an unlisted package
+
 ## 1.1.2
 
 - Updated flutter_inappwebview_platform_interface version to ^1.3.0
@@ -15,7 +19,7 @@
 - Updated pubspec.yaml
 
 ## 1.1.0
- 
+
 - Migrates package to `package:web`.
 - Updates minimum supported SDK version to Flutter 3.24/Dart 3.5.
 
@@ -43,7 +47,7 @@
 ## 1.0.3
 
 - Fixed "Flutter 3.7.10 error Dart library 'dart:ui_web' is not available on this platform" [#1900](https://github.com/pichillilorenzo/flutter_inappwebview/issues/1900)
-- Try to load just the URL of an URLRequest if the HTTP method is GET and the HTTP request fails due to an error, such as a CORS policy error 
+- Try to load just the URL of an URLRequest if the HTTP method is GET and the HTTP request fails due to an error, such as a CORS policy error
 
 ## 1.0.2
 
