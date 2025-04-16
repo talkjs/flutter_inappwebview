@@ -1,3 +1,7 @@
+## 1.1.2+1
+
+- (TalkJS): Forked the library and published as an unlisted package
+
 ## 1.1.2
 
 - Updated flutter_inappwebview_platform_interface version to ^1.3.0
@@ -50,7 +54,7 @@
 - Implemented `InAppWebViewSettings.interceptOnlyAsyncAjaxRequests`
 - Updated `useShouldInterceptAjaxRequest` automatic infer logic
 - Updated `CookieManager` methods return value
-- Fixed "iOS crash at public func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage)" [#1912](https://github.com/pichillilorenzo/flutter_inappwebview/issues/1912)
+- Fixed "iOS crash at public func userContentController(\_ userContentController: WKUserContentController, didReceive message: WKScriptMessage)" [#1912](https://github.com/pichillilorenzo/flutter_inappwebview/issues/1912)
 
 ## 1.0.6
 
@@ -59,7 +63,7 @@
 
 ## 1.0.5
 
-- Fixed "getFavicons: _TypeError: type '_Map<String, dynamic>' is not a subtype of type 'Iterable<dynamic>'" [#1897](https://github.com/pichillilorenzo/flutter_inappwebview/issues/1897)
+- Fixed "getFavicons: \_TypeError: type '\_Map<String, dynamic>' is not a subtype of type 'Iterable<dynamic>'" [#1897](https://github.com/pichillilorenzo/flutter_inappwebview/issues/1897)
 
 ## 1.0.4
 
