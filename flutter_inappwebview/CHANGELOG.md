@@ -1,9 +1,68 @@
+## 6.1.5+1
+
+- (TalkJS): Sync fork with upstream. Specifically the latest non beta release by April 2025: v6.1.5
+
+## 6.0.12
+
+- (TalkJS) Fix build failure on Flutter 3.29.0 by removing references to v1 Android Embedding
+
+## 6.0.11
+
+- (TalkJS) Updated androidx.webkit:webkit:1.8.0 to androidx.webkit:webkit:1.12.0
+- (TalkJS) Updated androidx.browser:browser:1.6.0 to androidx.browser:browser:1.8.0
+- (TalkJS) Removed unsupported WebViewFeature.SUPPRESS_ERROR_PAGE
+
+## 6.0.10
+
+- (TalkJS): Fix v6.0.9 not building on Xcode 15
+
+## 6.0.9
+
+- (TalkJS): Fix build issue on Xcode 16 / iOS 18
+
+## 6.0.8
+
+- (TalkJS): Fix conflict with `flutter_inappwebview` package
+
+## 6.0.7
+
+- (TalkJS): Fix Android build on Android Gradle Plugin (AGP) 8.0 and higher
+
+## 6.0.6
+
+- (TalkJS): Fix runtime error on iOS
+
+## 6.0.5
+
+- (TalkJS): Fix build issue on Xcode 15
+
+## 6.0.4
+
+- (TalkJS): Fix iOS keyboard appearance not switching to dark when user explicitly sets app theme to dark
+
+## 6.0.3
+
+- (TalkJS): Revert the b889efe commit that introduced REQUESTED_WITH_HEADER_CONTROL, resulting in a crash when used in conjunction with webview_flutter
+
+## 6.0.2
+
+- (TalkJS): Fix build issue on iOS
+
+## 6.0.1
+
+- (TalkJS): Update the podspec
+
+## 6.0.0
+
+- (TalkJS): Forked the library and published as an unlisted package
+
 ## 6.1.5
 
 - Updated dependencies to the latest versions for all platform implementations:
   - `flutter_inappwebview_windows`: `^0.5.0` -> `^0.6.0`
 
 #### Windows Platform
+
 - Updated code to support multiple flutter windows
 - Fixed `InAppWebViewController.callAsyncJavaScript` not working with JSON objects
 - Fixed `onLoadResourceWithCustomScheme` WebView event called every time
@@ -19,9 +78,11 @@
   - `flutter_inappwebview_windows`: `^0.4.0` -> `^0.5.0`
 
 #### Android Platform
+
 - Removed webview/plugin_scripts_js/ConsoleLogJS.java file, use native WebChromeClient.onConsoleMessage instead
 
 #### Windows Platform
+
 - Implemented `shouldInterceptRequest`, `onLoadResourceWithCustomScheme` WebView events
 
 ## 6.1.3
@@ -35,7 +96,8 @@
   - `flutter_inappwebview_windows`: `^0.3.0` -> `^0.4.0`
 
 #### Windows Platform
-  - Updated `shouldOverrideUrlLoading` implementation using the Chrome DevTools Protocol API Fetch.requestPaused event
+
+- Updated `shouldOverrideUrlLoading` implementation using the Chrome DevTools Protocol API Fetch.requestPaused event
 
 ## 6.1.2
 
@@ -115,9 +177,9 @@
 - Deprecated `InAppWebViewSettings.clearSessionCache`. Use `CookieManager.removeSessionCookies` method instead
 - Updated `useShouldInterceptAjaxRequest` automatic infer logic
 - Updated `CookieManager` methods return value
-- Fixed "iOS crash at public func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage)" [#1912](https://github.com/pichillilorenzo/flutter_inappwebview/issues/1912)
+- Fixed "iOS crash at public func userContentController(\_ userContentController: WKUserContentController, didReceive message: WKScriptMessage)" [#1912](https://github.com/pichillilorenzo/flutter_inappwebview/issues/1912)
 - Fixed "iOS Fatal Crash" [#1894](https://github.com/pichillilorenzo/flutter_inappwebview/issues/1894)
-- Fixed "getFavicons: _TypeError: type '_Map<String, dynamic>' is not a subtype of type 'Iterable<dynamic>'" [#1897](https://github.com/pichillilorenzo/flutter_inappwebview/issues/1897)
+- Fixed "getFavicons: \_TypeError: type '\_Map<String, dynamic>' is not a subtype of type 'Iterable<dynamic>'" [#1897](https://github.com/pichillilorenzo/flutter_inappwebview/issues/1897)
 - Fixed error in InterceptAjaxRequestJS 'Failed to set responseType property'
 - Fixed shouldInterceptAjaxRequest javascript code when overriding XMLHttpRequest.open method parameters
 - Fixed "onClosed not considering back navigation or up button / close button in ChromeSafariBrowser when using noHistory: true" [#1882](https://github.com/pichillilorenzo/flutter_inappwebview/issues/1882)
@@ -130,7 +192,7 @@
 ## 6.0.0-beta.31
 
 - Updated minimum platform interface and implementation versions
-- Fixed events not called on `InAppBrowser` and `ChromeSafariBrowser` opening same instance multiple times 
+- Fixed events not called on `InAppBrowser` and `ChromeSafariBrowser` opening same instance multiple times
 
 ## 6.0.0-beta.30
 
@@ -255,7 +317,7 @@
 
 ## 6.0.0-beta.17
 
-- Replaced `Uri.encodeFull` with `Uri.encodeComponent` to load html data correctly on Web platform 
+- Replaced `Uri.encodeFull` with `Uri.encodeComponent` to load html data correctly on Web platform
 
 ## 6.0.0-beta.16
 
@@ -377,7 +439,7 @@
 ## 6.0.0-beta.2
 
 - Fixed web example
-- Fixed export library 
+- Fixed export library
 
 ## 6.0.0-beta.1
 
@@ -587,7 +649,7 @@
 
 ## 5.4.1+1
 
-- Fixed Android default context menu over custom context menu on API Level 31+ 
+- Fixed Android default context menu over custom context menu on API Level 31+
 
 ## 5.4.1
 
@@ -728,7 +790,7 @@
 
 ## 5.1.0+3
 
-- Fixed "Unsupported operation: Platform._operatingSystem" when compiling for Web again [#507](https://github.com/pichillilorenzo/flutter_inappwebview/issues/507)
+- Fixed "Unsupported operation: Platform.\_operatingSystem" when compiling for Web again [#507](https://github.com/pichillilorenzo/flutter_inappwebview/issues/507)
 
 ## 5.1.0+2
 
@@ -809,14 +871,14 @@
 - Merged "iOS CookieManager.getCookies - Check that URL has suffix of cookie do…" [#658](https://github.com/pichillilorenzo/flutter_inappwebview/pull/658) (thanks to [arneke](https://github.com/arneke))
 - Merged "Add NTLM Auth" [#634](https://github.com/pichillilorenzo/flutter_inappwebview/pull/634) (thanks to [albatrosify](https://github.com/albatrosify))
 - Merged "iOS ChromeSafariBrowserManager - Fixing unnecessary casting of rootViewController to FlutterViewController" [#567](https://github.com/pichillilorenzo/flutter_inappwebview/pull/567) (thanks to [gunantosteven](https://github.com/gunantosteven))
-- Merged "Fix _channel.invokeMethod name for injectCSSFileFromUrl method" [#645](https://github.com/pichillilorenzo/flutter_inappwebview/pull/645) (thanks to [omralcrt](https://github.com/omralcrt))
+- Merged "Fix \_channel.invokeMethod name for injectCSSFileFromUrl method" [#645](https://github.com/pichillilorenzo/flutter_inappwebview/pull/645) (thanks to [omralcrt](https://github.com/omralcrt))
 - Merged "Add android media intents on wildcard input accept" [#620](https://github.com/pichillilorenzo/flutter_inappwebview/pull/620) (thanks to [cbodin](https://github.com/cbodin))
 - Merged "Add ChromeSafariBrowser support for Android 11" [#538](https://github.com/pichillilorenzo/flutter_inappwebview/pull/538) (thanks to [DRSchlaubi](https://github.com/DRSchlaubi))
 - Merged "fix(iOS): missing implementation of method zoomBy" [#670](https://github.com/pichillilorenzo/flutter_inappwebview/pull/670) (thanks to [pcqpcq](https://github.com/pcqpcq))
 - Merged "[mod] Fix all issues relate to long click in Android version 7.0 (#657, #527)" [#671](https://github.com/pichillilorenzo/flutter_inappwebview/pull/671) (thanks to [MrNinja](https://github.com/MrNinja))
 - Merged "Fix ViewGroup.removeView NullPointerException (#450)" [#683](https://github.com/pichillilorenzo/flutter_inappwebview/pull/683) (thanks to [toda-bps](https://github.com/toda-bps))
 - Fixed missing properties initialization when using InAppWebViewController.fromInAppBrowser
-- Fixed "Issue in Flutter web: 'Unsupported operation: Platform._operatingSystem'" [#507](https://github.com/pichillilorenzo/flutter_inappwebview/issues/507)
+- Fixed "Issue in Flutter web: 'Unsupported operation: Platform.\_operatingSystem'" [#507](https://github.com/pichillilorenzo/flutter_inappwebview/issues/507)
 - Fixed "window.flutter_inappwebview.callHandler is not a function" [#218](https://github.com/pichillilorenzo/flutter_inappwebview/issues/218)
 - Fixed "Android ContentBlocker - java.lang.NullPointerException ContentBlockerTrigger resource type" [#506](https://github.com/pichillilorenzo/flutter_inappwebview/issues/506)
 - Fixed "Android CookieManager throws error caused by websites that are sending back illegal/invalid cookies." [#476](https://github.com/pichillilorenzo/flutter_inappwebview/issues/476)
@@ -1031,7 +1093,7 @@
 
 ### BREAKING CHANGES
 
-- Updated `shouldOverrideUrlLoading` event: 
+- Updated `shouldOverrideUrlLoading` event:
   - the `url` parameter has been moved inside an instance of `ShouldOverrideUrlLoadingRequest` class
   - it has a return type `ShouldOverrideUrlLoadingAction` to allow or cancel navigation instead of cancel every time the request
 - Renamed `onTargetBlank` to `onCreateWindow`
@@ -1039,8 +1101,8 @@
 - Making methods available only for the specific platform more explicit: moved all the webview's controller methods for Android inside `controller.android` and all the webview's controller methods for iOS inside `controller.ios`
 - Making events available only for the specific platform more explicit:
   - Renamed `onSafeBrowsingHit` to `androidOnSafeBrowsingHit`
-  - Renamed `onGeolocationPermissionsShowPrompt` to `androidOnGeolocationPermissionsShowPrompt` 
-  - Renamed `onPermissionRequest` to `androidOnPermissionRequest`  
+  - Renamed `onGeolocationPermissionsShowPrompt` to `androidOnGeolocationPermissionsShowPrompt`
+  - Renamed `onPermissionRequest` to `androidOnPermissionRequest`
 - Updated attribute names for `InAppWebViewWidgetOptions`, `InAppBrowserClassOptions` and `ChromeSafariBrowserClassOptions` classes
 - Renamed and updated `onNavigationStateChange` to `onUpdateVisitedHistory`
 - Renamed all iOS and Android webview options class
@@ -1096,12 +1158,13 @@
 - Added `clearCache`, `scrollTo`, `scrollBy`, `getHtml`, `injectJavascriptFileFromAsset` and `injectCSSFileFromAsset` methods method
 - Added `HttpAuthCredentialDatabase` class
 - Added `onReceivedServerTrustAuthRequest` and `onReceivedClientCertRequest` events to manage SSL requests
-- Added `onFindResultReceived` event, `findAllAsync`, `findNext` and `clearMatches` methods 
+- Added `onFindResultReceived` event, `findAllAsync`, `findNext` and `clearMatches` methods
 - Added `shouldInterceptAjaxRequest`, `onAjaxReadyStateChange`, `onAjaxProgress` and `shouldInterceptFetchRequest` events with `useShouldInterceptAjaxRequest` and `useShouldInterceptFetchRequest` webview options
 - Added `onNavigationStateChange` and `onLoadHttpError` events
-- Fun: added `getTRexRunnerHtml` and `getTRexRunnerCss` methods to get html (with javascript) and css to recreate the Chromium's t-rex runner game 
+- Fun: added `getTRexRunnerHtml` and `getTRexRunnerCss` methods to get html (with javascript) and css to recreate the Chromium's t-rex runner game
 
 ### BREAKING CHANGES
+
 - Deleted `WebResourceRequest` class
 - Updated `WebResourceResponse` class
 - Updated `ConsoleMessage` class
@@ -1167,13 +1230,14 @@
 ## 1.0.0
 
 Breaking changes:
+
 - Fixed [Flutter AndroidX compatibility](https://flutter.dev/docs/development/packages-and-plugins/androidx-compatibility), the latest version that doesn't use `AndroidX` is `0.6.0` (thanks to [juicycleff](https://github.com/juicycleff)).
 
 ## 0.6.0
 
 - added support for **iOS** inline native WebView integrated in the flutter widget tree
 - updated example folder (thanks to [marquesinijatinha](https://github.com/marquesinijatinha))
-- Fixed bug where passing null to expiresDate failed (thanks to [Sense545](https://github.com/Sense545)) 
+- Fixed bug where passing null to expiresDate failed (thanks to [Sense545](https://github.com/Sense545))
 - Fixed iOS error: encode resourceURL (thanks to [igtm](https://github.com/igtm))
 - Fixed iOS error: Double value cannot be converted to Int because the result would be greater than Int.max in 32-bit devices (thanks to [huzhiren](https://github.com/huzhiren))
 - Fixed iOS error: problem in ChromeSafariBrowser (thanks to [marquesinijatinha](https://github.com/marquesinijatinha))
