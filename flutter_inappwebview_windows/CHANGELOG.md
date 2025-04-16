@@ -1,3 +1,7 @@
+## 0.6.0+1
+
+- (TalkJS): Forked the library and published as an unlisted package
+
 ## 0.6.0
 
 - Updated code to support multiple flutter windows
