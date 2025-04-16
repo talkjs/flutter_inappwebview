@@ -36,7 +36,7 @@ class AndroidPrintJobController extends PlatformPrintJobController
                   .fromPlatformPrintJobControllerCreationParams(params),
         ) {
     channel = MethodChannel(
-        'com.pichillilorenzo/flutter_inappwebview_printjobcontroller_${params.id}');
+        'com.talkjs/talkjs_flutter_inappwebview_printjobcontroller_${params.id}');
     handler = _handleMethod;
     initMethodCallHandler();
   }

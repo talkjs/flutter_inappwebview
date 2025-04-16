@@ -1,10 +1,10 @@
-#ifndef FLUTTER_PLUGIN_FLUTTER_INAPPWEBVIEW_PLUGIN_PLUGIN_H_
-#define FLUTTER_PLUGIN_FLUTTER_INAPPWEBVIEW_PLUGIN_PLUGIN_H_
+#ifndef FLUTTER_PLUGIN_TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_PLUGIN_H_
+#define FLUTTER_PLUGIN_TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_PLUGIN_H_
 
 #include <flutter/method_channel.h>
 #include <flutter/plugin_registrar_windows.h>
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   class WebViewEnvironmentManager;
   class InAppWebViewManager;
@@ -32,4 +32,4 @@ namespace flutter_inappwebview_plugin
     FlutterInappwebviewWindowsPlugin& operator=(const FlutterInappwebviewWindowsPlugin&) = delete;
   };
 }
-#endif  // FLUTTER_PLUGIN_FLUTTER_INAPPWEBVIEW_PLUGIN_PLUGIN_H_
+#endif  // FLUTTER_PLUGIN_TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_PLUGIN_H_

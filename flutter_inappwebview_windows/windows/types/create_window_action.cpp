@@ -1,7 +1,7 @@
 #include "../utils/flutter.h"
 #include "create_window_action.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   CreateWindowAction::CreateWindowAction(std::shared_ptr<URLRequest> request, const int64_t& windowId,
     const bool& isForMainFrame, const std::optional<bool>& hasGesture, const std::optional<std::shared_ptr<WindowFeatures>> windowFeatures)

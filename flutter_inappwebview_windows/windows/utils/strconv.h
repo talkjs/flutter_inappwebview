@@ -54,7 +54,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #include <iostream>
 #include <sstream>
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
 #if __cplusplus >= 201103L && !defined(STRCONV_CPP98)
   static inline std::wstring cp_to_wide(const std::string& s, UINT codepage)

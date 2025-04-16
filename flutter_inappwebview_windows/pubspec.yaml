@@ -1,4 +1,4 @@
-name: flutter_inappwebview_windows
+name: talkjs_flutter_inappwebview_windows
 description: Windows implementation of the flutter_inappwebview plugin.
 version: 0.6.0
 homepage: https://inappwebview.dev/
@@ -45,8 +45,8 @@ flutter:
   plugin:
     platforms:
       windows:
-        pluginClass: FlutterInappwebviewWindowsPluginCApi
-        dartPluginClass: WindowsInAppWebViewPlatform
+        pluginClass: TalkjsFlutterInappwebviewWindowsPluginCApi
+        dartPluginClass: TalkjsWindowsInAppWebViewPlatform
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:

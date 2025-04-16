@@ -8,10 +8,10 @@
 import Foundation
 
 public class PrintJobManager: NSObject, Disposable {
-    var plugin: InAppWebViewFlutterPlugin?
+    var plugin: TalkjsInAppWebViewFlutterPlugin?
     var jobs: [String: PrintJobController?] = [:]
     
-    public init(plugin: InAppWebViewFlutterPlugin?) {
+    public init(plugin: TalkjsInAppWebViewFlutterPlugin?) {
         super.init()
         self.plugin = plugin
     }

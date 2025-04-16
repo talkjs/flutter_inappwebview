@@ -38,7 +38,7 @@ class AndroidWebStorageManager extends PlatformWebStorageManager
                   .fromPlatformWebStorageManagerCreationParams(params),
         ) {
     channel = const MethodChannel(
-        'com.pichillilorenzo/flutter_inappwebview_webstoragemanager');
+        'com.talkjs/talkjs_flutter_inappwebview_webstoragemanager');
     handler = handleMethod;
     initMethodCallHandler();
   }

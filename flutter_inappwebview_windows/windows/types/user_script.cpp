@@ -1,7 +1,7 @@
 #include "../utils/map.h"
 #include "user_script.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   UserScript::UserScript(
     const std::optional<std::string>& groupName,

@@ -12,7 +12,7 @@
 #pragma comment(lib, "dxgi.lib")
 #pragma comment(lib, "d3d11.lib")
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   // static
   void FlutterInappwebviewWindowsPlugin::RegisterWithRegistrar(

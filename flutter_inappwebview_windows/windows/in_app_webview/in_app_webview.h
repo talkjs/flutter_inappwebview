@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_WEBVIEW_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_WEBVIEW_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_WEBVIEW_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_WEBVIEW_H_
 
 #include <functional>
 #include <WebView2.h>
@@ -23,7 +23,7 @@
 
 #include <WebView2EnvironmentOptions.h>
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   class InAppBrowser;
 
@@ -89,7 +89,7 @@ namespace flutter_inappwebview_plugin
   class InAppWebView
   {
   public:
-    static inline const std::string METHOD_CHANNEL_NAME_PREFIX = "com.pichillilorenzo/flutter_inappwebview_";
+    static inline const std::string METHOD_CHANNEL_NAME_PREFIX = "com.talkjs/talkjs_flutter_inappwebview_";
 
     const FlutterInappwebviewWindowsPlugin* plugin;
     std::variant<std::string, int64_t> id;
@@ -202,4 +202,4 @@ namespace flutter_inappwebview_plugin
     void registerSurfaceEventHandlers();
   };
 }
-#endif //FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_WEBVIEW_H_
+#endif //TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_WEBVIEW_H_

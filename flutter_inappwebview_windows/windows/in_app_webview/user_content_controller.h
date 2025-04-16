@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_USER_CONTENT_CONTROLLER_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_USER_CONTENT_CONTROLLER_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_USER_CONTENT_CONTROLLER_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_USER_CONTENT_CONTROLLER_H_
 
 #include <functional>
 #include <map>
@@ -11,7 +11,7 @@
 #include "../types/plugin_script.h"
 #include "../types/user_script.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   class InAppWebView;
 
@@ -75,4 +75,4 @@ namespace flutter_inappwebview_plugin
     void addPluginScriptsIfRequired(const std::shared_ptr<ContentWorld> contentWorld);
   };
 }
-#endif //FLUTTER_INAPPWEBVIEW_PLUGIN_USER_CONTENT_CONTROLLER_H_
+#endif //TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_USER_CONTENT_CONTROLLER_H_

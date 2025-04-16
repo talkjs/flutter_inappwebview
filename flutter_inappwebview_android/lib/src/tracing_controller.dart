@@ -37,7 +37,7 @@ class AndroidTracingController extends PlatformTracingController
                   .fromPlatformTracingControllerCreationParams(params),
         ) {
     channel = const MethodChannel(
-        'com.pichillilorenzo/flutter_inappwebview_tracingcontroller');
+        'com.talkjs/talkjs_flutter_inappwebview_tracingcontroller');
     handler = handleMethod;
     initMethodCallHandler();
   }

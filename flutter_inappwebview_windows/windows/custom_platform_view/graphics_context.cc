@@ -3,7 +3,7 @@
 #include "util/d3dutil.h"
 #include "util/direct3d11.interop.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   GraphicsContext::GraphicsContext(rx::RoHelper* rohelper) : rohelper_(rohelper)
   {

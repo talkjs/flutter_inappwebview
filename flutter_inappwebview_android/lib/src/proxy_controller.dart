@@ -37,7 +37,7 @@ class AndroidProxyController extends PlatformProxyController
                   .fromPlatformProxyControllerCreationParams(params),
         ) {
     channel = const MethodChannel(
-        'com.pichillilorenzo/flutter_inappwebview_proxycontroller');
+        'com.talkjs/talkjs_flutter_inappwebview_proxycontroller');
     handler = handleMethod;
     initMethodCallHandler();
   }

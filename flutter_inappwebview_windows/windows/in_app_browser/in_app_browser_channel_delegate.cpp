@@ -2,7 +2,7 @@
 #include "in_app_browser.h"
 #include "in_app_browser_channel_delegate.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   InAppBrowserChannelDelegate::InAppBrowserChannelDelegate(const std::string& id, flutter::BinaryMessenger* messenger)
     : ChannelDelegate(messenger, InAppBrowser::METHOD_CHANNEL_NAME_PREFIX + id)

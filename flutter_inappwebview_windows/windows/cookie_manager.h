@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_COOKIE_MANAGER_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_COOKIE_MANAGER_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_COOKIE_MANAGER_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_COOKIE_MANAGER_H_
 
 #include <flutter/method_channel.h>
 #include <flutter/standard_message_codec.h>
@@ -10,12 +10,12 @@
 #include "types/channel_delegate.h"
 #include "webview_environment/webview_environment_manager.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   class CookieManager : public ChannelDelegate
   {
   public:
-    static inline const std::string METHOD_CHANNEL_NAME_PREFIX = "com.pichillilorenzo/flutter_inappwebview_cookiemanager";
+    static inline const std::string METHOD_CHANNEL_NAME_PREFIX = "com.talkjs/talkjs_flutter_inappwebview_cookiemanager";
 
     const FlutterInappwebviewWindowsPlugin* plugin;
 
@@ -35,4 +35,4 @@ namespace flutter_inappwebview_plugin
   };
 }
 
-#endif //FLUTTER_INAPPWEBVIEW_PLUGIN_COOKIE_MANAGER_H_
+#endif //TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_COOKIE_MANAGER_H_

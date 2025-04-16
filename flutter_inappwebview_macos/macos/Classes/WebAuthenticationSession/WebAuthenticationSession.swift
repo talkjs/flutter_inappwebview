@@ -11,9 +11,9 @@ import SafariServices
 import FlutterMacOS
 
 public class WebAuthenticationSession: NSObject, ASWebAuthenticationPresentationContextProviding, Disposable {
-    static let METHOD_CHANNEL_NAME_PREFIX = "com.pichillilorenzo/flutter_webauthenticationsession_"
+    static let METHOD_CHANNEL_NAME_PREFIX = "com.talkjs/talkjs_flutter_webauthenticationsession_"
     var id: String
-    var plugin: InAppWebViewFlutterPlugin?
+    var plugin: TalkjsInAppWebViewFlutterPlugin?
     var url: URL
     var callbackURLScheme: String?
     var settings: WebAuthenticationSessionSettings
@@ -21,7 +21,7 @@ public class WebAuthenticationSession: NSObject, ASWebAuthenticationPresentation
     var channelDelegate: WebAuthenticationSessionChannelDelegate?
     private var _canStart = true
     
-    public init(plugin: InAppWebViewFlutterPlugin, id: String, url: URL, callbackURLScheme: String?, settings: WebAuthenticationSessionSettings) {
+    public init(plugin: TalkjsInAppWebViewFlutterPlugin, id: String, url: URL, callbackURLScheme: String?, settings: WebAuthenticationSessionSettings) {
         self.id = id
         self.plugin = plugin
         self.url = url

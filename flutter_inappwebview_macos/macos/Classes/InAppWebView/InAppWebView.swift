@@ -13,10 +13,10 @@ public class InAppWebView: WKWebView, WKUIDelegate,
                             WKNavigationDelegate, WKScriptMessageHandler,
                             WKDownloadDelegate,
                             Disposable {
-    static var METHOD_CHANNEL_NAME_PREFIX = "com.pichillilorenzo/flutter_inappwebview_"
+    static var METHOD_CHANNEL_NAME_PREFIX = "com.talkjs/talkjs_flutter_inappwebview_"
 
     var id: Any? // viewId
-    var plugin: InAppWebViewFlutterPlugin?
+    var plugin: TalkjsInAppWebViewFlutterPlugin?
     var windowId: Int64?
     var windowCreated = false
     var windowBeforeCreatedCallbacks: [() -> ()] = []
@@ -50,7 +50,7 @@ public class InAppWebView: WKWebView, WKUIDelegate,
     
     fileprivate var interceptOnlyAsyncAjaxRequestsPluginScript: PluginScript?
     
-    init(id: Any?, plugin: InAppWebViewFlutterPlugin?, frame: CGRect, configuration: WKWebViewConfiguration,
+    init(id: Any?, plugin: TalkjsInAppWebViewFlutterPlugin?, frame: CGRect, configuration: WKWebViewConfiguration,
          userScripts: [UserScript] = []) {
         super.init(frame: frame, configuration: configuration)
         self.id = id

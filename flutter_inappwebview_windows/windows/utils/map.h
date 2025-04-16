@@ -1,12 +1,12 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_MAP_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_MAP_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_MAP_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_MAP_H_
 
 #include <algorithm>
 #include <iterator>
 #include <map>
 #include <optional>
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   template<typename T, typename U = void>
   struct is_mappish_impl : std::false_type { };
@@ -34,4 +34,4 @@ namespace flutter_inappwebview_plugin
   }
 }
 
-#endif //FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_MAP_H_
+#endif //TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_MAP_H_

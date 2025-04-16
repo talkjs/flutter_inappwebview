@@ -1,7 +1,7 @@
 #include "../utils/log.h"
 #include "headless_in_app_webview.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   using namespace Microsoft::WRL;
 

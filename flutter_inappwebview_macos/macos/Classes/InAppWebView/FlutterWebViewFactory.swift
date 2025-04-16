@@ -11,10 +11,10 @@ import FlutterMacOS
 import Foundation
 
 public class FlutterWebViewFactory: NSObject, FlutterPlatformViewFactory {
-    static let VIEW_TYPE_ID = "com.pichillilorenzo/flutter_inappwebview"
-    private var plugin: InAppWebViewFlutterPlugin
+    static let VIEW_TYPE_ID = "com.talkjs/talkjs_flutter_inappwebview"
+    private var plugin: TalkjsInAppWebViewFlutterPlugin
     
-    init(plugin: InAppWebViewFlutterPlugin) {
+    init(plugin: TalkjsInAppWebViewFlutterPlugin) {
         self.plugin = plugin
         super.init()
     }

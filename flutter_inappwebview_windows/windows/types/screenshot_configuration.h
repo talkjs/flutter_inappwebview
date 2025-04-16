@@ -8,7 +8,7 @@
 #include "../types/rect.h"
 #include "../utils/string.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   enum CompressFormat {
     png,

@@ -2,7 +2,7 @@ import FlutterMacOS
 import Cocoa
 import XCTest
 
-@testable import flutter_inappwebview_macos
+@testable import talkjs_flutter_inappwebview_macos
 
 // This demonstrates a simple unit test of the Swift portion of this plugin's implementation.
 //

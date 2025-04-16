@@ -58,8 +58,8 @@ class IOSWebAuthenticationSession extends PlatformWebAuthenticationSession
   @override
   late final WebAuthenticationSessionCompletionHandler onComplete;
 
-  static const MethodChannel _staticChannel = const MethodChannel(
-      'com.pichillilorenzo/flutter_webauthenticationsession');
+  static const MethodChannel _staticChannel =
+      const MethodChannel('com.talkjs/talkjs_flutter_webauthenticationsession');
 
   @override
   Future<IOSWebAuthenticationSession> create(
@@ -95,8 +95,8 @@ class IOSWebAuthenticationSession extends PlatformWebAuthenticationSession
 
     this.initialSettings =
         initialSettings ?? WebAuthenticationSessionSettings();
-    channel = MethodChannel(
-        'com.pichillilorenzo/flutter_webauthenticationsession_$id');
+    channel =
+        MethodChannel('com.talkjs/talkjs_flutter_webauthenticationsession_$id');
     handler = _handleMethod;
     initMethodCallHandler();
   }

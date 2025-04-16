@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_WEBVIEW_ENVIRONMENT_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_WEBVIEW_ENVIRONMENT_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_WEBVIEW_ENVIRONMENT_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_WEBVIEW_ENVIRONMENT_H_
 
 #include <functional>
 #include <WebView2.h>
@@ -9,13 +9,13 @@
 #include "webview_environment_channel_delegate.h"
 #include "webview_environment_settings.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   class WebViewEnvironment
   {
   public:
     static inline const wchar_t* CLASS_NAME = L"WebViewEnvironment";
-    static inline const std::string METHOD_CHANNEL_NAME_PREFIX = "com.pichillilorenzo/flutter_webview_environment_";
+    static inline const std::string METHOD_CHANNEL_NAME_PREFIX = "com.talkjs/talkjs_flutter_webview_environment_";
 
     const FlutterInappwebviewWindowsPlugin* plugin;
     std::string id;
@@ -45,4 +45,4 @@ namespace flutter_inappwebview_plugin
     WNDCLASS windowClass_ = {};
   };
 }
-#endif //FLUTTER_INAPPWEBVIEW_PLUGIN_WEBVIEW_ENVIRONMENT_H_
+#endif //TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_WEBVIEW_ENVIRONMENT_H_

@@ -13,11 +13,11 @@ import AVFoundation
 import SafariServices
 
 public class WebAuthenticationSessionManager: ChannelDelegate {
-    static let METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_webauthenticationsession"
-    var plugin: InAppWebViewFlutterPlugin?
+    static let METHOD_CHANNEL_NAME = "com.talkjs/talkjs_flutter_webauthenticationsession"
+    var plugin: TalkjsInAppWebViewFlutterPlugin?
     var sessions: [String: WebAuthenticationSession?] = [:]
     
-    init(plugin: InAppWebViewFlutterPlugin) {
+    init(plugin: TalkjsInAppWebViewFlutterPlugin) {
         super.init(channel: FlutterMethodChannel(name: WebAuthenticationSessionManager.METHOD_CHANNEL_NAME, binaryMessenger: plugin.registrar!.messenger))
         self.plugin = plugin
     }

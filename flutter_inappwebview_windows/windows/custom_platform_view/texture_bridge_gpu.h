@@ -4,7 +4,7 @@
 
 #include "texture_bridge.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   class TextureBridgeGpu : public TextureBridge {
   public:

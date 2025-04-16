@@ -4,10 +4,10 @@
 
 #include "flutter_inappwebview_windows_plugin.h"
 
-void FlutterInappwebviewWindowsPluginCApiRegisterWithRegistrar(
+void TalkjsFlutterInappwebviewWindowsPluginCApiRegisterWithRegistrar(
   FlutterDesktopPluginRegistrarRef registrar)
 {
-  flutter_inappwebview_plugin::FlutterInappwebviewWindowsPlugin::RegisterWithRegistrar(
+  talkjs_flutter_inappwebview_plugin::FlutterInappwebviewWindowsPlugin::RegisterWithRegistrar(
     flutter::PluginRegistrarManager::GetInstance()
     ->GetRegistrar<flutter::PluginRegistrarWindows>(registrar));
 }

@@ -1,7 +1,7 @@
 #include "../utils/flutter.h"
 #include "window_features.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   WindowFeatures::WindowFeatures(const std::optional<double>& width,
     const std::optional<double>& height,

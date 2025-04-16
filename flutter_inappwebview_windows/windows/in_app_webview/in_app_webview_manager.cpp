@@ -14,7 +14,7 @@
 #include "../webview_environment/webview_environment_manager.h"
 #include "in_app_webview_manager.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   InAppWebViewManager::InAppWebViewManager(const FlutterInappwebviewWindowsPlugin* plugin)
     : plugin(plugin),

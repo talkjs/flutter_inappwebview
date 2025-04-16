@@ -1,7 +1,7 @@
 #include "../utils/flutter.h"
 #include "web_resource_error.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   WebResourceError::WebResourceError(const std::string& description, const int64_t type)
     : description(description), type(type)

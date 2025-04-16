@@ -4,7 +4,7 @@
 
 #include <Shlwapi.h>
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   WebResourceResponse::WebResourceResponse(const std::optional<std::string>& contentType,
     const std::optional<std::string>& contentEncoding,

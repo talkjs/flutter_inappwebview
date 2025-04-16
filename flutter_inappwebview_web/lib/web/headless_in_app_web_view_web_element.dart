@@ -18,7 +18,7 @@ class HeadlessInAppWebViewWebElement extends ChannelController {
     this._messenger = messenger;
 
     channel = MethodChannel(
-      'com.pichillilorenzo/flutter_headless_inappwebview_${this.id}',
+      'com.talkjs/talkjs_flutter_headless_inappwebview_${this.id}',
       const StandardMethodCodec(),
       _messenger,
     );

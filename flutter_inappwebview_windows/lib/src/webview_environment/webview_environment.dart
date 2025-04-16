@@ -28,7 +28,7 @@ class WindowsWebViewEnvironmentCreationParams
 class WindowsWebViewEnvironment extends PlatformWebViewEnvironment
     with ChannelController {
   static final MethodChannel _staticChannel =
-      MethodChannel('com.pichillilorenzo/flutter_webview_environment');
+      MethodChannel('com.talkjs/talkjs_flutter_webview_environment');
 
   @override
   final String id = IdGenerator.generate();
@@ -79,7 +79,7 @@ class WindowsWebViewEnvironment extends PlatformWebViewEnvironment
     await _staticChannel.invokeMethod('create', args);
 
     env.channel =
-        MethodChannel('com.pichillilorenzo/flutter_webview_environment_$id');
+        MethodChannel('com.talkjs/talkjs_flutter_webview_environment_$id');
     env.handler = env.handleMethod;
     env.initMethodCallHandler();
     return env;

@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_STRING_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_STRING_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_STRING_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_STRING_H_
 
 #include <algorithm>
 #include <numeric>
@@ -9,7 +9,7 @@
 
 #include "strconv.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   template <typename T>
   struct is_string
@@ -190,4 +190,4 @@ namespace flutter_inappwebview_plugin
   }
 }
 
-#endif //FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_STRING_H_
+#endif //TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_STRING_H_

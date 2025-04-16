@@ -29,21 +29,21 @@ dependencies:
   pointer_interceptor: ^0.10.1+2
   # mime: ^1.0.4
   # connectivity: ^0.4.5+6
-  flutter_inappwebview:
+  talkjs_flutter_inappwebview:
     path: ../
 
 dependency_overrides:
   flutter_inappwebview_platform_interface:
     path: ../../flutter_inappwebview_platform_interface
-  flutter_inappwebview_android:
+  talkjs_flutter_inappwebview_android:
     path: ../../flutter_inappwebview_android
-  flutter_inappwebview_ios:
+  talkjs_flutter_inappwebview_ios:
     path: ../../flutter_inappwebview_ios
-  flutter_inappwebview_macos:
+  talkjs_flutter_inappwebview_macos:
     path: ../../flutter_inappwebview_macos
-  flutter_inappwebview_web:
+  talkjs_flutter_inappwebview_web:
     path: ../../flutter_inappwebview_web
-  flutter_inappwebview_windows:
+  talkjs_flutter_inappwebview_windows:
     path: ../../flutter_inappwebview_windows
 
 dev_dependencies:

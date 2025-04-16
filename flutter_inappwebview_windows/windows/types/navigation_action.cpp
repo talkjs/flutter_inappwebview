@@ -1,7 +1,7 @@
 #include "../utils/flutter.h"
 #include "navigation_action.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   NavigationAction::NavigationAction(std::shared_ptr<URLRequest> request, const bool& isForMainFrame,
     const std::optional<bool>& isRedirect, const std::optional<NavigationActionType>& navigationType)

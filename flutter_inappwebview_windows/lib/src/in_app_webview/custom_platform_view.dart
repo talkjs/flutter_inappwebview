@@ -127,9 +127,9 @@ class CustomPlatformViewController
         'createInAppWebView', arguments))!;
 
     _methodChannel =
-        MethodChannel('com.pichillilorenzo/custom_platform_view_$_textureId');
-    _eventChannel = EventChannel(
-        'com.pichillilorenzo/custom_platform_view_${_textureId}_events');
+        MethodChannel('com.talkjs/custom_platform_view_$_textureId');
+    _eventChannel =
+        EventChannel('com.talkjs/custom_platform_view_${_textureId}_events');
     _eventStreamSubscription =
         _eventChannel.receiveBroadcastStream().listen((event) {
       final map = event as Map<dynamic, dynamic>;

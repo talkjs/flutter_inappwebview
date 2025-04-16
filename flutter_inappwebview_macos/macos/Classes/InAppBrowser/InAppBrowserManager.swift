@@ -12,13 +12,13 @@ import Foundation
 import AVFoundation
 
 public class InAppBrowserManager: ChannelDelegate {
-    static let METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_inappbrowser"
+    static let METHOD_CHANNEL_NAME = "com.talkjs/talkjs_flutter_inappbrowser"
     static let WEBVIEW_STORYBOARD = "WebView"
     static let WEBVIEW_STORYBOARD_CONTROLLER_ID = "viewController"
     static let NAV_STORYBOARD_CONTROLLER_ID = "navController"
-    var plugin: InAppWebViewFlutterPlugin?
+    var plugin: TalkjsInAppWebViewFlutterPlugin?
     
-    init(plugin: InAppWebViewFlutterPlugin) {
+    init(plugin: TalkjsInAppWebViewFlutterPlugin) {
         super.init(channel: FlutterMethodChannel(name: InAppBrowserManager.METHOD_CHANNEL_NAME, binaryMessenger: plugin.registrar!.messenger))
         self.plugin = plugin
     }

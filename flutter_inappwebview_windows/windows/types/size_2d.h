@@ -1,12 +1,12 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_SIZE_2D_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_SIZE_2D_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_SIZE_2D_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_SIZE_2D_H_
 
 #include <flutter/standard_method_codec.h>
 #include <optional>
 
 #include "../utils/flutter.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   class Size2D
   {
@@ -31,4 +31,4 @@ namespace flutter_inappwebview_plugin
   };
 }
 
-#endif //FLUTTER_INAPPWEBVIEW_PLUGIN_SIZE_2D_H_
+#endif //TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_SIZE_2D_H_

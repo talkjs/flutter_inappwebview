@@ -9,10 +9,10 @@ import 'webview_environment/webview_environment.dart';
 import 'web_storage/web_storage.dart';
 
 /// Implementation of [InAppWebViewPlatform] using the WebKit API.
-class WindowsInAppWebViewPlatform extends InAppWebViewPlatform {
+class TalkjsWindowsInAppWebViewPlatform extends InAppWebViewPlatform {
   /// Registers this class as the default instance of [InAppWebViewPlatform].
   static void registerWith() {
-    InAppWebViewPlatform.instance = WindowsInAppWebViewPlatform();
+    InAppWebViewPlatform.instance = TalkjsWindowsInAppWebViewPlatform();
   }
 
   /// Creates a new [WindowsCookieManager].

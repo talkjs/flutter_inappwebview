@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_USER_SCRIPT_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_USER_SCRIPT_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_USER_SCRIPT_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_USER_SCRIPT_H_
 
 #include <flutter/standard_method_codec.h>
 #include <optional>
@@ -9,7 +9,7 @@
 #include "../utils/flutter.h"
 #include "content_world.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   enum UserScriptInjectionTime {
     atDocumentStart = 0,
@@ -37,4 +37,4 @@ namespace flutter_inappwebview_plugin
     ~UserScript();
   };
 }
-#endif //FLUTTER_INAPPWEBVIEW_PLUGIN_USER_SCRIPT_H_
+#endif //TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_USER_SCRIPT_H_

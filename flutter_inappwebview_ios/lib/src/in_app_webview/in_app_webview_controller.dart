@@ -96,7 +96,7 @@ class IOSInAppWebViewController extends PlatformInAppWebViewController
             ? params
             : IOSInAppWebViewControllerCreationParams
                 .fromPlatformInAppWebViewControllerCreationParams(params)) {
-    channel = MethodChannel('com.pichillilorenzo/flutter_inappwebview_$id');
+    channel = MethodChannel('com.talkjs/talkjs_flutter_inappwebview_$id');
     handler = handleMethod;
     initMethodCallHandler();
 
@@ -2714,11 +2714,11 @@ class IOSInAppWebViewController extends PlatformInAppWebViewController
 
   @override
   Future<String> get tRexRunnerHtml async => await rootBundle.loadString(
-      'packages/flutter_inappwebview/assets/t_rex_runner/t-rex.html');
+      'packages/talkjs_flutter_inappwebview/assets/t_rex_runner/t-rex.html');
 
   @override
   Future<String> get tRexRunnerCss async => await rootBundle.loadString(
-      'packages/flutter_inappwebview/assets/t_rex_runner/t-rex.css');
+      'packages/talkjs_flutter_inappwebview/assets/t_rex_runner/t-rex.css');
 
   @override
   dynamic getViewId() {

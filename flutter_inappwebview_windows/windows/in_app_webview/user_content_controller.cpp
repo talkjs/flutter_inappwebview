@@ -7,7 +7,7 @@
 #include "in_app_webview.h"
 #include "user_content_controller.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   using namespace Microsoft::WRL;
 

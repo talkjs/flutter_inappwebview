@@ -2,7 +2,7 @@
 
 #include "javascript_bridge_js.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   std::unique_ptr<PluginScript> createJavaScriptBridgePluginScript()
   {

@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_BROWSER_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_BROWSER_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_BROWSER_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_BROWSER_H_
 
 #include <optional>
 #include <string>
@@ -12,7 +12,7 @@
 #include "in_app_browser_channel_delegate.h"
 #include "in_app_browser_settings.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   struct InAppBrowserCreationParams
   {
@@ -28,7 +28,7 @@ namespace flutter_inappwebview_plugin
 
   class InAppBrowser {
   public:
-    static inline const std::string METHOD_CHANNEL_NAME_PREFIX = "com.pichillilorenzo/flutter_inappbrowser_";
+    static inline const std::string METHOD_CHANNEL_NAME_PREFIX = "com.talkjs/talkjs_flutter_inappbrowser_";
     static inline const wchar_t* CLASS_NAME = L"InAppBrowser";
 
     static LRESULT CALLBACK WndProc(HWND window,
@@ -68,4 +68,4 @@ namespace flutter_inappwebview_plugin
       LPARAM lparam) noexcept;
   };
 }
-#endif //FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_BROWSER_H_
+#endif //TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_BROWSER_H_

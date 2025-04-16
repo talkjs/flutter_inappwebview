@@ -12,7 +12,7 @@
 #include "in_app_browser_manager.h"
 #include "in_app_browser_settings.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   InAppBrowserManager::InAppBrowserManager(const FlutterInappwebviewWindowsPlugin* plugin)
     : plugin(plugin), ChannelDelegate(plugin->registrar->messenger(), InAppBrowserManager::METHOD_CHANNEL_NAME)

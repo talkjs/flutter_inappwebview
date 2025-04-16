@@ -10,7 +10,7 @@ import SafariServices
 
 @available(iOS 9.0, *)
 public class SafariViewController: SFSafariViewController, SFSafariViewControllerDelegate, Disposable {
-    static let METHOD_CHANNEL_NAME_PREFIX = "com.pichillilorenzo/flutter_chromesafaribrowser_"
+    static let METHOD_CHANNEL_NAME_PREFIX = "com.talkjs/talkjs_flutter_chromesafaribrowser_"
     var channelDelegate: SafariViewControllerChannelDelegate?
     var safariSettings: SafariBrowserSettings
     var id: String

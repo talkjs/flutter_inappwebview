@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_BROWSER_MANAGER_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_BROWSER_MANAGER_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_BROWSER_MANAGER_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_BROWSER_MANAGER_H_
 
 #include <flutter/method_channel.h>
 #include <flutter/standard_message_codec.h>
@@ -10,12 +10,12 @@
 #include "../types/channel_delegate.h"
 #include "in_app_browser.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   class InAppBrowserManager : public ChannelDelegate
   {
   public:
-    static inline const std::string METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_inappbrowser";
+    static inline const std::string METHOD_CHANNEL_NAME = "com.talkjs/talkjs_flutter_inappbrowser";
 
     const FlutterInappwebviewWindowsPlugin* plugin;
     std::map<std::string, std::unique_ptr<InAppBrowser>> browsers;
@@ -30,4 +30,4 @@ namespace flutter_inappwebview_plugin
     void createInAppBrowser(const flutter::EncodableMap* arguments);
   };
 }
-#endif //FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_BROWSER_MANAGER_H_
+#endif //TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_BROWSER_MANAGER_H_

@@ -16,7 +16,7 @@
 #include "../webview_environment/webview_environment_manager.h"
 #include "headless_in_app_webview_manager.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   HeadlessInAppWebViewManager::HeadlessInAppWebViewManager(const FlutterInappwebviewWindowsPlugin* plugin)
     : plugin(plugin),

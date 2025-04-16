@@ -4,7 +4,7 @@
 
 #include "util/direct3d11.interop.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   TextureBridgeGpu::TextureBridgeGpu(
     GraphicsContext* graphics_context,

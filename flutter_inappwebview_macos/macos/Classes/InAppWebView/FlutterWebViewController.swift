@@ -13,7 +13,7 @@ public class FlutterWebViewController: NSView, Disposable {
     
     var keepAliveId: String?
 
-    init(plugin: InAppWebViewFlutterPlugin, withFrame frame: CGRect, viewIdentifier viewId: Any, params: NSDictionary) {
+    init(plugin: TalkjsInAppWebViewFlutterPlugin, withFrame frame: CGRect, viewIdentifier viewId: Any, params: NSDictionary) {
         super.init(frame: frame)
         
         keepAliveId = params["keepAliveId"] as? String

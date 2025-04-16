@@ -10,7 +10,7 @@
 #include "texture_bridge_fallback.h"
 #endif
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   constexpr auto kErrorInvalidArgs = "invalidArguments";
 
@@ -116,7 +116,7 @@ namespace flutter_inappwebview_plugin
     flutter::TextureRegistrar* texture_registrar,
     GraphicsContext* graphics_context,
     HWND hwnd,
-    std::shared_ptr<flutter_inappwebview_plugin::InAppWebView> webView)
+    std::shared_ptr<talkjs_flutter_inappwebview_plugin::InAppWebView> webView)
     : hwnd_(hwnd), view(std::move(webView)), texture_registrar_(texture_registrar)
   {
 #ifdef HAVE_FLUTTER_D3D_TEXTURE
@@ -152,7 +152,7 @@ namespace flutter_inappwebview_plugin
     //  view->SetSurfaceSize(size.width, size.height);
     //});
 
-    const auto method_channel_name = "com.pichillilorenzo/custom_platform_view_" + std::to_string(texture_id_);
+    const auto method_channel_name = "com.talkjs/custom_platform_view_" + std::to_string(texture_id_);
     method_channel_ =
       std::make_unique<flutter::MethodChannel<flutter::EncodableValue>>(
         messenger, method_channel_name,
@@ -162,7 +162,7 @@ namespace flutter_inappwebview_plugin
         HandleMethodCall(call, std::move(result));
       });
 
-    const auto event_channel_name = "com.pichillilorenzo/custom_platform_view_" + std::to_string(texture_id_) + "_events";
+    const auto event_channel_name = "com.talkjs/custom_platform_view_" + std::to_string(texture_id_) + "_events";
     event_channel_ =
       std::make_unique<flutter::EventChannel<flutter::EncodableValue>>(
         messenger, event_channel_name,
@@ -261,7 +261,7 @@ namespace flutter_inappwebview_plugin
 
       if (pointer && event && x && y && size && pressure && view) {
         view->setPointerUpdate(*pointer,
-          static_cast<flutter_inappwebview_plugin::InAppWebViewPointerEventKind>(*event),
+          static_cast<talkjs_flutter_inappwebview_plugin::InAppWebViewPointerEventKind>(*event),
           *x, *y, *size, *pressure);
         return result->Success();
       }
@@ -289,7 +289,7 @@ namespace flutter_inappwebview_plugin
         const auto isDownValue = std::get_if<bool>(&isDown->second);
         if (buttonValue && isDownValue && view) {
           view->setPointerButtonState(
-            static_cast<flutter_inappwebview_plugin::InAppWebViewPointerButton>(*buttonValue), *isDownValue);
+            static_cast<talkjs_flutter_inappwebview_plugin::InAppWebViewPointerButton>(*buttonValue), *isDownValue);
           return result->Success();
         }
       }

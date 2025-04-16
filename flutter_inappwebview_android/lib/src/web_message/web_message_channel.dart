@@ -42,7 +42,7 @@ class AndroidWebMessageChannel extends PlatformWebMessageChannel
                   .fromPlatformWebMessageChannelCreationParams(params),
         ) {
     channel = MethodChannel(
-        'com.pichillilorenzo/flutter_inappwebview_web_message_channel_${params.id}');
+        'com.talkjs/talkjs_flutter_inappwebview_web_message_channel_${params.id}');
     handler = _handleMethod;
     initMethodCallHandler();
   }

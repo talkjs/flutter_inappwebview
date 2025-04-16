@@ -285,7 +285,7 @@ class WebPlatformInAppWebViewWidget extends PlatformInAppWebViewWidget {
     }
 
     return HtmlElementView(
-      viewType: 'com.pichillilorenzo/flutter_inappwebview',
+      viewType: 'com.talkjs/talkjs_flutter_inappwebview',
       onPlatformViewCreated: (int viewId) {
         var webViewHtmlElement = WebPlatformManager.webViews[viewId]!;
         webViewHtmlElement.initialSettings = initialSettings;

@@ -254,7 +254,7 @@ class MacOSHeadlessInAppWebView extends PlatformHeadlessInAppWebView
   bool _running = false;
 
   static const MethodChannel _sharedChannel =
-      const MethodChannel('com.pichillilorenzo/flutter_headless_inappwebview');
+      const MethodChannel('com.talkjs/talkjs_flutter_headless_inappwebview');
 
   MacOSInAppWebViewController? _webViewController;
 
@@ -286,7 +286,7 @@ class MacOSHeadlessInAppWebView extends PlatformHeadlessInAppWebView
             _webViewController!;
     _macosParams.findInteractionController?.init(id);
     channel =
-        MethodChannel('com.pichillilorenzo/flutter_headless_inappwebview_$id');
+        MethodChannel('com.talkjs/talkjs_flutter_headless_inappwebview_$id');
     handler = _handleMethod;
     initMethodCallHandler();
   }

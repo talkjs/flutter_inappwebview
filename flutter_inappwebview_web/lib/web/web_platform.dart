@@ -13,11 +13,11 @@ import 'platform_util.dart';
 /// Builds an iframe based WebView.
 ///
 /// This is used as the default implementation for `WebView` on web.
-class InAppWebViewFlutterPlugin {
-  /// Constructs a new instance of [InAppWebViewFlutterPlugin].
-  InAppWebViewFlutterPlugin(Registrar registrar) {
+class TalkjsInAppWebViewFlutterPlugin {
+  /// Constructs a new instance of [TalkjsInAppWebViewFlutterPlugin].
+  TalkjsInAppWebViewFlutterPlugin(Registrar registrar) {
     ui_web.platformViewRegistry.registerViewFactory(
-        'com.pichillilorenzo/flutter_inappwebview', (int viewId) {
+        'com.talkjs/talkjs_flutter_inappwebview', (int viewId) {
       var webView =
           InAppWebViewWebElement(viewId: viewId, messenger: registrar);
       WebPlatformManager.webViews.putIfAbsent(viewId, () => webView);
@@ -28,7 +28,7 @@ class InAppWebViewFlutterPlugin {
   static void registerWith(Registrar registrar) {
     WebPlatformInAppWebViewPlatform.registerWith();
     // ignore: unused_local_variable
-    final pluginInstance = InAppWebViewFlutterPlugin(registrar);
+    final pluginInstance = TalkjsInAppWebViewFlutterPlugin(registrar);
     // ignore: unused_local_variable
     final platformUtil = PlatformUtil(messenger: registrar);
     // ignore: unused_local_variable

@@ -11,13 +11,13 @@ import WebKit
 import Foundation
 
 public class InAppBrowserWebViewController: NSViewController, InAppBrowserDelegate, Disposable {
-    static var METHOD_CHANNEL_NAME_PREFIX = "com.pichillilorenzo/flutter_inappbrowser_";
+    static var METHOD_CHANNEL_NAME_PREFIX = "com.talkjs/talkjs_flutter_inappbrowser_";
 
     var progressBar: NSProgressIndicator!
     
     var window: InAppBrowserWindow?
     var id: String = ""
-    var plugin: InAppWebViewFlutterPlugin?
+    var plugin: TalkjsInAppWebViewFlutterPlugin?
     var windowId: Int64?
     var webView: InAppWebView?
     var channelDelegate: InAppBrowserChannelDelegate?

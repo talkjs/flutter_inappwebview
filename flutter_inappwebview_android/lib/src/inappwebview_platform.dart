@@ -18,10 +18,10 @@ import 'webview_asset_loader.dart';
 import 'webview_feature.dart' as wv;
 
 /// Implementation of [InAppWebViewPlatform] using the WebView API.
-class AndroidInAppWebViewPlatform extends InAppWebViewPlatform {
+class TalkjsAndroidInAppWebView extends InAppWebViewPlatform {
   /// Registers this class as the default instance of [InAppWebViewPlatform].
   static void registerWith() {
-    InAppWebViewPlatform.instance = AndroidInAppWebViewPlatform();
+    InAppWebViewPlatform.instance = TalkjsAndroidInAppWebView();
   }
 
   /// Creates a new [AndroidCookieManager].

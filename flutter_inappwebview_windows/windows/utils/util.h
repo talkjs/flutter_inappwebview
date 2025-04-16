@@ -1,12 +1,12 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_H_
 
 #include <optional>
 #include <string>
 #include <variant>
 #include <Windows.h>
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   template<typename T>
   static inline std::optional<T> make_pointer_optional(const T* value)
@@ -35,4 +35,4 @@ namespace flutter_inappwebview_plugin
   }
 }
 
-#endif //FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_H_
+#endif //TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_H_

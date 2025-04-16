@@ -1,11 +1,11 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_BASE_CALLBACK_RESULT_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_BASE_CALLBACK_RESULT_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_BASE_CALLBACK_RESULT_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_BASE_CALLBACK_RESULT_H_
 
 #include <flutter/method_result_functions.h>
 #include <flutter/standard_method_codec.h>
 #include <optional>
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   template <typename T>
   class BaseCallbackResult : public flutter::MethodResultFunctions<flutter::EncodableValue>
@@ -54,4 +54,4 @@ namespace flutter_inappwebview_plugin
   };
 }
 
-#endif //FLUTTER_INAPPWEBVIEW_PLUGIN_BASE_CALLBACK_RESULT_H_
+#endif //TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_BASE_CALLBACK_RESULT_H_

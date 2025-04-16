@@ -20,7 +20,7 @@ namespace Windows {
   }  // namespace Graphics
 }  // namespace Windows
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
 
   HRESULT CreateDirect3D11DeviceFromDXGIDevice(IDXGIDevice* dxgiDevice,

@@ -9,10 +9,10 @@ import Foundation
 import FlutterMacOS
 
 public class PlatformUtil: ChannelDelegate {
-    static let METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_inappwebview_platformutil"
-    var plugin: InAppWebViewFlutterPlugin?
+    static let METHOD_CHANNEL_NAME = "com.talkjs/talkjs_flutter_inappwebview_platformutil"
+    var plugin: TalkjsInAppWebViewFlutterPlugin?
     
-    init(plugin: InAppWebViewFlutterPlugin) {
+    init(plugin: TalkjsInAppWebViewFlutterPlugin) {
         super.init(channel: FlutterMethodChannel(name: PlatformUtil.METHOD_CHANNEL_NAME, binaryMessenger: plugin.registrar!.messenger))
         self.plugin = plugin
     }

@@ -249,7 +249,7 @@ class WebPlatformHeadlessInAppWebView extends PlatformHeadlessInAppWebView
   bool _running = false;
 
   static const MethodChannel _sharedChannel =
-      const MethodChannel('com.pichillilorenzo/flutter_headless_inappwebview');
+      const MethodChannel('com.talkjs/talkjs_flutter_headless_inappwebview');
 
   WebPlatformInAppWebViewController? _webViewController;
 
@@ -283,7 +283,7 @@ class WebPlatformHeadlessInAppWebView extends PlatformHeadlessInAppWebView
         params.controllerFromPlatform?.call(_webViewController!) ??
             _webViewController!;
     channel =
-        MethodChannel('com.pichillilorenzo/flutter_headless_inappwebview_$id');
+        MethodChannel('com.talkjs/talkjs_flutter_headless_inappwebview_$id');
     handler = _handleMethod;
     initMethodCallHandler();
   }

@@ -1,6 +1,6 @@
 #include "rect.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   Rect::Rect(const double& x, const double& y, const double& width, const double& height)
     : x(x), y(y), width(width), height(height)

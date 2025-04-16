@@ -316,7 +316,7 @@ class AndroidInAppWebViewWidget extends PlatformInAppWebViewWidget {
 
     return PlatformViewLink(
       key: params.key,
-      viewType: 'com.pichillilorenzo/flutter_inappwebview',
+      viewType: 'com.talkjs/talkjs_flutter_inappwebview',
       surfaceFactory: (
         BuildContext context,
         PlatformViewController controller,
@@ -332,7 +332,7 @@ class AndroidInAppWebViewWidget extends PlatformInAppWebViewWidget {
         return _createAndroidViewController(
           hybridComposition: useHybridComposition,
           id: params.id,
-          viewType: 'com.pichillilorenzo/flutter_inappwebview',
+          viewType: 'com.talkjs/talkjs_flutter_inappwebview',
           layoutDirection: this.params.layoutDirection ??
               Directionality.maybeOf(context) ??
               TextDirection.rtl,

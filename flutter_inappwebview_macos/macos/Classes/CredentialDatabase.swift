@@ -9,11 +9,11 @@ import Foundation
 import FlutterMacOS
 
 public class CredentialDatabase: ChannelDelegate {
-    static let METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_inappwebview_credential_database"
-    var plugin: InAppWebViewFlutterPlugin?
+    static let METHOD_CHANNEL_NAME = "com.talkjs/talkjs_flutter_inappwebview_credential_database"
+    var plugin: TalkjsInAppWebViewFlutterPlugin?
     static var credentialStore = URLCredentialStorage.shared
 
-    init(plugin: InAppWebViewFlutterPlugin) {
+    init(plugin: TalkjsInAppWebViewFlutterPlugin) {
         super.init(channel: FlutterMethodChannel(name: CredentialDatabase.METHOD_CHANNEL_NAME, binaryMessenger: plugin.registrar!.messenger))
         self.plugin = plugin
     }

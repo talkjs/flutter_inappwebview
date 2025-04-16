@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_FLUTTER_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_FLUTTER_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_FLUTTER_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_FLUTTER_H_
 
 #include <flutter/encodable_value.h>
 
@@ -7,7 +7,7 @@
 #include "util.h"
 #include "vector.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   static inline flutter::EncodableValue make_fl_value()
   {
@@ -194,4 +194,4 @@ namespace flutter_inappwebview_plugin
   }
 }
 
-#endif //FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_FLUTTER_H_
+#endif //TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_FLUTTER_H_

@@ -301,7 +301,7 @@ class MacOSInAppWebViewWidget extends PlatformInAppWebViewWidget {
     }
 
     return AppKitView(
-      viewType: 'com.pichillilorenzo/flutter_inappwebview',
+      viewType: 'com.talkjs/talkjs_flutter_inappwebview',
       onPlatformViewCreated: _onPlatformViewCreated,
       gestureRecognizers: params.gestureRecognizers,
       creationParams: <String, dynamic>{

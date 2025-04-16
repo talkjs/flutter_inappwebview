@@ -38,7 +38,7 @@ class AndroidServiceWorkerController extends PlatformServiceWorkerController
                   .fromPlatformServiceWorkerControllerCreationParams(params),
         ) {
     channel = const MethodChannel(
-        'com.pichillilorenzo/flutter_inappwebview_serviceworkercontroller');
+        'com.talkjs/talkjs_flutter_inappwebview_serviceworkercontroller');
     handler = handleMethod;
     initMethodCallHandler();
   }

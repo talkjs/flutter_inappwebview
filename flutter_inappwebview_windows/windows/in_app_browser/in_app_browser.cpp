@@ -6,7 +6,7 @@
 #include "in_app_browser.h"
 #include "in_app_browser_manager.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   InAppBrowser::InAppBrowser(const FlutterInappwebviewWindowsPlugin* plugin, const InAppBrowserCreationParams& params)
     : plugin(plugin),

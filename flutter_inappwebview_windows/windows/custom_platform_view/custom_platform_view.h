@@ -11,19 +11,19 @@
 #include "graphics_context.h"
 #include "texture_bridge.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   class CustomPlatformView {
   public:
     static inline const wchar_t* CLASS_NAME = L"CustomPlatformView";
 
-    std::shared_ptr<flutter_inappwebview_plugin::InAppWebView> view;
+    std::shared_ptr<talkjs_flutter_inappwebview_plugin::InAppWebView> view;
 
     CustomPlatformView(flutter::BinaryMessenger* messenger,
       flutter::TextureRegistrar* texture_registrar,
       GraphicsContext* graphics_context,
       HWND hwnd,
-      std::shared_ptr<flutter_inappwebview_plugin::InAppWebView> webView);
+      std::shared_ptr<talkjs_flutter_inappwebview_plugin::InAppWebView> webView);
     ~CustomPlatformView();
 
     TextureBridge* texture_bridge() const { return texture_bridge_.get(); }

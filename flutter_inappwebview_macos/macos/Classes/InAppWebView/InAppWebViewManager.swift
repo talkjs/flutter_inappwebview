@@ -10,8 +10,8 @@ import WebKit
 import FlutterMacOS
 
 public class InAppWebViewManager: ChannelDelegate {
-    static let METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_inappwebview_manager"
-    var plugin: InAppWebViewFlutterPlugin?
+    static let METHOD_CHANNEL_NAME = "com.talkjs/talkjs_flutter_inappwebview_manager"
+    var plugin: TalkjsInAppWebViewFlutterPlugin?
     var webViewForUserAgent: WKWebView?
     var defaultUserAgent: String?
     
@@ -19,7 +19,7 @@ public class InAppWebViewManager: ChannelDelegate {
     var windowWebViews: [Int64:WebViewTransport] = [:]
     var windowAutoincrementId: Int64 = 0
     
-    init(plugin: InAppWebViewFlutterPlugin) {
+    init(plugin: TalkjsInAppWebViewFlutterPlugin) {
         super.init(channel: FlutterMethodChannel(name: InAppWebViewManager.METHOD_CHANNEL_NAME, binaryMessenger: plugin.registrar!.messenger))
         self.plugin = plugin
     }

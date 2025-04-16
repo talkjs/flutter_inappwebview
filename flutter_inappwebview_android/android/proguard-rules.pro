@@ -8,12 +8,12 @@
     public boolean *(android.webkit.WebView, java.lang.String);
     public void *(android.webkit.webView, jav.lang.String);
 }
--keepclassmembers class com.pichillilorenzo.flutter_inappwebview_android$JavaScriptBridgeInterface {
+-keepclassmembers class com.talkjs.talkjs_flutter_inappwebview$JavaScriptBridgeInterface {
      <fields>;
      <methods>;
      public *;
      private *;
 }
--keep class com.pichillilorenzo.flutter_inappwebview_android.** { *; }
+-keep class com.talkjs.talkjs_flutter_inappwebview.** { *; }
 
 -dontwarn android.window.BackEvent

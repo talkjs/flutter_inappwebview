@@ -2,7 +2,7 @@
 #include "../utils/strconv.h"
 #include "custom_scheme_registration.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   CustomSchemeRegistration::CustomSchemeRegistration(const std::string& scheme, const std::optional<std::vector<std::string>>& allowedOrigins,
     const std::optional<bool>& treatAsSecure, const std::optional<bool>& hasAuthorityComponent)

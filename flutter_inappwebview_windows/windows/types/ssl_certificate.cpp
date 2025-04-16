@@ -1,7 +1,7 @@
 #include "../utils/flutter.h"
 #include "ssl_certificate.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   SslCertificate::SslCertificate(std::string x509Certificate)
     : x509Certificate(x509Certificate)

@@ -1,7 +1,7 @@
 #include "../utils/flutter.h"
 #include "webview_environment_settings.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   WebViewEnvironmentSettings::WebViewEnvironmentSettings(const flutter::EncodableMap& map)
     : browserExecutableFolder(get_optional_fl_map_value<std::string>(map, "browserExecutableFolder")),

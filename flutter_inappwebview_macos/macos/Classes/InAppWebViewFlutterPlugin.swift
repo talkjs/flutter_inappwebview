@@ -23,7 +23,7 @@ import Foundation
 import AVFoundation
 import SafariServices
 
-public class InAppWebViewFlutterPlugin: NSObject, FlutterPlugin {
+public class TalkjsInAppWebViewFlutterPlugin: NSObject, FlutterPlugin {
     
     var registrar: FlutterPluginRegistrar?
     var platformUtil: PlatformUtil?
@@ -58,7 +58,7 @@ public class InAppWebViewFlutterPlugin: NSObject, FlutterPlugin {
     }
     
     public static func register(with registrar: FlutterPluginRegistrar) {
-        let _ = InAppWebViewFlutterPlugin(with: registrar)
+        let _ = TalkjsInAppWebViewFlutterPlugin(with: registrar)
     }
     
     public func detachFromEngine(for registrar: FlutterPluginRegistrar) {

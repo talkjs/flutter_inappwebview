@@ -13,10 +13,10 @@ import 'web_storage/main.dart';
 import 'web_authentication_session/main.dart';
 
 /// Implementation of [InAppWebViewPlatform] using the WebKit API.
-class IOSInAppWebViewPlatform extends InAppWebViewPlatform {
+class TalkjsIOSInAppWebViewPlatform extends InAppWebViewPlatform {
   /// Registers this class as the default instance of [InAppWebViewPlatform].
   static void registerWith() {
-    InAppWebViewPlatform.instance = IOSInAppWebViewPlatform();
+    InAppWebViewPlatform.instance = TalkjsIOSInAppWebViewPlatform();
   }
 
   /// Creates a new [IOSCookieManager].

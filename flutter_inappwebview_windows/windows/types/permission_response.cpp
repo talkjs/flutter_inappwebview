@@ -1,6 +1,6 @@
 #include "permission_response.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   PermissionResponse::PermissionResponse(const std::optional<std::vector<int64_t>>& resources, const std::optional<PermissionResponseActionType>& action)
     : resources(resources), action(action)

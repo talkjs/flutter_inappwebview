@@ -10,7 +10,7 @@
 
 #include "flutter_inappwebview_windows_plugin.h"
 
-namespace flutter_inappwebview_windows {
+namespace talkjs_flutter_inappwebview_windows {
 namespace test {
 
 namespace {
@@ -40,4 +40,4 @@ TEST(FlutterInappwebviewWindowsPlugin, GetPlatformVersion) {
 }
 
 }  // namespace test
-}  // namespace flutter_inappwebview_windows
+}  // namespace talkjs_flutter_inappwebview_windows

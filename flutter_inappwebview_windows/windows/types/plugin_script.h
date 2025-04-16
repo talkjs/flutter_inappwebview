@@ -1,9 +1,9 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_PLUGIN_SCRIPT_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_PLUGIN_SCRIPT_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_PLUGIN_SCRIPT_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_PLUGIN_SCRIPT_H_
 
 #include "user_script.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   class PluginScript : public UserScript
   {
@@ -30,4 +30,4 @@ namespace flutter_inappwebview_plugin
     bool requiredInAllContentWorlds_;
   };
 }
-#endif //FLUTTER_INAPPWEBVIEW_PLUGIN_PLUGIN_SCRIPT_H_
+#endif //TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_PLUGIN_SCRIPT_H_

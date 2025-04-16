@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_LOG_UTIL_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_LOG_UTIL_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_LOG_UTIL_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_LOG_UTIL_H_
 
 #include <comdef.h>
 #include <iostream>
@@ -9,7 +9,7 @@
 #include "strconv.h"
 #include "string.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   template <typename T>
   static inline void debugLog(const std::basic_string<T>& msg, const bool& isError = false, const std::string& filename = "", const int& line = 0)
@@ -100,4 +100,4 @@ namespace flutter_inappwebview_plugin
 #define failedLog(value) failedLog(value, __FILE__, __LINE__)
 #endif
 
-#endif //FLUTTER_INAPPWEBVIEW_PLUGIN_LOG_UTIL_H_
+#endif //TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_LOG_UTIL_H_

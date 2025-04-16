@@ -9,7 +9,7 @@ import Foundation
 import Flutter
 
 public class FindInteractionController: NSObject, Disposable {
-    static let METHOD_CHANNEL_NAME_PREFIX = "com.pichillilorenzo/flutter_inappwebview_find_interaction_"
+    static let METHOD_CHANNEL_NAME_PREFIX = "com.talkjs/talkjs_flutter_inappwebview_find_interaction_"
 
     var webView: InAppWebView?
     var channelDelegate: FindInteractionChannelDelegate?

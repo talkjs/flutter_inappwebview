@@ -10,8 +10,8 @@ import FlutterMacOS
 
 public class FindInteractionController: NSObject, Disposable {
     
-    static var METHOD_CHANNEL_NAME_PREFIX = "com.pichillilorenzo/flutter_inappwebview_find_interaction_";
-    var plugin: InAppWebViewFlutterPlugin?
+    static var METHOD_CHANNEL_NAME_PREFIX = "com.talkjs/talkjs_flutter_inappwebview_find_interaction_";
+    var plugin: TalkjsInAppWebViewFlutterPlugin?
     var webView: InAppWebView?
     var channelDelegate: FindInteractionChannelDelegate?
     var settings: FindInteractionSettings?
@@ -19,7 +19,7 @@ public class FindInteractionController: NSObject, Disposable {
     var searchText: String?
     var activeFindSession: FindSession?
     
-    public init(plugin: InAppWebViewFlutterPlugin, id: Any, webView: InAppWebView, settings: FindInteractionSettings?) {
+    public init(plugin: TalkjsInAppWebViewFlutterPlugin, id: Any, webView: InAppWebView, settings: FindInteractionSettings?) {
         super.init()
         self.plugin = plugin
         self.webView = webView

@@ -1,7 +1,7 @@
 #include "../utils/vector.h"
 #include "web_history.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   WebHistory::WebHistory(const std::optional<int64_t> currentIndex, const std::optional<std::vector<std::shared_ptr<WebHistoryItem>>>& list)
     : currentIndex(currentIndex), list(list)

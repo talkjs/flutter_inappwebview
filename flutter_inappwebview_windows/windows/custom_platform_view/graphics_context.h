@@ -7,7 +7,7 @@
 
 #include "util/rohelper.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   class GraphicsContext {
   public:

@@ -1,11 +1,11 @@
-#include "../utils/flutter.h"
+k#include "../utils/flutter.h"
 #include "../utils/log.h"
 #include "../utils/string.h"
 #include "in_app_browser_settings.h"
 
 #include "in_app_browser.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   namespace
   {

@@ -2,7 +2,7 @@
 #include "../utils/map.h"
 #include "screenshot_configuration.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   CompressFormat CompressFormatFromString(const std::string& compressFormat)
   {
