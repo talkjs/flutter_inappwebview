@@ -317,6 +317,8 @@ class IOSInAppWebViewWidget extends PlatformInAppWebViewWidget {
         'initialSettings': settingsMap,
         'contextMenu': params.contextMenu?.toMap() ?? {},
         'windowId': params.windowId,
+        'keyboardAppearanceDark':
+            MediaQuery.platformBrightnessOf(context) == Brightness.dark,
         'headlessWebViewId': params.headlessWebView?.isRunning() ?? false
             ? params.headlessWebView?.id
             : null,
