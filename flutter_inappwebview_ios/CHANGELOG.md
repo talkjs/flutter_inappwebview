@@ -1,3 +1,7 @@
+## 1.1.2+2
+
+- (TalkJS): Fix build issue
+
 ## 1.1.2+1
 
 - (TalkJS): Forked the library and published as an unlisted package
