@@ -1,3 +1,7 @@
+## 6.1.5+2
+
+- (TalkJS): Fix dependency versioning.
+
 ## 6.1.5+1
 
 - (TalkJS): Sync fork with upstream. Specifically the latest non beta release by April 2025: v6.1.5
