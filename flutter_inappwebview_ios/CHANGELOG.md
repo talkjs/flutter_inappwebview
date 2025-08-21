@@ -1,3 +1,9 @@
+## 1.1.2+3
+
+- (TalkJS): Fix webview shifting down on iOS when changing focus between two input fields
+  See: https://github.com/pichillilorenzo/flutter_inappwebview/commit/e0ffc3e830f97e632164504726efe864772a8f1c#diff-cbec57d565acb743f8348ad0c7da9c711164d0b62307b1a090353f47f2dabd3a
+  and https://github.com/pichillilorenzo/flutter_inappwebview/issues/1947
+
 ## 1.1.2+2
 
 - (TalkJS): Fix build issue
