@@ -1,3 +1,9 @@
+## 6.1.5+3
+
+- (TalkJS): Bump version number for `talkjs_flutter_inappwebview_ios`.
+  The update includes a fix to an issue on iOS where the webview would shift down when the user
+  switches focus between two input fields.
+
 ## 6.1.5+2
 
 - (TalkJS): Fix dependency versioning.
