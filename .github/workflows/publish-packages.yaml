@@ -1,0 +1,57 @@
+name: Publish packages
+
+on:
+  push:
+    tags:
+      # must align with the tag-pattern configured on pub.dev
+      # The pattern used for every package below is: '{{package_name}}-v{{version}}'
+      # where {{package_name}} and {{version}} are what we have in their respective pubspec.yaml files.
+      - 'talkjs_flutter_inappwebview-v[0-9]+.[0-9]+.[0-9]+\+[0-9]+'
+      - 'talkjs_flutter_inappwebview_android-v[0-9]+.[0-9]+.[0-9]+\+[0-9]+'
+      - 'talkjs_flutter_inappwebview_ios-v[0-9]+.[0-9]+.[0-9]+\+[0-9]+'
+      - 'talkjs_flutter_inappwebview_macos-v[0-9]+.[0-9]+.[0-9]+\+[0-9]+'
+      - 'talkjs_flutter_inappwebview_web-v[0-9]+.[0-9]+.[0-9]+\+[0-9]+'
+      - 'talkjs_flutter_inappwebview_windows-v[0-9]+.[0-9]+.[0-9]+\+[0-9]+'
+
+jobs:
+  publish-main-package:
+    name: talkjs_flutter_inappwebview
+    uses: ./.github/workflows/publish.yaml
+    if: startsWith(github.ref_name, 'talkjs_flutter_inappwebview-v')
+    with:
+      working-directory: flutter_inappwebview
+
+  publish-android-package:
+    name: talkjs_flutter_inappwebview_android
+    uses: ./.github/workflows/publish.yaml
+    if: startsWith(github.ref_name, 'talkjs_flutter_inappwebview_android-v')
+    with:
+      working-directory: flutter_inappwebview_android
+
+  publish-ios-package:
+    name: talkjs_flutter_inappwebview_ios
+    uses: ./.github/workflows/publish.yaml
+    if: startsWith(github.ref_name, 'talkjs_flutter_inappwebview_ios-v')
+    with:
+      working-directory: flutter_inappwebview_ios
+
+  publish-macos-package:
+    name: talkjs_flutter_inappwebview_macos
+    uses: ./.github/workflows/publish.yaml
+    if: startsWith(github.ref_name, 'talkjs_flutter_inappwebview_macos-v')
+    with:
+      working-directory: flutter_inappwebview_macos
+
+  publish-web-package:
+    name: talkjs_flutter_inappwebview_web
+    uses: ./.github/workflows/publish.yaml
+    if: startsWith(github.ref_name, 'talkjs_flutter_inappwebview_web-v')
+    with:
+      working-directory: flutter_inappwebview_web
+
+  publish-windows-package:
+    name: talkjs_flutter_inappwebview_windows
+    uses: ./.github/workflows/publish.yaml
+    if: startsWith(github.ref_name, 'talkjs_flutter_inappwebview_windows-v')
+    with:
+      working-directory: flutter_inappwebview_windows
