@@ -1,22 +1,35 @@
 package com.talkjs.talkjs_flutter_inappwebview.plugin_scripts_js;
 
+import androidx.annotation.Nullable;
+
 import com.talkjs.talkjs_flutter_inappwebview.types.PluginScript;
 import com.talkjs.talkjs_flutter_inappwebview.types.UserScriptInjectionTime;
 
+import java.util.Set;
+
 public class OnWindowBlurEventJS {
   public static final String ON_WINDOW_BLUR_EVENT_JS_PLUGIN_SCRIPT_GROUP_NAME = "IN_APP_WEBVIEW_ON_WINDOW_BLUR_EVENT_JS_PLUGIN_SCRIPT";
-  public static final PluginScript ON_WINDOW_BLUR_EVENT_JS_PLUGIN_SCRIPT = new PluginScript(
-          OnWindowBlurEventJS.ON_WINDOW_BLUR_EVENT_JS_PLUGIN_SCRIPT_GROUP_NAME,
-          OnWindowBlurEventJS.ON_WINDOW_BLUR_EVENT_JS_SOURCE,
-          UserScriptInjectionTime.AT_DOCUMENT_START,
-          null,
-          false,
-          null
-  );
 
-  public static final String ON_WINDOW_BLUR_EVENT_JS_SOURCE = "(function(){" +
-          "  window.addEventListener('blur', function(e) {" +
-          "    window." + JavaScriptBridgeJS.JAVASCRIPT_BRIDGE_NAME + ".callHandler('onWindowBlur');" +
-          "  });" +
-          "})();";
+  // This plugin is only for main frame
+  public static PluginScript ON_WINDOW_BLUR_EVENT_JS_PLUGIN_SCRIPT(@Nullable Set<String> allowedOriginRules) {
+    return
+            new PluginScript(
+                    OnWindowBlurEventJS.ON_WINDOW_BLUR_EVENT_JS_PLUGIN_SCRIPT_GROUP_NAME,
+                    OnWindowBlurEventJS.ON_WINDOW_BLUR_EVENT_JS_SOURCE(),
+                    UserScriptInjectionTime.AT_DOCUMENT_START,
+                    null,
+                    false,
+                    allowedOriginRules,
+                    true
+            );
+  }
+
+  public static String ON_WINDOW_BLUR_EVENT_JS_SOURCE() {
+    return
+            "(function(){" +
+                    "  window.addEventListener('blur', function(e) {" +
+                    "    window." + JavaScriptBridgeJS.get_JAVASCRIPT_BRIDGE_NAME() + ".callHandler('onWindowBlur');" +
+                    "  });" +
+                    "})();";
+  }
 }

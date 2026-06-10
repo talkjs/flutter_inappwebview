@@ -10,7 +10,7 @@
 
 namespace talkjs_flutter_inappwebview_plugin
 {
-  enum CompressFormat {
+  enum class CompressFormat {
     png,
     jpeg,
     webp

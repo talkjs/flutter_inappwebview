@@ -16,6 +16,7 @@ import androidx.webkit.WebViewCompat;
 import androidx.webkit.WebViewFeature;
 
 import com.talkjs.talkjs_flutter_inappwebview.TalkjsInAppWebViewFlutterPlugin;
+import com.talkjs.talkjs_flutter_inappwebview.plugin_scripts_js.JavaScriptBridgeJS;
 import com.talkjs.talkjs_flutter_inappwebview.types.ChannelDelegateImpl;
 import com.talkjs.talkjs_flutter_inappwebview.webview.in_app_webview.FlutterWebView;
 
@@ -162,6 +163,23 @@ public class InAppWebViewManager extends ChannelDelegateImpl {
         }
         result.success(true);
         break;
+      case "enableSlowWholeDocumentDraw":
+        {
+          if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            WebView.enableSlowWholeDocumentDraw();
+          }
+        }
+        result.success(true);
+        break;
+      case "setJavaScriptBridgeName":
+        JavaScriptBridgeJS.set_JAVASCRIPT_BRIDGE_NAME((String) call.argument("bridgeName"));
+        result.success(true);
+        break;
+      case "getJavaScriptBridgeName":
+        {
+          result.success(JavaScriptBridgeJS.get_JAVASCRIPT_BRIDGE_NAME());
+        }
+        break;
       default:
         result.notImplemented();
     }
@@ -207,9 +225,11 @@ public class InAppWebViewManager extends ChannelDelegateImpl {
     super.dispose();
     Collection<FlutterWebView> flutterWebViews = keepAliveWebViews.values();
     for (FlutterWebView flutterWebView : flutterWebViews) {
-      String keepAliveId = flutterWebView.keepAliveId;
-      if (keepAliveId != null) {
-        disposeKeepAlive(flutterWebView.keepAliveId);
+      if (flutterWebView != null) {
+        String keepAliveId = flutterWebView.keepAliveId;
+        if (keepAliveId != null) {
+          disposeKeepAlive(keepAliveId);
+        }
       }
     }
     keepAliveWebViews.clear();
