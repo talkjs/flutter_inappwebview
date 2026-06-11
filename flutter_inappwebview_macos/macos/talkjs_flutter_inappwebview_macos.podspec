@@ -14,9 +14,9 @@ A new Flutter plugin project.
   s.author           = { 'Your Company' => 'email@example.com' }
 
   s.source           = { :path => '.' }
-  s.source_files     = 'flutter_inappwebview_macos/Sources/flutter_inappwebview_macos/**/*.swift'
+  s.source_files     = 'talkjs_flutter_inappwebview_macos/Sources/talkjs_flutter_inappwebview_macos/**/*.swift'
   s.dependency 'FlutterMacOS'
-  s.resource_bundles = {'talkjs_flutter_inappwebview_macos_privacy' => ['flutter_inappwebview_macos/Sources/flutter_inappwebview_macos/Resources/PrivacyInfo.xcprivacy']}
+  s.resource_bundles = {'talkjs_flutter_inappwebview_macos_privacy' => ['talkjs_flutter_inappwebview_macos/Sources/talkjs_flutter_inappwebview_macos/Resources/PrivacyInfo.xcprivacy']}
 
   # swift-collections podspec doesn't declare macOS support, so we must use OrderedSet library
   # s.dependency 'swift-collections', '~>1.1.1'

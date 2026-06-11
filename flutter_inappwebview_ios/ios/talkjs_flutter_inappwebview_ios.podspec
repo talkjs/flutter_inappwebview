@@ -13,10 +13,10 @@ A new Flutter plugin.
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Your Company' => 'email@example.com' }
   s.source           = { :path => '.' }
-  s.source_files = 'flutter_inappwebview_ios/Sources/flutter_inappwebview_ios/**/*.swift'
+  s.source_files = 'talkjs_flutter_inappwebview_ios/Sources/talkjs_flutter_inappwebview_ios/**/*.swift'
   s.resources = 'flutter_inappwebview_ios/Sources/flutter_inappwebview_ios/Resources/**/*.storyboard'
   s.dependency 'Flutter'
-  s.resource_bundles = {'talkjs_flutter_inappwebview_ios_privacy' => ['flutter_inappwebview_ios/Sources/flutter_inappwebview_ios/Resources/PrivacyInfo.xcprivacy']}
+  s.resource_bundles = {'talkjs_flutter_inappwebview_ios_privacy' => ['talkjs_flutter_inappwebview_ios/Sources/talkjs_flutter_inappwebview_ios/Resources/PrivacyInfo.xcprivacy']}
 
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
 

@@ -12,12 +12,14 @@ let package = Package(
         .library(name: "talkjs-flutter-inappwebview-ios", targets: ["talkjs_flutter_inappwebview_ios"])
     ],
     dependencies: [
+      .package(name: "FlutterFramework", path: "../FlutterFramework"),
       .package(url: "https://github.com/apple/swift-collections.git", from: "1.2.1")
     ],
     targets: [
         .target(
             name: "talkjs_flutter_inappwebview_ios",
             dependencies: [
+                .product(name: "FlutterFramework", package: "FlutterFramework"),
                 .product(name: "Collections", package: "swift-collections")
             ],
             resources: [
