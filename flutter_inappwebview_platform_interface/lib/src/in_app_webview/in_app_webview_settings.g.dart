@@ -3024,7 +3024,7 @@ class InAppWebViewSettings {
 enum InAppWebViewSettingsProperty {
   ///Can be used to check if the [InAppWebViewSettings.accessibilityIgnoresInvertColors] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.accessibilityIgnoresInvertColors.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.accessibilityIgnoresInvertColors.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 11.0+ ([Official API - UIView.accessibilityIgnoresInvertColors](https://developer.apple.com/documentation/uikit/uiview/2865843-accessibilityignoresinvertcolors))
@@ -3035,7 +3035,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.algorithmicDarkeningAllowed] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.algorithmicDarkeningAllowed.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.algorithmicDarkeningAllowed.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView 29+ ([Official API - WebSettingsCompat.setAlgorithmicDarkeningAllowed](https://developer.android.com/reference/androidx/webkit/WebSettingsCompat#setAlgorithmicDarkeningAllowed(android.webkit.WebSettings,boolean))):
@@ -3047,7 +3047,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.allowBackgroundAudioPlaying] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.allowBackgroundAudioPlaying.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.allowBackgroundAudioPlaying.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -3058,7 +3058,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.allowContentAccess] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.allowContentAccess.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.allowContentAccess.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setAllowContentAccess](https://developer.android.com/reference/android/webkit/WebSettings?hl=en#setAllowContentAccess(boolean)))
@@ -3069,7 +3069,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.allowFileAccess] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.allowFileAccess.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.allowFileAccess.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setAllowFileAccess](https://developer.android.com/reference/android/webkit/WebSettings?hl=en#setAllowFileAccess(boolean)))
@@ -3080,7 +3080,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.allowFileAccessFromFileURLs] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.allowFileAccessFromFileURLs.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.allowFileAccessFromFileURLs.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setAllowFileAccessFromFileURLs](https://developer.android.com/reference/android/webkit/WebSettings?hl=en#setAllowFileAccessFromFileURLs(boolean)))
@@ -3094,7 +3094,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.allowModalDialogs] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.allowModalDialogs.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.allowModalDialogs.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - WebKitSettings.allow-modal-dialogs](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/property.Settings.allow-modal-dialogs.html))
@@ -3105,7 +3105,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.allowTopNavigationToDataUrls] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.allowTopNavigationToDataUrls.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.allowTopNavigationToDataUrls.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit 2.28+ ([Official API - WebKitSettings.allow-top-navigation-to-data-urls](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/property.Settings.allow-top-navigation-to-data-urls.html)):
@@ -3117,7 +3117,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.allowUniversalAccessFromFileURLs] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.allowUniversalAccessFromFileURLs.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.allowUniversalAccessFromFileURLs.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setAllowUniversalAccessFromFileURLs](https://developer.android.com/reference/android/webkit/WebSettings?hl=en#setAllowUniversalAccessFromFileURLs(boolean)))
@@ -3131,7 +3131,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.allowingReadAccessTo] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.allowingReadAccessTo.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.allowingReadAccessTo.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -3143,7 +3143,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.allowsAirPlayForMediaPlayback] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.allowsAirPlayForMediaPlayback.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.allowsAirPlayForMediaPlayback.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView ([Official API - WKWebViewConfiguration.allowsAirPlayForMediaPlayback](https://developer.apple.com/documentation/webkit/wkwebviewconfiguration/1395673-allowsairplayformediaplayback))
@@ -3155,7 +3155,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.allowsBackForwardNavigationGestures] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.allowsBackForwardNavigationGestures.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.allowsBackForwardNavigationGestures.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView ([Official API - WKWebView.allowsBackForwardNavigationGestures](https://developer.apple.com/documentation/webkit/wkwebview/1414995-allowsbackforwardnavigationgestu))
@@ -3168,7 +3168,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.allowsInlineMediaPlayback] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.allowsInlineMediaPlayback.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.allowsInlineMediaPlayback.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView ([Official API - WKWebViewConfiguration.allowsInlineMediaPlayback](https://developer.apple.com/documentation/webkit/wkwebviewconfiguration/1614793-allowsinlinemediaplayback))
@@ -3180,7 +3180,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.allowsLinkPreview] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.allowsLinkPreview.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.allowsLinkPreview.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView ([Official API - WKWebView.allowsLinkPreview](https://developer.apple.com/documentation/webkit/wkwebview/1415000-allowslinkpreview))
@@ -3192,7 +3192,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.allowsPictureInPictureMediaPlayback] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.allowsPictureInPictureMediaPlayback.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.allowsPictureInPictureMediaPlayback.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView ([Official API - WKWebViewConfiguration.allowsPictureInPictureMediaPlayback](https://developer.apple.com/documentation/webkit/wkwebviewconfiguration/1614792-allowspictureinpicturemediaplayb))
@@ -3203,7 +3203,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.alpha] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.alpha.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.alpha.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - View.setAlpha](https://developer.android.com/reference/android/view/View#setAlpha(float)))
@@ -3216,7 +3216,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.alwaysBounceHorizontal] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.alwaysBounceHorizontal.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.alwaysBounceHorizontal.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView ([Official API - UIScrollView.alwaysBounceHorizontal](https://developer.apple.com/documentation/uikit/uiscrollview/1619393-alwaysbouncehorizontal))
@@ -3227,7 +3227,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.alwaysBounceVertical] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.alwaysBounceVertical.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.alwaysBounceVertical.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView ([Official API - UIScrollView.alwaysBounceVertical](https://developer.apple.com/documentation/uikit/uiscrollview/1619383-alwaysbouncevertical))
@@ -3238,7 +3238,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.appCachePath] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.appCachePath.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.appCachePath.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView (Official API - WebSettings.setAppCachePath)
@@ -3249,7 +3249,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.applePayAPIEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.applePayAPIEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.applePayAPIEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 13.0+
@@ -3260,7 +3260,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.applicationNameForUserAgent] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.applicationNameForUserAgent.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.applicationNameForUserAgent.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -3273,7 +3273,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.automaticallyAdjustsScrollIndicatorInsets] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.automaticallyAdjustsScrollIndicatorInsets.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.automaticallyAdjustsScrollIndicatorInsets.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 13.0+ ([Official API - UIScrollView.automaticallyAdjustsScrollIndicatorInsets](https://developer.apple.com/documentation/uikit/uiscrollview/3198043-automaticallyadjustsscrollindica))
@@ -3284,7 +3284,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.blockNetworkImage] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.blockNetworkImage.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.blockNetworkImage.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setBlockNetworkImage](https://developer.android.com/reference/android/webkit/WebSettings#setBlockNetworkImage(boolean)))
@@ -3295,7 +3295,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.blockNetworkLoads] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.blockNetworkLoads.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.blockNetworkLoads.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setBlockNetworkLoads](https://developer.android.com/reference/android/webkit/WebSettings#setBlockNetworkLoads(boolean)))
@@ -3306,7 +3306,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.browserAcceleratorKeysEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.browserAcceleratorKeysEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.browserAcceleratorKeysEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 1.0.864.35+ ([Official API - ICoreWebView2Settings3.put_IsBuiltInErrorPageEnabled](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2settings3?view=webview2-1.0.2849.39#put_arebrowseracceleratorkeysenabled))
@@ -3317,7 +3317,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.builtInZoomControls] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.builtInZoomControls.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.builtInZoomControls.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setBuiltInZoomControls](https://developer.android.com/reference/android/webkit/WebSettings?hl=en#setBuiltInZoomControls(boolean)))
@@ -3328,7 +3328,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.cacheEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.cacheEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.cacheEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -3341,7 +3341,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.cacheMode] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.cacheMode.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.cacheMode.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setCacheMode](https://developer.android.com/reference/android/webkit/WebSettings#setCacheMode(int)))
@@ -3352,7 +3352,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.clearCache] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.clearCache.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.clearCache.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -3366,7 +3366,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.clearSessionCache] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.clearSessionCache.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.clearSessionCache.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -3378,7 +3378,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.contentBlockers] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.contentBlockers.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.contentBlockers.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -3392,7 +3392,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.contentInsetAdjustmentBehavior] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.contentInsetAdjustmentBehavior.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.contentInsetAdjustmentBehavior.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 11.0+ ([Official API - UIScrollView.contentInsetAdjustmentBehavior](https://developer.apple.com/documentation/uikit/uiscrollview/2902261-contentinsetadjustmentbehavior))
@@ -3403,7 +3403,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.corsAllowlist] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.corsAllowlist.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.corsAllowlist.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit 2.34+ ([Official API - webkit_web_view_set_cors_allowlist](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/method.WebView.set_cors_allowlist.html)):
@@ -3415,7 +3415,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.cursiveFontFamily] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.cursiveFontFamily.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.cursiveFontFamily.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setCursiveFontFamily](https://developer.android.com/reference/android/webkit/WebSettings#setCursiveFontFamily(java.lang.String)))
@@ -3427,7 +3427,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.cursorBlinkTime] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.cursorBlinkTime.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.cursorBlinkTime.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - WPESettings.cursor-blink-time](https://wpewebkit.org/reference/stable/wpe-platform-2.0/class.Settings.html)):
@@ -3439,7 +3439,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.darkMode] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.darkMode.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.darkMode.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - WPESettings.dark-mode](https://wpewebkit.org/reference/stable/wpe-platform-2.0/class.Settings.html)):
@@ -3451,7 +3451,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.dataDetectorTypes] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.dataDetectorTypes.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.dataDetectorTypes.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 10+ ([Official API - WKWebViewConfiguration.dataDetectorTypes](https://developer.apple.com/documentation/webkit/wkwebviewconfiguration/1641937-datadetectortypes))
@@ -3462,7 +3462,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.databaseEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.databaseEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.databaseEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setDatabaseEnabled](https://developer.android.com/reference/android/webkit/WebSettings?hl=en#setDatabaseEnabled(boolean)))
@@ -3474,7 +3474,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.decelerationRate] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.decelerationRate.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.decelerationRate.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView ([Official API - UIScrollView.decelerationRate](https://developer.apple.com/documentation/uikit/uiscrollview/1619438-decelerationrate))
@@ -3485,7 +3485,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.defaultFixedFontSize] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.defaultFixedFontSize.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.defaultFixedFontSize.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setDefaultFixedFontSize](https://developer.android.com/reference/android/webkit/WebSettings#setDefaultFixedFontSize(int)))
@@ -3497,7 +3497,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.defaultFontSize] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.defaultFontSize.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.defaultFontSize.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setDefaultFontSize](https://developer.android.com/reference/android/webkit/WebSettings#setDefaultFontSize(int)))
@@ -3509,7 +3509,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.defaultTextEncodingName] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.defaultTextEncodingName.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.defaultTextEncodingName.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setDefaultTextEncodingName](https://developer.android.com/reference/android/webkit/WebSettings#setDefaultTextEncodingName(java.lang.String)))
@@ -3521,7 +3521,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.defaultVideoPoster] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.defaultVideoPoster.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.defaultVideoPoster.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -3532,7 +3532,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.disableAnimations] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.disableAnimations.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.disableAnimations.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - WPESettings.disable-animations](https://wpewebkit.org/reference/stable/wpe-platform-2.0/class.Settings.html)):
@@ -3544,7 +3544,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.disableContextMenu] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.disableContextMenu.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.disableContextMenu.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -3558,7 +3558,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.disableDefaultErrorPage] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.disableDefaultErrorPage.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.disableDefaultErrorPage.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -3570,7 +3570,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.disableHorizontalScroll] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.disableHorizontalScroll.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.disableHorizontalScroll.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -3583,7 +3583,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.disableInputAccessoryView] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.disableInputAccessoryView.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.disableInputAccessoryView.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -3594,7 +3594,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.disableLongPressContextMenuOnLinks] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.disableLongPressContextMenuOnLinks.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.disableLongPressContextMenuOnLinks.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -3605,7 +3605,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.disableVerticalScroll] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.disableVerticalScroll.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.disableVerticalScroll.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -3618,7 +3618,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.disableWebSecurity] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.disableWebSecurity.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.disableWebSecurity.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit 2.40+ ([Official API - WebKitSettings.disable-web-security](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/property.Settings.disable-web-security.html)):
@@ -3630,7 +3630,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.disabledActionModeMenuItems] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.disabledActionModeMenuItems.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.disabledActionModeMenuItems.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView 24+ ([Official API - WebSettings.setDisabledActionModeMenuItems](https://developer.android.com/reference/android/webkit/WebSettings#setDisabledActionModeMenuItems(int)))
@@ -3641,7 +3641,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.disallowOverScroll] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.disallowOverScroll.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.disallowOverScroll.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -3652,7 +3652,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.displayZoomControls] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.displayZoomControls.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.displayZoomControls.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setDisplayZoomControls](https://developer.android.com/reference/android/webkit/WebSettings?hl=en#setDisplayZoomControls(boolean)))
@@ -3663,7 +3663,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.domStorageEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.domStorageEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.domStorageEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setDomStorageEnabled](https://developer.android.com/reference/android/webkit/WebSettings?hl=en#setDomStorageEnabled(boolean)))
@@ -3675,7 +3675,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.doubleClickDistance] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.doubleClickDistance.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.doubleClickDistance.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - WPESettings.double-click-distance](https://wpewebkit.org/reference/stable/wpe-platform-2.0/class.Settings.html)):
@@ -3687,7 +3687,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.doubleClickTime] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.doubleClickTime.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.doubleClickTime.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - WPESettings.double-click-time](https://wpewebkit.org/reference/stable/wpe-platform-2.0/class.Settings.html)):
@@ -3699,7 +3699,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.dragThreshold] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.dragThreshold.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.dragThreshold.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - WPESettings.drag-threshold](https://wpewebkit.org/reference/stable/wpe-platform-2.0/class.Settings.html)):
@@ -3711,7 +3711,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.drawCompositingIndicators] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.drawCompositingIndicators.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.drawCompositingIndicators.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - WebKitSettings.draw-compositing-indicators](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/property.Settings.draw-compositing-indicators.html))
@@ -3722,7 +3722,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.enable2DCanvasAcceleration] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.enable2DCanvasAcceleration.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.enable2DCanvasAcceleration.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit 2.46+ ([Official API - WebKitSettings.enable-2d-canvas-acceleration](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/property.Settings.enable-2d-canvas-acceleration.html)):
@@ -3734,7 +3734,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.enableCaretBrowsing] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.enableCaretBrowsing.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.enableCaretBrowsing.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - WebKitSettings.enable-caret-browsing](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/property.Settings.enable-caret-browsing.html))
@@ -3745,7 +3745,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.enableEncryptedMedia] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.enableEncryptedMedia.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.enableEncryptedMedia.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit 2.20+ ([Official API - WebKitSettings.enable-encrypted-media](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/property.Settings.enable-encrypted-media.html)):
@@ -3757,7 +3757,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.enableJavaScriptMarkup] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.enableJavaScriptMarkup.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.enableJavaScriptMarkup.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit 2.24+ ([Official API - WebKitSettings.enable-javascript-markup](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/property.Settings.enable-javascript-markup.html)):
@@ -3769,7 +3769,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.enableMedia] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.enableMedia.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.enableMedia.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit 2.26+ ([Official API - WebKitSettings.enable-media](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/property.Settings.enable-media.html)):
@@ -3781,7 +3781,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.enableMediaCapabilities] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.enableMediaCapabilities.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.enableMediaCapabilities.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit 2.22+ ([Official API - WebKitSettings.enable-media-capabilities](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/property.Settings.enable-media-capabilities.html)):
@@ -3793,7 +3793,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.enableMockCaptureDevices] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.enableMockCaptureDevices.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.enableMockCaptureDevices.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit 2.24+ ([Official API - WebKitSettings.enable-mock-capture-devices](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/property.Settings.enable-mock-capture-devices.html)):
@@ -3805,7 +3805,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.enablePageCache] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.enablePageCache.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.enablePageCache.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - WebKitSettings.enable-page-cache](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/property.Settings.enable-page-cache.html))
@@ -3816,7 +3816,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.enableResizableTextAreas] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.enableResizableTextAreas.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.enableResizableTextAreas.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - WebKitSettings.enable-resizable-text-areas](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/property.Settings.enable-resizable-text-areas.html))
@@ -3827,7 +3827,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.enableSmoothScrolling] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.enableSmoothScrolling.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.enableSmoothScrolling.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - WebKitSettings.enable-smooth-scrolling](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/property.Settings.enable-smooth-scrolling.html))
@@ -3838,7 +3838,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.enableSpatialNavigation] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.enableSpatialNavigation.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.enableSpatialNavigation.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - WebKitSettings.enable-spatial-navigation](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/property.Settings.enable-spatial-navigation.html))
@@ -3849,7 +3849,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.enableTabsToLinks] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.enableTabsToLinks.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.enableTabsToLinks.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - WebKitSettings.enable-tabs-to-links](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/property.Settings.enable-tabs-to-links.html))
@@ -3860,7 +3860,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.enableViewportScale] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.enableViewportScale.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.enableViewportScale.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -3872,7 +3872,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.enableWebRTC] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.enableWebRTC.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.enableWebRTC.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit 2.38+ ([Official API - WebKitSettings.enable-webrtc](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/property.Settings.enable-webrtc.html)):
@@ -3884,7 +3884,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.enableWriteConsoleMessagesToStdout] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.enableWriteConsoleMessagesToStdout.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.enableWriteConsoleMessagesToStdout.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - WebKitSettings.enable-write-console-messages-to-stdout](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/property.Settings.enable-write-console-messages-to-stdout.html))
@@ -3895,7 +3895,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.enterpriseAuthenticationAppLinkPolicyEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.enterpriseAuthenticationAppLinkPolicyEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.enterpriseAuthenticationAppLinkPolicyEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView:
@@ -3907,7 +3907,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.fantasyFontFamily] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.fantasyFontFamily.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.fantasyFontFamily.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setFantasyFontFamily](https://developer.android.com/reference/android/webkit/WebSettings#setFantasyFontFamily(java.lang.String)))
@@ -3919,7 +3919,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.fixedFontFamily] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.fixedFontFamily.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.fixedFontFamily.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setFixedFontFamily](https://developer.android.com/reference/android/webkit/WebSettings#setFixedFontFamily(java.lang.String)))
@@ -3931,7 +3931,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.fontAntialias] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.fontAntialias.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.fontAntialias.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - WPESettings.font-antialias](https://wpewebkit.org/reference/stable/wpe-platform-2.0/class.Settings.html)):
@@ -3943,7 +3943,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.fontDPI] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.fontDPI.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.fontDPI.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - WPESettings.font-dpi](https://wpewebkit.org/reference/stable/wpe-platform-2.0/class.Settings.html)):
@@ -3955,7 +3955,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.fontHintingStyle] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.fontHintingStyle.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.fontHintingStyle.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - WPESettings.font-hinting-style](https://wpewebkit.org/reference/stable/wpe-platform-2.0/class.Settings.html)):
@@ -3967,7 +3967,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.fontSubpixelLayout] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.fontSubpixelLayout.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.fontSubpixelLayout.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - WPESettings.font-subpixel-layout](https://wpewebkit.org/reference/stable/wpe-platform-2.0/class.Settings.html)):
@@ -3979,7 +3979,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.forceDark] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.forceDark.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.forceDark.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView 29+ ([Official API - WebSettings.setForceDark](https://developer.android.com/reference/android/webkit/WebSettings#setForceDark(int)))
@@ -3991,7 +3991,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.forceDarkStrategy] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.forceDarkStrategy.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.forceDarkStrategy.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettingsCompat.setForceDarkStrategy](https://developer.android.com/reference/androidx/webkit/WebSettingsCompat#setForceDarkStrategy(android.webkit.WebSettings,int))):
@@ -4004,7 +4004,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.generalAutofillEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.generalAutofillEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.generalAutofillEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 1.0.902.49+ ([Official API - ICoreWebView2Settings4.put_IsGeneralAutofillEnabled](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2settings4?view=webview2-1.0.2849.39#put_isgeneralautofillenabled))
@@ -4015,7 +4015,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.geolocationEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.geolocationEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.geolocationEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setGeolocationEnabled](https://developer.android.com/reference/android/webkit/WebSettings?hl=en#setGeolocationEnabled(boolean))):
@@ -4027,7 +4027,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.handleAcceleratorKeyPressed] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.handleAcceleratorKeyPressed.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.handleAcceleratorKeyPressed.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2
@@ -4038,7 +4038,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.hardwareAcceleration] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.hardwareAcceleration.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.hardwareAcceleration.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.setLayerType](https://developer.android.com/reference/android/webkit/WebView#setLayerType(int,%20android.graphics.Paint)))
@@ -4049,7 +4049,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.hiddenPdfToolbarItems] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.hiddenPdfToolbarItems.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.hiddenPdfToolbarItems.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 1.0.1185.39+ ([Official API - ICoreWebView2Settings7.put_HiddenPdfToolbarItems](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2settings7?view=webview2-1.0.2849.39#put_hiddenpdftoolbaritems))
@@ -4060,7 +4060,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.horizontalScrollBarEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.horizontalScrollBarEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.horizontalScrollBarEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - View.setHorizontalScrollBarEnabled](https://developer.android.com/reference/android/view/View#setHorizontalScrollBarEnabled(boolean)))
@@ -4074,7 +4074,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.horizontalScrollbarThumbColor] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.horizontalScrollbarThumbColor.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.horizontalScrollbarThumbColor.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView 29+ ([Official API - View.setHorizontalScrollbarThumbDrawable](https://developer.android.com/reference/android/view/View#setHorizontalScrollbarThumbDrawable(android.graphics.drawable.Drawable)))
@@ -4085,7 +4085,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.horizontalScrollbarTrackColor] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.horizontalScrollbarTrackColor.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.horizontalScrollbarTrackColor.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView 29+ ([Official API - View.setHorizontalScrollbarTrackDrawable](https://developer.android.com/reference/android/view/View#setHorizontalScrollbarTrackDrawable(android.graphics.drawable.Drawable)))
@@ -4096,7 +4096,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.iframeAllow] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.iframeAllow.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.iframeAllow.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Web \<iframe\> ([Official API - iframe.allow](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-allow))
@@ -4107,7 +4107,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.iframeAllowFullscreen] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.iframeAllowFullscreen.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.iframeAllowFullscreen.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Web \<iframe\> ([Official API - iframe.allowfullscreen](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-allowfullscreen))
@@ -4118,7 +4118,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.iframeAriaHidden] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.iframeAriaHidden.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.iframeAriaHidden.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Web \<iframe\> ([Official API - iframe.ariaHidden](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-hidden))
@@ -4129,7 +4129,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.iframeCsp] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.iframeCsp.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.iframeCsp.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Web \<iframe\> ([Official API - iframe.csp](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-csp))
@@ -4140,7 +4140,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.iframeName] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.iframeName.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.iframeName.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Web \<iframe\> ([Official API - iframe.name](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-name))
@@ -4151,7 +4151,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.iframeReferrerPolicy] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.iframeReferrerPolicy.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.iframeReferrerPolicy.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Web \<iframe\> ([Official API - iframe.referrerpolicy](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-referrerpolicy))
@@ -4162,7 +4162,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.iframeRole] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.iframeRole.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.iframeRole.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Web \<iframe\> ([Official API - iframe.role](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles))
@@ -4173,7 +4173,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.iframeSandbox] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.iframeSandbox.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.iframeSandbox.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Web \<iframe\> ([Official API - iframe.sandbox](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-sandbox))
@@ -4184,7 +4184,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.ignoresViewportScaleLimits] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.ignoresViewportScaleLimits.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.ignoresViewportScaleLimits.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView ([Official API - WKWebViewConfiguration.ignoresViewportScaleLimits](https://developer.apple.com/documentation/webkit/wkwebviewconfiguration/2274633-ignoresviewportscalelimits))
@@ -4195,7 +4195,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.incognito] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.incognito.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.incognito.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView:
@@ -4211,7 +4211,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.initialScale] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.initialScale.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.initialScale.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.setInitialScale](https://developer.android.com/reference/android/webkit/WebView#setInitialScale(int)))
@@ -4222,7 +4222,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.interceptOnlyAsyncAjaxRequests] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.interceptOnlyAsyncAjaxRequests.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.interceptOnlyAsyncAjaxRequests.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -4235,7 +4235,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.isDirectionalLockEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.isDirectionalLockEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.isDirectionalLockEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView ([Official API - UIScrollView.isDirectionalLockEnabled](https://developer.apple.com/documentation/uikit/uiscrollview/1619390-isdirectionallockenabled))
@@ -4246,7 +4246,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.isElementFullscreenEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.isElementFullscreenEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.isElementFullscreenEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 15.4+ ([Official API - WKPreferences.isElementFullscreenEnabled](https://developer.apple.com/documentation/webkit/wkpreferences/3917769-iselementfullscreenenabled))
@@ -4259,7 +4259,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.isFindInteractionEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.isFindInteractionEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.isFindInteractionEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 16.0+ ([Official API - WKWebView.isFindInteractionEnabled](https://developer.apple.com/documentation/webkit/wkwebview/4002044-isfindinteractionenabled/))
@@ -4270,7 +4270,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.isFraudulentWebsiteWarningEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.isFraudulentWebsiteWarningEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.isFraudulentWebsiteWarningEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 13.0+ ([Official API - WKPreferences.isFraudulentWebsiteWarningEnabled](https://developer.apple.com/documentation/webkit/wkpreferences/3335219-isfraudulentwebsitewarningenable))
@@ -4282,7 +4282,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.isInspectable] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.isInspectable.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.isInspectable.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 16.4+ ([Official API - WKWebView.isInspectable](https://developer.apple.com/documentation/webkit/wkwebview/4111163-isinspectable))
@@ -4295,7 +4295,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.isPagingEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.isPagingEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.isPagingEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView ([Official API - UIScrollView.isPagingEnabled](https://developer.apple.com/documentation/uikit/uiscrollview/1619432-ispagingenabled))
@@ -4306,7 +4306,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.isSiteSpecificQuirksModeEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.isSiteSpecificQuirksModeEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.isSiteSpecificQuirksModeEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 15.4+ ([Official API - WKPreferences.isSiteSpecificQuirksModeEnabled](https://developer.apple.com/documentation/webkit/wkpreferences/3916069-issitespecificquirksmodeenabled))
@@ -4318,7 +4318,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.isTextInteractionEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.isTextInteractionEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.isTextInteractionEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 15.0+ ([Official API - WKPreferences.isTextInteractionEnabled](https://developer.apple.com/documentation/webkit/wkpreferences/3727362-istextinteractionenabled))
@@ -4330,7 +4330,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.isUserInteractionEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.isUserInteractionEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.isUserInteractionEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -4342,7 +4342,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.itpEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.itpEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.itpEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit 2.40+ ([Official API - webkit_network_session_set_itp_enabled](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/method.NetworkSession.set_itp_enabled.html)):
@@ -4354,7 +4354,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.javaScriptBridgeEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.javaScriptBridgeEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.javaScriptBridgeEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -4369,7 +4369,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.javaScriptBridgeForMainFrameOnly] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.javaScriptBridgeForMainFrameOnly.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.javaScriptBridgeForMainFrameOnly.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -4383,7 +4383,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.javaScriptBridgeOriginAllowList] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.javaScriptBridgeOriginAllowList.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.javaScriptBridgeOriginAllowList.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -4398,7 +4398,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.javaScriptCanAccessClipboard] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.javaScriptCanAccessClipboard.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.javaScriptCanAccessClipboard.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - WebKitSettings.javascript-can-access-clipboard](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/property.Settings.javascript-can-access-clipboard.html))
@@ -4409,7 +4409,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.javaScriptCanOpenWindowsAutomatically] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.javaScriptCanOpenWindowsAutomatically.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.javaScriptCanOpenWindowsAutomatically.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setJavaScriptCanOpenWindowsAutomatically](https://developer.android.com/reference/android/webkit/WebSettings?hl=en#setJavaScriptCanOpenWindowsAutomatically(boolean)))
@@ -4423,7 +4423,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.javaScriptEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.javaScriptEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.javaScriptEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setJavaScriptEnabled](https://developer.android.com/reference/android/webkit/WebSettings?hl=en#setJavaScriptEnabled(boolean)))
@@ -4438,7 +4438,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.javaScriptHandlersForMainFrameOnly] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.javaScriptHandlersForMainFrameOnly.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.javaScriptHandlersForMainFrameOnly.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -4452,7 +4452,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.javaScriptHandlersOriginAllowList] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.javaScriptHandlersOriginAllowList.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.javaScriptHandlersOriginAllowList.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -4467,7 +4467,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.keyRepeatDelay] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.keyRepeatDelay.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.keyRepeatDelay.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - WPESettings.key-repeat-delay](https://wpewebkit.org/reference/stable/wpe-platform-2.0/class.Settings.html)):
@@ -4479,7 +4479,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.keyRepeatInterval] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.keyRepeatInterval.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.keyRepeatInterval.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - WPESettings.key-repeat-interval](https://wpewebkit.org/reference/stable/wpe-platform-2.0/class.Settings.html)):
@@ -4491,7 +4491,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.layoutAlgorithm] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.layoutAlgorithm.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.layoutAlgorithm.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setLayoutAlgorithm](https://developer.android.com/reference/android/webkit/WebSettings?hl=en#setLayoutAlgorithm(android.webkit.WebSettings.LayoutAlgorithm)))
@@ -4502,7 +4502,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.limitsNavigationsToAppBoundDomains] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.limitsNavigationsToAppBoundDomains.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.limitsNavigationsToAppBoundDomains.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 14.0+ ([Official API - WKWebViewConfiguration.limitsNavigationsToAppBoundDomains](https://developer.apple.com/documentation/webkit/wkwebviewconfiguration/3585117-limitsnavigationstoappbounddomai))
@@ -4514,7 +4514,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.loadWithOverviewMode] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.loadWithOverviewMode.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.loadWithOverviewMode.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setLoadWithOverviewMode](https://developer.android.com/reference/android/webkit/WebSettings?hl=en#setLoadWithOverviewMode(boolean)))
@@ -4525,7 +4525,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.loadsImagesAutomatically] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.loadsImagesAutomatically.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.loadsImagesAutomatically.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setLoadsImagesAutomatically](https://developer.android.com/reference/android/webkit/WebSettings?hl=en#setLoadsImagesAutomatically(boolean)))
@@ -4537,7 +4537,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.maximumViewportInset] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.maximumViewportInset.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.maximumViewportInset.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 15.5+ ([Official API - WKWebView.setMinimumViewportInset](https://developer.apple.com/documentation/webkit/wkwebview/3974127-setminimumviewportinset/))
@@ -4548,7 +4548,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.maximumZoomScale] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.maximumZoomScale.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.maximumZoomScale.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView ([Official API - UIScrollView.maximumZoomScale](https://developer.apple.com/documentation/uikit/uiscrollview/1619408-maximumzoomscale))
@@ -4559,7 +4559,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.mediaContentTypesRequiringHardwareSupport] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.mediaContentTypesRequiringHardwareSupport.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.mediaContentTypesRequiringHardwareSupport.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit 2.30+ ([Official API - WebKitSettings.media-content-types-requiring-hardware-support](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/property.Settings.media-content-types-requiring-hardware-support.html)):
@@ -4571,7 +4571,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.mediaPlaybackRequiresUserGesture] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.mediaPlaybackRequiresUserGesture.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.mediaPlaybackRequiresUserGesture.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setMediaPlaybackRequiresUserGesture](https://developer.android.com/reference/android/webkit/WebSettings?hl=en#setMediaPlaybackRequiresUserGesture(boolean)))
@@ -4584,7 +4584,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.mediaType] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.mediaType.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.mediaType.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 14.0+ ([Official API - WKWebView.mediaType](https://developer.apple.com/documentation/webkit/wkwebview/3516410-mediatype))
@@ -4596,7 +4596,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.minimumFontSize] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.minimumFontSize.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.minimumFontSize.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setMinimumFontSize](https://developer.android.com/reference/android/webkit/WebSettings?hl=en#setMinimumFontSize(int)))
@@ -4609,7 +4609,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.minimumLogicalFontSize] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.minimumLogicalFontSize.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.minimumLogicalFontSize.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setMinimumLogicalFontSize](https://developer.android.com/reference/android/webkit/WebSettings?hl=en#setMinimumLogicalFontSize(int)))
@@ -4620,7 +4620,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.minimumViewportInset] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.minimumViewportInset.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.minimumViewportInset.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 15.5+ ([Official API - WKWebView.setMinimumViewportInset](https://developer.apple.com/documentation/webkit/wkwebview/3974127-setminimumviewportinset/))
@@ -4631,7 +4631,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.minimumZoomScale] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.minimumZoomScale.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.minimumZoomScale.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView ([Official API - UIScrollView.minimumZoomScale](https://developer.apple.com/documentation/uikit/uiscrollview/1619428-minimumzoomscale))
@@ -4642,7 +4642,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.mixedContentMode] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.mixedContentMode.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.mixedContentMode.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView 21+ ([Official API - WebSettings.setMixedContentMode](https://developer.android.com/reference/android/webkit/WebSettings?hl=en#setMixedContentMode(int)))
@@ -4653,7 +4653,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.needInitialFocus] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.needInitialFocus.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.needInitialFocus.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setNeedInitialFocus](https://developer.android.com/reference/android/webkit/WebSettings?hl=en#setNeedInitialFocus(boolean)))
@@ -4664,7 +4664,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.networkAvailable] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.networkAvailable.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.networkAvailable.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.setNetworkAvailable](https://developer.android.com/reference/android/webkit/WebView#setNetworkAvailable(boolean)))
@@ -4675,7 +4675,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.nonClientRegionSupportEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.nonClientRegionSupportEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.nonClientRegionSupportEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 1.0.2420.47+ ([Official API - ICoreWebView2Settings9.put_IsNonClientRegionSupportEnabled](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2settings9?view=webview2-1.0.2849.39#put_isnonclientregionsupportenabled))
@@ -4686,7 +4686,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.offscreenPreRaster] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.offscreenPreRaster.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.offscreenPreRaster.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView 23+ ([Official API - WebSettings.setOffscreenPreRaster](https://developer.android.com/reference/android/webkit/WebSettings?hl=en#setOffscreenPreRaster(boolean)))
@@ -4697,7 +4697,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.overScrollMode] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.overScrollMode.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.overScrollMode.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - View.setOverScrollMode](https://developer.android.com/reference/android/view/View#setOverScrollMode(int)))
@@ -4708,7 +4708,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.pageZoom] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.pageZoom.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.pageZoom.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 14.0+ ([Official API - WKWebView.pageZoom](https://developer.apple.com/documentation/webkit/wkwebview/3516411-pagezoom))
@@ -4720,7 +4720,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.passwordAutosaveEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.passwordAutosaveEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.passwordAutosaveEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 1.0.902.49+ ([Official API - ICoreWebView2Settings4.put_IsPasswordAutosaveEnabled](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2settings4?view=webview2-1.0.2849.39#put_ispasswordautosaveenabled))
@@ -4731,7 +4731,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.pictographFontFamily] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.pictographFontFamily.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.pictographFontFamily.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - WebKitSettings.pictograph-font-family](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/property.Settings.pictograph-font-family.html))
@@ -4742,7 +4742,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.pinchZoomEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.pinchZoomEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.pinchZoomEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 1.0.902.49+ ([Official API - ICoreWebView2Settings5.put_IsPinchZoomEnabled](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2settings5?view=webview2-1.0.2849.39#put_ispinchzoomenabled))
@@ -4753,7 +4753,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.pluginScriptsForMainFrameOnly] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.pluginScriptsForMainFrameOnly.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.pluginScriptsForMainFrameOnly.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -4767,7 +4767,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.pluginScriptsOriginAllowList] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.pluginScriptsOriginAllowList.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.pluginScriptsOriginAllowList.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -4781,7 +4781,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.preferredContentMode] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.preferredContentMode.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.preferredContentMode.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -4794,7 +4794,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.regexToAllowSyncUrlLoading] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.regexToAllowSyncUrlLoading.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.regexToAllowSyncUrlLoading.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -4805,7 +4805,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.regexToCancelSubFramesLoading] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.regexToCancelSubFramesLoading.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.regexToCancelSubFramesLoading.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -4816,7 +4816,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.rendererPriorityPolicy] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.rendererPriorityPolicy.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.rendererPriorityPolicy.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.setRendererPriorityPolicy](https://developer.android.com/reference/android/webkit/WebView#setRendererPriorityPolicy(int,%20boolean)))
@@ -4827,7 +4827,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.reputationCheckingRequired] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.reputationCheckingRequired.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.reputationCheckingRequired.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 1.0.1722.45+ ([Official API - ICoreWebView2Settings8.put_IsReputationCheckingRequired](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2settings8?view=webview2-1.0.2849.39#put_isreputationcheckingrequired))
@@ -4838,7 +4838,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.requestedWithHeaderOriginAllowList] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.requestedWithHeaderOriginAllowList.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.requestedWithHeaderOriginAllowList.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettingsCompat.setRequestedWithHeaderOriginAllowList](https://developer.android.com/reference/androidx/webkit/WebSettingsCompat#setRequestedWithHeaderOriginAllowList(android.webkit.WebSettings,java.util.Set%3Cjava.lang.String%3E))):
@@ -4850,7 +4850,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.resourceCustomSchemes] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.resourceCustomSchemes.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.resourceCustomSchemes.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -4863,7 +4863,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.safeBrowsingEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.safeBrowsingEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.safeBrowsingEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView 26+ ([Official API - WebSettings.setSafeBrowsingEnabled](https://developer.android.com/reference/android/webkit/WebSettings?hl=en#setSafeBrowsingEnabled(boolean)))
@@ -4874,7 +4874,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.sansSerifFontFamily] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.sansSerifFontFamily.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.sansSerifFontFamily.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setSansSerifFontFamily](https://developer.android.com/reference/android/webkit/WebSettings?hl=en#setSansSerifFontFamily(java.lang.String)))
@@ -4886,7 +4886,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.saveFormData] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.saveFormData.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.saveFormData.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setSaveFormData](https://developer.android.com/reference/android/webkit/WebSettings?hl=en#setSaveFormData(boolean)))
@@ -4898,7 +4898,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.scrollBarDefaultDelayBeforeFade] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.scrollBarDefaultDelayBeforeFade.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.scrollBarDefaultDelayBeforeFade.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - View.setScrollBarDefaultDelayBeforeFade](https://developer.android.com/reference/android/view/View#setScrollBarDefaultDelayBeforeFade(int)))
@@ -4909,7 +4909,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.scrollBarFadeDuration] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.scrollBarFadeDuration.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.scrollBarFadeDuration.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - View.setScrollBarFadeDuration](https://developer.android.com/reference/android/view/View#setScrollBarFadeDuration(int)))
@@ -4920,7 +4920,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.scrollBarStyle] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.scrollBarStyle.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.scrollBarStyle.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.setScrollBarStyle](https://developer.android.com/reference/android/webkit/WebView#setScrollBarStyle(int)))
@@ -4931,7 +4931,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.scrollMultiplier] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.scrollMultiplier.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.scrollMultiplier.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2
@@ -4942,7 +4942,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.scrollbarFadingEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.scrollbarFadingEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.scrollbarFadingEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - View.setScrollbarFadingEnabled](https://developer.android.com/reference/android/view/View#setScrollbarFadingEnabled(boolean)))
@@ -4953,7 +4953,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.scrollsToTop] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.scrollsToTop.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.scrollsToTop.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView ([Official API - UIScrollView.scrollsToTop](https://developer.apple.com/documentation/uikit/uiscrollview/1619421-scrollstotop))
@@ -4964,7 +4964,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.selectionGranularity] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.selectionGranularity.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.selectionGranularity.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView ([Official API - WKWebViewConfiguration.selectionGranularity](https://developer.apple.com/documentation/webkit/wkwebviewconfiguration/1614756-selectiongranularity))
@@ -4975,7 +4975,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.serifFontFamily] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.serifFontFamily.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.serifFontFamily.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setSerifFontFamily](https://developer.android.com/reference/android/webkit/WebSettings?hl=en#setSerifFontFamily(java.lang.String)))
@@ -4987,7 +4987,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.sharedCookiesEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.sharedCookiesEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.sharedCookiesEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 11.0+
@@ -4999,7 +4999,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.shouldPrintBackgrounds] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.shouldPrintBackgrounds.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.shouldPrintBackgrounds.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 16.4+ ([Official API - WKWebView.shouldPrintBackgrounds](https://developer.apple.com/documentation/webkit/wkpreferences/4104043-shouldprintbackgrounds))
@@ -5011,7 +5011,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.standardFontFamily] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.standardFontFamily.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.standardFontFamily.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setStandardFontFamily](https://developer.android.com/reference/android/webkit/WebSettings?hl=en#setStandardFontFamily(java.lang.String)))
@@ -5023,7 +5023,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.statusBarEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.statusBarEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.statusBarEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 ([Official API - ICoreWebView2Settings.put_IsStatusBarEnabled](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2settings?view=webview2-1.0.2849.39#put_isstatusbarenabled))
@@ -5034,7 +5034,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.supportMultipleWindows] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.supportMultipleWindows.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.supportMultipleWindows.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setSupportMultipleWindows](https://developer.android.com/reference/android/webkit/WebSettings?hl=en#setSupportMultipleWindows(boolean)))
@@ -5045,7 +5045,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.supportZoom] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.supportZoom.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.supportZoom.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setSupportZoom](https://developer.android.com/reference/android/webkit/WebSettings?hl=en#setSupportZoom(boolean)))
@@ -5059,7 +5059,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.suppressesIncrementalRendering] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.suppressesIncrementalRendering.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.suppressesIncrementalRendering.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView ([Official API - WKWebViewConfiguration.suppressesIncrementalRendering](https://developer.apple.com/documentation/webkit/wkwebviewconfiguration/1395663-suppressesincrementalrendering))
@@ -5071,7 +5071,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.textZoom] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.textZoom.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.textZoom.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setTextZoom](https://developer.android.com/reference/android/webkit/WebSettings?hl=en#setTextZoom(int)))
@@ -5082,7 +5082,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.thirdPartyCookiesEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.thirdPartyCookiesEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.thirdPartyCookiesEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView 21+ ([Official API - CookieManager.setAcceptThirdPartyCookies](https://developer.android.com/reference/android/webkit/CookieManager#setAcceptThirdPartyCookies(android.webkit.WebView,%20boolean)))
@@ -5093,7 +5093,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.transparentBackground] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.transparentBackground.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.transparentBackground.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -5107,7 +5107,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.underPageBackgroundColor] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.underPageBackgroundColor.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.underPageBackgroundColor.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 15.0+ ([Official API - WKWebView.underPageBackgroundColor](https://developer.apple.com/documentation/webkit/wkwebview/3850574-underpagebackgroundcolor))
@@ -5119,7 +5119,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.upgradeKnownHostsToHTTPS] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.upgradeKnownHostsToHTTPS.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.upgradeKnownHostsToHTTPS.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 15.0+ ([Official API - WKWebViewConfiguration.upgradeKnownHostsToHTTPS](https://developer.apple.com/documentation/webkit/wkwebviewconfiguration/3752243-upgradeknownhoststohttps))
@@ -5131,7 +5131,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.useHybridComposition] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.useHybridComposition.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.useHybridComposition.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView:
@@ -5143,7 +5143,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.useOnAjaxProgress] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.useOnAjaxProgress.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.useOnAjaxProgress.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -5156,7 +5156,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.useOnAjaxReadyStateChange] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.useOnAjaxReadyStateChange.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.useOnAjaxReadyStateChange.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -5169,7 +5169,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.useOnDownloadStart] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.useOnDownloadStart.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.useOnDownloadStart.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -5182,7 +5182,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.useOnLoadResource] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.useOnLoadResource.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.useOnLoadResource.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -5196,7 +5196,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.useOnNavigationResponse] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.useOnNavigationResponse.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.useOnNavigationResponse.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -5208,7 +5208,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.useOnRenderProcessGone] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.useOnRenderProcessGone.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.useOnRenderProcessGone.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -5219,7 +5219,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.useOnShowFileChooser] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.useOnShowFileChooser.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.useOnShowFileChooser.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -5230,7 +5230,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.useShouldInterceptAjaxRequest] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.useShouldInterceptAjaxRequest.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.useShouldInterceptAjaxRequest.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -5243,7 +5243,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.useShouldInterceptFetchRequest] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.useShouldInterceptFetchRequest.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.useShouldInterceptFetchRequest.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -5256,7 +5256,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.useShouldInterceptRequest] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.useShouldInterceptRequest.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.useShouldInterceptRequest.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -5267,7 +5267,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.useShouldOverrideUrlLoading] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.useShouldOverrideUrlLoading.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.useShouldOverrideUrlLoading.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -5281,7 +5281,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.useWideViewPort] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.useWideViewPort.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.useWideViewPort.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setUseWideViewPort](https://developer.android.com/reference/android/webkit/WebSettings?hl=en#setUseWideViewPort(boolean)))
@@ -5292,7 +5292,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.userAgent] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.userAgent.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.userAgent.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.setUserAgentString](https://developer.android.com/reference/android/webkit/WebSettings?hl=en#setUserAgentString(java.lang.String)))
@@ -5306,7 +5306,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.verticalScrollBarEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.verticalScrollBarEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.verticalScrollBarEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - View.setVerticalScrollBarEnabled](https://developer.android.com/reference/android/view/View#setVerticalScrollBarEnabled(boolean)))
@@ -5320,7 +5320,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.verticalScrollbarPosition] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.verticalScrollbarPosition.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.verticalScrollbarPosition.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - View.setVerticalScrollbarPosition](https://developer.android.com/reference/android/view/View#setVerticalScrollbarPosition(int)))
@@ -5331,7 +5331,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.verticalScrollbarThumbColor] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.verticalScrollbarThumbColor.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.verticalScrollbarThumbColor.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView 29+ ([Official API - View.setVerticalScrollbarThumbDrawable](https://developer.android.com/reference/android/view/View#setVerticalScrollbarThumbDrawable(android.graphics.drawable.Drawable)))
@@ -5342,7 +5342,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.verticalScrollbarTrackColor] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.verticalScrollbarTrackColor.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.verticalScrollbarTrackColor.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView 29+ ([Official API - View.setVerticalScrollbarTrackDrawable](https://developer.android.com/reference/android/view/View#setVerticalScrollbarTrackDrawable(android.graphics.drawable.Drawable)))
@@ -5353,7 +5353,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.webRTCUdpPortsRange] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.webRTCUdpPortsRange.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.webRTCUdpPortsRange.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit 2.48+ ([Official API - WebKitSettings.webrtc-udp-ports-range](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/property.Settings.webrtc-udp-ports-range.html)):
@@ -5365,7 +5365,7 @@ enum InAppWebViewSettingsProperty {
 
   ///Can be used to check if the [InAppWebViewSettings.webViewAssetLoader] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppWebViewSettings.webViewAssetLoader.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppWebViewSettings.webViewAssetLoader.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView

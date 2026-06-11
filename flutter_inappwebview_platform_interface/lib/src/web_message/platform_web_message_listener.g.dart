@@ -8,7 +8,7 @@ part of 'platform_web_message_listener.dart';
 
 extension _PlatformWebMessageListenerCreationParamsClassSupported
     on PlatformWebMessageListenerCreationParams {
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebMessageListenerCreationParams.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebMessageListenerCreationParams.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -35,7 +35,7 @@ extension _PlatformWebMessageListenerCreationParamsClassSupported
 enum PlatformWebMessageListenerCreationParamsProperty {
   ///Can be used to check if the [PlatformWebMessageListenerCreationParams.allowedOriginRules] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebMessageListenerCreationParams.allowedOriginRules.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebMessageListenerCreationParams.allowedOriginRules.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -50,7 +50,7 @@ enum PlatformWebMessageListenerCreationParamsProperty {
 
   ///Can be used to check if the [PlatformWebMessageListenerCreationParams.jsObjectName] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebMessageListenerCreationParams.jsObjectName.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebMessageListenerCreationParams.jsObjectName.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -65,7 +65,7 @@ enum PlatformWebMessageListenerCreationParamsProperty {
 
   ///Can be used to check if the [PlatformWebMessageListenerCreationParams.onPostMessage] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebMessageListenerCreationParams.onPostMessage.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebMessageListenerCreationParams.onPostMessage.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebViewCompat.WebMessageListener.onPostMessage](https://developer.android.com/reference/androidx/webkit/WebViewCompat.WebMessageListener#onPostMessage(android.webkit.WebView,%20androidx.webkit.WebMessageCompat,%20android.net.Uri,%20boolean,%20androidx.webkit.JavaScriptReplyProxy)))
@@ -125,7 +125,7 @@ extension _PlatformWebMessageListenerCreationParamsPropertySupported
 
 extension _PlatformWebMessageListenerClassSupported
     on PlatformWebMessageListener {
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebMessageListener.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebMessageListener.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -152,7 +152,7 @@ extension _PlatformWebMessageListenerClassSupported
 enum PlatformWebMessageListenerMethod {
   ///Can be used to check if the [PlatformWebMessageListener.dispose] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebMessageListener.dispose.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebMessageListener.dispose.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView

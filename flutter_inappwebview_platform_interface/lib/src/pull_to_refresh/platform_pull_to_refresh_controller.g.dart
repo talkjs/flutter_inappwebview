@@ -8,7 +8,7 @@ part of 'platform_pull_to_refresh_controller.dart';
 
 extension _PlatformPullToRefreshControllerCreationParamsClassSupported
     on PlatformPullToRefreshControllerCreationParams {
-  ///{@template flutter_inappwebview_platform_interface.PlatformPullToRefreshControllerCreationParams.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformPullToRefreshControllerCreationParams.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -29,7 +29,7 @@ extension _PlatformPullToRefreshControllerCreationParamsClassSupported
 enum PlatformPullToRefreshControllerCreationParamsProperty {
   ///Can be used to check if the [PlatformPullToRefreshControllerCreationParams.onRefresh] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformPullToRefreshControllerCreationParams.onRefresh.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformPullToRefreshControllerCreationParams.onRefresh.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -41,7 +41,7 @@ enum PlatformPullToRefreshControllerCreationParamsProperty {
 
   ///Can be used to check if the [PlatformPullToRefreshControllerCreationParams.options] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformPullToRefreshControllerCreationParams.options.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformPullToRefreshControllerCreationParams.options.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -54,7 +54,7 @@ enum PlatformPullToRefreshControllerCreationParamsProperty {
 
   ///Can be used to check if the [PlatformPullToRefreshControllerCreationParams.settings] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformPullToRefreshControllerCreationParams.settings.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformPullToRefreshControllerCreationParams.settings.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -96,7 +96,7 @@ extension _PlatformPullToRefreshControllerCreationParamsPropertySupported
 
 extension _PlatformPullToRefreshControllerClassSupported
     on PlatformPullToRefreshController {
-  ///{@template flutter_inappwebview_platform_interface.PlatformPullToRefreshController.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformPullToRefreshController.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView:
@@ -118,7 +118,7 @@ extension _PlatformPullToRefreshControllerClassSupported
 enum PlatformPullToRefreshControllerMethod {
   ///Can be used to check if the [PlatformPullToRefreshController.beginRefreshing] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformPullToRefreshController.beginRefreshing.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformPullToRefreshController.beginRefreshing.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - SwipeRefreshLayout.setRefreshing](https://developer.android.com/reference/androidx/swiperefreshlayout/widget/SwipeRefreshLayout#setRefreshing(boolean)))
@@ -130,7 +130,7 @@ enum PlatformPullToRefreshControllerMethod {
 
   ///Can be used to check if the [PlatformPullToRefreshController.dispose] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformPullToRefreshController.dispose.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformPullToRefreshController.dispose.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -145,7 +145,7 @@ enum PlatformPullToRefreshControllerMethod {
 
   ///Can be used to check if the [PlatformPullToRefreshController.endRefreshing] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformPullToRefreshController.endRefreshing.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformPullToRefreshController.endRefreshing.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - SwipeRefreshLayout.setRefreshing](https://developer.android.com/reference/androidx/swiperefreshlayout/widget/SwipeRefreshLayout#setRefreshing(boolean)))
@@ -157,7 +157,7 @@ enum PlatformPullToRefreshControllerMethod {
 
   ///Can be used to check if the [PlatformPullToRefreshController.getDefaultSlingshotDistance] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformPullToRefreshController.getDefaultSlingshotDistance.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformPullToRefreshController.getDefaultSlingshotDistance.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - SwipeRefreshLayout.DEFAULT_SLINGSHOT_DISTANCE](https://developer.android.com/reference/androidx/swiperefreshlayout/widget/SwipeRefreshLayout#DEFAULT_SLINGSHOT_DISTANCE()))
@@ -168,7 +168,7 @@ enum PlatformPullToRefreshControllerMethod {
 
   ///Can be used to check if the [PlatformPullToRefreshController.isEnabled] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformPullToRefreshController.isEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformPullToRefreshController.isEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - View.isEnabled](https://developer.android.com/reference/android/view/View#isEnabled()))
@@ -180,7 +180,7 @@ enum PlatformPullToRefreshControllerMethod {
 
   ///Can be used to check if the [PlatformPullToRefreshController.isRefreshing] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformPullToRefreshController.isRefreshing.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformPullToRefreshController.isRefreshing.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - SwipeRefreshLayout.isRefreshing](https://developer.android.com/reference/androidx/swiperefreshlayout/widget/SwipeRefreshLayout#isRefreshing()))
@@ -192,7 +192,7 @@ enum PlatformPullToRefreshControllerMethod {
 
   ///Can be used to check if the [PlatformPullToRefreshController.setAttributedTitle] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformPullToRefreshController.setAttributedTitle.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformPullToRefreshController.setAttributedTitle.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView ([Official API - UIRefreshControl.attributedTitle](https://developer.apple.com/documentation/uikit/uirefreshcontrol/1624845-attributedtitle))
@@ -207,7 +207,7 @@ enum PlatformPullToRefreshControllerMethod {
 
   ///Can be used to check if the [PlatformPullToRefreshController.setBackgroundColor] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformPullToRefreshController.setBackgroundColor.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformPullToRefreshController.setBackgroundColor.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - SwipeRefreshLayout.setProgressBackgroundColorSchemeColor](https://developer.android.com/reference/androidx/swiperefreshlayout/widget/SwipeRefreshLayout#setProgressBackgroundColorSchemeColor(int)))
@@ -222,7 +222,7 @@ enum PlatformPullToRefreshControllerMethod {
 
   ///Can be used to check if the [PlatformPullToRefreshController.setColor] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformPullToRefreshController.setColor.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformPullToRefreshController.setColor.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - SwipeRefreshLayout.setColorSchemeColors](https://developer.android.com/reference/androidx/swiperefreshlayout/widget/SwipeRefreshLayout#setColorSchemeColors(int...)))
@@ -237,7 +237,7 @@ enum PlatformPullToRefreshControllerMethod {
 
   ///Can be used to check if the [PlatformPullToRefreshController.setDistanceToTriggerSync] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformPullToRefreshController.setDistanceToTriggerSync.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformPullToRefreshController.setDistanceToTriggerSync.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - SwipeRefreshLayout.setDistanceToTriggerSync](https://developer.android.com/reference/androidx/swiperefreshlayout/widget/SwipeRefreshLayout#setDistanceToTriggerSync(int)))
@@ -251,7 +251,7 @@ enum PlatformPullToRefreshControllerMethod {
 
   ///Can be used to check if the [PlatformPullToRefreshController.setEnabled] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformPullToRefreshController.setEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformPullToRefreshController.setEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - SwipeRefreshLayout.setEnabled](https://developer.android.com/reference/androidx/swiperefreshlayout/widget/SwipeRefreshLayout#setEnabled(boolean)))
@@ -266,7 +266,7 @@ enum PlatformPullToRefreshControllerMethod {
 
   ///Can be used to check if the [PlatformPullToRefreshController.setIndicatorSize] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformPullToRefreshController.setIndicatorSize.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformPullToRefreshController.setIndicatorSize.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - SwipeRefreshLayout.setSize](https://developer.android.com/reference/androidx/swiperefreshlayout/widget/SwipeRefreshLayout#setSize(int)))
@@ -280,7 +280,7 @@ enum PlatformPullToRefreshControllerMethod {
 
   ///Can be used to check if the [PlatformPullToRefreshController.setSize] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformPullToRefreshController.setSize.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformPullToRefreshController.setSize.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - SwipeRefreshLayout.setSize](https://developer.android.com/reference/androidx/swiperefreshlayout/widget/SwipeRefreshLayout#setSize(int)))
@@ -295,7 +295,7 @@ enum PlatformPullToRefreshControllerMethod {
 
   ///Can be used to check if the [PlatformPullToRefreshController.setSlingshotDistance] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformPullToRefreshController.setSlingshotDistance.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformPullToRefreshController.setSlingshotDistance.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - SwipeRefreshLayout.setSlingshotDistance](https://developer.android.com/reference/androidx/swiperefreshlayout/widget/SwipeRefreshLayout#setSlingshotDistance(int)))
@@ -309,7 +309,7 @@ enum PlatformPullToRefreshControllerMethod {
 
   ///Can be used to check if the [PlatformPullToRefreshController.setStyledTitle] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformPullToRefreshController.setStyledTitle.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformPullToRefreshController.setStyledTitle.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView ([Official API - UIRefreshControl.attributedTitle](https://developer.apple.com/documentation/uikit/uirefreshcontrol/1624845-attributedtitle))

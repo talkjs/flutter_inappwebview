@@ -477,7 +477,7 @@ class WebViewEnvironmentSettings {
 enum WebViewEnvironmentSettingsProperty {
   ///Can be used to check if the [WebViewEnvironmentSettings.additionalBrowserArguments] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.additionalBrowserArguments.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.additionalBrowserArguments.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 ([Official API - ICoreWebView2EnvironmentOptions.put_AdditionalBrowserArguments](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2environmentoptions?view=webview2-1.0.2210.55#put_additionalbrowserarguments))
@@ -488,7 +488,7 @@ enum WebViewEnvironmentSettingsProperty {
 
   ///Can be used to check if the [WebViewEnvironmentSettings.allowSingleSignOnUsingOSPrimaryAccount] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.allowSingleSignOnUsingOSPrimaryAccount.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.allowSingleSignOnUsingOSPrimaryAccount.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 ([Official API - ICoreWebView2EnvironmentOptions.put_AllowSingleSignOnUsingOSPrimaryAccount](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2environmentoptions?view=webview2-1.0.2210.55#put_allowsinglesignonusingosprimaryaccount))
@@ -499,7 +499,7 @@ enum WebViewEnvironmentSettingsProperty {
 
   ///Can be used to check if the [WebViewEnvironmentSettings.areBrowserExtensionsEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.areBrowserExtensionsEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.areBrowserExtensionsEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 1.0.2210.55+ ([Official API - ICoreWebView2EnvironmentOptions6.put_AreBrowserExtensionsEnabled](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2environmentoptions6?view=webview2-1.0.2849.39#put_arebrowserextensionsenabled))
@@ -510,7 +510,7 @@ enum WebViewEnvironmentSettingsProperty {
 
   ///Can be used to check if the [WebViewEnvironmentSettings.automationAllowed] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.automationAllowed.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.automationAllowed.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - webkit_web_context_set_automation_allowed](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/method.WebContext.set_automation_allowed.html))
@@ -521,7 +521,7 @@ enum WebViewEnvironmentSettingsProperty {
 
   ///Can be used to check if the [WebViewEnvironmentSettings.browserExecutableFolder] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.browserExecutableFolder.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.browserExecutableFolder.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 ([Official API - CreateCoreWebView2EnvironmentWithOptions.browserExecutableFolder](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/webview2-idl?view=webview2-1.0.2210.55#createcorewebview2environmentwithoptions))
@@ -532,7 +532,7 @@ enum WebViewEnvironmentSettingsProperty {
 
   ///Can be used to check if the [WebViewEnvironmentSettings.cacheModel] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.cacheModel.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.cacheModel.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - webkit_web_context_set_cache_model](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/method.WebContext.set_cache_model.html))
@@ -543,7 +543,7 @@ enum WebViewEnvironmentSettingsProperty {
 
   ///Can be used to check if the [WebViewEnvironmentSettings.channelSearchKind] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.channelSearchKind.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.channelSearchKind.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 1.0.2478.35+ ([Official API - ICoreWebView2EnvironmentOptions7.put_ChannelSearchKind](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2environmentoptions7?view=webview2-1.0.2849.39#put_channelsearchkind))
@@ -554,7 +554,7 @@ enum WebViewEnvironmentSettingsProperty {
 
   ///Can be used to check if the [WebViewEnvironmentSettings.customSchemeRegistrations] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.customSchemeRegistrations.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.customSchemeRegistrations.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 1.0.1587.40+ ([Official API - ICoreWebView2EnvironmentOptions4.SetCustomSchemeRegistrations](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2environmentoptions4?view=webview2-1.0.2739.15#setcustomschemeregistrations))
@@ -565,7 +565,7 @@ enum WebViewEnvironmentSettingsProperty {
 
   ///Can be used to check if the [WebViewEnvironmentSettings.enableTrackingPrevention] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.enableTrackingPrevention.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.enableTrackingPrevention.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 1.0.1661.34+ ([Official API - ICoreWebView2EnvironmentOptions5.put_EnableTrackingPrevention](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2environmentoptions5?view=webview2-1.0.2849.39#put_enabletrackingprevention))
@@ -576,7 +576,7 @@ enum WebViewEnvironmentSettingsProperty {
 
   ///Can be used to check if the [WebViewEnvironmentSettings.exclusiveUserDataFolderAccess] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.exclusiveUserDataFolderAccess.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.exclusiveUserDataFolderAccess.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 1.0.1185.39+ ([Official API - ICoreWebView2EnvironmentOptions2.put_ExclusiveUserDataFolderAccess](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2environmentoptions2?view=webview2-1.0.2849.39#put_exclusiveuserdatafolderaccess))
@@ -587,7 +587,7 @@ enum WebViewEnvironmentSettingsProperty {
 
   ///Can be used to check if the [WebViewEnvironmentSettings.isCustomCrashReportingEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.isCustomCrashReportingEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.isCustomCrashReportingEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 1.0.1518.46+ ([Official API - ICoreWebView2EnvironmentOptions3.put_IsCustomCrashReportingEnabled](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2environmentoptions3?view=webview2-1.0.2849.39#put_iscustomcrashreportingenabled))
@@ -598,7 +598,7 @@ enum WebViewEnvironmentSettingsProperty {
 
   ///Can be used to check if the [WebViewEnvironmentSettings.language] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.language.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.language.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 ([Official API - ICoreWebView2EnvironmentOptions.put_Language](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2environmentoptions?view=webview2-1.0.2210.55#put_language))
@@ -609,7 +609,7 @@ enum WebViewEnvironmentSettingsProperty {
 
   ///Can be used to check if the [WebViewEnvironmentSettings.preferredLanguages] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.preferredLanguages.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.preferredLanguages.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - webkit_web_context_set_preferred_languages](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/method.WebContext.set_preferred_languages.html))
@@ -620,7 +620,7 @@ enum WebViewEnvironmentSettingsProperty {
 
   ///Can be used to check if the [WebViewEnvironmentSettings.releaseChannels] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.releaseChannels.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.releaseChannels.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 1.0.2478.35+ ([Official API - ICoreWebView2EnvironmentOptions7.put_ReleaseChannels](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2environmentoptions7?view=webview2-1.0.2849.39#put_releasechannels))
@@ -631,7 +631,7 @@ enum WebViewEnvironmentSettingsProperty {
 
   ///Can be used to check if the [WebViewEnvironmentSettings.sandboxPaths] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.sandboxPaths.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.sandboxPaths.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - webkit_web_context_add_path_to_sandbox](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/method.WebContext.add_path_to_sandbox.html))
@@ -642,7 +642,7 @@ enum WebViewEnvironmentSettingsProperty {
 
   ///Can be used to check if the [WebViewEnvironmentSettings.scrollbarStyle] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.scrollbarStyle.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.scrollbarStyle.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 1.0.2535.41+ ([Official API - ICoreWebView2EnvironmentOptions8.put_ScrollBarStyle](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2environmentoptions8?view=webview2-1.0.2849.39#put_scrollbarstyle))
@@ -653,7 +653,7 @@ enum WebViewEnvironmentSettingsProperty {
 
   ///Can be used to check if the [WebViewEnvironmentSettings.spellCheckingEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.spellCheckingEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.spellCheckingEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - webkit_web_context_set_spell_checking_enabled](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/method.WebContext.set_spell_checking_enabled.html))
@@ -664,7 +664,7 @@ enum WebViewEnvironmentSettingsProperty {
 
   ///Can be used to check if the [WebViewEnvironmentSettings.spellCheckingLanguages] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.spellCheckingLanguages.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.spellCheckingLanguages.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - webkit_web_context_set_spell_checking_languages](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/method.WebContext.set_spell_checking_languages.html))
@@ -675,7 +675,7 @@ enum WebViewEnvironmentSettingsProperty {
 
   ///Can be used to check if the [WebViewEnvironmentSettings.targetCompatibleBrowserVersion] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.targetCompatibleBrowserVersion.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.targetCompatibleBrowserVersion.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 ([Official API - ICoreWebView2EnvironmentOptions.put_TargetCompatibleBrowserVersion](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2environmentoptions?view=webview2-1.0.2210.55#put_targetcompatiblebrowserversion))
@@ -686,7 +686,7 @@ enum WebViewEnvironmentSettingsProperty {
 
   ///Can be used to check if the [WebViewEnvironmentSettings.timeZoneOverride] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.timeZoneOverride.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.timeZoneOverride.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - time-zone-override](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/class.WebContext.html)):
@@ -698,7 +698,7 @@ enum WebViewEnvironmentSettingsProperty {
 
   ///Can be used to check if the [WebViewEnvironmentSettings.userDataFolder] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.userDataFolder.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.userDataFolder.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 ([Official API - CreateCoreWebView2EnvironmentWithOptions.userDataFolder](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/webview2-idl?view=webview2-1.0.2210.55#createcorewebview2environmentwithoptions))
@@ -709,7 +709,7 @@ enum WebViewEnvironmentSettingsProperty {
 
   ///Can be used to check if the [WebViewEnvironmentSettings.webProcessExtensionsDirectory] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.webProcessExtensionsDirectory.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.WebViewEnvironmentSettings.webProcessExtensionsDirectory.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - webkit_web_context_set_web_process_extensions_directory](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/method.WebContext.set_web_process_extensions_directory.html))

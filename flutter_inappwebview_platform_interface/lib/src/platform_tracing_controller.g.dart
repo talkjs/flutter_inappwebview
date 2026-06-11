@@ -125,7 +125,7 @@ class TracingSettings {
 
 extension _PlatformTracingControllerCreationParamsClassSupported
     on PlatformTracingControllerCreationParams {
-  ///{@template flutter_inappwebview_platform_interface.PlatformTracingControllerCreationParams.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformTracingControllerCreationParams.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -140,7 +140,7 @@ extension _PlatformTracingControllerCreationParamsClassSupported
 
 extension _PlatformTracingControllerClassSupported
     on PlatformTracingController {
-  ///{@template flutter_inappwebview_platform_interface.PlatformTracingController.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformTracingController.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - TracingController](https://developer.android.com/reference/androidx/webkit/TracingController))
@@ -157,7 +157,7 @@ extension _PlatformTracingControllerClassSupported
 enum PlatformTracingControllerMethod {
   ///Can be used to check if the [PlatformTracingController.isTracing] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformTracingController.isTracing.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformTracingController.isTracing.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - TracingController.isTracing](https://developer.android.com/reference/android/webkit/TracingController#isTracing()))
@@ -168,7 +168,7 @@ enum PlatformTracingControllerMethod {
 
   ///Can be used to check if the [PlatformTracingController.start] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformTracingController.start.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformTracingController.start.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - TracingController.start](https://developer.android.com/reference/android/webkit/TracingController#start(android.webkit.TracingConfig)))
@@ -182,7 +182,7 @@ enum PlatformTracingControllerMethod {
 
   ///Can be used to check if the [PlatformTracingController.stop] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformTracingController.stop.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformTracingController.stop.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - TracingController.stop](https://developer.android.com/reference/android/webkit/TracingController#stop(java.io.OutputStream,%20java.util.concurrent.Executor)))
@@ -222,7 +222,7 @@ extension _PlatformTracingControllerMethodSupported
 }
 
 extension _TracingSettingsClassSupported on TracingSettings {
-  ///{@template flutter_inappwebview_platform_interface.TracingSettings.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.TracingSettings.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - TracingConfig](https://developer.android.com/reference/androidx/webkit/TracingConfig))
@@ -239,7 +239,7 @@ extension _TracingSettingsClassSupported on TracingSettings {
 enum TracingSettingsProperty {
   ///Can be used to check if the [TracingSettings.tracingMode] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.TracingSettings.tracingMode.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.TracingSettings.tracingMode.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView

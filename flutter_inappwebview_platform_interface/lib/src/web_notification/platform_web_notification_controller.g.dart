@@ -8,7 +8,7 @@ part of 'platform_web_notification_controller.dart';
 
 extension _PlatformWebNotificationControllerCreationParamsClassSupported
     on PlatformWebNotificationControllerCreationParams {
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebNotificationControllerCreationParams.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebNotificationControllerCreationParams.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2
@@ -25,7 +25,7 @@ extension _PlatformWebNotificationControllerCreationParamsClassSupported
 enum PlatformWebNotificationControllerCreationParamsProperty {
   ///Can be used to check if the [PlatformWebNotificationControllerCreationParams.id] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebNotificationControllerCreationParams.id.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebNotificationControllerCreationParams.id.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2
@@ -36,7 +36,7 @@ enum PlatformWebNotificationControllerCreationParamsProperty {
 
   ///Can be used to check if the [PlatformWebNotificationControllerCreationParams.notification] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebNotificationControllerCreationParams.notification.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebNotificationControllerCreationParams.notification.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2
@@ -69,7 +69,7 @@ extension _PlatformWebNotificationControllerCreationParamsPropertySupported
 
 extension _PlatformWebNotificationControllerClassSupported
     on PlatformWebNotificationController {
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebNotificationController.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebNotificationController.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2
@@ -86,7 +86,7 @@ extension _PlatformWebNotificationControllerClassSupported
 enum PlatformWebNotificationControllerProperty {
   ///Can be used to check if the [PlatformWebNotificationController.onClose] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebNotificationController.onClose.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebNotificationController.onClose.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 ([Official API - ICoreWebView2Notification.add_CloseRequested](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2notification?view=webview2-1.0.3595.46#add_closerequested))
@@ -116,7 +116,7 @@ extension _PlatformWebNotificationControllerPropertySupported
 enum PlatformWebNotificationControllerMethod {
   ///Can be used to check if the [PlatformWebNotificationController.dispose] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebNotificationController.dispose.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebNotificationController.dispose.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2
@@ -127,7 +127,7 @@ enum PlatformWebNotificationControllerMethod {
 
   ///Can be used to check if the [PlatformWebNotificationController.reportClicked] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebNotificationController.reportClicked.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebNotificationController.reportClicked.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 ([Official API - ICoreWebView2Notification.ReportClicked](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2notification?view=webview2-1.0.3595.46#reportclicked))
@@ -138,7 +138,7 @@ enum PlatformWebNotificationControllerMethod {
 
   ///Can be used to check if the [PlatformWebNotificationController.reportClosed] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebNotificationController.reportClosed.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebNotificationController.reportClosed.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 ([Official API - ICoreWebView2Notification.ReportClosed](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2notification?view=webview2-1.0.3595.46#reportclosed))
@@ -149,7 +149,7 @@ enum PlatformWebNotificationControllerMethod {
 
   ///Can be used to check if the [PlatformWebNotificationController.reportShown] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebNotificationController.reportShown.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebNotificationController.reportShown.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 ([Official API - ICoreWebView2Notification.ReportShown](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2notification?view=webview2-1.0.3595.46#reportshown))

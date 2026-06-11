@@ -155,7 +155,7 @@ class PullToRefreshSettings {
 enum PullToRefreshSettingsProperty {
   ///Can be used to check if the [PullToRefreshSettings.attributedTitle] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PullToRefreshSettings.attributedTitle.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PullToRefreshSettings.attributedTitle.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -166,7 +166,7 @@ enum PullToRefreshSettingsProperty {
 
   ///Can be used to check if the [PullToRefreshSettings.backgroundColor] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PullToRefreshSettings.backgroundColor.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PullToRefreshSettings.backgroundColor.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -178,7 +178,7 @@ enum PullToRefreshSettingsProperty {
 
   ///Can be used to check if the [PullToRefreshSettings.color] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PullToRefreshSettings.color.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PullToRefreshSettings.color.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -190,7 +190,7 @@ enum PullToRefreshSettingsProperty {
 
   ///Can be used to check if the [PullToRefreshSettings.distanceToTriggerSync] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PullToRefreshSettings.distanceToTriggerSync.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PullToRefreshSettings.distanceToTriggerSync.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -201,7 +201,7 @@ enum PullToRefreshSettingsProperty {
 
   ///Can be used to check if the [PullToRefreshSettings.enabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PullToRefreshSettings.enabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PullToRefreshSettings.enabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -213,7 +213,7 @@ enum PullToRefreshSettingsProperty {
 
   ///Can be used to check if the [PullToRefreshSettings.size] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PullToRefreshSettings.size.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PullToRefreshSettings.size.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -224,7 +224,7 @@ enum PullToRefreshSettingsProperty {
 
   ///Can be used to check if the [PullToRefreshSettings.slingshotDistance] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PullToRefreshSettings.slingshotDistance.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PullToRefreshSettings.slingshotDistance.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView

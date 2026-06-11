@@ -8,7 +8,7 @@ part of 'platform_chrome_safari_browser.dart';
 
 extension _PlatformChromeSafariBrowserClassSupported
     on PlatformChromeSafariBrowser {
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs:
@@ -31,7 +31,7 @@ extension _PlatformChromeSafariBrowserClassSupported
 enum PlatformChromeSafariBrowserMethod {
   ///Can be used to check if the [PlatformChromeSafariBrowser.addMenuItem] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.addMenuItem.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.addMenuItem.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs:
@@ -47,7 +47,7 @@ enum PlatformChromeSafariBrowserMethod {
 
   ///Can be used to check if the [PlatformChromeSafariBrowser.addMenuItems] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.addMenuItems.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.addMenuItems.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs:
@@ -63,7 +63,7 @@ enum PlatformChromeSafariBrowserMethod {
 
   ///Can be used to check if the [PlatformChromeSafariBrowser.clearWebsiteData] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.clearWebsiteData.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.clearWebsiteData.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS SFSafariViewController 16.0+ ([Official API - SFSafariViewController.DataStore.clearWebsiteData](https://developer.apple.com/documentation/safariservices/sfsafariviewcontroller/datastore/3981117-clearwebsitedata))
@@ -74,7 +74,7 @@ enum PlatformChromeSafariBrowserMethod {
 
   ///Can be used to check if the [PlatformChromeSafariBrowser.close] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.close.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.close.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs
@@ -86,7 +86,7 @@ enum PlatformChromeSafariBrowserMethod {
 
   ///Can be used to check if the [PlatformChromeSafariBrowser.dispose] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.dispose.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.dispose.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs
@@ -98,7 +98,7 @@ enum PlatformChromeSafariBrowserMethod {
 
   ///Can be used to check if the [PlatformChromeSafariBrowser.getMaxToolbarItems] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.getMaxToolbarItems.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.getMaxToolbarItems.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs
@@ -109,7 +109,7 @@ enum PlatformChromeSafariBrowserMethod {
 
   ///Can be used to check if the [PlatformChromeSafariBrowser.getPackageName] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.getPackageName.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.getPackageName.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs ([Official API - CustomTabsClient.getPackageName](https://developer.android.com/reference/androidx/browser/customtabs/CustomTabsClient#getPackageName(android.content.Context,java.util.List%3Cjava.lang.String%3E,boolean)))
@@ -124,7 +124,7 @@ enum PlatformChromeSafariBrowserMethod {
 
   ///Can be used to check if the [PlatformChromeSafariBrowser.invalidatePrewarmingToken] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.invalidatePrewarmingToken.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.invalidatePrewarmingToken.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS SFSafariViewController 15.0+ ([Official API - SFSafariViewController.PrewarmingToken.invalidate](https://developer.apple.com/documentation/safariservices/sfsafariviewcontroller/prewarmingtoken/invalidate()))
@@ -138,7 +138,7 @@ enum PlatformChromeSafariBrowserMethod {
 
   ///Can be used to check if the [PlatformChromeSafariBrowser.isAvailable] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.isAvailable.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.isAvailable.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs
@@ -150,7 +150,7 @@ enum PlatformChromeSafariBrowserMethod {
 
   ///Can be used to check if the [PlatformChromeSafariBrowser.isEngagementSignalsApiAvailable] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.isEngagementSignalsApiAvailable.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.isEngagementSignalsApiAvailable.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs ([Official API - CustomTabsSession.isEngagementSignalsApiAvailable](https://developer.android.com/reference/androidx/browser/customtabs/CustomTabsSession#isEngagementSignalsApiAvailable(android.os.Bundle)))
@@ -161,7 +161,7 @@ enum PlatformChromeSafariBrowserMethod {
 
   ///Can be used to check if the [PlatformChromeSafariBrowser.isOpened] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.isOpened.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.isOpened.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs
@@ -173,7 +173,7 @@ enum PlatformChromeSafariBrowserMethod {
 
   ///Can be used to check if the [PlatformChromeSafariBrowser.launchUrl] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.launchUrl.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.launchUrl.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs
@@ -190,7 +190,7 @@ enum PlatformChromeSafariBrowserMethod {
 
   ///Can be used to check if the [PlatformChromeSafariBrowser.mayLaunchUrl] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.mayLaunchUrl.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.mayLaunchUrl.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs ([Official API - CustomTabsSession.mayLaunchUrl](https://developer.android.com/reference/androidx/browser/customtabs/CustomTabsSession#mayLaunchUrl(android.net.Uri,android.os.Bundle,java.util.List%3Candroid.os.Bundle%3E)))
@@ -205,7 +205,7 @@ enum PlatformChromeSafariBrowserMethod {
 
   ///Can be used to check if the [PlatformChromeSafariBrowser.open] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.open.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.open.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs
@@ -227,7 +227,7 @@ enum PlatformChromeSafariBrowserMethod {
 
   ///Can be used to check if the [PlatformChromeSafariBrowser.postMessage] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.postMessage.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.postMessage.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs ([Official API - CustomTabsSession.postMessage](https://developer.android.com/reference/androidx/browser/customtabs/CustomTabsSession#postMessage(java.lang.String,android.os.Bundle)))
@@ -241,7 +241,7 @@ enum PlatformChromeSafariBrowserMethod {
 
   ///Can be used to check if the [PlatformChromeSafariBrowser.prewarmConnections] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.prewarmConnections.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.prewarmConnections.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS SFSafariViewController 15.0+ ([Official API - SFSafariViewController.prewarmConnections](https://developer.apple.com/documentation/safariservices/sfsafariviewcontroller/3752133-prewarmconnections))
@@ -255,7 +255,7 @@ enum PlatformChromeSafariBrowserMethod {
 
   ///Can be used to check if the [PlatformChromeSafariBrowser.requestPostMessageChannel] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.requestPostMessageChannel.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.requestPostMessageChannel.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs ([Official API - CustomTabsSession.requestPostMessageChannel](https://developer.android.com/reference/androidx/browser/customtabs/CustomTabsSession#requestPostMessageChannel(android.net.Uri,android.net.Uri,android.os.Bundle)))
@@ -270,7 +270,7 @@ enum PlatformChromeSafariBrowserMethod {
 
   ///Can be used to check if the [PlatformChromeSafariBrowser.setActionButton] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.setActionButton.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.setActionButton.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs ([Official API - CustomTabsSession.setActionButton](https://developer.android.com/reference/androidx/browser/customtabs/CustomTabsIntent.Builder#setActionButton(android.graphics.Bitmap,%20java.lang.String,%20android.app.PendingIntent,%20boolean))):
@@ -285,7 +285,7 @@ enum PlatformChromeSafariBrowserMethod {
 
   ///Can be used to check if the [PlatformChromeSafariBrowser.setSecondaryToolbar] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.setSecondaryToolbar.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.setSecondaryToolbar.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs ([Official API - CustomTabsIntent.Builder.setSecondaryToolbarViews](https://developer.android.com/reference/androidx/browser/customtabs/CustomTabsIntent.Builder#setSecondaryToolbarViews(android.widget.RemoteViews,int[],android.app.PendingIntent))):
@@ -300,7 +300,7 @@ enum PlatformChromeSafariBrowserMethod {
 
   ///Can be used to check if the [PlatformChromeSafariBrowser.updateActionButton] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.updateActionButton.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.updateActionButton.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs ([Official API - CustomTabsSession.setActionButton](https://developer.android.com/reference/androidx/browser/customtabs/CustomTabsIntent.Builder#setActionButton(android.graphics.Bitmap,%20java.lang.String,%20android.app.PendingIntent,%20boolean))):
@@ -316,7 +316,7 @@ enum PlatformChromeSafariBrowserMethod {
 
   ///Can be used to check if the [PlatformChromeSafariBrowser.updateSecondaryToolbar] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.updateSecondaryToolbar.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.updateSecondaryToolbar.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs ([Official API - CustomTabsIntent.Builder.setSecondaryToolbarViews](https://developer.android.com/reference/androidx/browser/customtabs/CustomTabsIntent.Builder#setSecondaryToolbarViews(android.widget.RemoteViews,int[],android.app.PendingIntent))):
@@ -331,7 +331,7 @@ enum PlatformChromeSafariBrowserMethod {
 
   ///Can be used to check if the [PlatformChromeSafariBrowser.validateRelationship] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.validateRelationship.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowser.validateRelationship.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs ([Official API - CustomTabsSession.validateRelationship](https://developer.android.com/reference/androidx/browser/customtabs/CustomTabsSession#validateRelationship(int,android.net.Uri,android.os.Bundle)))
@@ -471,7 +471,7 @@ extension _PlatformChromeSafariBrowserMethodSupported
 enum PlatformChromeSafariBrowserEventsMethod {
   ///Can be used to check if the [PlatformChromeSafariBrowserEvents.onClosed] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowserEvents.onClosed.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowserEvents.onClosed.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -483,7 +483,7 @@ enum PlatformChromeSafariBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformChromeSafariBrowserEvents.onCompletedInitialLoad] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowserEvents.onCompletedInitialLoad.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowserEvents.onCompletedInitialLoad.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -499,7 +499,7 @@ enum PlatformChromeSafariBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformChromeSafariBrowserEvents.onGreatestScrollPercentageIncreased] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowserEvents.onGreatestScrollPercentageIncreased.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowserEvents.onGreatestScrollPercentageIncreased.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - EngagementSignalsCallback.onGreatestScrollPercentageIncreased](https://developer.android.com/reference/androidx/browser/customtabs/EngagementSignalsCallback#onGreatestScrollPercentageIncreased(int,android.os.Bundle)))
@@ -513,7 +513,7 @@ enum PlatformChromeSafariBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformChromeSafariBrowserEvents.onInitialLoadDidRedirect] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowserEvents.onInitialLoadDidRedirect.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowserEvents.onInitialLoadDidRedirect.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView ([Official API - SFSafariViewControllerDelegate.safariViewController](https://developer.apple.com/documentation/safariservices/sfsafariviewcontrollerdelegate/2923545-safariviewcontroller))
@@ -527,7 +527,7 @@ enum PlatformChromeSafariBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformChromeSafariBrowserEvents.onMessageChannelReady] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowserEvents.onMessageChannelReady.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowserEvents.onMessageChannelReady.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - CustomTabsCallback.onMessageChannelReady](https://developer.android.com/reference/androidx/browser/customtabs/CustomTabsCallback#onMessageChannelReady(android.os.Bundle)))
@@ -538,7 +538,7 @@ enum PlatformChromeSafariBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformChromeSafariBrowserEvents.onNavigationEvent] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowserEvents.onNavigationEvent.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowserEvents.onNavigationEvent.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - CustomTabsCallback.onNavigationEvent](https://developer.android.com/reference/androidx/browser/customtabs/CustomTabsCallback#onNavigationEvent(int,android.os.Bundle)))
@@ -552,7 +552,7 @@ enum PlatformChromeSafariBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformChromeSafariBrowserEvents.onOpened] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowserEvents.onOpened.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowserEvents.onOpened.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -564,7 +564,7 @@ enum PlatformChromeSafariBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformChromeSafariBrowserEvents.onPostMessage] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowserEvents.onPostMessage.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowserEvents.onPostMessage.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - CustomTabsCallback.onPostMessage](https://developer.android.com/reference/androidx/browser/customtabs/CustomTabsCallback#onPostMessage(java.lang.String,android.os.Bundle)))
@@ -578,7 +578,7 @@ enum PlatformChromeSafariBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformChromeSafariBrowserEvents.onRelationshipValidationResult] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowserEvents.onRelationshipValidationResult.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowserEvents.onRelationshipValidationResult.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - CustomTabsCallback.onRelationshipValidationResult](https://developer.android.com/reference/androidx/browser/customtabs/CustomTabsCallback#onRelationshipValidationResult(int,android.net.Uri,boolean,android.os.Bundle)))
@@ -594,7 +594,7 @@ enum PlatformChromeSafariBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformChromeSafariBrowserEvents.onServiceConnected] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowserEvents.onServiceConnected.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowserEvents.onServiceConnected.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -605,7 +605,7 @@ enum PlatformChromeSafariBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformChromeSafariBrowserEvents.onSessionEnded] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowserEvents.onSessionEnded.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowserEvents.onSessionEnded.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - EngagementSignalsCallback.onSessionEnded](https://developer.android.com/reference/androidx/browser/customtabs/EngagementSignalsCallback#onSessionEnded(boolean,android.os.Bundle)))
@@ -619,7 +619,7 @@ enum PlatformChromeSafariBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformChromeSafariBrowserEvents.onVerticalScrollEvent] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowserEvents.onVerticalScrollEvent.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowserEvents.onVerticalScrollEvent.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - EngagementSignalsCallback.onVerticalScrollEvent](https://developer.android.com/reference/androidx/browser/customtabs/EngagementSignalsCallback#onVerticalScrollEvent(boolean,android.os.Bundle)))
@@ -633,7 +633,7 @@ enum PlatformChromeSafariBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformChromeSafariBrowserEvents.onWillOpenInBrowser] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformChromeSafariBrowserEvents.onWillOpenInBrowser.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformChromeSafariBrowserEvents.onWillOpenInBrowser.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 14.0+ ([Official API - SFSafariViewControllerDelegate.safariViewControllerWillOpenInBrowser](https://developer.apple.com/documentation/safariservices/sfsafariviewcontrollerdelegate/3650426-safariviewcontrollerwillopeninbr))

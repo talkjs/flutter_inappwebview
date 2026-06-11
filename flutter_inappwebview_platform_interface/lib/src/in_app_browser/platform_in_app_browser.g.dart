@@ -7,7 +7,7 @@ part of 'platform_in_app_browser.dart';
 // **************************************************************************
 
 extension _PlatformInAppBrowserClassSupported on PlatformInAppBrowser {
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowser.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowser.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -34,7 +34,7 @@ extension _PlatformInAppBrowserClassSupported on PlatformInAppBrowser {
 enum PlatformInAppBrowserProperty {
   ///Can be used to check if the [PlatformInAppBrowser.contextMenu] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowser.contextMenu.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowser.contextMenu.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -46,7 +46,7 @@ enum PlatformInAppBrowserProperty {
 
   ///Can be used to check if the [PlatformInAppBrowser.findInteractionController] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowser.findInteractionController.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowser.findInteractionController.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -59,7 +59,7 @@ enum PlatformInAppBrowserProperty {
 
   ///Can be used to check if the [PlatformInAppBrowser.id] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowser.id.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowser.id.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -74,7 +74,7 @@ enum PlatformInAppBrowserProperty {
 
   ///Can be used to check if the [PlatformInAppBrowser.initialUserScripts] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowser.initialUserScripts.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowser.initialUserScripts.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -91,7 +91,7 @@ enum PlatformInAppBrowserProperty {
 
   ///Can be used to check if the [PlatformInAppBrowser.pullToRefreshController] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowser.pullToRefreshController.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowser.pullToRefreshController.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -103,7 +103,7 @@ enum PlatformInAppBrowserProperty {
 
   ///Can be used to check if the [PlatformInAppBrowser.webViewEnvironment] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowser.webViewEnvironment.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowser.webViewEnvironment.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2
@@ -114,7 +114,7 @@ enum PlatformInAppBrowserProperty {
 
   ///Can be used to check if the [PlatformInAppBrowser.windowId] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowser.windowId.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowser.windowId.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -193,7 +193,7 @@ extension _PlatformInAppBrowserPropertySupported on PlatformInAppBrowser {
 enum PlatformInAppBrowserMethod {
   ///Can be used to check if the [PlatformInAppBrowser.addMenuItem] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowser.addMenuItem.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowser.addMenuItem.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -209,7 +209,7 @@ enum PlatformInAppBrowserMethod {
 
   ///Can be used to check if the [PlatformInAppBrowser.addMenuItems] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowser.addMenuItems.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowser.addMenuItems.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -225,7 +225,7 @@ enum PlatformInAppBrowserMethod {
 
   ///Can be used to check if the [PlatformInAppBrowser.close] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowser.close.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowser.close.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -240,7 +240,7 @@ enum PlatformInAppBrowserMethod {
 
   ///Can be used to check if the [PlatformInAppBrowser.dispose] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowser.dispose.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowser.dispose.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -255,7 +255,7 @@ enum PlatformInAppBrowserMethod {
 
   ///Can be used to check if the [PlatformInAppBrowser.getOptions] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowser.getOptions.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowser.getOptions.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -268,7 +268,7 @@ enum PlatformInAppBrowserMethod {
 
   ///Can be used to check if the [PlatformInAppBrowser.getSettings] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowser.getSettings.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowser.getSettings.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -283,7 +283,7 @@ enum PlatformInAppBrowserMethod {
 
   ///Can be used to check if the [PlatformInAppBrowser.hasMenuItem] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowser.hasMenuItem.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowser.hasMenuItem.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -299,7 +299,7 @@ enum PlatformInAppBrowserMethod {
 
   ///Can be used to check if the [PlatformInAppBrowser.hide] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowser.hide.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowser.hide.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -314,7 +314,7 @@ enum PlatformInAppBrowserMethod {
 
   ///Can be used to check if the [PlatformInAppBrowser.isHidden] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowser.isHidden.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowser.isHidden.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -329,7 +329,7 @@ enum PlatformInAppBrowserMethod {
 
   ///Can be used to check if the [PlatformInAppBrowser.isOpened] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowser.isOpened.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowser.isOpened.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -344,7 +344,7 @@ enum PlatformInAppBrowserMethod {
 
   ///Can be used to check if the [PlatformInAppBrowser.openData] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowser.openData.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowser.openData.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -367,7 +367,7 @@ enum PlatformInAppBrowserMethod {
 
   ///Can be used to check if the [PlatformInAppBrowser.openFile] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowser.openFile.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowser.openFile.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -386,7 +386,7 @@ enum PlatformInAppBrowserMethod {
 
   ///Can be used to check if the [PlatformInAppBrowser.openUrlRequest] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowser.openUrlRequest.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowser.openUrlRequest.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -405,7 +405,7 @@ enum PlatformInAppBrowserMethod {
 
   ///Can be used to check if the [PlatformInAppBrowser.openWithSystemBrowser] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowser.openWithSystemBrowser.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowser.openWithSystemBrowser.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -423,7 +423,7 @@ enum PlatformInAppBrowserMethod {
 
   ///Can be used to check if the [PlatformInAppBrowser.removeAllMenuItem] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowser.removeAllMenuItem.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowser.removeAllMenuItem.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -436,7 +436,7 @@ enum PlatformInAppBrowserMethod {
 
   ///Can be used to check if the [PlatformInAppBrowser.removeMenuItem] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowser.removeMenuItem.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowser.removeMenuItem.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -452,7 +452,7 @@ enum PlatformInAppBrowserMethod {
 
   ///Can be used to check if the [PlatformInAppBrowser.removeMenuItems] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowser.removeMenuItems.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowser.removeMenuItems.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -468,7 +468,7 @@ enum PlatformInAppBrowserMethod {
 
   ///Can be used to check if the [PlatformInAppBrowser.setOptions] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowser.setOptions.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowser.setOptions.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -484,7 +484,7 @@ enum PlatformInAppBrowserMethod {
 
   ///Can be used to check if the [PlatformInAppBrowser.setSettings] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowser.setSettings.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowser.setSettings.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -502,7 +502,7 @@ enum PlatformInAppBrowserMethod {
 
   ///Can be used to check if the [PlatformInAppBrowser.show] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowser.show.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowser.show.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -692,7 +692,7 @@ extension _PlatformInAppBrowserMethodSupported on PlatformInAppBrowser {
 enum PlatformInAppBrowserEventsMethod {
   ///Can be used to check if the [PlatformInAppBrowserEvents.androidOnFormResubmission] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.androidOnFormResubmission.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.androidOnFormResubmission.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -707,7 +707,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.androidOnGeolocationPermissionsHidePrompt] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.androidOnGeolocationPermissionsHidePrompt.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.androidOnGeolocationPermissionsHidePrompt.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -719,7 +719,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.androidOnGeolocationPermissionsShowPrompt] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.androidOnGeolocationPermissionsShowPrompt.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.androidOnGeolocationPermissionsShowPrompt.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -734,7 +734,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.androidOnJsBeforeUnload] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.androidOnJsBeforeUnload.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.androidOnJsBeforeUnload.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -749,7 +749,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.androidOnPermissionRequest] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.androidOnPermissionRequest.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.androidOnPermissionRequest.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -765,7 +765,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.androidOnReceivedIcon] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.androidOnReceivedIcon.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.androidOnReceivedIcon.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -780,7 +780,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.androidOnReceivedLoginRequest] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.androidOnReceivedLoginRequest.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.androidOnReceivedLoginRequest.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -795,7 +795,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.androidOnReceivedTouchIconUrl] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.androidOnReceivedTouchIconUrl.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.androidOnReceivedTouchIconUrl.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -811,7 +811,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.androidOnRenderProcessGone] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.androidOnRenderProcessGone.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.androidOnRenderProcessGone.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -826,7 +826,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.androidOnRenderProcessResponsive] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.androidOnRenderProcessResponsive.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.androidOnRenderProcessResponsive.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -841,7 +841,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.androidOnRenderProcessUnresponsive] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.androidOnRenderProcessUnresponsive.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.androidOnRenderProcessUnresponsive.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -856,7 +856,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.androidOnSafeBrowsingHit] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.androidOnSafeBrowsingHit.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.androidOnSafeBrowsingHit.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -872,7 +872,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.androidOnScaleChanged] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.androidOnScaleChanged.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.androidOnScaleChanged.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -888,7 +888,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.androidShouldInterceptRequest] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.androidShouldInterceptRequest.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.androidShouldInterceptRequest.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -903,7 +903,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.iosOnDidReceiveServerRedirectForProvisionalNavigation] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.iosOnDidReceiveServerRedirectForProvisionalNavigation.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.iosOnDidReceiveServerRedirectForProvisionalNavigation.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -915,7 +915,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.iosOnNavigationResponse] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.iosOnNavigationResponse.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.iosOnNavigationResponse.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -930,7 +930,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.iosOnWebContentProcessDidTerminate] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.iosOnWebContentProcessDidTerminate.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.iosOnWebContentProcessDidTerminate.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -942,7 +942,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.iosShouldAllowDeprecatedTLS] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.iosShouldAllowDeprecatedTLS.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.iosShouldAllowDeprecatedTLS.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -957,7 +957,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onAcceleratorKeyPressed] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onAcceleratorKeyPressed.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onAcceleratorKeyPressed.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 ([Official API - ICoreWebView2Controller.add_AcceleratorKeyPressed](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2controller?view=webview2-1.0.2849.39#add_acceleratorkeypressed))
@@ -971,7 +971,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onAjaxProgress] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onAjaxProgress.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onAjaxProgress.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView:
@@ -988,7 +988,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onAjaxReadyStateChange] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onAjaxReadyStateChange.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onAjaxReadyStateChange.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView:
@@ -1005,7 +1005,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onBrowserCreated] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onBrowserCreated.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onBrowserCreated.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1020,7 +1020,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onCameraCaptureStateChanged] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onCameraCaptureStateChanged.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onCameraCaptureStateChanged.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 15.0+
@@ -1036,7 +1036,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onCloseWindow] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onCloseWindow.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onCloseWindow.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebChromeClient.onCloseWindow](https://developer.android.com/reference/android/webkit/WebChromeClient#onCloseWindow(android.webkit.WebView)))
@@ -1051,7 +1051,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onConsoleMessage] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onConsoleMessage.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onConsoleMessage.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebChromeClient.onConsoleMessage](https://developer.android.com/reference/android/webkit/WebChromeClient#onConsoleMessage(android.webkit.ConsoleMessage)))
@@ -1071,7 +1071,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onContentLoading] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onContentLoading.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onContentLoading.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 ([Official API - ICoreWebView2.add_ContentLoading](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2?view=webview2-1.0.2210.55#add_contentloading))
@@ -1085,7 +1085,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onContentSizeChanged] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onContentSizeChanged.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onContentSizeChanged.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -1100,7 +1100,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onCreateWindow] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onCreateWindow.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onCreateWindow.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebChromeClient.onCreateWindow](https://developer.android.com/reference/android/webkit/WebChromeClient#onCreateWindow(android.webkit.WebView,%20boolean,%20boolean,%20android.os.Message))):
@@ -1120,7 +1120,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onDOMContentLoaded] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onDOMContentLoaded.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onDOMContentLoaded.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 ([Official API - ICoreWebView2_2.add_DOMContentLoaded](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2_2?view=webview2-1.0.2210.55#add_domcontentloaded))
@@ -1134,7 +1134,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onDidReceiveServerRedirectForProvisionalNavigation] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onDidReceiveServerRedirectForProvisionalNavigation.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onDidReceiveServerRedirectForProvisionalNavigation.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView ([Official API - WKNavigationDelegate.webView](https://developer.apple.com/documentation/webkit/wknavigationdelegate/1455627-webview))
@@ -1146,7 +1146,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onDownloadStart] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onDownloadStart.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onDownloadStart.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1162,7 +1162,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onDownloadStartRequest] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onDownloadStartRequest.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onDownloadStartRequest.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1179,7 +1179,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onDownloadStarting] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onDownloadStarting.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onDownloadStarting.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.setDownloadListener]((https://developer.android.com/reference/android/webkit/WebView#setDownloadListener(android.webkit.DownloadListener)))
@@ -1196,7 +1196,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onEnterFullscreen] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onEnterFullscreen.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onEnterFullscreen.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebChromeClient.onShowCustomView](https://developer.android.com/reference/android/webkit/WebChromeClient#onShowCustomView(android.view.View,%20android.webkit.WebChromeClient.CustomViewCallback)))
@@ -1210,7 +1210,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onExit] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onExit.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onExit.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1225,7 +1225,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onExitFullscreen] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onExitFullscreen.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onExitFullscreen.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebChromeClient.onHideCustomView](https://developer.android.com/reference/android/webkit/WebChromeClient#onHideCustomView()))
@@ -1239,7 +1239,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onFaviconChanged] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onFaviconChanged.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onFaviconChanged.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebChromeClient.onReceivedIcon](https://developer.android.com/reference/android/webkit/WebChromeClient#onReceivedIcon(android.webkit.WebView,%20android.graphics.Bitmap)))
@@ -1254,7 +1254,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onFindResultReceived] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onFindResultReceived.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onFindResultReceived.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1273,7 +1273,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onFormResubmission] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onFormResubmission.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onFormResubmission.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebViewClient.onFormResubmission](https://developer.android.com/reference/android/webkit/WebViewClient#onFormResubmission(android.webkit.WebView,%20android.os.Message,%20android.os.Message)))
@@ -1287,7 +1287,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onGeolocationPermissionsHidePrompt] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onGeolocationPermissionsHidePrompt.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onGeolocationPermissionsHidePrompt.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebChromeClient.onGeolocationPermissionsHidePrompt](https://developer.android.com/reference/android/webkit/WebChromeClient#onGeolocationPermissionsHidePrompt()))
@@ -1298,7 +1298,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onGeolocationPermissionsShowPrompt] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onGeolocationPermissionsShowPrompt.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onGeolocationPermissionsShowPrompt.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebChromeClient.onGeolocationPermissionsShowPrompt](https://developer.android.com/reference/android/webkit/WebChromeClient#onGeolocationPermissionsShowPrompt(java.lang.String,%20android.webkit.GeolocationPermissions.Callback)))
@@ -1312,7 +1312,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onJsAlert] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onJsAlert.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onJsAlert.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebChromeClient.onJsAlert](https://developer.android.com/reference/android/webkit/WebChromeClient#onJsAlert(android.webkit.WebView,%20java.lang.String,%20java.lang.String,%20android.webkit.JsResult)))
@@ -1328,7 +1328,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onJsConfirm] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onJsConfirm.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onJsConfirm.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebChromeClient.onJsConfirm](https://developer.android.com/reference/android/webkit/WebChromeClient#onJsConfirm(android.webkit.WebView,%20java.lang.String,%20java.lang.String,%20android.webkit.JsResult)))
@@ -1344,7 +1344,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onJsPrompt] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onJsPrompt.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onJsPrompt.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebChromeClient.onJsPrompt](https://developer.android.com/reference/android/webkit/WebChromeClient#onJsPrompt(android.webkit.WebView,%20java.lang.String,%20java.lang.String,%20java.lang.String,%20android.webkit.JsPromptResult)))
@@ -1360,7 +1360,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onLaunchingExternalUriScheme] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onLaunchingExternalUriScheme.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onLaunchingExternalUriScheme.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 ([Official API - ICoreWebView2_18.add_LaunchingExternalUriScheme](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2_18?view=webview2-1.0.2849.39#add_launchingexternalurischeme))
@@ -1374,7 +1374,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onLoadError] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onLoadError.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onLoadError.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1393,7 +1393,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onLoadHttpError] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onLoadHttpError.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onLoadHttpError.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1412,7 +1412,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onLoadResource] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onLoadResource.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onLoadResource.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView:
@@ -1431,7 +1431,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onLoadResourceCustomScheme] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onLoadResourceCustomScheme.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onLoadResourceCustomScheme.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1448,7 +1448,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onLoadResourceWithCustomScheme] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onLoadResourceWithCustomScheme.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onLoadResourceWithCustomScheme.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1465,7 +1465,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onLoadStart] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onLoadStart.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onLoadStart.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebViewClient.onPageStarted](https://developer.android.com/reference/android/webkit/WebViewClient#onPageStarted(android.webkit.WebView,%20java.lang.String,%20android.graphics.Bitmap)))
@@ -1482,7 +1482,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onLoadStop] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onLoadStop.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onLoadStop.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebViewClient.onPageFinished](https://developer.android.com/reference/android/webkit/WebViewClient#onPageFinished(android.webkit.WebView,%20java.lang.String)))
@@ -1499,7 +1499,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onLongPressHitTestResult] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onLongPressHitTestResult.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onLongPressHitTestResult.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - View.setOnLongClickListener](https://developer.android.com/reference/android/view/View#setOnLongClickListener(android.view.View.OnLongClickListener)))
@@ -1514,7 +1514,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onMainWindowWillClose] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onMainWindowWillClose.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onMainWindowWillClose.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView
@@ -1525,7 +1525,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onMicrophoneCaptureStateChanged] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onMicrophoneCaptureStateChanged.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onMicrophoneCaptureStateChanged.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 15.0+
@@ -1541,7 +1541,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onNavigationResponse] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onNavigationResponse.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onNavigationResponse.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView ([Official API - WKNavigationDelegate.webView](https://developer.apple.com/documentation/webkit/wknavigationdelegate/1455643-webview))
@@ -1556,7 +1556,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onNotificationReceived] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onNotificationReceived.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onNotificationReceived.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 ([Official API - ICoreWebView2_24.add_NotificationReceived](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2_24?view=webview2-1.0.2849.39#add_notificationreceived))
@@ -1570,7 +1570,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onOverScrolled] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onOverScrolled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onOverScrolled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.onOverScrolled](https://developer.android.com/reference/android/webkit/WebView#onOverScrolled(int,%20int,%20boolean,%20boolean)))
@@ -1588,7 +1588,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onPageCommitVisible] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onPageCommitVisible.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onPageCommitVisible.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebViewClient.onPageCommitVisible](https://developer.android.com/reference/android/webkit/WebViewClient#onPageCommitVisible(android.webkit.WebView,%20java.lang.String)))
@@ -1604,7 +1604,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onPermissionRequest] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onPermissionRequest.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onPermissionRequest.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView 21+ ([Official API - WebChromeClient.onPermissionRequest](https://developer.android.com/reference/android/webkit/WebChromeClient#onPermissionRequest(android.webkit.PermissionRequest)))
@@ -1623,7 +1623,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onPermissionRequestCanceled] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onPermissionRequestCanceled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onPermissionRequestCanceled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView 21+ ([Official API - WebChromeClient.onPermissionRequestCanceled](https://developer.android.com/reference/android/webkit/WebChromeClient#onPermissionRequestCanceled(android.webkit.PermissionRequest)))
@@ -1637,7 +1637,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onPrint] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onPrint.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onPrint.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1653,7 +1653,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onPrintRequest] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onPrintRequest.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onPrintRequest.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - View.scrollBy](https://developer.android.com/reference/android/view/View#scrollBy(int,%20int)))
@@ -1671,7 +1671,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onProcessFailed] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onProcessFailed.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onProcessFailed.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 ([Official API - ICoreWebView2.add_ProcessFailed](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2?view=webview2-1.0.2849.39#add_processfailed))
@@ -1685,7 +1685,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onProgressChanged] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onProgressChanged.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onProgressChanged.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebChromeClient.onProgressChanged](https://developer.android.com/reference/android/webkit/WebChromeClient#onProgressChanged(android.webkit.WebView,%20int)))
@@ -1702,7 +1702,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onReceivedClientCertRequest] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onReceivedClientCertRequest.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onReceivedClientCertRequest.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebViewClient.onReceivedClientCertRequest](https://developer.android.com/reference/android/webkit/WebViewClient#onReceivedClientCertRequest(android.webkit.WebView,%20android.webkit.ClientCertRequest)))
@@ -1719,7 +1719,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onReceivedError] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onReceivedError.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onReceivedError.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebViewClient.onReceivedError](https://developer.android.com/reference/android/webkit/WebViewClient#onReceivedError(android.webkit.WebView,%20android.webkit.WebResourceRequest,%20android.webkit.WebResourceError)))
@@ -1737,7 +1737,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onReceivedHttpAuthRequest] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onReceivedHttpAuthRequest.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onReceivedHttpAuthRequest.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebViewClient.onReceivedHttpAuthRequest](https://developer.android.com/reference/android/webkit/WebViewClient#onReceivedHttpAuthRequest(android.webkit.WebView,%20android.webkit.HttpAuthHandler,%20java.lang.String,%20java.lang.String)))
@@ -1754,7 +1754,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onReceivedHttpError] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onReceivedHttpError.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onReceivedHttpError.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView 23+ ([Official API - WebViewClient.onReceivedHttpError](https://developer.android.com/reference/android/webkit/WebViewClient#onReceivedHttpError(android.webkit.WebView,%20android.webkit.WebResourceRequest,%20android.webkit.WebResourceResponse)))
@@ -1772,7 +1772,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onReceivedIcon] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onReceivedIcon.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onReceivedIcon.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebChromeClient.onReceivedIcon](https://developer.android.com/reference/android/webkit/WebChromeClient#onReceivedIcon(android.webkit.WebView,%20android.graphics.Bitmap)))
@@ -1787,7 +1787,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onReceivedLoginRequest] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onReceivedLoginRequest.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onReceivedLoginRequest.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebViewClient.onReceivedLoginRequest](https://developer.android.com/reference/android/webkit/WebViewClient#onReceivedLoginRequest(android.webkit.WebView,%20java.lang.String,%20java.lang.String,%20java.lang.String)))
@@ -1801,7 +1801,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onReceivedServerTrustAuthRequest] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onReceivedServerTrustAuthRequest.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onReceivedServerTrustAuthRequest.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebViewClient.onReceivedSslError](https://developer.android.com/reference/android/webkit/WebViewClient#onReceivedSslError(android.webkit.WebView,%20android.webkit.SslErrorHandler,%20android.net.http.SslError)))
@@ -1820,7 +1820,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onReceivedTouchIconUrl] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onReceivedTouchIconUrl.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onReceivedTouchIconUrl.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebChromeClient.onReceivedTouchIconUrl](https://developer.android.com/reference/android/webkit/WebChromeClient#onReceivedTouchIconUrl(android.webkit.WebView,%20java.lang.String,%20boolean)))
@@ -1835,7 +1835,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onRenderProcessGone] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onRenderProcessGone.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onRenderProcessGone.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView 26+ ([Official API - WebViewClient.onRenderProcessGone](https://developer.android.com/reference/android/webkit/WebViewClient#onRenderProcessGone(android.webkit.WebView,%20android.webkit.RenderProcessGoneDetail)))
@@ -1850,7 +1850,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onRenderProcessResponsive] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onRenderProcessResponsive.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onRenderProcessResponsive.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView 29+ ([Official API - WebViewRenderProcessClient.onRenderProcessResponsive](https://developer.android.com/reference/android/webkit/WebViewRenderProcessClient#onRenderProcessResponsive(android.webkit.WebView,%20android.webkit.WebViewRenderProcess)))
@@ -1864,7 +1864,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onRenderProcessUnresponsive] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onRenderProcessUnresponsive.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onRenderProcessUnresponsive.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView 29+ ([Official API - WebViewRenderProcessClient.onRenderProcessUnresponsive](https://developer.android.com/reference/android/webkit/WebViewRenderProcessClient#onRenderProcessUnresponsive(android.webkit.WebView,%20android.webkit.WebViewRenderProcess)))
@@ -1879,7 +1879,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onRequestFocus] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onRequestFocus.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onRequestFocus.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebChromeClient.onRequestFocus](https://developer.android.com/reference/android/webkit/WebChromeClient#onRequestFocus(android.webkit.WebView)))
@@ -1890,7 +1890,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onSafeBrowsingHit] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onSafeBrowsingHit.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onSafeBrowsingHit.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView 27+ ([Official API - WebViewClient.onSafeBrowsingHit](https://developer.android.com/reference/android/webkit/WebViewClient#onSafeBrowsingHit(android.webkit.WebView,%20android.webkit.WebResourceRequest,%20int,%20android.webkit.SafeBrowsingResponse)))
@@ -1905,7 +1905,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onSaveAsUIShowing] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onSaveAsUIShowing.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onSaveAsUIShowing.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 ([Official API - ICoreWebView2_25.add_SaveAsUIShowing](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2_25?view=webview2-1.0.2849.39#add_saveasuishowing))
@@ -1919,7 +1919,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onSaveFileSecurityCheckStarting] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onSaveFileSecurityCheckStarting.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onSaveFileSecurityCheckStarting.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 ([Official API - ICoreWebView2_26.add_SaveFileSecurityCheckStarting](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2_26?view=webview2-1.0.2849.39#add_savefilesecuritycheckstarting))
@@ -1933,7 +1933,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onScreenCaptureStarting] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onScreenCaptureStarting.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onScreenCaptureStarting.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 ([Official API - ICoreWebView2_27.add_ScreenCaptureStarting](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2_27?view=webview2-1.0.2849.39#add_screencapturestarting))
@@ -1947,7 +1947,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onScrollChanged] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onScrollChanged.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onScrollChanged.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.onScrollChanged](https://developer.android.com/reference/android/webkit/WebView#onScrollChanged(int,%20int,%20int,%20int)))
@@ -1965,7 +1965,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onShowFileChooser] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onShowFileChooser.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onShowFileChooser.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebChromeClient.onShowFileChooser](https://developer.android.com/reference/android/webkit/WebChromeClient#onShowFileChooser(android.webkit.WebView,%20android.webkit.ValueCallback%3Candroid.net.Uri[]%3E,%20android.webkit.WebChromeClient.FileChooserParams)))
@@ -1979,7 +1979,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onTitleChanged] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onTitleChanged.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onTitleChanged.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebChromeClient.onReceivedTitle](https://developer.android.com/reference/android/webkit/WebChromeClient#onReceivedTitle(android.webkit.WebView,%20java.lang.String)))
@@ -1996,7 +1996,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onUpdateVisitedHistory] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onUpdateVisitedHistory.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onUpdateVisitedHistory.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebViewClient.doUpdateVisitedHistory](https://developer.android.com/reference/android/webkit/WebViewClient#doUpdateVisitedHistory(android.webkit.WebView,%20java.lang.String,%20boolean)))
@@ -2015,7 +2015,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onWebContentProcessDidTerminate] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onWebContentProcessDidTerminate.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onWebContentProcessDidTerminate.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView ([Official API - WKNavigationDelegate.webViewWebContentProcessDidTerminate](https://developer.apple.com/documentation/webkit/wknavigationdelegate/1455639-webviewwebcontentprocessdidtermi))
@@ -2028,7 +2028,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onWindowBlur] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onWindowBlur.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onWindowBlur.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -2041,7 +2041,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onWindowFocus] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onWindowFocus.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onWindowFocus.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -2054,7 +2054,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.onZoomScaleChanged] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onZoomScaleChanged.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.onZoomScaleChanged.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebViewClient.onScaleChanged](https://developer.android.com/reference/android/webkit/WebViewClient#onScaleChanged(android.webkit.WebView,%20float,%20float)))
@@ -2071,7 +2071,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.shouldAllowDeprecatedTLS] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.shouldAllowDeprecatedTLS.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.shouldAllowDeprecatedTLS.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 14.0+ ([Official API - WKNavigationDelegate.webView](https://developer.apple.com/documentation/webkit/wknavigationdelegate/3601237-webview))
@@ -2086,7 +2086,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.shouldInterceptAjaxRequest] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.shouldInterceptAjaxRequest.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.shouldInterceptAjaxRequest.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView:
@@ -2103,7 +2103,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.shouldInterceptFetchRequest] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.shouldInterceptFetchRequest.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.shouldInterceptFetchRequest.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView:
@@ -2120,7 +2120,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.shouldInterceptRequest] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.shouldInterceptRequest.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.shouldInterceptRequest.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebViewClient.shouldInterceptRequest](https://developer.android.com/reference/android/webkit/WebViewClient#shouldInterceptRequest(android.webkit.WebView,%20android.webkit.WebResourceRequest)))
@@ -2135,7 +2135,7 @@ enum PlatformInAppBrowserEventsMethod {
 
   ///Can be used to check if the [PlatformInAppBrowserEvents.shouldOverrideUrlLoading] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.shouldOverrideUrlLoading.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppBrowserEvents.shouldOverrideUrlLoading.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebViewClient.shouldOverrideUrlLoading](https://developer.android.com/reference/android/webkit/WebViewClient#shouldOverrideUrlLoading(android.webkit.WebView,%20java.lang.String))):

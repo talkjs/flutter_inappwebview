@@ -192,7 +192,7 @@ class ProcessGlobalConfigDirectoryBasePaths {
 
 extension _PlatformProcessGlobalConfigCreationParamsClassSupported
     on PlatformProcessGlobalConfigCreationParams {
-  ///{@template flutter_inappwebview_platform_interface.PlatformProcessGlobalConfigCreationParams.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformProcessGlobalConfigCreationParams.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -207,7 +207,7 @@ extension _PlatformProcessGlobalConfigCreationParamsClassSupported
 
 extension _PlatformProcessGlobalConfigClassSupported
     on PlatformProcessGlobalConfig {
-  ///{@template flutter_inappwebview_platform_interface.PlatformProcessGlobalConfig.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformProcessGlobalConfig.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - ProcessGlobalConfig](https://developer.android.com/reference/androidx/webkit/ProcessGlobalConfig))
@@ -224,7 +224,7 @@ extension _PlatformProcessGlobalConfigClassSupported
 enum PlatformProcessGlobalConfigMethod {
   ///Can be used to check if the [PlatformProcessGlobalConfig.apply] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformProcessGlobalConfig.apply.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformProcessGlobalConfig.apply.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - ProcessGlobalConfig.apply](https://developer.android.com/reference/androidx/webkit/ProcessGlobalConfig#apply(androidx.webkit.ProcessGlobalConfig)))
@@ -255,7 +255,7 @@ extension _PlatformProcessGlobalConfigMethodSupported
 
 extension _ProcessGlobalConfigSettingsClassSupported
     on ProcessGlobalConfigSettings {
-  ///{@template flutter_inappwebview_platform_interface.ProcessGlobalConfigSettings.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.ProcessGlobalConfigSettings.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - ProcessGlobalConfig.apply](https://developer.android.com/reference/androidx/webkit/ProcessGlobalConfig#apply(androidx.webkit.ProcessGlobalConfig)))
@@ -272,7 +272,7 @@ extension _ProcessGlobalConfigSettingsClassSupported
 enum ProcessGlobalConfigSettingsProperty {
   ///Can be used to check if the [ProcessGlobalConfigSettings.dataDirectorySuffix] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.ProcessGlobalConfigSettings.dataDirectorySuffix.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.ProcessGlobalConfigSettings.dataDirectorySuffix.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView:
@@ -284,7 +284,7 @@ enum ProcessGlobalConfigSettingsProperty {
 
   ///Can be used to check if the [ProcessGlobalConfigSettings.directoryBasePaths] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.ProcessGlobalConfigSettings.directoryBasePaths.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.ProcessGlobalConfigSettings.directoryBasePaths.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView:

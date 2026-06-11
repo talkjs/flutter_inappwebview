@@ -1,3 +1,7 @@
+## 1.4.0+1
+
+- (TalkJS): Initial release based on v1.4.0-beta.3
+
 ## 1.4.0-beta.3
 
 - Updated `flutter_inappwebview_internal_annotations` dependency from `^1.2.0` to `^1.3.0`

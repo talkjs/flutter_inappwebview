@@ -470,7 +470,7 @@ class ChromeSafariBrowserSettings implements ChromeSafariBrowserOptions {
 enum ChromeSafariBrowserSettingsProperty {
   ///Can be used to check if the [ChromeSafariBrowserSettings.activityButton] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.activityButton.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.activityButton.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS SFSafariViewController 15.0+
@@ -481,7 +481,7 @@ enum ChromeSafariBrowserSettingsProperty {
 
   ///Can be used to check if the [ChromeSafariBrowserSettings.additionalTrustedOrigins] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.additionalTrustedOrigins.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.additionalTrustedOrigins.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs:
@@ -493,7 +493,7 @@ enum ChromeSafariBrowserSettingsProperty {
 
   ///Can be used to check if the [ChromeSafariBrowserSettings.alwaysUseBrowserUI] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.alwaysUseBrowserUI.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.alwaysUseBrowserUI.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs
@@ -504,7 +504,7 @@ enum ChromeSafariBrowserSettingsProperty {
 
   ///Can be used to check if the [ChromeSafariBrowserSettings.barCollapsingEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.barCollapsingEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.barCollapsingEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS SFSafariViewController
@@ -515,7 +515,7 @@ enum ChromeSafariBrowserSettingsProperty {
 
   ///Can be used to check if the [ChromeSafariBrowserSettings.dismissButtonStyle] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.dismissButtonStyle.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.dismissButtonStyle.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS SFSafariViewController 11.0+
@@ -526,7 +526,7 @@ enum ChromeSafariBrowserSettingsProperty {
 
   ///Can be used to check if the [ChromeSafariBrowserSettings.displayMode] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.displayMode.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.displayMode.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs:
@@ -538,7 +538,7 @@ enum ChromeSafariBrowserSettingsProperty {
 
   ///Can be used to check if the [ChromeSafariBrowserSettings.enableUrlBarHiding] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.enableUrlBarHiding.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.enableUrlBarHiding.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs:
@@ -550,7 +550,7 @@ enum ChromeSafariBrowserSettingsProperty {
 
   ///Can be used to check if the [ChromeSafariBrowserSettings.entersReaderIfAvailable] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.entersReaderIfAvailable.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.entersReaderIfAvailable.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS SFSafariViewController
@@ -561,7 +561,7 @@ enum ChromeSafariBrowserSettingsProperty {
 
   ///Can be used to check if the [ChromeSafariBrowserSettings.eventAttribution] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.eventAttribution.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.eventAttribution.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS SFSafariViewController 15.2+
@@ -572,7 +572,7 @@ enum ChromeSafariBrowserSettingsProperty {
 
   ///Can be used to check if the [ChromeSafariBrowserSettings.exitAnimations] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.exitAnimations.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.exitAnimations.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs
@@ -583,7 +583,7 @@ enum ChromeSafariBrowserSettingsProperty {
 
   ///Can be used to check if the [ChromeSafariBrowserSettings.instantAppsEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.instantAppsEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.instantAppsEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs:
@@ -595,7 +595,7 @@ enum ChromeSafariBrowserSettingsProperty {
 
   ///Can be used to check if the [ChromeSafariBrowserSettings.isSingleInstance] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.isSingleInstance.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.isSingleInstance.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs
@@ -606,7 +606,7 @@ enum ChromeSafariBrowserSettingsProperty {
 
   ///Can be used to check if the [ChromeSafariBrowserSettings.isTrustedWebActivity] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.isTrustedWebActivity.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.isTrustedWebActivity.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs
@@ -617,7 +617,7 @@ enum ChromeSafariBrowserSettingsProperty {
 
   ///Can be used to check if the [ChromeSafariBrowserSettings.keepAliveEnabled] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.keepAliveEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.keepAliveEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs
@@ -628,7 +628,7 @@ enum ChromeSafariBrowserSettingsProperty {
 
   ///Can be used to check if the [ChromeSafariBrowserSettings.navigationBarColor] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.navigationBarColor.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.navigationBarColor.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs
@@ -639,7 +639,7 @@ enum ChromeSafariBrowserSettingsProperty {
 
   ///Can be used to check if the [ChromeSafariBrowserSettings.navigationBarDividerColor] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.navigationBarDividerColor.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.navigationBarDividerColor.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs
@@ -650,7 +650,7 @@ enum ChromeSafariBrowserSettingsProperty {
 
   ///Can be used to check if the [ChromeSafariBrowserSettings.noHistory] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.noHistory.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.noHistory.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs
@@ -661,7 +661,7 @@ enum ChromeSafariBrowserSettingsProperty {
 
   ///Can be used to check if the [ChromeSafariBrowserSettings.packageName] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.packageName.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.packageName.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs
@@ -672,7 +672,7 @@ enum ChromeSafariBrowserSettingsProperty {
 
   ///Can be used to check if the [ChromeSafariBrowserSettings.preferredBarTintColor] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.preferredBarTintColor.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.preferredBarTintColor.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS SFSafariViewController 10.0+
@@ -683,7 +683,7 @@ enum ChromeSafariBrowserSettingsProperty {
 
   ///Can be used to check if the [ChromeSafariBrowserSettings.preferredControlTintColor] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.preferredControlTintColor.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.preferredControlTintColor.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS SFSafariViewController 10.0+
@@ -694,7 +694,7 @@ enum ChromeSafariBrowserSettingsProperty {
 
   ///Can be used to check if the [ChromeSafariBrowserSettings.presentationStyle] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.presentationStyle.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.presentationStyle.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS SFSafariViewController
@@ -705,7 +705,7 @@ enum ChromeSafariBrowserSettingsProperty {
 
   ///Can be used to check if the [ChromeSafariBrowserSettings.screenOrientation] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.screenOrientation.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.screenOrientation.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs:
@@ -717,7 +717,7 @@ enum ChromeSafariBrowserSettingsProperty {
 
   ///Can be used to check if the [ChromeSafariBrowserSettings.secondaryToolbarColor] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.secondaryToolbarColor.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.secondaryToolbarColor.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs
@@ -728,7 +728,7 @@ enum ChromeSafariBrowserSettingsProperty {
 
   ///Can be used to check if the [ChromeSafariBrowserSettings.shareState] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.shareState.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.shareState.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs:
@@ -740,7 +740,7 @@ enum ChromeSafariBrowserSettingsProperty {
 
   ///Can be used to check if the [ChromeSafariBrowserSettings.showTitle] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.showTitle.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.showTitle.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs:
@@ -752,7 +752,7 @@ enum ChromeSafariBrowserSettingsProperty {
 
   ///Can be used to check if the [ChromeSafariBrowserSettings.startAnimations] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.startAnimations.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.startAnimations.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs
@@ -763,7 +763,7 @@ enum ChromeSafariBrowserSettingsProperty {
 
   ///Can be used to check if the [ChromeSafariBrowserSettings.toolbarBackgroundColor] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.toolbarBackgroundColor.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.toolbarBackgroundColor.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android Chrome Custom Tabs
@@ -774,7 +774,7 @@ enum ChromeSafariBrowserSettingsProperty {
 
   ///Can be used to check if the [ChromeSafariBrowserSettings.transitionStyle] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.transitionStyle.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.ChromeSafariBrowserSettings.transitionStyle.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS SFSafariViewController

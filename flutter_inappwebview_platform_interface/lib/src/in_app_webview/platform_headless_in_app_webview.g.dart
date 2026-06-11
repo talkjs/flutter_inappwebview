@@ -8,7 +8,7 @@ part of 'platform_headless_in_app_webview.dart';
 
 extension _PlatformHeadlessInAppWebViewCreationParamsClassSupported
     on PlatformHeadlessInAppWebViewCreationParams {
-  ///{@template flutter_inappwebview_platform_interface.PlatformHeadlessInAppWebViewCreationParams.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformHeadlessInAppWebViewCreationParams.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -38,7 +38,7 @@ extension _PlatformHeadlessInAppWebViewCreationParamsClassSupported
 enum PlatformHeadlessInAppWebViewCreationParamsProperty {
   ///Can be used to check if the [PlatformHeadlessInAppWebViewCreationParams.initialSize] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformHeadlessInAppWebViewCreationParams.initialSize.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformHeadlessInAppWebViewCreationParams.initialSize.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView:
@@ -55,7 +55,7 @@ enum PlatformHeadlessInAppWebViewCreationParamsProperty {
 
   ///Can be used to check if the [PlatformHeadlessInAppWebViewCreationParams.webViewEnvironment] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformHeadlessInAppWebViewCreationParams.webViewEnvironment.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformHeadlessInAppWebViewCreationParams.webViewEnvironment.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2
@@ -97,7 +97,7 @@ extension _PlatformHeadlessInAppWebViewCreationParamsPropertySupported
 
 extension _PlatformHeadlessInAppWebViewClassSupported
     on PlatformHeadlessInAppWebView {
-  ///{@template flutter_inappwebview_platform_interface.PlatformHeadlessInAppWebView.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformHeadlessInAppWebView.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -127,7 +127,7 @@ extension _PlatformHeadlessInAppWebViewClassSupported
 enum PlatformHeadlessInAppWebViewMethod {
   ///Can be used to check if the [PlatformHeadlessInAppWebView.dispose] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformHeadlessInAppWebView.dispose.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformHeadlessInAppWebView.dispose.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -143,7 +143,7 @@ enum PlatformHeadlessInAppWebViewMethod {
 
   ///Can be used to check if the [PlatformHeadlessInAppWebView.getSize] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformHeadlessInAppWebView.getSize.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformHeadlessInAppWebView.getSize.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -158,7 +158,7 @@ enum PlatformHeadlessInAppWebViewMethod {
 
   ///Can be used to check if the [PlatformHeadlessInAppWebView.isRunning] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformHeadlessInAppWebView.isRunning.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformHeadlessInAppWebView.isRunning.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -174,7 +174,7 @@ enum PlatformHeadlessInAppWebViewMethod {
 
   ///Can be used to check if the [PlatformHeadlessInAppWebView.run] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformHeadlessInAppWebView.run.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformHeadlessInAppWebView.run.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -191,7 +191,7 @@ enum PlatformHeadlessInAppWebViewMethod {
 
   ///Can be used to check if the [PlatformHeadlessInAppWebView.setSize] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformHeadlessInAppWebView.setSize.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformHeadlessInAppWebView.setSize.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView:

@@ -96,7 +96,7 @@ class WebViewAssetLoader {
 
 extension _PlatformPathHandlerCreationParamsClassSupported
     on PlatformPathHandlerCreationParams {
-  ///{@template flutter_inappwebview_platform_interface.PlatformPathHandlerCreationParams.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformPathHandlerCreationParams.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -111,7 +111,7 @@ extension _PlatformPathHandlerCreationParamsClassSupported
 
 extension _PlatformAssetsPathHandlerCreationParamsClassSupported
     on PlatformAssetsPathHandlerCreationParams {
-  ///{@template flutter_inappwebview_platform_interface.PlatformAssetsPathHandlerCreationParams.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformAssetsPathHandlerCreationParams.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -126,7 +126,7 @@ extension _PlatformAssetsPathHandlerCreationParamsClassSupported
 
 extension _PlatformAssetsPathHandlerClassSupported
     on PlatformAssetsPathHandler {
-  ///{@template flutter_inappwebview_platform_interface.PlatformAssetsPathHandler.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformAssetsPathHandler.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -141,7 +141,7 @@ extension _PlatformAssetsPathHandlerClassSupported
 
 extension _PlatformResourcesPathHandlerCreationParamsClassSupported
     on PlatformResourcesPathHandlerCreationParams {
-  ///{@template flutter_inappwebview_platform_interface.PlatformResourcesPathHandlerCreationParams.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformResourcesPathHandlerCreationParams.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -156,7 +156,7 @@ extension _PlatformResourcesPathHandlerCreationParamsClassSupported
 
 extension _PlatformResourcesPathHandlerClassSupported
     on PlatformResourcesPathHandler {
-  ///{@template flutter_inappwebview_platform_interface.PlatformResourcesPathHandler.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformResourcesPathHandler.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -171,7 +171,7 @@ extension _PlatformResourcesPathHandlerClassSupported
 
 extension _PlatformInternalStoragePathHandlerCreationParamsClassSupported
     on PlatformInternalStoragePathHandlerCreationParams {
-  ///{@template flutter_inappwebview_platform_interface.PlatformInternalStoragePathHandlerCreationParams.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInternalStoragePathHandlerCreationParams.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -186,7 +186,7 @@ extension _PlatformInternalStoragePathHandlerCreationParamsClassSupported
 
 extension _PlatformInternalStoragePathHandlerClassSupported
     on PlatformInternalStoragePathHandler {
-  ///{@template flutter_inappwebview_platform_interface.PlatformInternalStoragePathHandler.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInternalStoragePathHandler.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -201,7 +201,7 @@ extension _PlatformInternalStoragePathHandlerClassSupported
 
 extension _PlatformCustomPathHandlerCreationParamsClassSupported
     on PlatformCustomPathHandlerCreationParams {
-  ///{@template flutter_inappwebview_platform_interface.PlatformCustomPathHandlerCreationParams.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformCustomPathHandlerCreationParams.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -216,7 +216,7 @@ extension _PlatformCustomPathHandlerCreationParamsClassSupported
 
 extension _PlatformCustomPathHandlerClassSupported
     on PlatformCustomPathHandler {
-  ///{@template flutter_inappwebview_platform_interface.PlatformCustomPathHandler.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformCustomPathHandler.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView

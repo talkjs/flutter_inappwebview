@@ -8,7 +8,7 @@ part of 'platform_print_job_controller.dart';
 
 extension _PlatformPrintJobControllerCreationParamsClassSupported
     on PlatformPrintJobControllerCreationParams {
-  ///{@template flutter_inappwebview_platform_interface.PlatformPrintJobControllerCreationParams.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformPrintJobControllerCreationParams.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -33,7 +33,7 @@ extension _PlatformPrintJobControllerCreationParamsClassSupported
 enum PlatformPrintJobControllerCreationParamsProperty {
   ///Can be used to check if the [PlatformPrintJobControllerCreationParams.id] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformPrintJobControllerCreationParams.id.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformPrintJobControllerCreationParams.id.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -67,7 +67,7 @@ extension _PlatformPrintJobControllerCreationParamsPropertySupported
 
 extension _PlatformPrintJobControllerClassSupported
     on PlatformPrintJobController {
-  ///{@template flutter_inappwebview_platform_interface.PlatformPrintJobController.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformPrintJobController.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -92,7 +92,7 @@ extension _PlatformPrintJobControllerClassSupported
 enum PlatformPrintJobControllerProperty {
   ///Can be used to check if the [PlatformPrintJobController.onComplete] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformPrintJobController.onComplete.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformPrintJobController.onComplete.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - PrintDocumentAdapter.onFinish](https://developer.android.com/reference/android/print/PrintDocumentAdapter#onFinish())):
@@ -133,7 +133,7 @@ extension _PlatformPrintJobControllerPropertySupported
 enum PlatformPrintJobControllerMethod {
   ///Can be used to check if the [PlatformPrintJobController.cancel] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformPrintJobController.cancel.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformPrintJobController.cancel.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - PrintJob.cancel](https://developer.android.com/reference/android/print/PrintJob#cancel()))
@@ -144,7 +144,7 @@ enum PlatformPrintJobControllerMethod {
 
   ///Can be used to check if the [PlatformPrintJobController.dismiss] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformPrintJobController.dismiss.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformPrintJobController.dismiss.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -158,7 +158,7 @@ enum PlatformPrintJobControllerMethod {
 
   ///Can be used to check if the [PlatformPrintJobController.dispose] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformPrintJobController.dispose.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformPrintJobController.dispose.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -172,7 +172,7 @@ enum PlatformPrintJobControllerMethod {
 
   ///Can be used to check if the [PlatformPrintJobController.getInfo] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformPrintJobController.getInfo.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformPrintJobController.getInfo.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - PrintJob.getInfo](https://developer.android.com/reference/android/print/PrintJob#getInfo()))
@@ -186,7 +186,7 @@ enum PlatformPrintJobControllerMethod {
 
   ///Can be used to check if the [PlatformPrintJobController.restart] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformPrintJobController.restart.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformPrintJobController.restart.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - PrintJob.restart](https://developer.android.com/reference/android/print/PrintJob#restart()))

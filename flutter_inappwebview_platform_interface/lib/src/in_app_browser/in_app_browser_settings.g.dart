@@ -454,7 +454,7 @@ class InAppBrowserSettings
 enum InAppBrowserSettingsProperty {
   ///Can be used to check if the [InAppBrowserSettings.allowGoBackWithBackButton] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppBrowserSettings.allowGoBackWithBackButton.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppBrowserSettings.allowGoBackWithBackButton.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -465,7 +465,7 @@ enum InAppBrowserSettingsProperty {
 
   ///Can be used to check if the [InAppBrowserSettings.closeButtonCaption] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppBrowserSettings.closeButtonCaption.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppBrowserSettings.closeButtonCaption.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -476,7 +476,7 @@ enum InAppBrowserSettingsProperty {
 
   ///Can be used to check if the [InAppBrowserSettings.closeButtonColor] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppBrowserSettings.closeButtonColor.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppBrowserSettings.closeButtonColor.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -487,7 +487,7 @@ enum InAppBrowserSettingsProperty {
 
   ///Can be used to check if the [InAppBrowserSettings.closeOnCannotGoBack] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppBrowserSettings.closeOnCannotGoBack.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppBrowserSettings.closeOnCannotGoBack.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -498,7 +498,7 @@ enum InAppBrowserSettingsProperty {
 
   ///Can be used to check if the [InAppBrowserSettings.hidden] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppBrowserSettings.hidden.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppBrowserSettings.hidden.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -513,7 +513,7 @@ enum InAppBrowserSettingsProperty {
 
   ///Can be used to check if the [InAppBrowserSettings.hideCloseButton] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppBrowserSettings.hideCloseButton.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppBrowserSettings.hideCloseButton.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -524,7 +524,7 @@ enum InAppBrowserSettingsProperty {
 
   ///Can be used to check if the [InAppBrowserSettings.hideDefaultMenuItems] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppBrowserSettings.hideDefaultMenuItems.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppBrowserSettings.hideDefaultMenuItems.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -538,7 +538,7 @@ enum InAppBrowserSettingsProperty {
 
   ///Can be used to check if the [InAppBrowserSettings.hideProgressBar] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppBrowserSettings.hideProgressBar.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppBrowserSettings.hideProgressBar.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -552,7 +552,7 @@ enum InAppBrowserSettingsProperty {
 
   ///Can be used to check if the [InAppBrowserSettings.hideTitleBar] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppBrowserSettings.hideTitleBar.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppBrowserSettings.hideTitleBar.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -563,7 +563,7 @@ enum InAppBrowserSettingsProperty {
 
   ///Can be used to check if the [InAppBrowserSettings.hideToolbarBottom] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppBrowserSettings.hideToolbarBottom.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppBrowserSettings.hideToolbarBottom.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -574,7 +574,7 @@ enum InAppBrowserSettingsProperty {
 
   ///Can be used to check if the [InAppBrowserSettings.hideToolbarTop] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppBrowserSettings.hideToolbarTop.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppBrowserSettings.hideToolbarTop.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -588,7 +588,7 @@ enum InAppBrowserSettingsProperty {
 
   ///Can be used to check if the [InAppBrowserSettings.hideUrlBar] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppBrowserSettings.hideUrlBar.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppBrowserSettings.hideUrlBar.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -602,7 +602,7 @@ enum InAppBrowserSettingsProperty {
 
   ///Can be used to check if the [InAppBrowserSettings.menuButtonColor] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppBrowserSettings.menuButtonColor.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppBrowserSettings.menuButtonColor.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -613,7 +613,7 @@ enum InAppBrowserSettingsProperty {
 
   ///Can be used to check if the [InAppBrowserSettings.presentationStyle] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppBrowserSettings.presentationStyle.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppBrowserSettings.presentationStyle.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -624,7 +624,7 @@ enum InAppBrowserSettingsProperty {
 
   ///Can be used to check if the [InAppBrowserSettings.shouldCloseOnBackButtonPressed] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppBrowserSettings.shouldCloseOnBackButtonPressed.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppBrowserSettings.shouldCloseOnBackButtonPressed.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -635,7 +635,7 @@ enum InAppBrowserSettingsProperty {
 
   ///Can be used to check if the [InAppBrowserSettings.toolbarBottomBackgroundColor] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppBrowserSettings.toolbarBottomBackgroundColor.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppBrowserSettings.toolbarBottomBackgroundColor.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -646,7 +646,7 @@ enum InAppBrowserSettingsProperty {
 
   ///Can be used to check if the [InAppBrowserSettings.toolbarBottomTintColor] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppBrowserSettings.toolbarBottomTintColor.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppBrowserSettings.toolbarBottomTintColor.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -657,7 +657,7 @@ enum InAppBrowserSettingsProperty {
 
   ///Can be used to check if the [InAppBrowserSettings.toolbarBottomTranslucent] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppBrowserSettings.toolbarBottomTranslucent.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppBrowserSettings.toolbarBottomTranslucent.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -668,7 +668,7 @@ enum InAppBrowserSettingsProperty {
 
   ///Can be used to check if the [InAppBrowserSettings.toolbarTopBackgroundColor] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppBrowserSettings.toolbarTopBackgroundColor.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppBrowserSettings.toolbarTopBackgroundColor.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -682,7 +682,7 @@ enum InAppBrowserSettingsProperty {
 
   ///Can be used to check if the [InAppBrowserSettings.toolbarTopBarTintColor] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppBrowserSettings.toolbarTopBarTintColor.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppBrowserSettings.toolbarTopBarTintColor.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -693,7 +693,7 @@ enum InAppBrowserSettingsProperty {
 
   ///Can be used to check if the [InAppBrowserSettings.toolbarTopFixedTitle] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppBrowserSettings.toolbarTopFixedTitle.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppBrowserSettings.toolbarTopFixedTitle.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -707,7 +707,7 @@ enum InAppBrowserSettingsProperty {
 
   ///Can be used to check if the [InAppBrowserSettings.toolbarTopTintColor] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppBrowserSettings.toolbarTopTintColor.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppBrowserSettings.toolbarTopTintColor.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -718,7 +718,7 @@ enum InAppBrowserSettingsProperty {
 
   ///Can be used to check if the [InAppBrowserSettings.toolbarTopTranslucent] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppBrowserSettings.toolbarTopTranslucent.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppBrowserSettings.toolbarTopTranslucent.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -729,7 +729,7 @@ enum InAppBrowserSettingsProperty {
 
   ///Can be used to check if the [InAppBrowserSettings.transitionStyle] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppBrowserSettings.transitionStyle.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppBrowserSettings.transitionStyle.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -740,7 +740,7 @@ enum InAppBrowserSettingsProperty {
 
   ///Can be used to check if the [InAppBrowserSettings.windowAlphaValue] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppBrowserSettings.windowAlphaValue.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppBrowserSettings.windowAlphaValue.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView
@@ -753,7 +753,7 @@ enum InAppBrowserSettingsProperty {
 
   ///Can be used to check if the [InAppBrowserSettings.windowFrame] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppBrowserSettings.windowFrame.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppBrowserSettings.windowFrame.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView
@@ -766,7 +766,7 @@ enum InAppBrowserSettingsProperty {
 
   ///Can be used to check if the [InAppBrowserSettings.windowStyleMask] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppBrowserSettings.windowStyleMask.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppBrowserSettings.windowStyleMask.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView
@@ -777,7 +777,7 @@ enum InAppBrowserSettingsProperty {
 
   ///Can be used to check if the [InAppBrowserSettings.windowTitlebarSeparatorStyle] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppBrowserSettings.windowTitlebarSeparatorStyle.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppBrowserSettings.windowTitlebarSeparatorStyle.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView 11.0+
@@ -788,7 +788,7 @@ enum InAppBrowserSettingsProperty {
 
   ///Can be used to check if the [InAppBrowserSettings.windowType] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.InAppBrowserSettings.windowType.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.InAppBrowserSettings.windowType.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView

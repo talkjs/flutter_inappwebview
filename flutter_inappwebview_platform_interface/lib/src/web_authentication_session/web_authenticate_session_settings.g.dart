@@ -91,7 +91,7 @@ class WebAuthenticationSessionSettings {
 enum WebAuthenticationSessionSettingsProperty {
   ///Can be used to check if the [WebAuthenticationSessionSettings.prefersEphemeralWebBrowserSession] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.WebAuthenticationSessionSettings.prefersEphemeralWebBrowserSession.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.WebAuthenticationSessionSettings.prefersEphemeralWebBrowserSession.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 13.0+

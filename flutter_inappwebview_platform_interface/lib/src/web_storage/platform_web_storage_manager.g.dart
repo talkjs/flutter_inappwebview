@@ -8,7 +8,7 @@ part of 'platform_web_storage_manager.dart';
 
 extension _PlatformWebStorageManagerCreationParamsClassSupported
     on PlatformWebStorageManagerCreationParams {
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebStorageManagerCreationParams.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebStorageManagerCreationParams.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -31,7 +31,7 @@ extension _PlatformWebStorageManagerCreationParamsClassSupported
 
 extension _PlatformWebStorageManagerClassSupported
     on PlatformWebStorageManager {
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebStorageManager.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebStorageManager.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebStorage](https://developer.android.com/reference/android/webkit/WebStorage.html))
@@ -56,7 +56,7 @@ extension _PlatformWebStorageManagerClassSupported
 enum PlatformWebStorageManagerMethod {
   ///Can be used to check if the [PlatformWebStorageManager.deleteAllData] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebStorageManager.deleteAllData.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebStorageManager.deleteAllData.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebStorage.deleteAllData](https://developer.android.com/reference/android/webkit/WebStorage#deleteAllData()))
@@ -67,7 +67,7 @@ enum PlatformWebStorageManagerMethod {
 
   ///Can be used to check if the [PlatformWebStorageManager.deleteOrigin] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebStorageManager.deleteOrigin.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebStorageManager.deleteOrigin.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebStorage.deleteOrigin](https://developer.android.com/reference/android/webkit/WebStorage#deleteOrigin(java.lang.String)))
@@ -81,7 +81,7 @@ enum PlatformWebStorageManagerMethod {
 
   ///Can be used to check if the [PlatformWebStorageManager.fetchDataRecords] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebStorageManager.fetchDataRecords.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebStorageManager.fetchDataRecords.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 9.0+ ([Official API - WKWebsiteDataStore.fetchDataRecords](https://developer.apple.com/documentation/webkit/wkwebsitedatastore/1532932-fetchdatarecords))
@@ -97,7 +97,7 @@ enum PlatformWebStorageManagerMethod {
 
   ///Can be used to check if the [PlatformWebStorageManager.getOrigins] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebStorageManager.getOrigins.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebStorageManager.getOrigins.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebStorage.getOrigins](https://developer.android.com/reference/android/webkit/WebStorage#getOrigins(android.webkit.ValueCallback%3Cjava.util.Map%3E)))
@@ -108,7 +108,7 @@ enum PlatformWebStorageManagerMethod {
 
   ///Can be used to check if the [PlatformWebStorageManager.getQuotaForOrigin] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebStorageManager.getQuotaForOrigin.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebStorageManager.getQuotaForOrigin.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebStorage.getQuotaForOrigin](https://developer.android.com/reference/android/webkit/WebStorage#getQuotaForOrigin(java.lang.String,%20android.webkit.ValueCallback%3Cjava.lang.Long%3E)))
@@ -122,7 +122,7 @@ enum PlatformWebStorageManagerMethod {
 
   ///Can be used to check if the [PlatformWebStorageManager.getUsageForOrigin] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebStorageManager.getUsageForOrigin.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebStorageManager.getUsageForOrigin.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebStorage.getUsageForOrigin](https://developer.android.com/reference/android/webkit/WebStorage#getUsageForOrigin(java.lang.String,%20android.webkit.ValueCallback%3Cjava.lang.Long%3E)))
@@ -136,7 +136,7 @@ enum PlatformWebStorageManagerMethod {
 
   ///Can be used to check if the [PlatformWebStorageManager.removeDataFor] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebStorageManager.removeDataFor.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebStorageManager.removeDataFor.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 9.0+ ([Official API - WKWebsiteDataStore.removeData](https://developer.apple.com/documentation/webkit/wkwebsitedatastore/1532936-removedata))
@@ -153,7 +153,7 @@ enum PlatformWebStorageManagerMethod {
 
   ///Can be used to check if the [PlatformWebStorageManager.removeDataModifiedSince] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebStorageManager.removeDataModifiedSince.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebStorageManager.removeDataModifiedSince.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 9.0+ ([Official API - WKWebsiteDataStore.removeData](https://developer.apple.com/documentation/webkit/wkwebsitedatastore/1532938-removedata))

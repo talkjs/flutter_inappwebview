@@ -8,7 +8,7 @@ part of 'platform_inappwebview_controller.dart';
 
 extension _PlatformInAppWebViewControllerClassSupported
     on PlatformInAppWebViewController {
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -38,7 +38,7 @@ extension _PlatformInAppWebViewControllerClassSupported
 enum PlatformInAppWebViewControllerProperty {
   ///Can be used to check if the [PlatformInAppWebViewController.tRexRunnerCss] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.tRexRunnerCss.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.tRexRunnerCss.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -54,7 +54,7 @@ enum PlatformInAppWebViewControllerProperty {
 
   ///Can be used to check if the [PlatformInAppWebViewController.tRexRunnerHtml] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.tRexRunnerHtml.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.tRexRunnerHtml.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -70,7 +70,7 @@ enum PlatformInAppWebViewControllerProperty {
 
   ///Can be used to check if the [PlatformInAppWebViewController.webStorage] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.webStorage.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.webStorage.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -131,7 +131,7 @@ extension _PlatformInAppWebViewControllerPropertySupported
 enum PlatformInAppWebViewControllerMethod {
   ///Can be used to check if the [PlatformInAppWebViewController.addDevToolsProtocolEventListener] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.addDevToolsProtocolEventListener.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.addDevToolsProtocolEventListener.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 ([Official API - ICoreWebView2DevToolsProtocolEventReceiver.add_DevToolsProtocolEventReceived](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2devtoolsprotocoleventreceiver?view=webview2-1.0.2210.55#add_devtoolsprotocoleventreceived))
@@ -146,7 +146,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.addJavaScriptHandler] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.addJavaScriptHandler.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.addJavaScriptHandler.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -165,7 +165,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.addUserScript] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.addUserScript.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.addUserScript.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -186,7 +186,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.addUserScripts] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.addUserScripts.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.addUserScripts.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -207,7 +207,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.addWebMessageListener] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.addWebMessageListener.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.addWebMessageListener.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebViewCompat.WebMessageListener](https://developer.android.com/reference/androidx/webkit/WebViewCompat#addWebMessageListener(android.webkit.WebView,%20java.lang.String,%20java.util.Set%3Cjava.lang.String%3E,%20androidx.webkit.WebViewCompat.WebMessageListener))):
@@ -230,7 +230,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.callAsyncJavaScript] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.callAsyncJavaScript.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.callAsyncJavaScript.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView 21+
@@ -251,7 +251,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.callDevToolsProtocolMethod] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.callDevToolsProtocolMethod.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.callDevToolsProtocolMethod.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 ([Official API - ICoreWebView2.CallDevToolsProtocolMethod](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2?view=webview2-1.0.2210.55#calldevtoolsprotocolmethod))
@@ -266,7 +266,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.canGoBack] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.canGoBack.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.canGoBack.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.canGoBack](https://developer.android.com/reference/android/webkit/WebView#canGoBack()))
@@ -281,7 +281,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.canGoBackOrForward] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.canGoBackOrForward.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.canGoBackOrForward.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.canGoBackOrForward](https://developer.android.com/reference/android/webkit/WebView#canGoBackOrForward(int)))
@@ -299,7 +299,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.canGoForward] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.canGoForward.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.canGoForward.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.canGoForward](https://developer.android.com/reference/android/webkit/WebView#canGoForward()))
@@ -314,7 +314,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.canScrollHorizontally] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.canScrollHorizontally.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.canScrollHorizontally.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -331,7 +331,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.canScrollVertically] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.canScrollVertically.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.canScrollVertically.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -348,7 +348,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.clearAllCache] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.clearAllCache.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.clearAllCache.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -365,7 +365,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.clearCache] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.clearCache.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.clearCache.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -379,7 +379,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.clearClientCertPreferences] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.clearClientCertPreferences.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.clearClientCertPreferences.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView 21+ ([Official API - WebView.clearClientCertPreferences](https://developer.android.com/reference/android/webkit/WebView#clearClientCertPreferences(java.lang.Runnable)))
@@ -390,7 +390,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.clearFocus] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.clearFocus.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.clearFocus.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - ViewGroup.clearFocus](https://developer.android.com/reference/android/view/ViewGroup#clearFocus()))
@@ -405,7 +405,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.clearFormData] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.clearFormData.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.clearFormData.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.clearFormData](https://developer.android.com/reference/android/webkit/WebView#clearFormData()))
@@ -416,7 +416,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.clearHistory] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.clearHistory.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.clearHistory.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.clearHistory](https://developer.android.com/reference/android/webkit/WebView#clearHistory()))
@@ -427,7 +427,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.clearMatches] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.clearMatches.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.clearMatches.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -441,7 +441,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.clearSslPreferences] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.clearSslPreferences.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.clearSslPreferences.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.clearSslPreferences](https://developer.android.com/reference/android/webkit/WebView#clearSslPreferences()))
@@ -453,7 +453,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.closeAllMediaPresentations] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.closeAllMediaPresentations.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.closeAllMediaPresentations.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 14.5+ ([Official API - WKWebView.closeAllMediaPresentations](https://developer.apple.com/documentation/webkit/wkwebview/3752235-closeallmediapresentations))
@@ -467,7 +467,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.createPdf] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.createPdf.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.createPdf.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 14.0+ ([Official API - WKWebView.createPdf](https://developer.apple.com/documentation/webkit/wkwebview/3650490-createpdf))
@@ -483,7 +483,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.createWebArchiveData] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.createWebArchiveData.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.createWebArchiveData.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 14.0+ ([Official API - WKWebView.createWebArchiveData](https://developer.apple.com/documentation/webkit/wkwebview/3650491-createwebarchivedata))
@@ -495,7 +495,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.createWebMessageChannel] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.createWebMessageChannel.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.createWebMessageChannel.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebViewCompat.createWebMessageChannel](https://developer.android.com/reference/androidx/webkit/WebViewCompat#createWebMessageChannel(android.webkit.WebView))):
@@ -515,7 +515,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.disableWebView] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.disableWebView.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.disableWebView.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView 28+ ([Official API - WebView.disableWebView](https://developer.android.com/reference/android/webkit/WebView#disableWebView()))
@@ -526,7 +526,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.dispose] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.dispose.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.dispose.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -544,7 +544,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.disposeKeepAlive] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.disposeKeepAlive.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.disposeKeepAlive.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -562,7 +562,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.enableSlowWholeDocumentDraw] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.enableSlowWholeDocumentDraw.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.enableSlowWholeDocumentDraw.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView 21+ ([Official API - WebView.enableSlowWholeDocumentDraw](https://developer.android.com/reference/android/webkit/WebView#enableSlowWholeDocumentDraw())):
@@ -574,7 +574,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.evaluateJavascript] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.evaluateJavascript.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.evaluateJavascript.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.evaluateJavascript](https://developer.android.com/reference/android/webkit/WebView#evaluateJavascript(java.lang.String,%20android.webkit.ValueCallback%3Cjava.lang.String%3E)))
@@ -598,7 +598,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.findAllAsync] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.findAllAsync.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.findAllAsync.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -615,7 +615,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.findNext] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.findNext.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.findNext.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -632,7 +632,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getCameraCaptureState] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getCameraCaptureState.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getCameraCaptureState.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 15.0+ ([Official API - WKWebView.cameraCaptureState](https://developer.apple.com/documentation/webkit/wkwebview/3763093-cameracapturestate))
@@ -645,7 +645,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getCertificate] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getCertificate.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getCertificate.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.getCertificate](https://developer.android.com/reference/android/webkit/WebView#getCertificate()))
@@ -660,7 +660,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getContentHeight] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getContentHeight.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getContentHeight.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.getContentHeight](https://developer.android.com/reference/android/webkit/WebView#getContentHeight()))
@@ -678,7 +678,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getContentWidth] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getContentWidth.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getContentWidth.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView:
@@ -697,7 +697,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getCopyBackForwardList] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getCopyBackForwardList.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getCopyBackForwardList.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.copyBackForwardList](https://developer.android.com/reference/android/webkit/WebView#copyBackForwardList()))
@@ -712,7 +712,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getCurrentWebViewPackage] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getCurrentWebViewPackage.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getCurrentWebViewPackage.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView 21+ ([Official API - WebViewCompat.getCurrentWebViewPackage](https://developer.android.com/reference/androidx/webkit/WebViewCompat#getCurrentWebViewPackage(android.content.Context)))
@@ -723,7 +723,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getDefaultUserAgent] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getDefaultUserAgent.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getDefaultUserAgent.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebSettings.getDefaultUserAgent](https://developer.android.com/reference/android/webkit/WebSettings#getDefaultUserAgent(android.content.Context)))
@@ -737,7 +737,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getFavicon] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getFavicon.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getFavicon.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 ([Official API - ICoreWebView2_15.GetFavicon](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2_15?view=webview2-1.0.2849.39#getfavicon))
@@ -752,7 +752,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getFavicons] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getFavicons.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getFavicons.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -768,7 +768,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getFrameId] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getFrameId.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getFrameId.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 ([Official API - ICoreWebView2_20.get_FrameId](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2_20?view=webview2-1.0.2849.39#get_frameid))
@@ -779,7 +779,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getHitTestResult] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getHitTestResult.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getHitTestResult.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.getHitTestResult](https://developer.android.com/reference/android/webkit/WebView#getHitTestResult()))
@@ -794,7 +794,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getHtml] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getHtml.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getHtml.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -811,7 +811,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getIFrameId] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getIFrameId.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getIFrameId.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Web \<iframe\> but requires same origin
@@ -822,7 +822,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getJavaScriptBridgeName] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getJavaScriptBridgeName.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getJavaScriptBridgeName.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -838,7 +838,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getMemoryUsageTargetLevel] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getMemoryUsageTargetLevel.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getMemoryUsageTargetLevel.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 ([Official API - ICoreWebView2_19.get_MemoryUsageTargetLevel](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2_19?view=webview2-1.0.2849.39#get_memoryusagetargetlevel))
@@ -849,7 +849,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getMetaTags] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getMetaTags.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getMetaTags.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView:
@@ -871,7 +871,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getMetaThemeColor] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getMetaThemeColor.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getMetaThemeColor.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView:
@@ -892,7 +892,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getMicrophoneCaptureState] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getMicrophoneCaptureState.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getMicrophoneCaptureState.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 15.0+ ([Official API - WKWebView.microphoneCaptureState](https://developer.apple.com/documentation/webkit/wkwebview/3763096-microphonecapturestate))
@@ -905,7 +905,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getOptions] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getOptions.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getOptions.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -921,7 +921,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getOriginalUrl] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getOriginalUrl.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getOriginalUrl.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.getOriginalUrl](https://developer.android.com/reference/android/webkit/WebView#getOriginalUrl()))
@@ -940,7 +940,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getProgress] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getProgress.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getProgress.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.getProgress](https://developer.android.com/reference/android/webkit/WebView#getProgress()))
@@ -956,7 +956,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getSafeBrowsingPrivacyPolicyUrl] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getSafeBrowsingPrivacyPolicyUrl.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getSafeBrowsingPrivacyPolicyUrl.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebViewCompat.getSafeBrowsingPrivacyPolicyUrl](https://developer.android.com/reference/androidx/webkit/WebViewCompat#getSafeBrowsingPrivacyPolicyUrl())):
@@ -968,7 +968,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getScale] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getScale.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getScale.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -982,7 +982,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getScreenScale] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getScreenScale.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getScreenScale.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - wpe_screen_get_scale](https://wpewebkit.org/reference/stable/wpe-platform-1.0/method.Screen.get_scale.html))
@@ -993,7 +993,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getScrollX] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getScrollX.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getScrollX.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - View.getScrollX](https://developer.android.com/reference/android/view/View#getScrollX()))
@@ -1011,7 +1011,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getScrollY] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getScrollY.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getScrollY.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - View.getScrollY](https://developer.android.com/reference/android/view/View#getScrollY()))
@@ -1029,7 +1029,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getSelectedText] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getSelectedText.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getSelectedText.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView:
@@ -1049,7 +1049,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getSettings] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getSettings.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getSettings.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1065,7 +1065,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getTRexRunnerCss] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getTRexRunnerCss.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getTRexRunnerCss.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1081,7 +1081,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getTRexRunnerHtml] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getTRexRunnerHtml.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getTRexRunnerHtml.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1097,7 +1097,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getTargetRefreshRate] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getTargetRefreshRate.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getTargetRefreshRate.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit
@@ -1108,7 +1108,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getTitle] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getTitle.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getTitle.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.getTitle](https://developer.android.com/reference/android/webkit/WebView#getTitle()))
@@ -1124,7 +1124,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getUrl] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getUrl.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getUrl.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.getUrl](https://developer.android.com/reference/android/webkit/WebView#getUrl()))
@@ -1141,7 +1141,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getVariationsHeader] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getVariationsHeader.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getVariationsHeader.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebViewCompat.getVariationsHeader](https://developer.android.com/reference/androidx/webkit/WebViewCompat#getVariationsHeader())):
@@ -1153,7 +1153,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getViewId] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getViewId.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getViewId.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1168,7 +1168,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.getZoomScale] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getZoomScale.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.getZoomScale.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1182,7 +1182,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.goBack] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.goBack.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.goBack.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.goBack](https://developer.android.com/reference/android/webkit/WebView#goBack()))
@@ -1198,7 +1198,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.goBackOrForward] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.goBackOrForward.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.goBackOrForward.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.goBackOrForward](https://developer.android.com/reference/android/webkit/WebView#goBackOrForward(int)))
@@ -1217,7 +1217,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.goForward] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.goForward.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.goForward.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.goForward](https://developer.android.com/reference/android/webkit/WebView#goForward()))
@@ -1233,7 +1233,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.goTo] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.goTo.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.goTo.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1251,7 +1251,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.handlesURLScheme] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.handlesURLScheme.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.handlesURLScheme.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 11.0+ ([Official API - WKWebView.handlesURLScheme](https://developer.apple.com/documentation/webkit/wkwebview/2875370-handlesurlscheme))
@@ -1268,7 +1268,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.hasJavaScriptHandler] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.hasJavaScriptHandler.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.hasJavaScriptHandler.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1286,7 +1286,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.hasOnlySecureContent] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.hasOnlySecureContent.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.hasOnlySecureContent.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView ([Official API - WKWebView.hasOnlySecureContent](https://developer.apple.com/documentation/webkit/wkwebview/1415002-hasonlysecurecontent))
@@ -1298,7 +1298,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.hasUserScript] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.hasUserScript.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.hasUserScript.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1316,7 +1316,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.hasWebMessageListener] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.hasWebMessageListener.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.hasWebMessageListener.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1333,7 +1333,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.hideInputMethod] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.hideInputMethod.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.hideInputMethod.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - InputMethodManager.hideSoftInputFromWindow](https://developer.android.com/reference/android/view/inputmethod/InputMethodManager#hideSoftInputFromWindow(android.os.IBinder,%20int)))
@@ -1345,7 +1345,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.injectCSSCode] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.injectCSSCode.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.injectCSSCode.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1366,7 +1366,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.injectCSSFileFromAsset] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.injectCSSFileFromAsset.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.injectCSSFileFromAsset.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1383,7 +1383,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.injectCSSFileFromUrl] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.injectCSSFileFromUrl.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.injectCSSFileFromUrl.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1405,7 +1405,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.injectJavascriptFileFromAsset] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.injectJavascriptFileFromAsset.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.injectJavascriptFileFromAsset.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1423,7 +1423,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.injectJavascriptFileFromUrl] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.injectJavascriptFileFromUrl.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.injectJavascriptFileFromUrl.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1443,7 +1443,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.isInFullscreen] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.isInFullscreen.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.isInFullscreen.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1457,7 +1457,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.isInterfaceSupported] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.isInterfaceSupported.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.isInterfaceSupported.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2
@@ -1471,7 +1471,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.isLoading] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.isLoading.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.isLoading.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1487,7 +1487,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.isMultiProcessEnabled] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.isMultiProcessEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.isMultiProcessEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebViewCompat.isMultiProcessEnabled](https://developer.android.com/reference/androidx/webkit/WebViewCompat#isMultiProcessEnabled())):
@@ -1499,7 +1499,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.isMuted] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.isMuted.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.isMuted.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit 2.30+ ([Official API - webkit_web_view_get_is_muted](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/method.WebView.get_is_muted.html))
@@ -1510,7 +1510,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.isPlayingAudio] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.isPlayingAudio.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.isPlayingAudio.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit 2.8+ ([Official API - webkit_web_view_is_playing_audio](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/method.WebView.is_playing_audio.html))
@@ -1521,7 +1521,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.isSecureContext] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.isSecureContext.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.isSecureContext.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView 21+:
@@ -1542,7 +1542,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.isVisible] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.isVisible.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.isVisible.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - wpe_view_get_visible](https://wpewebkit.org/reference/stable/wpe-platform-1.0/method.View.get_visible.html))
@@ -1553,7 +1553,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.loadData] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.loadData.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.loadData.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.loadDataWithBaseURL](https://developer.android.com/reference/android/webkit/WebView#loadDataWithBaseURL(java.lang.String,%20java.lang.String,%20java.lang.String,%20java.lang.String,%20java.lang.String)))
@@ -1592,7 +1592,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.loadFile] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.loadFile.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.loadFile.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.loadUrl](https://developer.android.com/reference/android/webkit/WebView#loadUrl(java.lang.String)))
@@ -1611,7 +1611,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.loadSimulatedRequest] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.loadSimulatedRequest.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.loadSimulatedRequest.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 15.0+ ([Official API - WKWebView.loadSimulatedRequest(_:response:responseData:)](https://developer.apple.com/documentation/webkit/wkwebview/3763094-loadsimulatedrequest)):
@@ -1630,7 +1630,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.loadUrl] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.loadUrl.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.loadUrl.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.loadUrl](https://developer.android.com/reference/android/webkit/WebView#loadUrl(java.lang.String))):
@@ -1656,7 +1656,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.openDevTools] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.openDevTools.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.openDevTools.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 ([Official API - ICoreWebView2.OpenDevToolsWindow](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2?view=webview2-1.0.2210.55#opendevtoolswindow))
@@ -1667,7 +1667,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.pageDown] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.pageDown.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.pageDown.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.pageDown](https://developer.android.com/reference/android/webkit/WebView#pageDown(boolean)))
@@ -1681,7 +1681,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.pageUp] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.pageUp.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.pageUp.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.pageUp](https://developer.android.com/reference/android/webkit/WebView#pageUp(boolean)))
@@ -1695,7 +1695,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.pause] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.pause.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.pause.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.onPause](https://developer.android.com/reference/android/webkit/WebView#onPause()))
@@ -1707,7 +1707,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.pauseAllMediaPlayback] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.pauseAllMediaPlayback.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.pauseAllMediaPlayback.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 15.0+ ([Official API - WKWebView.pauseAllMediaPlayback](https://developer.apple.com/documentation/webkit/wkwebview/3752240-pauseallmediaplayback))
@@ -1721,7 +1721,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.pauseTimers] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.pauseTimers.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.pauseTimers.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.pauseTimers](https://developer.android.com/reference/android/webkit/WebView#pauseTimers()))
@@ -1736,7 +1736,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.postUrl] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.postUrl.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.postUrl.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.postUrl](https://developer.android.com/reference/android/webkit/WebView#postUrl(java.lang.String,%20byte[])))
@@ -1758,7 +1758,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.postWebMessage] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.postWebMessage.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.postWebMessage.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.postWebMessage](https://developer.android.com/reference/androidx/webkit/WebViewCompat#postWebMessage(android.webkit.WebView,%20androidx.webkit.WebMessageCompat,%20android.net.Uri))):
@@ -1782,7 +1782,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.printCurrentPage] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.printCurrentPage.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.printCurrentPage.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - PrintManager.print](https://developer.android.com/reference/android/print/PrintManager#print(java.lang.String,%20android.print.PrintDocumentAdapter,%20android.print.PrintAttributes)))
@@ -1802,7 +1802,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.reload] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.reload.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.reload.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.reload](https://developer.android.com/reference/android/webkit/WebView#reload()))
@@ -1819,7 +1819,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.reloadFromOrigin] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.reloadFromOrigin.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.reloadFromOrigin.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView ([Official API - WKWebView.reloadFromOrigin](https://developer.apple.com/documentation/webkit/wkwebview/1414956-reloadfromorigin))
@@ -1832,7 +1832,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.removeAllUserScripts] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.removeAllUserScripts.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.removeAllUserScripts.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1850,7 +1850,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.removeDevToolsProtocolEventListener] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.removeDevToolsProtocolEventListener.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.removeDevToolsProtocolEventListener.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 ([Official API - ICoreWebView2DevToolsProtocolEventReceiver.remove_DevToolsProtocolEventReceived](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2devtoolsprotocoleventreceiver?view=webview2-1.0.2210.55#remove_devtoolsprotocoleventreceived))
@@ -1864,7 +1864,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.removeJavaScriptHandler] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.removeJavaScriptHandler.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.removeJavaScriptHandler.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1882,7 +1882,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.removeUserScript] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.removeUserScript.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.removeUserScript.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1903,7 +1903,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.removeUserScripts] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.removeUserScripts.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.removeUserScripts.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1924,7 +1924,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.removeUserScriptsByGroupName] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.removeUserScriptsByGroupName.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.removeUserScriptsByGroupName.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1945,7 +1945,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.requestEnterFullscreen] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.requestEnterFullscreen.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.requestEnterFullscreen.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit
@@ -1956,7 +1956,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.requestExitFullscreen] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.requestExitFullscreen.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.requestExitFullscreen.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit
@@ -1967,7 +1967,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.requestFocus] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.requestFocus.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.requestFocus.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.requestFocus](https://developer.android.com/reference/android/webkit/WebView#requestFocus(int,%20android.graphics.Rect)))
@@ -1988,7 +1988,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.requestFocusNodeHref] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.requestFocusNodeHref.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.requestFocusNodeHref.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.requestFocusNodeHref](https://developer.android.com/reference/android/webkit/WebView#requestFocusNodeHref(android.os.Message)))
@@ -2001,7 +2001,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.requestImageRef] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.requestImageRef.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.requestImageRef.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.requestImageRef](https://developer.android.com/reference/android/webkit/WebView#requestImageRef(android.os.Message)))
@@ -2014,7 +2014,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.requestMediaPlaybackState] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.requestMediaPlaybackState.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.requestMediaPlaybackState.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 15.0+ ([Official API - WKWebView.requestMediaPlaybackState](https://developer.apple.com/documentation/webkit/wkwebview/3752241-requestmediaplaybackstate))
@@ -2028,7 +2028,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.requestPointerLock] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.requestPointerLock.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.requestPointerLock.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit
@@ -2039,7 +2039,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.requestPointerUnlock] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.requestPointerUnlock.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.requestPointerUnlock.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit
@@ -2050,7 +2050,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.restoreState] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.restoreState.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.restoreState.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.restoreState](https://developer.android.com/reference/android/webkit/WebView#restoreState(android.os.Bundle))):
@@ -2068,7 +2068,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.resume] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.resume.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.resume.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.onResume](https://developer.android.com/reference/android/webkit/WebView#onResume()))
@@ -2080,7 +2080,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.resumeTimers] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.resumeTimers.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.resumeTimers.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.resumeTimers](https://developer.android.com/reference/android/webkit/WebView#resumeTimers()))
@@ -2095,7 +2095,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.saveState] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.saveState.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.saveState.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.saveState](https://developer.android.com/reference/android/webkit/WebView#saveState(android.os.Bundle))):
@@ -2110,7 +2110,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.saveWebArchive] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.saveWebArchive.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.saveWebArchive.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.saveWebArchive](https://developer.android.com/reference/android/webkit/WebView#saveWebArchive(java.lang.String,%20boolean,%20android.webkit.ValueCallback%3Cjava.lang.String%3E))):
@@ -2132,7 +2132,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.scrollBy] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.scrollBy.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.scrollBy.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - View.scrollBy](https://developer.android.com/reference/android/view/View#scrollBy(int,%20int)))
@@ -2155,7 +2155,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.scrollTo] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.scrollTo.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.scrollTo.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - View.scrollTo](https://developer.android.com/reference/android/webkit/WebView#scrollTo(int,%20int)))
@@ -2178,7 +2178,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.setAllMediaPlaybackSuspended] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.setAllMediaPlaybackSuspended.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.setAllMediaPlaybackSuspended.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 15.0+ ([Official API - WKWebView.setAllMediaPlaybackSuspended](https://developer.apple.com/documentation/webkit/wkwebview/3752242-setallmediaplaybacksuspended))
@@ -2195,7 +2195,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.setCameraCaptureState] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.setCameraCaptureState.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.setCameraCaptureState.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 15.0+ ([Official API - WKWebView.setCameraCaptureState](https://developer.apple.com/documentation/webkit/wkwebview/3763097-setcameracapturestate))
@@ -2212,7 +2212,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.setContextMenu] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.setContextMenu.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.setContextMenu.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -2227,7 +2227,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.setInputMethodEnabled] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.setInputMethodEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.setInputMethodEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView ([Official API - UIResponder.inputView](https://developer.apple.com/documentation/uikit/uiresponder/1621092-inputview))
@@ -2241,7 +2241,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.setJavaScriptBridgeName] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.setJavaScriptBridgeName.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.setJavaScriptBridgeName.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -2260,7 +2260,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.setMemoryUsageTargetLevel] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.setMemoryUsageTargetLevel.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.setMemoryUsageTargetLevel.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 ([Official API - ICoreWebView2_19.put_MemoryUsageTargetLevel](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2_19?view=webview2-1.0.2849.39#put_memoryusagetargetlevel))
@@ -2274,7 +2274,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.setMicrophoneCaptureState] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.setMicrophoneCaptureState.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.setMicrophoneCaptureState.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 15.0+ ([Official API - WKWebView.setMicrophoneCaptureState](https://developer.apple.com/documentation/webkit/wkwebview/3763098-setmicrophonecapturestate))
@@ -2291,7 +2291,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.setMuted] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.setMuted.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.setMuted.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit 2.30+ ([Official API - webkit_web_view_set_is_muted](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/method.WebView.set_is_muted.html))
@@ -2305,7 +2305,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.setOptions] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.setOptions.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.setOptions.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -2324,7 +2324,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.setSafeBrowsingAllowlist] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.setSafeBrowsingAllowlist.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.setSafeBrowsingAllowlist.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebViewCompat.setSafeBrowsingAllowlist](https://developer.android.com/reference/androidx/webkit/WebViewCompat#setSafeBrowsingAllowlist(java.util.Set%3Cjava.lang.String%3E,%20android.webkit.ValueCallback%3Cjava.lang.Boolean%3E))):
@@ -2339,7 +2339,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.setSafeBrowsingWhitelist] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.setSafeBrowsingWhitelist.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.setSafeBrowsingWhitelist.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -2354,7 +2354,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.setScreenScale] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.setScreenScale.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.setScreenScale.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit ([Official API - wpe_screen_set_scale](https://wpewebkit.org/reference/stable/wpe-platform-1.0/method.Screen.set_scale.html))
@@ -2368,7 +2368,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.setSettings] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.setSettings.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.setSettings.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -2387,7 +2387,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.setTargetRefreshRate] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.setTargetRefreshRate.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.setTargetRefreshRate.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit
@@ -2401,7 +2401,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.setVisible] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.setVisible.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.setVisible.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit
@@ -2415,7 +2415,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.setWebContentsDebuggingEnabled] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.setWebContentsDebuggingEnabled.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.setWebContentsDebuggingEnabled.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.setWebContentsDebuggingEnabled](https://developer.android.com/reference/android/webkit/WebView#setWebContentsDebuggingEnabled(boolean)))
@@ -2429,7 +2429,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.showInputMethod] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.showInputMethod.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.showInputMethod.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - InputMethodManager.showSoftInput](https://developer.android.com/reference/android/view/inputmethod/InputMethodManager#showSoftInput(android.view.View,%20int)))
@@ -2440,7 +2440,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.showSaveAsUI] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.showSaveAsUI.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.showSaveAsUI.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 ([Official API - ICoreWebView2_25.ShowSaveAsUI](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2_25?view=webview2-1.0.2849.39#showsaveasui))
@@ -2451,7 +2451,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.startSafeBrowsing] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.startSafeBrowsing.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.startSafeBrowsing.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.startSafeBrowsing](https://developer.android.com/reference/android/webkit/WebView#startSafeBrowsing(android.content.Context,%20android.webkit.ValueCallback%3Cjava.lang.Boolean%3E))):
@@ -2463,7 +2463,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.stopLoading] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.stopLoading.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.stopLoading.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.stopLoading](https://developer.android.com/reference/android/webkit/WebView#stopLoading()))
@@ -2479,7 +2479,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.takeScreenshot] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.takeScreenshot.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.takeScreenshot.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView:
@@ -2498,7 +2498,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.terminateWebProcess] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.terminateWebProcess.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.terminateWebProcess.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Linux WPE WebKit 2.34+ ([Official API - webkit_web_view_terminate_web_process](https://wpewebkit.org/reference/stable/wpe-webkit-2.0/method.WebView.terminate_web_process.html))
@@ -2509,7 +2509,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.zoomBy] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.zoomBy.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.zoomBy.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView 21+ ([Official API - WebView.zoomBy](https://developer.android.com/reference/android/webkit/WebView#zoomBy(float)))
@@ -2527,7 +2527,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.zoomIn] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.zoomIn.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.zoomIn.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.zoomIn](https://developer.android.com/reference/android/webkit/WebView#zoomIn()))
@@ -2538,7 +2538,7 @@ enum PlatformInAppWebViewControllerMethod {
 
   ///Can be used to check if the [PlatformInAppWebViewController.zoomOut] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformInAppWebViewController.zoomOut.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformInAppWebViewController.zoomOut.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.zoomOut](https://developer.android.com/reference/android/webkit/WebView#zoomOut()))

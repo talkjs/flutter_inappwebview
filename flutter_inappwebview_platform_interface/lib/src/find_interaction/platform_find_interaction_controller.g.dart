@@ -8,7 +8,7 @@ part of 'platform_find_interaction_controller.dart';
 
 extension _PlatformFindInteractionControllerCreationParamsClassSupported
     on PlatformFindInteractionControllerCreationParams {
-  ///{@template flutter_inappwebview_platform_interface.PlatformFindInteractionControllerCreationParams.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformFindInteractionControllerCreationParams.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -35,7 +35,7 @@ extension _PlatformFindInteractionControllerCreationParamsClassSupported
 enum PlatformFindInteractionControllerCreationParamsProperty {
   ///Can be used to check if the [PlatformFindInteractionControllerCreationParams.onFindResultReceived] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformFindInteractionControllerCreationParams.onFindResultReceived.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformFindInteractionControllerCreationParams.onFindResultReceived.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.FindListener.onFindResultReceived](https://developer.android.com/reference/android/webkit/WebView.FindListener#onFindResultReceived(int,%20int,%20boolean)))
@@ -79,7 +79,7 @@ extension _PlatformFindInteractionControllerCreationParamsPropertySupported
 
 extension _PlatformFindInteractionControllerClassSupported
     on PlatformFindInteractionController {
-  ///{@template flutter_inappwebview_platform_interface.PlatformFindInteractionController.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformFindInteractionController.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -106,7 +106,7 @@ extension _PlatformFindInteractionControllerClassSupported
 enum PlatformFindInteractionControllerMethod {
   ///Can be used to check if the [PlatformFindInteractionController.clearMatches] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformFindInteractionController.clearMatches.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformFindInteractionController.clearMatches.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.clearMatches](https://developer.android.com/reference/android/webkit/WebView#clearMatches()))
@@ -122,7 +122,7 @@ enum PlatformFindInteractionControllerMethod {
 
   ///Can be used to check if the [PlatformFindInteractionController.dismissFindNavigator] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformFindInteractionController.dismissFindNavigator.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformFindInteractionController.dismissFindNavigator.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView ([Official API - UIFindInteraction.dismissFindNavigator](https://developer.apple.com/documentation/uikit/uifindinteraction/3975827-dismissfindnavigator?changes=_2)):
@@ -134,7 +134,7 @@ enum PlatformFindInteractionControllerMethod {
 
   ///Can be used to check if the [PlatformFindInteractionController.dispose] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformFindInteractionController.dispose.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformFindInteractionController.dispose.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -152,7 +152,7 @@ enum PlatformFindInteractionControllerMethod {
 
   ///Can be used to check if the [PlatformFindInteractionController.findAll] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformFindInteractionController.findAll.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformFindInteractionController.findAll.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.findAllAsync](https://developer.android.com/reference/android/webkit/WebView#findAllAsync(java.lang.String))):
@@ -172,7 +172,7 @@ enum PlatformFindInteractionControllerMethod {
 
   ///Can be used to check if the [PlatformFindInteractionController.findNext] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformFindInteractionController.findNext.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformFindInteractionController.findNext.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebView.findNext](https://developer.android.com/reference/android/webkit/WebView#findNext(boolean)))
@@ -191,7 +191,7 @@ enum PlatformFindInteractionControllerMethod {
 
   ///Can be used to check if the [PlatformFindInteractionController.getActiveFindSession] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformFindInteractionController.getActiveFindSession.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformFindInteractionController.getActiveFindSession.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -206,7 +206,7 @@ enum PlatformFindInteractionControllerMethod {
 
   ///Can be used to check if the [PlatformFindInteractionController.getSearchText] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformFindInteractionController.getSearchText.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformFindInteractionController.getSearchText.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -222,7 +222,7 @@ enum PlatformFindInteractionControllerMethod {
 
   ///Can be used to check if the [PlatformFindInteractionController.isFindNavigatorVisible] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformFindInteractionController.isFindNavigatorVisible.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformFindInteractionController.isFindNavigatorVisible.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView ([Official API - UIFindInteraction.isFindNavigatorVisible](https://developer.apple.com/documentation/uikit/uifindinteraction/3975828-isfindnavigatorvisible?changes=_2)):
@@ -234,7 +234,7 @@ enum PlatformFindInteractionControllerMethod {
 
   ///Can be used to check if the [PlatformFindInteractionController.presentFindNavigator] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformFindInteractionController.presentFindNavigator.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformFindInteractionController.presentFindNavigator.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView ([Official API - UIFindInteraction.presentFindNavigator](https://developer.apple.com/documentation/uikit/uifindinteraction/3975832-presentfindnavigator?changes=_2)):
@@ -246,7 +246,7 @@ enum PlatformFindInteractionControllerMethod {
 
   ///Can be used to check if the [PlatformFindInteractionController.setFindOptions] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformFindInteractionController.setFindOptions.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformFindInteractionController.setFindOptions.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2 ([Official API - ICoreWebView2Environment15.CreateFindOptions](https://learn.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2environment15?view=webview2-1.0.2849.39#createfindoptions))
@@ -260,7 +260,7 @@ enum PlatformFindInteractionControllerMethod {
 
   ///Can be used to check if the [PlatformFindInteractionController.setSearchText] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformFindInteractionController.setSearchText.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformFindInteractionController.setSearchText.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -279,7 +279,7 @@ enum PlatformFindInteractionControllerMethod {
 
   ///Can be used to check if the [PlatformFindInteractionController.updateResultCount] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformFindInteractionController.updateResultCount.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformFindInteractionController.updateResultCount.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView ([Official API - UIFindInteraction.updateResultCount](https://developer.apple.com/documentation/uikit/uifindinteraction/3975835-updateresultcount?changes=_2)):

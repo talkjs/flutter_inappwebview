@@ -823,7 +823,7 @@ class PrintJobSettings {
 enum PrintJobSettingsProperty {
   ///Can be used to check if the [PrintJobSettings.animated] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.animated.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.animated.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -834,7 +834,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.canSpawnSeparateThread] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.canSpawnSeparateThread.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.canSpawnSeparateThread.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView
@@ -845,7 +845,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.collate] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.collate.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.collate.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2
@@ -856,7 +856,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.colorMode] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.colorMode.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.colorMode.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -869,7 +869,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.copies] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.copies.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.copies.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView
@@ -881,7 +881,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.detailedErrorReporting] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.detailedErrorReporting.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.detailedErrorReporting.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView
@@ -892,7 +892,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.duplexMode] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.duplexMode.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.duplexMode.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView 23+
@@ -905,7 +905,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.faxNumber] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.faxNumber.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.faxNumber.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView
@@ -916,7 +916,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.firstPage] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.firstPage.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.firstPage.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView
@@ -927,7 +927,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.footerHeight] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.footerHeight.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.footerHeight.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -938,7 +938,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.footerUri] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.footerUri.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.footerUri.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2
@@ -949,7 +949,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.forceRenderingQuality] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.forceRenderingQuality.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.forceRenderingQuality.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 14.5+
@@ -960,7 +960,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.handledByClient] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.handledByClient.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.handledByClient.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -973,7 +973,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.headerAndFooter] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.headerAndFooter.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.headerAndFooter.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView
@@ -985,7 +985,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.headerHeight] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.headerHeight.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.headerHeight.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -996,7 +996,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.headerTitle] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.headerTitle.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.headerTitle.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2
@@ -1007,7 +1007,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.horizontalPagination] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.horizontalPagination.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.horizontalPagination.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView
@@ -1018,7 +1018,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.isHorizontallyCentered] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.isHorizontallyCentered.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.isHorizontallyCentered.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView
@@ -1029,7 +1029,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.isVerticallyCentered] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.isVerticallyCentered.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.isVerticallyCentered.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView
@@ -1040,7 +1040,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.jobDisposition] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.jobDisposition.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.jobDisposition.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView
@@ -1051,7 +1051,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.jobName] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.jobName.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.jobName.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1064,7 +1064,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.jobSavingURL] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.jobSavingURL.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.jobSavingURL.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView
@@ -1075,7 +1075,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.lastPage] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.lastPage.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.lastPage.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView
@@ -1086,7 +1086,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.margins] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.margins.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.margins.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -1099,7 +1099,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.maximumContentHeight] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.maximumContentHeight.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.maximumContentHeight.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -1110,7 +1110,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.maximumContentWidth] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.maximumContentWidth.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.maximumContentWidth.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -1121,7 +1121,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.mediaSize] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.mediaSize.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.mediaSize.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1133,7 +1133,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.mustCollate] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.mustCollate.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.mustCollate.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView
@@ -1144,7 +1144,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.numberOfPages] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.numberOfPages.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.numberOfPages.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -1156,7 +1156,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.orientation] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.orientation.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.orientation.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1170,7 +1170,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.outputType] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.outputType.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.outputType.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -1181,7 +1181,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.pageHeight] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.pageHeight.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.pageHeight.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2
@@ -1192,7 +1192,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.pageOrder] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.pageOrder.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.pageOrder.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView
@@ -1203,7 +1203,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.pageRanges] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.pageRanges.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.pageRanges.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2
@@ -1214,7 +1214,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.pageWidth] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.pageWidth.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.pageWidth.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2
@@ -1225,7 +1225,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.pagesAcross] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.pagesAcross.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.pagesAcross.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView
@@ -1236,7 +1236,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.pagesDown] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.pagesDown.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.pagesDown.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView
@@ -1247,7 +1247,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.pagesPerSide] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.pagesPerSide.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.pagesPerSide.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2
@@ -1258,7 +1258,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.paperName] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.paperName.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.paperName.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView
@@ -1269,7 +1269,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.printDialogKind] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.printDialogKind.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.printDialogKind.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2
@@ -1280,7 +1280,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.printerName] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.printerName.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.printerName.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2
@@ -1291,7 +1291,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.resolution] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.resolution.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.resolution.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1302,7 +1302,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.scalingFactor] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.scalingFactor.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.scalingFactor.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView
@@ -1314,7 +1314,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.shouldPrintBackgrounds] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.shouldPrintBackgrounds.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.shouldPrintBackgrounds.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2
@@ -1325,7 +1325,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.shouldPrintHeaderAndFooter] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.shouldPrintHeaderAndFooter.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.shouldPrintHeaderAndFooter.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2
@@ -1336,7 +1336,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.shouldPrintSelectionOnly] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.shouldPrintSelectionOnly.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.shouldPrintSelectionOnly.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2
@@ -1347,7 +1347,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.showUI] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.showUI.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.showUI.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2
@@ -1358,7 +1358,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.showsNumberOfCopies] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.showsNumberOfCopies.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.showsNumberOfCopies.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -1370,7 +1370,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.showsPageRange] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.showsPageRange.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.showsPageRange.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView
@@ -1381,7 +1381,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.showsPageSetupAccessory] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.showsPageSetupAccessory.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.showsPageSetupAccessory.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView
@@ -1392,7 +1392,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.showsPaperOrientation] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.showsPaperOrientation.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.showsPaperOrientation.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 15.0+
@@ -1404,7 +1404,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.showsPaperSelectionForLoadedPapers] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.showsPaperSelectionForLoadedPapers.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.showsPaperSelectionForLoadedPapers.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -1415,7 +1415,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.showsPaperSize] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.showsPaperSize.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.showsPaperSize.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView
@@ -1426,7 +1426,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.showsPreview] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.showsPreview.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.showsPreview.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView
@@ -1437,7 +1437,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.showsPrintPanel] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.showsPrintPanel.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.showsPrintPanel.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView
@@ -1448,7 +1448,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.showsPrintSelection] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.showsPrintSelection.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.showsPrintSelection.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView
@@ -1459,7 +1459,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.showsProgressPanel] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.showsProgressPanel.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.showsProgressPanel.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView
@@ -1470,7 +1470,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.showsScaling] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.showsScaling.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.showsScaling.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView
@@ -1481,7 +1481,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.time] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.time.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.time.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView
@@ -1492,7 +1492,7 @@ enum PrintJobSettingsProperty {
 
   ///Can be used to check if the [PrintJobSettings.verticalPagination] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PrintJobSettings.verticalPagination.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PrintJobSettings.verticalPagination.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- macOS WKWebView

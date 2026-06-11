@@ -1132,7 +1132,7 @@ class AndroidWebViewFeature {
 
 extension _PlatformWebViewFeatureCreationParamsClassSupported
     on PlatformWebViewFeatureCreationParams {
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebViewFeatureCreationParams.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebViewFeatureCreationParams.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1146,7 +1146,7 @@ extension _PlatformWebViewFeatureCreationParamsClassSupported
 }
 
 extension _PlatformWebViewFeatureClassSupported on PlatformWebViewFeature {
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebViewFeature.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebViewFeature.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -1163,7 +1163,7 @@ extension _PlatformWebViewFeatureClassSupported on PlatformWebViewFeature {
 enum PlatformWebViewFeatureMethod {
   ///Can be used to check if the [PlatformWebViewFeature.isFeatureSupported] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebViewFeature.isFeatureSupported.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebViewFeature.isFeatureSupported.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebViewFeature.isFeatureSupported](https://developer.android.com/reference/androidx/webkit/WebViewFeature#isFeatureSupported(java.lang.String)))
@@ -1177,7 +1177,7 @@ enum PlatformWebViewFeatureMethod {
 
   ///Can be used to check if the [PlatformWebViewFeature.isStartupFeatureSupported] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebViewFeature.isStartupFeatureSupported.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebViewFeature.isStartupFeatureSupported.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - WebViewFeature.isStartupFeatureSupported](https://developer.android.com/reference/androidx/webkit/WebViewFeature#isStartupFeatureSupported(android.content.Context,java.lang.String)))

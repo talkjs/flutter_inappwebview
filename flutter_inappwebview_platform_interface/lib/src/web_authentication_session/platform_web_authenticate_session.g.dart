@@ -8,7 +8,7 @@ part of 'platform_web_authenticate_session.dart';
 
 extension _PlatformWebAuthenticationSessionCreationParamsClassSupported
     on PlatformWebAuthenticationSessionCreationParams {
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebAuthenticationSessionCreationParams.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebAuthenticationSessionCreationParams.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 11.0+
@@ -27,7 +27,7 @@ extension _PlatformWebAuthenticationSessionCreationParamsClassSupported
 
 extension _PlatformWebAuthenticationSessionClassSupported
     on PlatformWebAuthenticationSession {
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebAuthenticationSession.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebAuthenticationSession.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 11.0+
@@ -48,7 +48,7 @@ extension _PlatformWebAuthenticationSessionClassSupported
 enum PlatformWebAuthenticationSessionProperty {
   ///Can be used to check if the [PlatformWebAuthenticationSession.callbackURLScheme] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebAuthenticationSession.callbackURLScheme.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebAuthenticationSession.callbackURLScheme.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -60,7 +60,7 @@ enum PlatformWebAuthenticationSessionProperty {
 
   ///Can be used to check if the [PlatformWebAuthenticationSession.id] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebAuthenticationSession.id.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebAuthenticationSession.id.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -72,7 +72,7 @@ enum PlatformWebAuthenticationSessionProperty {
 
   ///Can be used to check if the [PlatformWebAuthenticationSession.initialSettings] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebAuthenticationSession.initialSettings.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebAuthenticationSession.initialSettings.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -84,7 +84,7 @@ enum PlatformWebAuthenticationSessionProperty {
 
   ///Can be used to check if the [PlatformWebAuthenticationSession.onComplete] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebAuthenticationSession.onComplete.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebAuthenticationSession.onComplete.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -100,7 +100,7 @@ enum PlatformWebAuthenticationSessionProperty {
 
   ///Can be used to check if the [PlatformWebAuthenticationSession.url] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebAuthenticationSession.url.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebAuthenticationSession.url.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -156,7 +156,7 @@ extension _PlatformWebAuthenticationSessionPropertySupported
 enum PlatformWebAuthenticationSessionMethod {
   ///Can be used to check if the [PlatformWebAuthenticationSession.canStart] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebAuthenticationSession.canStart.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebAuthenticationSession.canStart.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView ([Official API - ASWebAuthenticationSession.canStart](https://developer.apple.com/documentation/authenticationservices/aswebauthenticationsession/3516277-canstart))
@@ -168,7 +168,7 @@ enum PlatformWebAuthenticationSessionMethod {
 
   ///Can be used to check if the [PlatformWebAuthenticationSession.cancel] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebAuthenticationSession.cancel.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebAuthenticationSession.cancel.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView ([Official API - ASWebAuthenticationSession.cancel](https://developer.apple.com/documentation/authenticationservices/aswebauthenticationsession/2990951-cancel))
@@ -180,7 +180,7 @@ enum PlatformWebAuthenticationSessionMethod {
 
   ///Can be used to check if the [PlatformWebAuthenticationSession.create] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebAuthenticationSession.create.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebAuthenticationSession.create.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -198,7 +198,7 @@ enum PlatformWebAuthenticationSessionMethod {
 
   ///Can be used to check if the [PlatformWebAuthenticationSession.dispose] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebAuthenticationSession.dispose.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebAuthenticationSession.dispose.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -210,7 +210,7 @@ enum PlatformWebAuthenticationSessionMethod {
 
   ///Can be used to check if the [PlatformWebAuthenticationSession.isAvailable] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebAuthenticationSession.isAvailable.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebAuthenticationSession.isAvailable.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView
@@ -222,7 +222,7 @@ enum PlatformWebAuthenticationSessionMethod {
 
   ///Can be used to check if the [PlatformWebAuthenticationSession.start] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformWebAuthenticationSession.start.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformWebAuthenticationSession.start.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView ([Official API - ASWebAuthenticationSession.start](https://developer.apple.com/documentation/authenticationservices/aswebauthenticationsession/2990953-start))

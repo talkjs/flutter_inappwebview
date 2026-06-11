@@ -8,7 +8,7 @@ part of 'platform_cookie_manager.dart';
 
 extension _PlatformCookieManagerCreationParamsClassSupported
     on PlatformCookieManagerCreationParams {
-  ///{@template flutter_inappwebview_platform_interface.PlatformCookieManagerCreationParams.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformCookieManagerCreationParams.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView
@@ -38,7 +38,7 @@ extension _PlatformCookieManagerCreationParamsClassSupported
 enum PlatformCookieManagerCreationParamsProperty {
   ///Can be used to check if the [PlatformCookieManagerCreationParams.webViewEnvironment] property is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformCookieManagerCreationParams.webViewEnvironment.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformCookieManagerCreationParams.webViewEnvironment.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Windows WebView2
@@ -65,7 +65,7 @@ extension _PlatformCookieManagerCreationParamsPropertySupported
 }
 
 extension _PlatformCookieManagerClassSupported on PlatformCookieManager {
-  ///{@template flutter_inappwebview_platform_interface.PlatformCookieManager.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformCookieManager.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView:
@@ -100,7 +100,7 @@ extension _PlatformCookieManagerClassSupported on PlatformCookieManager {
 enum PlatformCookieManagerMethod {
   ///Can be used to check if the [PlatformCookieManager.deleteAllCookies] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformCookieManager.deleteAllCookies.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformCookieManager.deleteAllCookies.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - CookieManager.removeAllCookies](https://developer.android.com/reference/android/webkit/CookieManager#removeAllCookies(android.webkit.ValueCallback%3Cjava.lang.Boolean%3E)))
@@ -118,7 +118,7 @@ enum PlatformCookieManagerMethod {
 
   ///Can be used to check if the [PlatformCookieManager.deleteCookie] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformCookieManager.deleteCookie.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformCookieManager.deleteCookie.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - CookieManager.getCookie](https://developer.android.com/reference/android/webkit/CookieManager#getCookie(java.lang.String)))
@@ -149,7 +149,7 @@ enum PlatformCookieManagerMethod {
 
   ///Can be used to check if the [PlatformCookieManager.deleteCookies] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformCookieManager.deleteCookies.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformCookieManager.deleteCookies.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - CookieManager.getCookie](https://developer.android.com/reference/android/webkit/CookieManager#getCookie(java.lang.String)))
@@ -179,7 +179,7 @@ enum PlatformCookieManagerMethod {
 
   ///Can be used to check if the [PlatformCookieManager.flush] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformCookieManager.flush.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformCookieManager.flush.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - CookieManager.flush](https://developer.android.com/reference/android/webkit/CookieManager#flush()))
@@ -190,7 +190,7 @@ enum PlatformCookieManagerMethod {
 
   ///Can be used to check if the [PlatformCookieManager.getAllCookies] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformCookieManager.getAllCookies.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformCookieManager.getAllCookies.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- iOS WKWebView 11.0+ ([Official API - WKHTTPCookieStore.getAllCookies](https://developer.apple.com/documentation/webkit/wkhttpcookiestore/2882005-getallcookies))
@@ -203,7 +203,7 @@ enum PlatformCookieManagerMethod {
 
   ///Can be used to check if the [PlatformCookieManager.getCookie] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformCookieManager.getCookie.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformCookieManager.getCookie.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - CookieManager.getCookie](https://developer.android.com/reference/android/webkit/CookieManager#getCookie(java.lang.String)))
@@ -232,7 +232,7 @@ enum PlatformCookieManagerMethod {
 
   ///Can be used to check if the [PlatformCookieManager.getCookies] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformCookieManager.getCookies.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformCookieManager.getCookies.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - CookieManager.getCookie](https://developer.android.com/reference/android/webkit/CookieManager#getCookie(java.lang.String)))
@@ -260,7 +260,7 @@ enum PlatformCookieManagerMethod {
 
   ///Can be used to check if the [PlatformCookieManager.removeSessionCookies] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformCookieManager.removeSessionCookies.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformCookieManager.removeSessionCookies.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - CookieManager.removeSessionCookies](https://developer.android.com/reference/android/webkit/CookieManager#removeSessionCookies(android.webkit.ValueCallback%3Cjava.lang.Boolean%3E)))
@@ -271,7 +271,7 @@ enum PlatformCookieManagerMethod {
 
   ///Can be used to check if the [PlatformCookieManager.setCookie] method is supported at runtime.
   ///
-  ///{@template flutter_inappwebview_platform_interface.PlatformCookieManager.setCookie.supported_platforms}
+  ///{@template talkjs_flutter_inappwebview_platform_interface.PlatformCookieManager.setCookie.supported_platforms}
   ///
   ///**Officially Supported Platforms/Implementations**:
   ///- Android WebView ([Official API - CookieManager.setCookie](https://developer.android.com/reference/android/webkit/CookieManager#setCookie(java.lang.String,%20java.lang.String,%20android.webkit.ValueCallback%3Cjava.lang.Boolean%3E)))
