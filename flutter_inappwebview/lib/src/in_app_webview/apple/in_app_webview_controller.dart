@@ -2,7 +2,7 @@ import 'dart:core';
 import 'dart:typed_data';
 
 import 'package:flutter/services.dart';
-import 'package:flutter_inappwebview_platform_interface/flutter_inappwebview_platform_interface.dart';
+import 'package:talkjs_flutter_inappwebview_platform_interface/talkjs_flutter_inappwebview_platform_interface.dart';
 
 import '../in_app_webview_controller.dart';
 

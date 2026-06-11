@@ -37,7 +37,7 @@ dependencies:
     path: ../
 
 dependency_overrides:
-  flutter_inappwebview_platform_interface:
+  talkjs_flutter_inappwebview_platform_interface:
     path: ../../flutter_inappwebview_platform_interface
   talkjs_flutter_inappwebview_android:
     path: ../../flutter_inappwebview_android

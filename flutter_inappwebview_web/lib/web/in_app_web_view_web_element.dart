@@ -7,7 +7,7 @@ import 'dart:typed_data' as typed_data;
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_inappwebview_platform_interface/flutter_inappwebview_platform_interface.dart';
+import 'package:talkjs_flutter_inappwebview_platform_interface/talkjs_flutter_inappwebview_platform_interface.dart';
 import 'package:web/web.dart';
 
 import 'headless_inappwebview_manager.dart';

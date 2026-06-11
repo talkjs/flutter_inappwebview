@@ -20,7 +20,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_inappwebview_platform_interface: ^1.4.0-beta.3
+  talkjs_flutter_inappwebview_platform_interface: ^1.4.0+1
     # path: ../flutter_inappwebview_platform_interface
   talkjs_flutter_inappwebview_android: ^1.2.0-beta.3
     # path: ../flutter_inappwebview_android

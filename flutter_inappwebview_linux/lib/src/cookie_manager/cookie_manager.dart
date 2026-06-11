@@ -1,5 +1,5 @@
 import 'package:flutter/services.dart';
-import 'package:flutter_inappwebview_platform_interface/flutter_inappwebview_platform_interface.dart';
+import 'package:talkjs_flutter_inappwebview_platform_interface/talkjs_flutter_inappwebview_platform_interface.dart';
 
 /// Object specifying creation parameters for creating a [LinuxCookieManager].
 ///

@@ -21,7 +21,7 @@
 
 library talkjs_flutter_inappwebview;
 
-export 'package:flutter_inappwebview_platform_interface/flutter_inappwebview_platform_interface.dart'
+export 'package:talkjs_flutter_inappwebview_platform_interface/talkjs_flutter_inappwebview_platform_interface.dart'
     hide
         ChannelController,
         InternalChannelController,

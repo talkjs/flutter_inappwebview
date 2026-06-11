@@ -26,9 +26,6 @@ dependencies:
     # the parent directory to use the current plugin's version.
     path: ../
 
-  flutter_inappwebview_platform_interface:
-    path: ../../flutter_inappwebview_platform_interface
-
   url_launcher: ^6.1.0
 
   # The following adds the Cupertino Icons font to your application.
