@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_WEBVIEW_MANAGER_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_WEBVIEW_MANAGER_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_WEBVIEW_MANAGER_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_WEBVIEW_MANAGER_H_
 
 #include <flutter_linux/flutter_linux.h>
 #include <wpe/webkit.h>
@@ -15,14 +15,14 @@
 #include "in_app_webview.h"
 #include "in_app_webview_settings.h"
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 class PluginInstance;
 
 class InAppWebViewManager {
  public:
   static constexpr const char* METHOD_CHANNEL_NAME =
-      "com.pichillilorenzo/flutter_inappwebview_manager";
+      "com.talkjs/talkjs_flutter_inappwebview_manager";
 
   InAppWebViewManager(PluginInstance* plugin);
   ~InAppWebViewManager();
@@ -88,6 +88,6 @@ class InAppWebViewManager {
   void RemoveWindowWebView(int64_t windowId);
 };
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin
 
-#endif  // FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_WEBVIEW_MANAGER_H_
+#endif  // TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_WEBVIEW_MANAGER_H_

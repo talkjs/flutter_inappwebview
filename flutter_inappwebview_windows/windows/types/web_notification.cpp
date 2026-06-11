@@ -1,6 +1,6 @@
 #include "web_notification.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   WebNotification::WebNotification(const std::optional<std::string>& title,
     const std::optional<std::string>& body,

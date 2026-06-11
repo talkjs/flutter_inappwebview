@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_NOTIFICATION_RECEIVED_REQUEST_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_NOTIFICATION_RECEIVED_REQUEST_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_NOTIFICATION_RECEIVED_REQUEST_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_NOTIFICATION_RECEIVED_REQUEST_H_
 
 #include <flutter/standard_method_codec.h>
 #include <memory>
@@ -9,7 +9,7 @@
 #include "../utils/flutter.h"
 #include "web_notification.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   class NotificationReceivedRequest
   {
@@ -25,4 +25,4 @@ namespace flutter_inappwebview_plugin
   };
 }
 
-#endif //FLUTTER_INAPPWEBVIEW_PLUGIN_NOTIFICATION_RECEIVED_REQUEST_H_
+#endif //TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_NOTIFICATION_RECEIVED_REQUEST_H_

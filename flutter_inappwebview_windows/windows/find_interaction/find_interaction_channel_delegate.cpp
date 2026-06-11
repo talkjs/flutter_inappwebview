@@ -8,7 +8,7 @@
 #include "../utils/log.h"
 #include "../utils/string.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   FindInteractionChannelDelegate::FindInteractionChannelDelegate(
     FindInteractionController* findInteractionController,

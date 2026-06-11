@@ -1,12 +1,12 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_HTTP_AUTH_RESPONSE_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_HTTP_AUTH_RESPONSE_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_HTTP_AUTH_RESPONSE_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_HTTP_AUTH_RESPONSE_H_
 
 #include <flutter_linux/flutter_linux.h>
 
 #include <optional>
 #include <string>
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 /**
  * HTTP authentication response action.
@@ -28,6 +28,6 @@ class HttpAuthResponse {
   ~HttpAuthResponse() = default;
 };
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin
 
-#endif  // FLUTTER_INAPPWEBVIEW_PLUGIN_HTTP_AUTH_RESPONSE_H_
+#endif  // TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_HTTP_AUTH_RESPONSE_H_

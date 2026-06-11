@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_HEADLESS_IN_APP_WEBVIEW_MANAGER_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_HEADLESS_IN_APP_WEBVIEW_MANAGER_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_HEADLESS_IN_APP_WEBVIEW_MANAGER_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_HEADLESS_IN_APP_WEBVIEW_MANAGER_H_
 
 #include <flutter_linux/flutter_linux.h>
 
@@ -9,14 +9,14 @@
 
 #include "headless_in_app_webview.h"
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 class PluginInstance;
 
 class HeadlessInAppWebViewManager {
  public:
   static constexpr const char* METHOD_CHANNEL_NAME =
-      "com.pichillilorenzo/flutter_headless_inappwebview";
+      "com.talkjs/talkjs_flutter_headless_inappwebview";
 
   HeadlessInAppWebViewManager(PluginInstance* plugin);
   ~HeadlessInAppWebViewManager();
@@ -48,6 +48,6 @@ class HeadlessInAppWebViewManager {
   void Run(FlMethodCall* method_call);
 };
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin
 
-#endif  // FLUTTER_INAPPWEBVIEW_PLUGIN_HEADLESS_IN_APP_WEBVIEW_MANAGER_H_
+#endif  // TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_HEADLESS_IN_APP_WEBVIEW_MANAGER_H_

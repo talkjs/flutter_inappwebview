@@ -34,7 +34,7 @@ class TalkjsInAppWebViewFlutterPlugin {
   }
 
   static void registerWith(Registrar registrar) {
-    WebPlatformInAppWebViewPlatform.registerWith();
+    TalkjsWebPlatformInAppWebViewPlatform.registerWith();
     // ignore: unused_local_variable
     final pluginInstance = TalkjsInAppWebViewFlutterPlugin(registrar);
     // ignore: unused_local_variable

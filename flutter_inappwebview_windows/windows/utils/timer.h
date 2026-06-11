@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_TIMER_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_TIMER_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_TIMER_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_TIMER_H_
 
 #include <functional>
 #include <map>
@@ -7,7 +7,7 @@
 
 #include "map.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   class Timer {
   public:
@@ -67,4 +67,4 @@ namespace flutter_inappwebview_plugin
   };
 }
 
-#endif //FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_TIMER_H_
+#endif //TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_TIMER_H_

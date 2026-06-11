@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_CLIENT_CERT_CHALLENGE_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_CLIENT_CERT_CHALLENGE_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_CLIENT_CERT_CHALLENGE_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_CLIENT_CERT_CHALLENGE_H_
 
 #include <flutter/standard_method_codec.h>
 #include <string>
@@ -7,7 +7,7 @@
 
 #include "url_authentication_challenge.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   class ClientCertChallenge : URLAuthenticationChallenge
   {
@@ -26,4 +26,4 @@ namespace flutter_inappwebview_plugin
   };
 }
 
-#endif //FLUTTER_INAPPWEBVIEW_PLUGIN_CLIENT_CERT_CHALLENGE_H_
+#endif //TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_CLIENT_CERT_CHALLENGE_H_

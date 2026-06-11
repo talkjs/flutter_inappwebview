@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_URI_UTIL_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_URI_UTIL_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_URI_UTIL_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_URI_UTIL_H_
 
 #include <iomanip>
 #include <regex>
@@ -7,7 +7,7 @@
 
 #include "string.h"
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 // Extract origin (scheme + host + port) from a URL
 static inline std::string get_origin_from_url(const std::string& url) {
@@ -121,6 +121,6 @@ static inline std::string url_encode(const std::string& value) {
   return escaped.str();
 }
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin
 
-#endif  // FLUTTER_INAPPWEBVIEW_PLUGIN_URI_UTIL_H_
+#endif  // TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_URI_UTIL_H_

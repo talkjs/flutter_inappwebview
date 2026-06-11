@@ -2,7 +2,7 @@
 
 #include "../utils/flutter.h"
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 URLCredential::URLCredential() {}
 
@@ -26,4 +26,4 @@ FlValue* URLCredential::toFlValue() const {
   });
 }
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin

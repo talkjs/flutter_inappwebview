@@ -9,7 +9,7 @@
 #include "utils/flutter.h"
 #include "utils/log.h"
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 namespace {
 // Helper to compare method names
@@ -27,7 +27,7 @@ WebViewEnvironmentInstanceChannelDelegate::WebViewEnvironmentInstanceChannelDele
     const std::string& id,
     std::function<void(const std::string&)> disposeCallback)
     : ChannelDelegate(messenger,
-                      "com.pichillilorenzo/flutter_webview_environment_" + id),
+                      "com.talkjs/talkjs_flutter_webview_environment_" + id),
       id_(id),
       disposeCallback_(std::move(disposeCallback)) {}
 
@@ -278,4 +278,4 @@ WebViewEnvironmentInstanceChannelDelegate* WebViewEnvironment::getInstance(const
   return nullptr;
 }
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin

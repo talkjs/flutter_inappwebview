@@ -7,7 +7,7 @@
 #include "headless_in_app_webview_manager.h"
 #include "headless_webview_channel_delegate.h"
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 HeadlessInAppWebView::HeadlessInAppWebView(HeadlessInAppWebViewManager* manager,
                                            const HeadlessInAppWebViewCreationParams& params,
@@ -21,7 +21,7 @@ HeadlessInAppWebView::HeadlessInAppWebView(HeadlessInAppWebViewManager* manager,
                                             webviewParams);
 
   // CRITICAL: Attach the method channel to the InAppWebView using the string ID.
-  // This creates the channel at "com.pichillilorenzo/flutter_inappwebview_<id>"
+  // This creates the channel at "com.talkjs/talkjs_flutter_inappwebview_<id>"
   // which the Dart LinuxInAppWebViewController expects.
   webview_->AttachChannel(manager_->messenger(), id_, false);
 
@@ -62,4 +62,4 @@ void HeadlessInAppWebView::dispose() {
   }
 }
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin

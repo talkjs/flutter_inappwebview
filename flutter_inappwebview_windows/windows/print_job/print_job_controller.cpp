@@ -8,7 +8,7 @@
 
 #include <chrono>
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   PrintJobController::PrintJobController(const std::string& id,
     flutter::BinaryMessenger* messenger,

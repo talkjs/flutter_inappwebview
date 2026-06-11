@@ -1,6 +1,6 @@
 #include "launching_external_uri_scheme_response.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   LaunchingExternalUriSchemeResponse::LaunchingExternalUriSchemeResponse(const bool& cancel)
     : cancel(cancel)

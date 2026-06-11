@@ -1,7 +1,7 @@
 #include "../utils/flutter.h"
 #include "accelerator_key_pressed_detail.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   AcceleratorKeyPressedDetail::AcceleratorKeyPressedDetail(const std::optional<int64_t>& keyEventKind,
     const std::optional<std::shared_ptr<PhysicalKeyStatus>> physicalKeyStatus,

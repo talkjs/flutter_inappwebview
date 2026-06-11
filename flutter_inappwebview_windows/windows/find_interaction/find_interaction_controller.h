@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_FIND_INTERACTION_CONTROLLER_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_FIND_INTERACTION_CONTROLLER_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_FIND_INTERACTION_CONTROLLER_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_FIND_INTERACTION_CONTROLLER_H_
 
 #include <flutter/binary_messenger.h>
 #include <flutter/standard_message_codec.h>
@@ -10,7 +10,7 @@
 #include <optional>
 #include <string>
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   class InAppWebView;
 
@@ -19,7 +19,7 @@ namespace flutter_inappwebview_plugin
   class FindInteractionController
   {
   public:
-    static inline const std::string METHOD_CHANNEL_NAME_PREFIX = "com.pichillilorenzo/flutter_inappwebview_find_interaction_";
+    static inline const std::string METHOD_CHANNEL_NAME_PREFIX = "com.talkjs/talkjs_flutter_inappwebview_find_interaction_";
 
     InAppWebView* webView;
     std::unique_ptr<FindInteractionChannelDelegate> channelDelegate;
@@ -60,4 +60,4 @@ namespace flutter_inappwebview_plugin
   };
 }
 
-#endif //FLUTTER_INAPPWEBVIEW_PLUGIN_FIND_INTERACTION_CONTROLLER_H_
+#endif //TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_FIND_INTERACTION_CONTROLLER_H_

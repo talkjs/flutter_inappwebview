@@ -2,7 +2,7 @@
 
 #include "../utils/flutter.h"
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 JsPromptResponse::JsPromptResponse()
     : handledByClient(false), action(JsPromptResponseAction::CANCEL) {}
@@ -19,4 +19,4 @@ JsPromptResponse::JsPromptResponse(FlValue* map)
   value = get_optional_fl_map_value<std::string>(map, "value");
 }
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin

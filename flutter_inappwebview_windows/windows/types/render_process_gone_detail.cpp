@@ -1,7 +1,7 @@
 #include "../utils/flutter.h"
 #include "render_process_gone_detail.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
     RenderProcessGoneDetail::RenderProcessGoneDetail(const bool& didCrash)
     : didCrash(didCrash)

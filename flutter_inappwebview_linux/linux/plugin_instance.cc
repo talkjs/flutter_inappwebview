@@ -2,7 +2,7 @@
 
 #include "flutter_inappwebview_linux_plugin_private.h"
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 PluginInstance::PluginInstance(FlPluginRegistrar* registrar)
     : registrar_(registrar) {
@@ -19,4 +19,4 @@ FlTextureRegistrar* PluginInstance::textureRegistrar() const {
   return fl_plugin_registrar_get_texture_registrar(registrar_);
 }
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin

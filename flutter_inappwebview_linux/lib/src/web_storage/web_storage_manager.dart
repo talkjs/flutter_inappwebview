@@ -25,7 +25,7 @@ class LinuxWebStorageManagerCreationParams
 /// to manage website data.
 class LinuxWebStorageManager extends PlatformWebStorageManager {
   static const MethodChannel _channel = MethodChannel(
-    'com.pichillilorenzo/flutter_inappwebview_webstoragemanager',
+    'com.talkjs/talkjs_flutter_inappwebview_webstoragemanager',
   );
 
   /// Constructs a [LinuxWebStorageManager].

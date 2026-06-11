@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_PROCESS_FAILED_DETAIL_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_PROCESS_FAILED_DETAIL_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_PROCESS_FAILED_DETAIL_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_PROCESS_FAILED_DETAIL_H_
 
 #include <flutter/standard_method_codec.h>
 #include <optional>
@@ -8,7 +8,7 @@
 
 #include "frame_info.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
 
   class ProcessFailedDetail
@@ -33,4 +33,4 @@ namespace flutter_inappwebview_plugin
   };
 }
 
-#endif //FLUTTER_INAPPWEBVIEW_PLUGIN_PROCESS_FAILED_DETAIL_H_
+#endif //TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_PROCESS_FAILED_DETAIL_H_

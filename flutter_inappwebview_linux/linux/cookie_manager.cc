@@ -8,7 +8,7 @@
 #include "utils/flutter.h"
 #include "utils/log.h"
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 namespace {
 // Helper to compare method names
@@ -604,4 +604,4 @@ void CookieManager::getAllCookies(std::function<void(std::vector<Cookie>)> callb
       callbackPtr);
 }
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin

@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_ACCELERATOR_KEY_PRESSED_DETAIL_H
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_ACCELERATOR_KEY_PRESSED_DETAIL_H
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_ACCELERATOR_KEY_PRESSED_DETAIL_H
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_ACCELERATOR_KEY_PRESSED_DETAIL_H
 
 #include <flutter/standard_method_codec.h>
 #include <optional>
@@ -8,7 +8,7 @@
 
 #include "physical_key_status.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   class AcceleratorKeyPressedDetail
   {
@@ -28,4 +28,4 @@ namespace flutter_inappwebview_plugin
   };
 }
 
-#endif //FLUTTER_INAPPWEBVIEW_PLUGIN_ACCELERATOR_KEY_PRESSED_DETAIL_H
+#endif //TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_ACCELERATOR_KEY_PRESSED_DETAIL_H

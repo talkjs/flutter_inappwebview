@@ -366,7 +366,7 @@ set(flutter_inappwebview_linux_bundled_libraries
 )
 
 # Export library info for downstream use
-set(FLUTTER_INAPPWEBVIEW_WPE_LIBS ${WPE_BUNDLED_LIBS} CACHE INTERNAL "WPE libraries to bundle")
+set(TALKJS_FLUTTER_INAPPWEBVIEW_WPE_LIBS ${WPE_BUNDLED_LIBS} CACHE INTERNAL "WPE libraries to bundle")
 
 # === Tests ===
 # These unit tests can be run from a terminal after building the example.

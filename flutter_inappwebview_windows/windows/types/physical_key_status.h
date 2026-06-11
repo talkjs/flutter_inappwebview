@@ -1,10 +1,10 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_PHYSICAL_KEY_STATUS_H
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_PHYSICAL_KEY_STATUS_H
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_PHYSICAL_KEY_STATUS_H
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_PHYSICAL_KEY_STATUS_H
 
 #include <flutter/standard_method_codec.h>
 #include <WebView2.h>
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   class PhysicalKeyStatus
   {
@@ -30,4 +30,4 @@ namespace flutter_inappwebview_plugin
   };
 }
 
-#endif //FLUTTER_INAPPWEBVIEW_PLUGIN_PHYSICAL_KEY_STATUS_H
+#endif //TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_PHYSICAL_KEY_STATUS_H

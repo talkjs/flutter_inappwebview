@@ -4,7 +4,7 @@
 #include "print_job_settings.h"
 #include "../in_app_webview/in_app_webview.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   PrintJobManager::PrintJobManager(InAppWebView* webView, flutter::BinaryMessenger* messenger)
     : webView_(webView), messenger_(messenger)

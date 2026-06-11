@@ -262,7 +262,7 @@ class LinuxHeadlessInAppWebView extends PlatformHeadlessInAppWebView
   bool _running = false;
 
   static const MethodChannel _sharedChannel = const MethodChannel(
-    'com.pichillilorenzo/flutter_headless_inappwebview',
+    'com.talkjs/talkjs_flutter_headless_inappwebview',
   );
 
   LinuxInAppWebViewController? _webViewController;
@@ -304,7 +304,7 @@ class LinuxHeadlessInAppWebView extends PlatformHeadlessInAppWebView
     // Initialize the find interaction controller with the same ID
     _linuxParams.findInteractionController?.init(id);
     channel = MethodChannel(
-      'com.pichillilorenzo/flutter_headless_inappwebview_$id',
+      'com.talkjs/talkjs_flutter_headless_inappwebview_$id',
     );
     handler = _handleMethod;
     initMethodCallHandler();

@@ -82,7 +82,7 @@ class LinuxInAppWebViewController extends PlatformInAppWebViewController
                 params,
               ),
       ) {
-    channel = MethodChannel('com.pichillilorenzo/flutter_inappwebview_$id');
+    channel = MethodChannel('com.talkjs/talkjs_flutter_inappwebview_$id');
     handler = _handleMethod;
     initMethodCallHandler();
 

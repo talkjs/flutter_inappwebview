@@ -1,7 +1,7 @@
 #include "../utils/flutter.h"
 #include "process_failed_detail.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   ProcessFailedDetail::ProcessFailedDetail(const int64_t& kind,
     const std::optional<int64_t>& exitCode,

@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_WEB_VIEW_TRANSPORT_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_WEB_VIEW_TRANSPORT_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_WEB_VIEW_TRANSPORT_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_WEB_VIEW_TRANSPORT_H_
 
 #include <wpe/webkit.h>
 
@@ -7,7 +7,7 @@
 #include <optional>
 #include <string>
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 class InAppWebView;
 
@@ -31,6 +31,6 @@ struct WebViewTransport {
   ~WebViewTransport() = default;
 };
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin
 
-#endif  // FLUTTER_INAPPWEBVIEW_PLUGIN_WEB_VIEW_TRANSPORT_H_
+#endif  // TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_WEB_VIEW_TRANSPORT_H_

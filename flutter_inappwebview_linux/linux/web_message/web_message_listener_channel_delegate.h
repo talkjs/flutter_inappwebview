@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_WEB_MESSAGE_LISTENER_CHANNEL_DELEGATE_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_WEB_MESSAGE_LISTENER_CHANNEL_DELEGATE_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_WEB_MESSAGE_LISTENER_CHANNEL_DELEGATE_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_WEB_MESSAGE_LISTENER_CHANNEL_DELEGATE_H_
 
 #include <flutter_linux/flutter_linux.h>
 
@@ -8,7 +8,7 @@
 
 #include "../types/channel_delegate.h"
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 class WebMessageListener;
 
@@ -20,7 +20,7 @@ class WebMessageListener;
  *
  * This follows the federated plugin pattern matching iOS/Android:
  * - Dedicated MethodChannel per WebMessageListener instance
- * - Channel name: com.pichillilorenzo/flutter_inappwebview_web_message_listener_{id}_{jsObjectName}
+ * - Channel name: com.talkjs/talkjs_flutter_inappwebview_web_message_listener_{id}_{jsObjectName}
  */
 class WebMessageListenerChannelDelegate : public ChannelDelegate {
  public:
@@ -56,6 +56,6 @@ class WebMessageListenerChannelDelegate : public ChannelDelegate {
   WebMessageListener* webMessageListener_;
 };
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin
 
-#endif  // FLUTTER_INAPPWEBVIEW_PLUGIN_WEB_MESSAGE_LISTENER_CHANNEL_DELEGATE_H_
+#endif  // TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_WEB_MESSAGE_LISTENER_CHANNEL_DELEGATE_H_

@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_CONTEXT_MENU_POPUP_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_CONTEXT_MENU_POPUP_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_CONTEXT_MENU_POPUP_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_CONTEXT_MENU_POPUP_H_
 
 #include <cairo.h>
 #include <gtk/gtk.h>
@@ -8,7 +8,7 @@
 #include <string>
 #include <vector>
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 // Constants for menu rendering
 constexpr int MENU_VERTICAL_PADDING = 8;
@@ -94,6 +94,6 @@ class ContextMenuPopup {
   MenuDismissedCallback dismissed_callback_;
 };
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin
 
-#endif  // FLUTTER_INAPPWEBVIEW_PLUGIN_CONTEXT_MENU_POPUP_H_
+#endif  // TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_CONTEXT_MENU_POPUP_H_

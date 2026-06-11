@@ -1,7 +1,7 @@
 #include "../utils/flutter.h"
 #include "server_trust_challenge.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   ServerTrustChallenge::ServerTrustChallenge(const std::shared_ptr<URLProtectionSpace> protectionSpace)
     : URLAuthenticationChallenge(protectionSpace)

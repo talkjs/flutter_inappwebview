@@ -2,7 +2,7 @@
 #include "../utils/vector.h"
 #include "browser_process_info.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   BrowserProcessInfo::BrowserProcessInfo(const std::optional<int64_t>& kind, const std::optional<int64_t>& processId, const std::optional<std::vector<std::shared_ptr<FrameInfo>>>& frameInfos)
     : kind(kind), processId(processId), frameInfos(frameInfos)

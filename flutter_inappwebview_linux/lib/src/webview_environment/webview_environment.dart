@@ -33,7 +33,7 @@ class LinuxWebViewEnvironment extends PlatformWebViewEnvironment
     with ChannelController {
   /// Static method channel for WebViewEnvironment operations.
   static final MethodChannel _staticChannel = MethodChannel(
-    'com.pichillilorenzo/flutter_webview_environment',
+    'com.talkjs/talkjs_flutter_webview_environment',
   );
 
   @override
@@ -99,7 +99,7 @@ class LinuxWebViewEnvironment extends PlatformWebViewEnvironment
     await _staticChannel.invokeMethod('create', args);
 
     env.channel = MethodChannel(
-      'com.pichillilorenzo/flutter_webview_environment_${env.id}',
+      'com.talkjs/talkjs_flutter_webview_environment_${env.id}',
     );
     env.handler = env.handleMethod;
     env.initMethodCallHandler();

@@ -2,7 +2,7 @@
 
 #include "../utils/flutter.h"
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 ClientCertResponse::ClientCertResponse()
     : action(ClientCertResponseAction::CANCEL), selectedCertificate(-1) {}
@@ -59,4 +59,4 @@ std::optional<ClientCertResponse> ClientCertResponse::fromFlValue(FlValue* value
   return std::nullopt;
 }
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin

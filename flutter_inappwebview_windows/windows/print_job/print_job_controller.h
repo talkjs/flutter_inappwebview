@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_PRINT_JOB_CONTROLLER_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_PRINT_JOB_CONTROLLER_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_PRINT_JOB_CONTROLLER_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_PRINT_JOB_CONTROLLER_H_
 
 #include <flutter/binary_messenger.h>
 #include <flutter/encodable_value.h>
@@ -11,7 +11,7 @@
 #include "print_job_settings.h"
 #include "print_job_info.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   class InAppWebView;
   class PrintJobChannelDelegate;
@@ -19,7 +19,7 @@ namespace flutter_inappwebview_plugin
   class PrintJobController
   {
   public:
-    static inline const std::string METHOD_CHANNEL_NAME_PREFIX = "com.pichillilorenzo/flutter_inappwebview_printjobcontroller_";
+    static inline const std::string METHOD_CHANNEL_NAME_PREFIX = "com.talkjs/talkjs_flutter_inappwebview_printjobcontroller_";
 
     const std::string id;
     std::unique_ptr<PrintJobChannelDelegate> channelDelegate;
@@ -55,4 +55,4 @@ namespace flutter_inappwebview_plugin
   };
 }
 
-#endif //FLUTTER_INAPPWEBVIEW_PLUGIN_PRINT_JOB_CONTROLLER_H_
+#endif //TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_PRINT_JOB_CONTROLLER_H_

@@ -9,7 +9,7 @@
 #include "../utils/string.h"
 #include "web_message_listener_channel_delegate.h"
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 std::unique_ptr<WebMessageListener> WebMessageListener::fromEncodableValue(
     flutter::BinaryMessenger* messenger,
@@ -178,4 +178,4 @@ void WebMessageListener::dispose() {
   webView_ = nullptr;
 }
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin

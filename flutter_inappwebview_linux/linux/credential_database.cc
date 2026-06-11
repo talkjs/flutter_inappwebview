@@ -15,7 +15,7 @@
 #include "utils/log.h"
 #include "utils/util.h"
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 using json = nlohmann::json;
 
@@ -29,7 +29,7 @@ bool string_equals(const gchar* a, const char* b) {
 
 const SecretSchema* CredentialDatabase::getSchema() {
   static const SecretSchema schema = {
-    "com.pichillilorenzo.flutter_inappwebview.HttpAuth",
+    "com.talkjs.talkjs_flutter_inappwebview.HttpAuth",
       SECRET_SCHEMA_NONE,
       {
       {"appId", SECRET_SCHEMA_ATTRIBUTE_STRING},
@@ -591,4 +591,4 @@ void CredentialDatabase::clearAllAuthCredentials() {
   unlink(index_path_.c_str());
 }
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin

@@ -1,7 +1,7 @@
 #include "../utils/flutter.h"
 #include "browser_process_exited_detail.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   BrowserProcessExitedDetail::BrowserProcessExitedDetail(const std::optional<int64_t>& kind, const std::optional<int64_t>& processId)
     : kind(kind), processId(processId)

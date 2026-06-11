@@ -50,7 +50,7 @@ class LinuxWebMessageChannel extends PlatformWebMessageChannel
               ),
       ) {
     channel = MethodChannel(
-      'com.pichillilorenzo/flutter_inappwebview_web_message_channel_${params.id}',
+      'com.talkjs/talkjs_flutter_inappwebview_web_message_channel_${params.id}',
     );
     handler = _handleMethod;
     initMethodCallHandler();

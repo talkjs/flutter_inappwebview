@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_WEBVIEW_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_WEBVIEW_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_WEBVIEW_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_WEBVIEW_H_
 
 // WPE WebKit-based InAppWebView implementation
 //
@@ -72,7 +72,7 @@
 struct wpe_fdo_egl_exported_image;
 #endif
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 class InAppBrowser;
 class InAppWebViewManager;
@@ -124,7 +124,7 @@ enum class WpePointerButton { None = 0, Primary = 1, Secondary = 2, Tertiary = 3
 class InAppWebView {
  public:
   static constexpr const char* METHOD_CHANNEL_NAME_PREFIX =
-      "com.pichillilorenzo/flutter_inappwebview_";
+      "com.talkjs/talkjs_flutter_inappwebview_";
 
   InAppWebView(FlPluginRegistrar* registrar, FlBinaryMessenger* messenger, int64_t id,
                const InAppWebViewCreationParams& params);
@@ -806,6 +806,6 @@ class InAppWebView {
   void updateCursorFromCssStyle(const std::string& cursor_style);
 };
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin
 
-#endif  // FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_WEBVIEW_H_
+#endif  // TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_WEBVIEW_H_

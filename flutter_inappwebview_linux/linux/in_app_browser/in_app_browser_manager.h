@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_BROWSER_MANAGER_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_BROWSER_MANAGER_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_BROWSER_MANAGER_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_BROWSER_MANAGER_H_
 
 #include <flutter_linux/flutter_linux.h>
 
@@ -9,7 +9,7 @@
 
 #include "in_app_browser.h"
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 class PluginInstance;
 
@@ -20,7 +20,7 @@ class PluginInstance;
 class InAppBrowserManager {
  public:
   static constexpr const char* METHOD_CHANNEL_NAME =
-      "com.pichillilorenzo/flutter_inappbrowser";
+      "com.talkjs/talkjs_flutter_inappbrowser";
 
   /// Create the manager
   /// @param plugin The plugin instance
@@ -71,6 +71,6 @@ class InAppBrowserManager {
   void HandleMethodCallImpl(FlMethodCall* method_call);
 };
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin
 
-#endif  // FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_BROWSER_MANAGER_H_
+#endif  // TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_IN_APP_BROWSER_MANAGER_H_

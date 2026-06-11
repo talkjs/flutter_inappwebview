@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_PRINT_JOB_CHANNEL_DELEGATE_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_PRINT_JOB_CHANNEL_DELEGATE_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_PRINT_JOB_CHANNEL_DELEGATE_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_PRINT_JOB_CHANNEL_DELEGATE_H_
 
 #include <flutter/binary_messenger.h>
 #include <flutter/method_call.h>
@@ -10,7 +10,7 @@
 
 #include "../types/channel_delegate.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   class PrintJobController;
 
@@ -35,4 +35,4 @@ namespace flutter_inappwebview_plugin
   };
 }
 
-#endif //FLUTTER_INAPPWEBVIEW_PLUGIN_PRINT_JOB_CHANNEL_DELEGATE_H_
+#endif //TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_PRINT_JOB_CHANNEL_DELEGATE_H_

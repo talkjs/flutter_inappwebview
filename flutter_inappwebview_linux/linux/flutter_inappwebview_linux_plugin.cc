@@ -20,33 +20,33 @@
 #include "web_storage_manager.h"
 #include "webview_environment.h"
 
-#define FLUTTER_INAPPWEBVIEW_LINUX_PLUGIN(obj)                                     \
+#define TALKJS_FLUTTER_INAPPWEBVIEW_LINUX_PLUGIN(obj)                                     \
   (G_TYPE_CHECK_INSTANCE_CAST((obj), flutter_inappwebview_linux_plugin_get_type(), \
-                              FlutterInappwebviewLinuxPlugin))
+                              TalkjsFlutterInappwebviewLinuxPlugin))
 
-struct _FlutterInappwebviewLinuxPlugin {
+struct _TalkjsFlutterInappwebviewLinuxPlugin {
   GObject parent_instance;
   FlPluginRegistrar* registrar;
   
   // C++ plugin instance for passing to managers
-  std::unique_ptr<flutter_inappwebview_plugin::PluginInstance> plugin_instance;
+  std::unique_ptr<talkjs_flutter_inappwebview_plugin::PluginInstance> plugin_instance;
   
   // Managers are owned by the GObject
-  std::unique_ptr<flutter_inappwebview_plugin::InAppWebViewManager> in_app_webview_manager;
-  std::unique_ptr<flutter_inappwebview_plugin::HeadlessInAppWebViewManager> headless_in_app_webview_manager;
-  std::unique_ptr<flutter_inappwebview_plugin::InAppBrowserManager> in_app_browser_manager;
-  std::unique_ptr<flutter_inappwebview_plugin::CookieManager> cookie_manager;
-  std::unique_ptr<flutter_inappwebview_plugin::CredentialDatabase> credential_database;
-  std::unique_ptr<flutter_inappwebview_plugin::ProxyManager> proxy_manager;
-  std::unique_ptr<flutter_inappwebview_plugin::WebStorageManager> web_storage_manager;
-  std::unique_ptr<flutter_inappwebview_plugin::WebViewEnvironment> webview_environment;
+  std::unique_ptr<talkjs_flutter_inappwebview_plugin::InAppWebViewManager> in_app_webview_manager;
+  std::unique_ptr<talkjs_flutter_inappwebview_plugin::HeadlessInAppWebViewManager> headless_in_app_webview_manager;
+  std::unique_ptr<talkjs_flutter_inappwebview_plugin::InAppBrowserManager> in_app_browser_manager;
+  std::unique_ptr<talkjs_flutter_inappwebview_plugin::CookieManager> cookie_manager;
+  std::unique_ptr<talkjs_flutter_inappwebview_plugin::CredentialDatabase> credential_database;
+  std::unique_ptr<talkjs_flutter_inappwebview_plugin::ProxyManager> proxy_manager;
+  std::unique_ptr<talkjs_flutter_inappwebview_plugin::WebStorageManager> web_storage_manager;
+  std::unique_ptr<talkjs_flutter_inappwebview_plugin::WebViewEnvironment> webview_environment;
 };
 
-G_DEFINE_TYPE(FlutterInappwebviewLinuxPlugin, flutter_inappwebview_linux_plugin,
+G_DEFINE_TYPE(TalkjsFlutterInappwebviewLinuxPlugin, flutter_inappwebview_linux_plugin,
               g_object_get_type())
 
 static void flutter_inappwebview_linux_plugin_dispose(GObject* object) {
-  FlutterInappwebviewLinuxPlugin* self = FLUTTER_INAPPWEBVIEW_LINUX_PLUGIN(object);
+  TalkjsFlutterInappwebviewLinuxPlugin* self = TALKJS_FLUTTER_INAPPWEBVIEW_LINUX_PLUGIN(object);
 
   // Clean up the managers
   self->in_app_webview_manager.reset();
@@ -65,11 +65,11 @@ static void flutter_inappwebview_linux_plugin_dispose(GObject* object) {
 }
 
 static void flutter_inappwebview_linux_plugin_class_init(
-    FlutterInappwebviewLinuxPluginClass* klass) {
+    TalkjsFlutterInappwebviewLinuxPluginClass* klass) {
   G_OBJECT_CLASS(klass)->dispose = flutter_inappwebview_linux_plugin_dispose;
 }
 
-static void flutter_inappwebview_linux_plugin_init(FlutterInappwebviewLinuxPlugin* self) {
+static void flutter_inappwebview_linux_plugin_init(TalkjsFlutterInappwebviewLinuxPlugin* self) {
   self->registrar = nullptr;
   // Note: in_app_webview_manager is initialized by its default constructor
 }
@@ -79,42 +79,42 @@ void flutter_inappwebview_linux_plugin_register_with_registrar(FlPluginRegistrar
   // This must happen before any WPEDisplay is created, because WebKit's WebProcess
   // inherits environment variables at spawn time. Setting LIBGL_ALWAYS_SOFTWARE
   // after WebProcess starts has no effect.
-  flutter_inappwebview_plugin::ApplySoftwareRenderingIfNeeded();
+  talkjs_flutter_inappwebview_plugin::ApplySoftwareRenderingIfNeeded();
 
-  FlutterInappwebviewLinuxPlugin* plugin = FLUTTER_INAPPWEBVIEW_LINUX_PLUGIN(
+  TalkjsFlutterInappwebviewLinuxPlugin* plugin = TALKJS_FLUTTER_INAPPWEBVIEW_LINUX_PLUGIN(
       g_object_new(flutter_inappwebview_linux_plugin_get_type(), nullptr));
 
   plugin->registrar = registrar;
 
-  plugin->plugin_instance = std::make_unique<flutter_inappwebview_plugin::PluginInstance>(registrar);
+  plugin->plugin_instance = std::make_unique<talkjs_flutter_inappwebview_plugin::PluginInstance>(registrar);
   auto* pluginInstance = plugin->plugin_instance.get();
 
   plugin->in_app_webview_manager =
-      std::make_unique<flutter_inappwebview_plugin::InAppWebViewManager>(pluginInstance);
+      std::make_unique<talkjs_flutter_inappwebview_plugin::InAppWebViewManager>(pluginInstance);
   pluginInstance->inAppWebViewManager = plugin->in_app_webview_manager.get();
 
   plugin->headless_in_app_webview_manager =
-      std::make_unique<flutter_inappwebview_plugin::HeadlessInAppWebViewManager>(pluginInstance);
+      std::make_unique<talkjs_flutter_inappwebview_plugin::HeadlessInAppWebViewManager>(pluginInstance);
   pluginInstance->headlessInAppWebViewManager = plugin->headless_in_app_webview_manager.get();
 
   plugin->in_app_browser_manager =
-      std::make_unique<flutter_inappwebview_plugin::InAppBrowserManager>(pluginInstance);
+      std::make_unique<talkjs_flutter_inappwebview_plugin::InAppBrowserManager>(pluginInstance);
   pluginInstance->inAppBrowserManager = plugin->in_app_browser_manager.get();
 
-  plugin->cookie_manager = std::make_unique<flutter_inappwebview_plugin::CookieManager>(pluginInstance);
+  plugin->cookie_manager = std::make_unique<talkjs_flutter_inappwebview_plugin::CookieManager>(pluginInstance);
   pluginInstance->cookieManager = plugin->cookie_manager.get();
 
   plugin->credential_database =
-      std::make_unique<flutter_inappwebview_plugin::CredentialDatabase>(pluginInstance);
+      std::make_unique<talkjs_flutter_inappwebview_plugin::CredentialDatabase>(pluginInstance);
   pluginInstance->credentialDatabase = plugin->credential_database.get();
 
-  plugin->proxy_manager = std::make_unique<flutter_inappwebview_plugin::ProxyManager>(pluginInstance);
+  plugin->proxy_manager = std::make_unique<talkjs_flutter_inappwebview_plugin::ProxyManager>(pluginInstance);
   pluginInstance->proxyManager = plugin->proxy_manager.get();
 
-  plugin->web_storage_manager = std::make_unique<flutter_inappwebview_plugin::WebStorageManager>(pluginInstance);
+  plugin->web_storage_manager = std::make_unique<talkjs_flutter_inappwebview_plugin::WebStorageManager>(pluginInstance);
   pluginInstance->webStorageManager = plugin->web_storage_manager.get();
 
-  plugin->webview_environment = std::make_unique<flutter_inappwebview_plugin::WebViewEnvironment>(pluginInstance);
+  plugin->webview_environment = std::make_unique<talkjs_flutter_inappwebview_plugin::WebViewEnvironment>(pluginInstance);
   pluginInstance->webViewEnvironment = plugin->webview_environment.get();
 
   // Note: We don't unref the plugin here as it needs to stay alive

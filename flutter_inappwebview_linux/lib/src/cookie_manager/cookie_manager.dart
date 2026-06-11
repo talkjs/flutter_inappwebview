@@ -22,7 +22,7 @@ class LinuxCookieManagerCreationParams
 /// Implementation of [PlatformCookieManager] for Linux using WebKitGTK.
 class LinuxCookieManager extends PlatformCookieManager {
   static const MethodChannel _channel = MethodChannel(
-    'com.pichillilorenzo/flutter_inappwebview_cookiemanager',
+    'com.talkjs/talkjs_flutter_inappwebview_cookiemanager',
   );
 
   /// Constructs a [LinuxCookieManager].

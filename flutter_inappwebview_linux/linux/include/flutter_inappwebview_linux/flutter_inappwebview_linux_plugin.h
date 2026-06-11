@@ -1,5 +1,5 @@
-#ifndef FLUTTER_PLUGIN_FLUTTER_INAPPWEBVIEW_LINUX_PLUGIN_H_
-#define FLUTTER_PLUGIN_FLUTTER_INAPPWEBVIEW_LINUX_PLUGIN_H_
+#ifndef FLUTTER_PLUGIN_TALKJS_FLUTTER_INAPPWEBVIEW_LINUX_PLUGIN_H_
+#define FLUTTER_PLUGIN_TALKJS_FLUTTER_INAPPWEBVIEW_LINUX_PLUGIN_H_
 
 #include <flutter_linux/flutter_linux.h>
 
@@ -11,10 +11,10 @@ G_BEGIN_DECLS
 #define FLUTTER_PLUGIN_EXPORT
 #endif
 
-typedef struct _FlutterInappwebviewLinuxPlugin FlutterInappwebviewLinuxPlugin;
+typedef struct _TalkjsFlutterInappwebviewLinuxPlugin TalkjsFlutterInappwebviewLinuxPlugin;
 typedef struct {
   GObjectClass parent_class;
-} FlutterInappwebviewLinuxPluginClass;
+} TalkjsFlutterInappwebviewLinuxPluginClass;
 
 FLUTTER_PLUGIN_EXPORT GType flutter_inappwebview_linux_plugin_get_type();
 
@@ -23,4 +23,4 @@ FLUTTER_PLUGIN_EXPORT void flutter_inappwebview_linux_plugin_register_with_regis
 
 G_END_DECLS
 
-#endif  // FLUTTER_PLUGIN_FLUTTER_INAPPWEBVIEW_LINUX_PLUGIN_H_
+#endif  // FLUTTER_PLUGIN_TALKJS_FLUTTER_INAPPWEBVIEW_LINUX_PLUGIN_H_

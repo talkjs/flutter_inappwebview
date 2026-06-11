@@ -1,7 +1,7 @@
 #include "../utils/flutter.h"
 #include "http_authentication_challenge.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   HttpAuthenticationChallenge::HttpAuthenticationChallenge(const std::shared_ptr<URLProtectionSpace> protectionSpace,
     const int64_t& previousFailureCount,

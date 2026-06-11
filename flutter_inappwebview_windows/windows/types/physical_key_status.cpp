@@ -1,7 +1,7 @@
 #include "../utils/flutter.h"
 #include "physical_key_status.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   PhysicalKeyStatus::PhysicalKeyStatus(const int64_t& repeatCount,
     const int64_t& scanCode,

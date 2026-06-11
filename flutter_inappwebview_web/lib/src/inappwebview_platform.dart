@@ -5,10 +5,10 @@ import 'in_app_webview/main.dart';
 import 'web_storage/web_storage.dart';
 
 /// Implementation of [InAppWebViewPlatform] using the Web API.
-class WebPlatformInAppWebViewPlatform extends InAppWebViewPlatform {
+class TalkjsWebPlatformInAppWebViewPlatform extends InAppWebViewPlatform {
   /// Registers this class as the default instance of [InAppWebViewPlatform].
   static void registerWith() {
-    InAppWebViewPlatform.instance = WebPlatformInAppWebViewPlatform();
+    InAppWebViewPlatform.instance = TalkjsWebPlatformInAppWebViewPlatform();
   }
 
   /// Creates a new [WebPlatformCookieManager].

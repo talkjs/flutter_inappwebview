@@ -1,11 +1,11 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_WEB_MESSAGE_CHANNEL_JS_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_WEB_MESSAGE_CHANNEL_JS_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_WEB_MESSAGE_CHANNEL_JS_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_WEB_MESSAGE_CHANNEL_JS_H_
 
 #include <string>
 
 #include "javascript_bridge_js.h"
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 /**
  * JavaScript support for WebMessageChannel.
@@ -144,6 +144,6 @@ class WebMessageChannelJS {
   }
 };
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin
 
-#endif  // FLUTTER_INAPPWEBVIEW_PLUGIN_WEB_MESSAGE_CHANNEL_JS_H_
+#endif  // TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_WEB_MESSAGE_CHANNEL_JS_H_

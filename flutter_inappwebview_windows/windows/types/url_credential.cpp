@@ -1,7 +1,7 @@
 #include "../utils/flutter.h"
 #include "url_credential.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   URLCredential::URLCredential(const std::optional<std::string>& username,
     const std::optional<std::string>& password)

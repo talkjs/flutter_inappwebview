@@ -1,12 +1,12 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_CHANNEL_DELEGATE_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_CHANNEL_DELEGATE_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_CHANNEL_DELEGATE_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_CHANNEL_DELEGATE_H_
 
 #include <flutter_linux/flutter_linux.h>
 
 #include <memory>
 #include <string>
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 /**
  * Base class for channel delegates that handle Flutter method channels.
@@ -51,6 +51,6 @@ class ChannelDelegate {
                                      gpointer user_data);
 };
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin
 
-#endif  // FLUTTER_INAPPWEBVIEW_PLUGIN_CHANNEL_DELEGATE_H_
+#endif  // TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_CHANNEL_DELEGATE_H_

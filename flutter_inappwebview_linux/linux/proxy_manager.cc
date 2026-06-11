@@ -7,7 +7,7 @@
 #include "utils/flutter.h"
 #include "utils/log.h"
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 namespace {
 // Helper to compare method names
@@ -197,4 +197,4 @@ void ProxyManager::clearProxyOverride() {
       session, WEBKIT_NETWORK_PROXY_MODE_DEFAULT, nullptr);
 }
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin

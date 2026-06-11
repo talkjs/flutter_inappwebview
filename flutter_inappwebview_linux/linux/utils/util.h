@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_H_
 
 #include <limits.h>
 #include <unistd.h>
@@ -11,7 +11,7 @@
 
 #include <gio/gio.h>
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 // Helper for static_assert in constexpr if
 template <class>
@@ -123,6 +123,6 @@ static inline std::string resolve_application_id_sanitized() {
   return sanitize_app_id(raw);
 }
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin
 
-#endif  // FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_H_
+#endif  // TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_H_

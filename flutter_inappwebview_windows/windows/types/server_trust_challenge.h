@@ -1,12 +1,12 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_SERVER_TRUST_CHALLENGE_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_SERVER_TRUST_CHALLENGE_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_SERVER_TRUST_CHALLENGE_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_SERVER_TRUST_CHALLENGE_H_
 
 #include <flutter/standard_method_codec.h>
 #include <optional>
 
 #include "url_authentication_challenge.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   class ServerTrustChallenge : URLAuthenticationChallenge
   {
@@ -18,4 +18,4 @@ namespace flutter_inappwebview_plugin
   };
 }
 
-#endif //FLUTTER_INAPPWEBVIEW_PLUGIN_SERVER_TRUST_CHALLENGE_H_
+#endif //TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_SERVER_TRUST_CHALLENGE_H_

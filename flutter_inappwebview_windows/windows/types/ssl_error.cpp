@@ -1,7 +1,7 @@
 #include "../utils/flutter.h"
 #include "ssl_error.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   SslError::SslError(const COREWEBVIEW2_WEB_ERROR_STATUS& code, const std::optional<std::string>& message)
     : code(code), message(message)

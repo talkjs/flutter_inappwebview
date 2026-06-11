@@ -158,10 +158,10 @@ class CustomPlatformViewController
     ))!;
 
     _methodChannel = MethodChannel(
-      'com.pichillilorenzo/custom_platform_view_$_textureId',
+      'com.talkjs/talkjs_custom_platform_view_$_textureId',
     );
     _eventChannel = EventChannel(
-      'com.pichillilorenzo/custom_platform_view_${_textureId}_events',
+      'com.talkjs/talkjs_custom_platform_view_${_textureId}_events',
     );
     _eventStreamSubscription = _eventChannel.receiveBroadcastStream().listen((
       event,

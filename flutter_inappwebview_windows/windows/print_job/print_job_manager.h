@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_PRINT_JOB_MANAGER_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_PRINT_JOB_MANAGER_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_PRINT_JOB_MANAGER_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_PRINT_JOB_MANAGER_H_
 
 #include <flutter/binary_messenger.h>
 
@@ -8,7 +8,7 @@
 
 #include "print_job_settings.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   class InAppWebView;
   class PrintJobController;
@@ -33,4 +33,4 @@ namespace flutter_inappwebview_plugin
   };
 }
 
-#endif //FLUTTER_INAPPWEBVIEW_PLUGIN_PRINT_JOB_MANAGER_H_
+#endif //TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_PRINT_JOB_MANAGER_H_

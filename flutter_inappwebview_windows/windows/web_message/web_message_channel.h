@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_WEB_MESSAGE_CHANNEL_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_WEB_MESSAGE_CHANNEL_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_WEB_MESSAGE_CHANNEL_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_WEB_MESSAGE_CHANNEL_H_
 
 #include <memory>
 #include <string>
@@ -8,7 +8,7 @@
 
 #include "../types/channel_delegate.h"
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 class InAppWebView;
 
@@ -22,7 +22,7 @@ class InAppWebView;
 class WebMessageChannel : public ChannelDelegate {
  public:
   static constexpr const char* METHOD_CHANNEL_NAME_PREFIX =
-      "com.pichillilorenzo/flutter_inappwebview_web_message_channel_";
+      "com.talkjs/talkjs_flutter_inappwebview_web_message_channel_";
 
   WebMessageChannel(flutter::BinaryMessenger* messenger,
                     const std::string& channelId,
@@ -56,6 +56,6 @@ class WebMessageChannel : public ChannelDelegate {
   InAppWebView* webView_;  // Weak reference - InAppWebView owns WebMessageChannels
 };
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin
 
-#endif  // FLUTTER_INAPPWEBVIEW_PLUGIN_WEB_MESSAGE_CHANNEL_H_
+#endif  // TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_WEB_MESSAGE_CHANNEL_H_

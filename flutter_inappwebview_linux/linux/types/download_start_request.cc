@@ -2,7 +2,7 @@
 
 #include "../utils/flutter.h"
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 // === DownloadStartRequest ===
 
@@ -65,4 +65,4 @@ FlValue* DownloadStartRequest::toFlValue() const {
   });
 }
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin

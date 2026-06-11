@@ -81,7 +81,7 @@ class LinuxInAppBrowser extends PlatformInAppBrowser with ChannelController {
       params as LinuxInAppBrowserCreationParams;
 
   static const MethodChannel _staticChannel = const MethodChannel(
-    'com.pichillilorenzo/flutter_inappbrowser',
+    'com.talkjs/talkjs_flutter_inappbrowser',
   );
 
   ContextMenu? _contextMenu;
@@ -99,7 +99,7 @@ class LinuxInAppBrowser extends PlatformInAppBrowser with ChannelController {
   }
 
   _init() {
-    channel = MethodChannel('com.pichillilorenzo/flutter_inappbrowser_$id');
+    channel = MethodChannel('com.talkjs/talkjs_flutter_inappbrowser_$id');
     handler = _handleMethod;
     initMethodCallHandler();
 

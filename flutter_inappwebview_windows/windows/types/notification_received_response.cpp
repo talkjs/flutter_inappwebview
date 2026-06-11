@@ -1,6 +1,6 @@
 #include "notification_received_response.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   NotificationReceivedResponse::NotificationReceivedResponse(const bool& handled)
     : handled(handled)

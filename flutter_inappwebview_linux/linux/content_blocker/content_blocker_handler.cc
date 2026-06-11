@@ -11,7 +11,7 @@
 
 using json = nlohmann::json;
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 ContentBlockerHandler::ContentBlockerHandler(WebKitUserContentManager* content_manager)
     : content_manager_(content_manager),
@@ -349,4 +349,4 @@ void ContentBlockerHandler::onFilterCompiled(GObject* source, GAsyncResult* resu
   if (callback) callback(true);
 }
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin

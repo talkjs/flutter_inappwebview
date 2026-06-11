@@ -2,7 +2,7 @@
 
 #include "../utils/flutter.h"
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 JavaScriptHandlerFunctionData::JavaScriptHandlerFunctionData(const std::string& origin,
                                                              const std::string& requestUrl,
@@ -25,4 +25,4 @@ FlValue* JavaScriptHandlerFunctionData::toFlValue() const {
   });
 }
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin

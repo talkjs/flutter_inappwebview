@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_PLATFORM_UTIL_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_PLATFORM_UTIL_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_PLATFORM_UTIL_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_PLATFORM_UTIL_H_
 
 #include <flutter/method_channel.h>
 #include <flutter/standard_message_codec.h>
@@ -9,12 +9,12 @@
 #include "flutter_inappwebview_windows_plugin.h"
 #include "types/channel_delegate.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   class PlatformUtil : public ChannelDelegate
   {
   public:
-    static inline const std::string METHOD_CHANNEL_NAME_PREFIX = "com.pichillilorenzo/flutter_inappwebview_platformutil";
+    static inline const std::string METHOD_CHANNEL_NAME_PREFIX = "com.talkjs/talkjs_flutter_inappwebview_platformutil";
 
     const FlutterInappwebviewWindowsPlugin* plugin;
 
@@ -38,4 +38,4 @@ namespace flutter_inappwebview_plugin
   };
 }
 
-#endif //FLUTTER_INAPPWEBVIEW_PLUGIN_PLATFORM_UTIL_H_
+#endif //TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_PLATFORM_UTIL_H_

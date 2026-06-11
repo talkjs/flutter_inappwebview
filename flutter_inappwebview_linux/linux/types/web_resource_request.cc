@@ -2,7 +2,7 @@
 
 #include "../utils/flutter.h"
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 WebResourceRequest::WebResourceRequest(
     const std::optional<std::string>& url, const std::optional<std::string>& method,
@@ -25,4 +25,4 @@ FlValue* WebResourceRequest::toFlValue() const {
   });
 }
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin

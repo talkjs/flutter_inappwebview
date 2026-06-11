@@ -6,7 +6,7 @@
 #include "../utils/flutter.h"
 #include "../utils/log.h"
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 namespace {
 // Helper to compare method names
@@ -148,4 +148,4 @@ void WebMessageChannel::onMessage(int portIndex, const std::string* message,
   invokeMethod("onMessage", args);
 }
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin

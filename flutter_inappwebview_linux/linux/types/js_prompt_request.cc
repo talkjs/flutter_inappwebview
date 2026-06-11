@@ -2,7 +2,7 @@
 
 #include "../utils/flutter.h"
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 JsPromptRequest::JsPromptRequest(const std::optional<std::string>& url, const std::string& message,
                                  const std::optional<std::string>& defaultValue, bool isMainFrame)
@@ -17,4 +17,4 @@ FlValue* JsPromptRequest::toFlValue() const {
   });
 }
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin

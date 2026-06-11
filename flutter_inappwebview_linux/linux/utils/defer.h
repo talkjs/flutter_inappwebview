@@ -1,10 +1,10 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_DEFER_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_DEFER_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_DEFER_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_DEFER_H_
 
 #include <functional>
 #include <memory>
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 // Utility to defer cleanup operations using RAII
 static inline std::shared_ptr<void> defer(void* handle,
@@ -43,6 +43,6 @@ ScopeGuard<Func> make_scope_guard(Func&& func) {
   return ScopeGuard<Func>(std::forward<Func>(func));
 }
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin
 
-#endif  // FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_DEFER_H_
+#endif  // TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_DEFER_H_

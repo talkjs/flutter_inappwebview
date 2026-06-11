@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_LINUX_PLUGIN_PRIVATE_H_
-#define FLUTTER_INAPPWEBVIEW_LINUX_PLUGIN_PRIVATE_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_LINUX_PLUGIN_PRIVATE_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_LINUX_PLUGIN_PRIVATE_H_
 
 #include <flutter_linux/flutter_linux.h>
 #include <gtk/gtk.h>
@@ -26,4 +26,4 @@ int flutter_inappwebview_linux_plugin_get_monitor_refresh_rate_for_window(GtkWin
 
 G_END_DECLS
 
-#endif  // FLUTTER_INAPPWEBVIEW_LINUX_PLUGIN_PRIVATE_H_
+#endif  // TALKJS_FLUTTER_INAPPWEBVIEW_LINUX_PLUGIN_PRIVATE_H_

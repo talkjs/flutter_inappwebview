@@ -9,7 +9,7 @@
 #include "../utils/log.h"
 #include "../utils/strconv.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   using namespace Microsoft::WRL;
 

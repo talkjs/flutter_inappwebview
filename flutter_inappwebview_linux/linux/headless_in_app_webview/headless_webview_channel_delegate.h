@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_HEADLESS_WEBVIEW_CHANNEL_DELEGATE_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_HEADLESS_WEBVIEW_CHANNEL_DELEGATE_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_HEADLESS_WEBVIEW_CHANNEL_DELEGATE_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_HEADLESS_WEBVIEW_CHANNEL_DELEGATE_H_
 
 #include <flutter_linux/flutter_linux.h>
 
@@ -8,7 +8,7 @@
 
 #include "../types/channel_delegate.h"
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 class HeadlessInAppWebView;
 
@@ -20,7 +20,7 @@ class HeadlessInAppWebView;
 class HeadlessWebViewChannelDelegate : public ChannelDelegate {
  public:
   static constexpr const char* METHOD_CHANNEL_NAME_PREFIX =
-      "com.pichillilorenzo/flutter_headless_inappwebview_";
+      "com.talkjs/talkjs_flutter_headless_inappwebview_";
 
   HeadlessWebViewChannelDelegate(HeadlessInAppWebView* headlessWebView,
                                   FlBinaryMessenger* messenger,
@@ -40,6 +40,6 @@ class HeadlessWebViewChannelDelegate : public ChannelDelegate {
   HeadlessInAppWebView* headlessWebView_ = nullptr;
 };
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin
 
-#endif  // FLUTTER_INAPPWEBVIEW_PLUGIN_HEADLESS_WEBVIEW_CHANNEL_DELEGATE_H_
+#endif  // TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_HEADLESS_WEBVIEW_CHANNEL_DELEGATE_H_

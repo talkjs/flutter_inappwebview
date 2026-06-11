@@ -13,7 +13,7 @@
 #include "in_app_webview.h"
 #include "in_app_webview_settings.h"
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 InAppWebViewManager::InAppWebViewManager(PluginInstance* plugin)
     : plugin_(plugin), registrar_(plugin->registrar()) {
@@ -381,4 +381,4 @@ void InAppWebViewManager::DisposeKeepAlive(const std::string& keepAliveId) {
   }
 }
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin

@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_COOKIE_MANAGER_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_COOKIE_MANAGER_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_COOKIE_MANAGER_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_COOKIE_MANAGER_H_
 
 #include <flutter_linux/flutter_linux.h>
 #include <wpe/webkit.h>
@@ -12,7 +12,7 @@
 
 #include "types/channel_delegate.h"
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 class PluginInstance;
 
@@ -47,7 +47,7 @@ class Cookie {
 class CookieManager : public ChannelDelegate {
  public:
   static constexpr const char* METHOD_CHANNEL_NAME =
-      "com.pichillilorenzo/flutter_inappwebview_cookiemanager";
+      "com.talkjs/talkjs_flutter_inappwebview_cookiemanager";
 
   CookieManager(PluginInstance* plugin);
   ~CookieManager() override;
@@ -82,6 +82,6 @@ class CookieManager : public ChannelDelegate {
   WebKitCookieManager* getCookieManager();
 };
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin
 
-#endif  // FLUTTER_INAPPWEBVIEW_PLUGIN_COOKIE_MANAGER_H_
+#endif  // TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_COOKIE_MANAGER_H_

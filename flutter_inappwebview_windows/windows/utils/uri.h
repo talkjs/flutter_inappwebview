@@ -1,12 +1,12 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_URI_UTIL_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_URI_UTIL_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_URI_UTIL_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_URI_UTIL_H_
 
 #include <string>
 #include <winrt/Windows.Foundation.h>
 
 #include "string.h"
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
     static inline std::string get_origin_from_url(const std::string &url) {
         try {
             winrt::Windows::Foundation::Uri const uri{utf8_to_wide(url)};
@@ -36,4 +36,4 @@ namespace flutter_inappwebview_plugin {
     }
 }
 
-#endif //FLUTTER_INAPPWEBVIEW_PLUGIN_URI_UTIL_H_
+#endif //TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_URI_UTIL_H_

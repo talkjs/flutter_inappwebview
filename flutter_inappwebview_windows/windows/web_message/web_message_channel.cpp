@@ -7,7 +7,7 @@
 #include "../utils/log.h"
 #include "../utils/string.h"
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 WebMessageChannel::WebMessageChannel(flutter::BinaryMessenger* messenger,
                                      const std::string& channelId,
@@ -130,4 +130,4 @@ void WebMessageChannel::onMessage(int portIndex, const std::string* message,
   channel->InvokeMethod("onMessage", std::make_unique<flutter::EncodableValue>(args));
 }
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin

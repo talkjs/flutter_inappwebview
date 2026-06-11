@@ -2,7 +2,7 @@
 #include "../utils/vector.h"
 #include "browser_process_infos_changed_detail.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   BrowserProcessInfosChangedDetail::BrowserProcessInfosChangedDetail(const std::vector<std::shared_ptr<BrowserProcessInfo>>& infos)
     : infos(infos)

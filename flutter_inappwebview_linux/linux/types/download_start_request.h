@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_DOWNLOAD_START_REQUEST_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_DOWNLOAD_START_REQUEST_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_DOWNLOAD_START_REQUEST_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_DOWNLOAD_START_REQUEST_H_
 
 #include <flutter_linux/flutter_linux.h>
 #include <wpe/webkit.h>
@@ -7,7 +7,7 @@
 #include <optional>
 #include <string>
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 class DownloadStartRequest {
  public:
@@ -25,6 +25,6 @@ class DownloadStartRequest {
   FlValue* toFlValue() const;
 };
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin
 
-#endif  // FLUTTER_INAPPWEBVIEW_PLUGIN_DOWNLOAD_START_REQUEST_H_
+#endif  // TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_DOWNLOAD_START_REQUEST_H_

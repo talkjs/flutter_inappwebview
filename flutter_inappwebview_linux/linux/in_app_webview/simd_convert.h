@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_SIMD_CONVERT_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_SIMD_CONVERT_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_SIMD_CONVERT_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_SIMD_CONVERT_H_
 
 #include <algorithm>
 #include <cstddef>
@@ -21,7 +21,7 @@
 #endif
 #endif
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 /**
  * Convert Cairo ARGB32 premultiplied (native-endian) to Flutter RGBA8888.
@@ -291,6 +291,6 @@ inline void FastMemcpy(void* dst, const void* src, size_t size) {
 #endif
 }
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin
 
-#endif  // FLUTTER_INAPPWEBVIEW_PLUGIN_SIMD_CONVERT_H_
+#endif  // TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_SIMD_CONVERT_H_

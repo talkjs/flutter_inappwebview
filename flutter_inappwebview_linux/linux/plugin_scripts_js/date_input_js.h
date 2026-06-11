@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_DATE_INPUT_JS_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_DATE_INPUT_JS_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_DATE_INPUT_JS_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_DATE_INPUT_JS_H_
 
 #include <memory>
 #include <optional>
@@ -9,7 +9,7 @@
 #include "../types/plugin_script.h"
 #include "javascript_bridge_js.h"
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 /**
  * JavaScript for intercepting date/time input elements.
@@ -281,6 +281,6 @@ class DateInputJS {
   }
 };
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin
 
-#endif  // FLUTTER_INAPPWEBVIEW_PLUGIN_DATE_INPUT_JS_H_
+#endif  // TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_DATE_INPUT_JS_H_

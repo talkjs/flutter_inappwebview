@@ -1,7 +1,7 @@
 #include "../utils/flutter.h"
 #include "url_protection_space.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   URLProtectionSpace::URLProtectionSpace(const std::string& host, const std::string& protocol,
     const std::optional<std::string>& realm, const int64_t& port,

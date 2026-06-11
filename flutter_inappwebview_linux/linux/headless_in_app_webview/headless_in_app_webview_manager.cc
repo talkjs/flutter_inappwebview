@@ -10,7 +10,7 @@
 #include "../utils/log.h"
 #include "../webview_environment.h"
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 HeadlessInAppWebViewManager::HeadlessInAppWebViewManager(PluginInstance* plugin)
     : plugin_(plugin), registrar_(plugin->registrar()) {
@@ -187,4 +187,4 @@ void HeadlessInAppWebViewManager::Run(FlMethodCall* method_call) {
   fl_method_call_respond_success(method_call, result, nullptr);
 }
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin

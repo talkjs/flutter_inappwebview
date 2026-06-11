@@ -1,10 +1,10 @@
-#ifndef FLUTTER_INAPPWEBVIEW_LINUX_PLUGIN_INSTANCE_H_
-#define FLUTTER_INAPPWEBVIEW_LINUX_PLUGIN_INSTANCE_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_LINUX_PLUGIN_INSTANCE_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_LINUX_PLUGIN_INSTANCE_H_
 
 #include <flutter_linux/flutter_linux.h>
 #include <gtk/gtk.h>
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 // Forward declarations
 class InAppWebViewManager;
@@ -62,6 +62,6 @@ private:
   FlView* fl_view_ = nullptr;        // Cached during plugin registration
 };
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin
 
-#endif  // FLUTTER_INAPPWEBVIEW_LINUX_PLUGIN_INSTANCE_H_
+#endif  // TALKJS_FLUTTER_INAPPWEBVIEW_LINUX_PLUGIN_INSTANCE_H_

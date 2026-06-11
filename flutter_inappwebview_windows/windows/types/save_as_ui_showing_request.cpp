@@ -1,6 +1,6 @@
 #include "save_as_ui_showing_request.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   SaveAsUIShowingRequest::SaveAsUIShowingRequest(const std::optional<std::string>& contentMimeType,
     const std::optional<bool>& cancel,

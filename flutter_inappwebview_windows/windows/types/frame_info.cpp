@@ -5,7 +5,7 @@
 
 #include <winrt/Windows.Foundation.h>
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   FrameInfo::FrameInfo(const bool& isMainFrame,
     const std::optional<std::shared_ptr<URLRequest>> request,

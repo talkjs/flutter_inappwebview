@@ -1,7 +1,7 @@
 #include "../utils/flutter.h"
 #include "server_trust_auth_response.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   ServerTrustAuthResponse::ServerTrustAuthResponse(
     const std::optional<ServerTrustAuthResponseAction>& action)

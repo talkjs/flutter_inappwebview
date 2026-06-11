@@ -2,7 +2,7 @@
 
 #include "../utils/flutter.h"
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 JsConfirmResponse::JsConfirmResponse()
     : handledByClient(false), action(JsConfirmResponseAction::CANCEL) {}
@@ -18,4 +18,4 @@ JsConfirmResponse::JsConfirmResponse(FlValue* map)
   action = static_cast<JsConfirmResponseAction>(actionInt);
 }
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin

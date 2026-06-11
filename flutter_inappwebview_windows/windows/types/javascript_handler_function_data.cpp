@@ -2,7 +2,7 @@
 #include "../utils/string.h"
 #include "javascript_handler_function_data.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   JavaScriptHandlerFunctionData::JavaScriptHandlerFunctionData(const std::string& origin, const std::string& requestUrl, const bool& isMainFrame, const std::string& args)
     : origin(origin), requestUrl(requestUrl), isMainFrame(isMainFrame), args(args)

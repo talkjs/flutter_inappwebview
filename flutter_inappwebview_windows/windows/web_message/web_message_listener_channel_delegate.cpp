@@ -8,7 +8,7 @@
 #include "../utils/string.h"
 #include "web_message_listener.h"
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 WebMessageListenerChannelDelegate::WebMessageListenerChannelDelegate(
     WebMessageListener* webMessageListener,
@@ -170,4 +170,4 @@ void WebMessageListenerChannelDelegate::dispose() {
   webMessageListener_ = nullptr;
 }
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin

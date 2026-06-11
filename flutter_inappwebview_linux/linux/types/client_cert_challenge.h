@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_CLIENT_CERT_CHALLENGE_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_CLIENT_CERT_CHALLENGE_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_CLIENT_CERT_CHALLENGE_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_CLIENT_CERT_CHALLENGE_H_
 
 #include <flutter_linux/flutter_linux.h>
 
@@ -10,7 +10,7 @@
 #include "url_protection_space.h"
 #include "ssl_certificate.h"
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 /**
  * Client certificate challenge - sent when server requests a client certificate.
@@ -47,6 +47,6 @@ class ClientCertChallenge {
   FlValue* toFlValue() const;
 };
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin
 
-#endif  // FLUTTER_INAPPWEBVIEW_PLUGIN_CLIENT_CERT_CHALLENGE_H_
+#endif  // TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_CLIENT_CERT_CHALLENGE_H_

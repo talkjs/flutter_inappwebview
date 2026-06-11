@@ -2,7 +2,7 @@
 #include "print_job_controller.h"
 #include "../utils/flutter.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   PrintJobInfo::PrintJobInfo()
     : state(PrintJobState::created), creationTime(0)

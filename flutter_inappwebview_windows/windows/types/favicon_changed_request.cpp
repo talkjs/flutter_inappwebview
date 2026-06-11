@@ -1,6 +1,6 @@
 #include "favicon_changed_request.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   FaviconChangedRequest::FaviconChangedRequest(const std::optional<std::vector<uint8_t>>& icon, const std::optional<std::string>& url)
     : icon(icon), url(url)

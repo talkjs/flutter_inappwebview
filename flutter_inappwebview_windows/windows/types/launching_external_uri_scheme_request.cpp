@@ -1,6 +1,6 @@
 #include "launching_external_uri_scheme_request.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   LaunchingExternalUriSchemeRequest::LaunchingExternalUriSchemeRequest(const std::string& uri, const std::optional<std::string>& initiatingOrigin,
     const std::optional<bool>& isUserInitiated)

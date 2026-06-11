@@ -38,7 +38,7 @@ class LinuxHttpAuthCredentialDatabaseCreationParams
 class LinuxHttpAuthCredentialDatabase
     extends PlatformHttpAuthCredentialDatabase {
   static const MethodChannel _channel = MethodChannel(
-    'com.pichillilorenzo/flutter_inappwebview_credential_database',
+    'com.talkjs/talkjs_flutter_inappwebview_credential_database',
   );
 
   /// Creates a new [LinuxHttpAuthCredentialDatabase].

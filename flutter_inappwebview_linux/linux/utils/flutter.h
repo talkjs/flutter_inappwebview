@@ -1,5 +1,5 @@
-#ifndef FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_FLUTTER_H_
-#define FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_FLUTTER_H_
+#ifndef TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_FLUTTER_H_
+#define TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_FLUTTER_H_
 
 #include <flutter_linux/flutter_linux.h>
 
@@ -13,7 +13,7 @@
 #include "util.h"
 #include "vector.h"
 
-namespace flutter_inappwebview_plugin {
+namespace talkjs_flutter_inappwebview_plugin {
 
 // ============================================================================
 // Type aliases for FlValue map building (similar to Windows EncodableMap)
@@ -385,6 +385,6 @@ static inline FlValue* get_fl_map_value_raw(FlValue* map, const char* key) {
   return fl_value_lookup_string_safe(map, key);
 }
 
-}  // namespace flutter_inappwebview_plugin
+}  // namespace talkjs_flutter_inappwebview_plugin
 
-#endif  // FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_FLUTTER_H_
+#endif  // TALKJS_FLUTTER_INAPPWEBVIEW_PLUGIN_UTIL_FLUTTER_H_

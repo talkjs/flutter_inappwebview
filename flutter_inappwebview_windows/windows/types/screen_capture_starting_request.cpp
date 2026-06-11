@@ -1,6 +1,6 @@
 #include "screen_capture_starting_request.h"
 
-namespace flutter_inappwebview_plugin
+namespace talkjs_flutter_inappwebview_plugin
 {
   ScreenCaptureStartingRequest::ScreenCaptureStartingRequest(const std::optional<std::shared_ptr<FrameInfo>>& frame,
     const std::optional<bool>& cancel,
