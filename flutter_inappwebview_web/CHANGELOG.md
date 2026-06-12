@@ -1,6 +1,11 @@
+## 1.2.0+1
+
+- (TalkJS): Update based on 1.2.0-beta.3
+
 ## 1.1.2+1
 
 - (TalkJS): Forked the library and published as an unlisted package
+
 ## 1.2.0-beta.3
 
 - Updated flutter_inappwebview_platform_interface version to ^1.4.0-beta.3
