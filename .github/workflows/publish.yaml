@@ -22,8 +22,10 @@ jobs:
       - name: Setup Dart SDK and provision OIDC token
         uses: dart-lang/setup-dart@e51d8e571e22473a2ddebf0ef8a2123f0ab2c02c #v1.7.1
 
+        # This is a fork of subosito/flutter-action. The upstream version doesn't pin the action
+        # it references hence we need to fork it to enforce the policy
       - name: Setup Flutter SDK - needed for publishing Flutter packages.
-        uses: flutter-actions/setup-flutter@6d11b83d56c388d0b6fe865194248a01a48548b5 #v4.1
+        uses: talkjs/flutter-action@408dece5e074567f0bb32ef68b82fe01ed5fdeac #1.0.0
 
       - name: Install dependencies
         run: dart pub get
