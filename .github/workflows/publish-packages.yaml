@@ -12,6 +12,8 @@ on:
       - 'talkjs_flutter_inappwebview_macos-v[0-9]+.[0-9]+.[0-9]+\+[0-9]+'
       - 'talkjs_flutter_inappwebview_web-v[0-9]+.[0-9]+.[0-9]+\+[0-9]+'
       - 'talkjs_flutter_inappwebview_windows-v[0-9]+.[0-9]+.[0-9]+\+[0-9]+'
+      - 'talkjs_flutter_inappwebview_linux-v[0-9]+.[0-9]+.[0-9]+\+[0-9]+'
+      - 'talkjs_flutter_inappwebview_platform_interface-v[0-9]+.[0-9]+.[0-9]+\+[0-9]+'
 
 jobs:
   publish-main-package:
@@ -55,3 +57,17 @@ jobs:
     if: startsWith(github.ref_name, 'talkjs_flutter_inappwebview_windows-v')
     with:
       working-directory: flutter_inappwebview_windows
+
+  publish-linux-package:
+    name: talkjs_flutter_inappwebview_linux
+    uses: ./.github/workflows/publish.yaml
+    if: startsWith(github.ref_name, 'talkjs_flutter_inappwebview_linux-v')
+    with:
+      working-directory: flutter_inappwebview_linux
+
+  publish-platform-interface-package:
+    name: talkjs_flutter_inappwebview_platform_interface
+    uses: ./.github/workflows/publish.yaml
+    if: startsWith(github.ref_name, 'talkjs_flutter_inappwebview_platform_interface-v')
+    with:
+      working-directory: flutter_inappwebview_platform_interface
