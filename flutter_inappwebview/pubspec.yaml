@@ -1,9 +1,9 @@
 name: talkjs_flutter_inappwebview
 description: A Flutter plugin that allows you to add an inline webview, to use an headless webview, and to open an in-app browser window.
-version: 6.2.0-beta.3
+version: 6.2.0+1
 homepage: https://inappwebview.dev/
-repository: https://github.com/pichillilorenzo/flutter_inappwebview
-issue_tracker: https://github.com/pichillilorenzo/flutter_inappwebview/issues
+repository: https://github.com/talkjs/flutter_inappwebview
+issue_tracker: https://github.com/talkjs/flutter_inappwebview/issues
 funding:
   - https://inappwebview.dev/donate/
 topics:
@@ -22,17 +22,17 @@ dependencies:
     sdk: flutter
   talkjs_flutter_inappwebview_platform_interface: ^1.4.0+1
     # path: ../flutter_inappwebview_platform_interface
-  talkjs_flutter_inappwebview_android: ^1.2.0-beta.3
+  talkjs_flutter_inappwebview_android: ^1.2.0+1
     # path: ../flutter_inappwebview_android
-  talkjs_flutter_inappwebview_ios: ^1.2.0-beta.3
+  talkjs_flutter_inappwebview_ios: ^1.2.0+1
     # path: ../flutter_inappwebview_ios
-  talkjs_flutter_inappwebview_macos: ^1.2.0-beta.3
+  talkjs_flutter_inappwebview_macos: ^1.2.0+1
     # path: ../flutter_inappwebview_macos
-  talkjs_flutter_inappwebview_web: ^1.2.0-beta.3
+  talkjs_flutter_inappwebview_web: ^1.2.0+1
     # path: ../flutter_inappwebview_web
-  talkjs_flutter_inappwebview_windows: ^0.7.0-beta.3
+  talkjs_flutter_inappwebview_windows: ^0.7.0+1
     # path: ../flutter_inappwebview_windows
-  talkjs_flutter_inappwebview_linux: ^0.1.0-beta.1
+  talkjs_flutter_inappwebview_linux: ^0.1.0+2
     # path: ../flutter_inappwebview_linux
 
 dev_dependencies:

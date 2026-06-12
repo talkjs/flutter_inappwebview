@@ -1,3 +1,8 @@
+## 6.2.0+1
+
+- (TalkJS): Sync fork with upstream. Specifically with version 6.2.0-beta.3
+- (TalkJS): Fix crash on iOS when using multiple Scenes
+
 ## 6.1.5+3
 
 - (TalkJS): Bump version number for `talkjs_flutter_inappwebview_ios`.
@@ -65,6 +70,7 @@
 ## 6.0.0
 
 - (TalkJS): Forked the library and published as an unlisted package
+
 ## 6.2.0-beta.3
 
 - Added Linux support
