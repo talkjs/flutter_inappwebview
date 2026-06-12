@@ -49,7 +49,7 @@ dependency_overrides:
     path: ../../flutter_inappwebview_web
   talkjs_flutter_inappwebview_windows:
     path: ../../flutter_inappwebview_windows
-  flutter_inappwebview_linux:
+  talkjs_flutter_inappwebview_linux:
     path: ../../flutter_inappwebview_linux
 
 dev_dependencies:
