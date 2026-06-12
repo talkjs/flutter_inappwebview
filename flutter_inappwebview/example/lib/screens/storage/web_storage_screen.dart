@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_inappwebview/flutter_inappwebview.dart';
+import 'package:talkjs_flutter_inappwebview/talkjs_flutter_inappwebview.dart';
 import 'package:flutter_inappwebview_example/widgets/common/app_drawer.dart';
 import 'package:flutter_inappwebview_example/widgets/common/appbar_loading_indicator.dart';
 import 'package:flutter_inappwebview_example/widgets/common/empty_state.dart';

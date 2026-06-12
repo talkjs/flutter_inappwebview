@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:typed_data';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_inappwebview/flutter_inappwebview.dart';
+import 'package:talkjs_flutter_inappwebview/talkjs_flutter_inappwebview.dart';
 import 'package:flutter_inappwebview_example/utils/controller_methods_registry.dart';
 import 'package:flutter_inappwebview_example/widgets/common/parameter_dialog.dart';
 

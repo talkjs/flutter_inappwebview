@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
-import 'package:flutter_inappwebview/flutter_inappwebview.dart';
+import 'package:talkjs_flutter_inappwebview/talkjs_flutter_inappwebview.dart';
 import 'package:flutter_inappwebview_example/utils/support_checker.dart';
 import 'package:flutter_inappwebview_example/widgets/common/support_badge.dart';
 import 'package:flutter_inappwebview_example/widgets/common/parameter_dialog.dart';

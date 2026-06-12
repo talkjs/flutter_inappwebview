@@ -6,13 +6,13 @@ import FlutterMacOS
 import Foundation
 
 import file_picker
-import talkjs_flutter_inappwebview_macos
 import shared_preferences_foundation
+import talkjs_flutter_inappwebview_macos
 import url_launcher_macos
 
 func RegisterGeneratedPlugins(registry: FlutterPluginRegistry) {
   FilePickerPlugin.register(with: registry.registrar(forPlugin: "FilePickerPlugin"))
-  TalkjsInAppWebViewFlutterPlugin.register(with: registry.registrar(forPlugin: "TalkjsInAppWebViewFlutterPlugin"))
   SharedPreferencesPlugin.register(with: registry.registrar(forPlugin: "SharedPreferencesPlugin"))
+  TalkjsInAppWebViewFlutterPlugin.register(with: registry.registrar(forPlugin: "TalkjsInAppWebViewFlutterPlugin"))
   UrlLauncherPlugin.register(with: registry.registrar(forPlugin: "UrlLauncherPlugin"))
 }

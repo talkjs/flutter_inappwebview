@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_inappwebview/flutter_inappwebview.dart';
+import 'package:talkjs_flutter_inappwebview/talkjs_flutter_inappwebview.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:flutter_inappwebview_example/screens/settings_editor_screen.dart';
 import 'package:flutter_inappwebview_example/widgets/settings/responsive_setting_tile.dart';

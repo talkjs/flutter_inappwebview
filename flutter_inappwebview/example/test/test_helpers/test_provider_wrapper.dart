@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:flutter_inappwebview/flutter_inappwebview.dart';
+import 'package:talkjs_flutter_inappwebview/talkjs_flutter_inappwebview.dart';
 import 'package:flutter_inappwebview_example/providers/event_log_provider.dart';
 import 'package:flutter_inappwebview_example/providers/network_monitor.dart';
 import 'package:flutter_inappwebview_example/providers/settings_manager.dart';

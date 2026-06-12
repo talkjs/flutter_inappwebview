@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/foundation.dart';
-import 'package:flutter_inappwebview/flutter_inappwebview.dart';
+import 'package:talkjs_flutter_inappwebview/talkjs_flutter_inappwebview.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:flutter_inappwebview_example/models/settings_profile.dart';
 import 'package:flutter_inappwebview_example/models/webview_environment_profile.dart';

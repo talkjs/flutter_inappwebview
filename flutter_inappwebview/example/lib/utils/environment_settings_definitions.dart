@@ -1,4 +1,4 @@
-import 'package:flutter_inappwebview/flutter_inappwebview.dart';
+import 'package:talkjs_flutter_inappwebview/talkjs_flutter_inappwebview.dart';
 import 'package:flutter_inappwebview_example/models/environment_setting_definition.dart';
 
 List<T> _safeEnumValues<T>(Iterable<T> Function() getter) {

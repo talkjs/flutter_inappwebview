@@ -1,4 +1,4 @@
-import 'package:flutter_inappwebview/flutter_inappwebview.dart';
+import 'package:talkjs_flutter_inappwebview/talkjs_flutter_inappwebview.dart';
 
 InAppWebViewSettings defaultInAppWebViewSettings() {
   return InAppWebViewSettings();

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:flutter_inappwebview/flutter_inappwebview.dart';
+import 'package:talkjs_flutter_inappwebview/talkjs_flutter_inappwebview.dart';
 import 'package:flutter_inappwebview_example/providers/settings_manager.dart';
 import 'package:flutter_inappwebview_example/models/environment_setting_definition.dart';
 import 'package:flutter_inappwebview_example/models/webview_environment_profile.dart';
