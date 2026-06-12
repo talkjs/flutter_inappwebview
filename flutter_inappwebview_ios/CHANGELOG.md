@@ -1,3 +1,7 @@
+## 1.2.0+1
+
+- (TalkJS): Update based on 1.2.0-beta.3
+
 ## 1.1.2+3
 
 - (TalkJS): Fix webview shifting down on iOS when changing focus between two input fields
@@ -12,6 +16,7 @@
 
 - (TalkJS): Forked the library and published as an unlisted package
 - (TalkJS): Fix iOS keyboard appearance not switching to dark when user explicitly sets app theme to dark
+
 ## 1.2.0-beta.3
 
 - Updated flutter_inappwebview_platform_interface version to ^1.4.0-beta.3
