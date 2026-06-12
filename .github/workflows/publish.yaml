@@ -31,10 +31,6 @@ jobs:
         run: dart pub get
         working-directory: ${{ inputs.working-directory }}
 
-      - name: Publish (Dry run)
-        run: dart pub publish --dry-run
-        working-directory: ${{ inputs.working-directory }}
-
         # If the package has errors, it won't upload.
       - name: Publish
         run: dart pub publish --force
