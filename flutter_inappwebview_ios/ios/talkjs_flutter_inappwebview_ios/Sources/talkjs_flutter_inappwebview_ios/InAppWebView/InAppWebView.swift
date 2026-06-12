@@ -120,19 +120,6 @@ public class InAppWebView: WKWebView, UIScrollViewDelegate, WKUIDelegate,
         }
     }
 
-    @objc func keyboardWillShow(notification: NSNotification) {
-        // Fix https://github.com/pichillilorenzo/flutter_inappwebview/issues/1947
-        if (scrollView.adjustedContentInset != .zero) {
-            if scrollView.adjustedContentInset.bottom > 0 {
-                let insetToAdjust = scrollView.adjustedContentInset
-                scrollView.contentInset = UIEdgeInsets(top: -insetToAdjust.top, left: -insetToAdjust.left,
-                                                       bottom: -insetToAdjust.bottom, right: -insetToAdjust.right)
-            } else {
-                scrollView.contentInset = .zero
-            }
-        }
-    }
-    
     // Fix https://github.com/pichillilorenzo/flutter_inappwebview/issues/1947
     private var _scrollViewContentInsetAdjusted = false
     @objc func keyboardWillShow(notification: NSNotification) {
