@@ -1,12 +1,17 @@
+## 0.7.0+1
+
+- (TalkJS): Update based on v0.7.0+1
+
 ## 0.6.0+1
 
 - (TalkJS): Forked the library and published as an unlisted package
+
 ## 0.7.0-beta.3
 
 - Updated flutter_inappwebview_platform_interface version to ^1.4.0-beta.3
 - Updated Microsoft.Web.WebView2 SDK version from `1.0.2849.39` to `1.0.3650.58`
 - Implemented `getFrameId`, `getFavicon`, `showSaveAsUI`, `getMemoryUsageTargetLevel`, `setMemoryUsageTargetLevel` InAppWebViewController method
-- Added support for `onEnterFullscreen`, `onExitFullscreen`, `onContentLoading`, `onDOMContentLoaded`,  `onLaunchingExternalUriScheme`, `onFaviconChanged`, `onNotificationReceived`, `onSaveAsUIShowing`, `onSaveFileSecurityCheckStarting`, `onScreenCaptureStarting` WebView events.
+- Added support for `onEnterFullscreen`, `onExitFullscreen`, `onContentLoading`, `onDOMContentLoaded`, `onLaunchingExternalUriScheme`, `onFaviconChanged`, `onNotificationReceived`, `onSaveAsUIShowing`, `onSaveFileSecurityCheckStarting`, `onScreenCaptureStarting` WebView events.
 - Added native FindInteractionController implementation using WebView2 `ICoreWebView2Find`.
 - Implemented `setFindOptions` FindInteractionController method
 - Implemented `PlatformWebNotificationController` feature
