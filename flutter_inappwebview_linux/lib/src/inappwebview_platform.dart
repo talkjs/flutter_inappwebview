@@ -16,10 +16,10 @@ import 'web_storage/web_storage_manager.dart';
 import 'webview_environment/webview_environment.dart';
 
 /// Implementation of [InAppWebViewPlatform] using WPE WebKit.
-class LinuxInAppWebViewPlatform extends InAppWebViewPlatform {
+class TalkjsLinuxInAppWebViewPlatform extends InAppWebViewPlatform {
   /// Registers this class as the default instance of [InAppWebViewPlatform].
   static void registerWith() {
-    InAppWebViewPlatform.instance = LinuxInAppWebViewPlatform();
+    InAppWebViewPlatform.instance = TalkjsLinuxInAppWebViewPlatform();
   }
 
   /// Creates a new [LinuxInAppWebViewController].

@@ -8,7 +8,7 @@ import 'package:talkjs_flutter_inappwebview_platform_interface/talkjs_flutter_in
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  LinuxInAppWebViewPlatform.registerWith();
+  TalkjsLinuxInAppWebViewPlatform.registerWith();
 
   runApp(const MaterialApp(home: MyApp()));
 }

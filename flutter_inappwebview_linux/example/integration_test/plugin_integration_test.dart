@@ -18,7 +18,7 @@ void main() {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();
 
   testWidgets('LinuxInAppWebViewWidget can be created', (WidgetTester tester) async {
-    LinuxInAppWebViewPlatform.registerWith();
+    TalkjsLinuxInAppWebViewPlatform.registerWith();
 
     await tester.pumpWidget(
       MaterialApp(
