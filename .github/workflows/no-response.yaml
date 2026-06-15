@@ -4,10 +4,7 @@ name: No Response
 # Both `issue_comment` and `scheduled` event types are required for this Action
 # to work properly.
 on:
-  issue_comment:
-    types: [created]
-  schedule:
-    - cron: '0 0 * * *' # Run every day at midnight
+  workflow_dispatch:
 
 # By specifying the access of one of the scopes, all of those that are not
 # specified are set to 'none'.
